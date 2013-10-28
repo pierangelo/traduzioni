@@ -512,7 +512,7 @@ msgstr "Troppe sigle, e non è troppo chiaro a quale la, uh, fsckup (ops, una pa
 #: best-pkging-practices.dbk:539
 #, no-wrap
 msgid "  * This is not a bug, closes: #nnnnnn.\n"
-msgstr "* Questo non è un bug, chiude:. # nnnnnn \ n"
+msgstr "* Questo non è un bug, chiude:. # nnnnnn \n"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:542
@@ -1016,7 +1016,7 @@ msgstr "multiselect "
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:1008
 msgid "Like the select data type, except the user can choose any number of items from the choices list (or chose none of them)."
-msgstr "Come la selezione del tipo di dati , eccetto quando l'utente può scegliere un qualsiasi numero di elementi dall'elenco scelte (o scegliere nessuno di loro)."
+msgstr "Come la selezione del tipo di dati , eccetto quando l'utente può scegliere un qualsiasi numero di elementi dall'elenco delle scelte (o scegliere nessuno di loro)."
 
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:1014
@@ -1026,7 +1026,7 @@ msgstr "nota"
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:1016
 msgid "Rather than being a question per se, this datatype indicates a note that can be displayed to the user.  It should be used only for important notes that the user really should see, since debconf will go to great pains to make sure the user sees it; halting the install for them to press a key, and even mailing the note to them in some cases."
-msgstr "Piuttosto che essere una questione di per sé, questo tipo di dati indica una nota che può essere visualizzata all'utente. Dovrebbe essere usato solo per le note importanti che l'utente in realtà dovrebbe vedere, dato che debconf andrà incontro a grandi dolori per assicurarsi che l'utente la veda; arrestare l'installazione per consentire loro di premere un tasto, e persino inviargli la nota tramite posta elettronica in alcuni casi."
+msgstr "Piuttosto che essere una questione di per sé, questo tipo di dato indica una nota che può essere visualizzata all'utente. Dovrebbe essere usato solo per le note importanti che l'utente in realtà dovrebbe vedere, dato che debconf andrà incontro a grandi dolori per assicurarsi che l'utente la veda; arrestare l'installazione per consentire loro di premere un tasto, e persino inviargli la nota tramite posta elettronica in alcuni casi."
 
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:1025
@@ -1071,7 +1071,7 @@ msgstr "La descrizione breve dovrebbe essere mantenuta breve (50 caratteri o gi�
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1059
 msgid "The short description should be able to stand on its own.  Some interfaces do not show the long description by default, or only if the user explicitely asks for it or even do not show it at all.  Avoid things like What do you want to do?"
-msgstr "La descrizione breve dovrebbe essere in grado di stare in piedi da sola. Alcune interfacce non mostrano la descrizione lunga di default, oppure solo se l'utente esplicitamente la chiede o addirittura non la mostrano affatto. Evitate cose come Come cosa vuoi fare?"
+msgstr "La descrizione breve dovrebbe essere in grado di stare in piedi da sola. Alcune interfacce non mostrano la descrizione lunga di default, oppure solo se l'utente esplicitamente la chiede o addirittura non la mostrano affatto. Evitate cose come come \"cosa vuoi fare?\""
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1065
@@ -1561,7 +1561,7 @@ msgstr "Non possiamo impedire autori originali di cambiare il tarball che distri
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1625
 msgid "The defining characteristic of a pristine source tarball is that the <filename>.orig.tar.{gz,bz2,xz}</filename> file is byte-for-byte identical to a tarball officially distributed by the upstream author.<placeholder type=\"footnote\" id=\"0\"/> This makes it possible to use checksums to easily verify that all changes between Debian's version and upstream's are contained in the Debian diff.  Also, if the original source is huge, upstream authors and others who already have the upstream tarball can save download time if they want to inspect your packaging in detail."
-msgstr "La caratteristica distintiva di un tarball sorgente incontaminata è che il <nomefile>. Orig.tar. {Gz, bz2, xz} </ filename> è byte-per-byte identico a un tarball ufficialmente distribuito dall'autore a monte. <Segnaposto type = \ \"nota \" id = \ \"0 \" /> Questo rende possibile l'utilizzo di checksum per verificare facilmente che tutti i cambiamenti tra la versione di Debian e di monte sono contenuti nel Debian diff. Inoltre, se la fonte originale è enorme, gli autori upstream e altri che già hanno l'archivio upstream possono risparmiare il tempo di download, se vogliono ispezionare la confezione in dettaglio."
+msgstr "La caratteristica distintiva di un tarball sorgente incontaminata è che il <filename>. Orig.tar. {Gz, bz2, xz} </ filename> è byte-per-byte identico a un tarball ufficialmente distribuito dall'autore a monte. <placeholder type = \\"nota \" id = \\"0 \" /> Questo rende possibile l'utilizzo di checksum per verificare facilmente che tutti i cambiamenti tra la versione di Debian e di monte sono contenuti nel Debian diff. Inoltre, se la fonte originale è enorme, gli autori upstream e altri che già hanno l'archivio upstream possono risparmiare il tempo di download, se vogliono ispezionare la confezione in dettaglio."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1645
@@ -1617,7 +1617,7 @@ msgstr "Un <nomefile> riconfezionato. Orig.tar. {Gz, bz2, xz} </ filename>"
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1713
 msgid "<emphasis role=\"strong\">should</emphasis> be documented in the resulting source package.  Detailed information on how the repackaged source was obtained, and on how this can be reproduced should be provided in <filename>debian/copyright</filename>.  It is also a good idea to provide a <literal>get-orig-source</literal> target in your <filename>debian/rules</filename> file that repeats the process, as described in the Policy Manual, <ulink url=\"&url-debian-policy;ch-source.html#s-debianrules\">Main building script: <filename>debian/rules</filename></ulink>."
-msgstr "<emphasis role=\"strong\"> dovrebbe </ emphasis> essere documentata nel pacchetto sorgente risultante. Informazioni dettagliate su come è stato ottenuto il sorgente riconfezionato, e su come questo può essere riprodotta dovrebbe essere fornita in <filename> debian / copyright </ filename>. E 'anche una buona idea di fornire un <literal> get-orig-source </ literal> bersaglio nel vostro <filename> debian / rules </ filename>, che ripete il processo, come descritto nel manuale di politica, <ulink url = \ \"& url-debian-policy; ch-source.html # s-debianrules \"> copione edificio principale: <filename> debian / rules </ filename> </ ulink>."
+msgstr "<emphasis role=\"strong\"> dovrebbe </ emphasis> essere documentata nel pacchetto sorgente risultante. Informazioni dettagliate su come è stato ottenuto il sorgente riconfezionato, e su come questo può essere riprodotta dovrebbe essere fornita in <filename> debian / copyright </ filename>. E 'anche una buona idea di fornire un <literal> get-orig-source </ literal> bersaglio nel vostro <filename> debian / rules </ filename>, che ripete il processo, come descritto nel manuale di politica, <ulink url = \\"& url-debian-policy; ch-source.html # s-debianrules \"> copione edificio principale: <filename> debian / rules </ filename> </ ulink>."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para><footnote><para>
 #: best-pkging-practices.dbk:1728
