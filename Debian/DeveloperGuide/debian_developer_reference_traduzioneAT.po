@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: Pierangelo Mancusi <pierangelo.mancusi@gmail.com>\n"
 "Language-Team:  <pierangelo.mancusi@gmail.com>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. type: Content of: <chapter><title>
 #: best-pkging-practices.dbk:7
@@ -644,7 +644,7 @@ msgstr "Se non si desidera codificare il percorso di un comando nello script del
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:676
 msgid "You can use this function to search <varname>$PATH</varname> for a command name, passed as an argument.  It returns true (zero) if the command was found, and false if not.  This is really the most portable way, since <literal>command -v</literal>, <command>type</command>, and <command>which</command> are not POSIX."
-msgstr "Potete utilizzare questa funzione per cercare il <varname> $ PATH </ varname> di un nome di un comando, passato come argomento. Restituisce true (zero) se  il comando è stato trovato, e falso in caso contrario. Questo è davvero il modo più portatile, dal momento che  <literal>command -v</literal>,<command>type</command>, e <command>which</command> non sono POSIX."
+msgstr "Potete utilizzare questa funzione per cercare il <varname> $ PATH </ varname> di un nome di un comando, passato come argomento. Restituisce true (zero) se  il comando è stato trovato, e false in caso contrario. Questo è davvero il modo più portatile, dal momento che  <literal>command -v</literal>,<command>type</command>, e <command>which</command> non sono POSIX."
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:683
@@ -664,7 +664,7 @@ msgstr "<systemitem role=\"package\"> Debconf </ systemitem> è un sistema di ge
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:703
 msgid "Debconf is a great tool but it is often poorly used.  Many common mistakes are listed in the <citerefentry> <refentrytitle>debconf-devel</refentrytitle> <manvolnum>7</manvolnum> </citerefentry> man page.  It is something that you must read if you decide to use debconf.  Also, we document some best practices here."
-msgstr "Debconf è un grande strumento, ma è spesso mal utilizzato. Molti errori comuni sono elencati nella pagina man di <citerefentry> <refentrytitle> debconf-devel </ refentrytitle> <manvolnum> 7 </ manvolnum> </ citerefentry>. E 'qualcosa che si deve leggere se si decide di usare debconf. Inoltre, indichiamo alcune best practices qui."
+msgstr "Debconf è un grande strumento, ma è spesso mal utilizzato. Molti errori comuni sono elencati nella pagina man di <citerefentry> <refentrytitle> debconf-devel </ refentrytitle> <manvolnum> 7 </ manvolnum> </ citerefentry>. E' qualcosa che si deve leggere se si decide di usare debconf. Inoltre, indichiamo qui alcune best practices."
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:710
@@ -679,12 +679,12 @@ msgstr "Non abusare di debconf "
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:718
 msgid "Since debconf appeared in Debian, it has been widely abused and several criticisms received by the Debian distribution come from debconf abuse with the need of answering a wide bunch of questions before getting any little thing installed."
-msgstr "Da quando debconf è apparso in Debian, è stato ampiamente abusato e diverse critiche ricevute dalla distribuzione Debian provengono dall' abuso di debconf nella necessità di rispondere ad una vasta serie di domande prima di installare qualsiasi piccola cosa."
+msgstr "Da quando debconf è apparso in Debian, è stato ampiamente abusato e diverse critiche ricevute dalla distribuzione Debian provengono dall' abuso di debconf nella necessità di rispondere ad una vasta serie di domande prima di installare ogni piccola cosa."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:724
 msgid "Keep usage notes to what they belong: the <filename>NEWS.Debian</filename>, or <filename>README.Debian</filename> file.  Only use notes for important notes which may directly affect the package usability.  Remember that notes will always block the install until confirmed or bother the user by email."
-msgstr "Mantenete le note d'uso a ciò a cui appartengono: al file <filename> NEWS.Debian </ filename>, o <filename> README.Debian </ filename>. Utilizzatele solamente per le note importanti che possono influenzare direttamente l'usabilità del pacchetto. Ricordate che le note bloccheranno sempre l'installazione fino a quando confermate o abbiano disturbato l'utente tramite e-mail."
+msgstr "Mantenete le note d'uso a ciò a cui appartengono: al file <filename> NEWS.Debian </ filename>, o <filename> README.Debian </ filename>. Utilizzatele solamente per le note importanti che possono influenzare direttamente l'usabilità del pacchetto. Ricordate che le note bloccheranno sempre l'installazione fino a quando saranno confermate o abbiano disturbato l'utente tramite e-mail."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:730
@@ -704,12 +704,12 @@ msgstr "Scrivi inglese corretto "
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:742
 msgid "Most Debian package maintainers are not native English speakers.  So, writing properly phrased templates may not be easy for them."
-msgstr "La maggior parte dei maintainers dei pacchetti Debian  non sono di madrelingua inglese. Quindi, la scrittura di modelli correttamente formulati,  può non essere facile per loro."
+msgstr "La maggior parte dei maintainers dei pacchetti Debian non sono di madrelingua inglese. Quindi, la scrittura di modelli correttamente formulati,  può non essere facile per loro."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:746
 msgid "Please use (and abuse) &email-debian-l10n-english; mailing list.  Have your templates proofread."
-msgstr "Si prega di utilizzare (e di abusare) e-mail-debian-l10n-inglese; mailing list. Avrete le vostre bozze di modelli corrette."
+msgstr "Si prega di utilizzare (e di abusare) della mailing list &email-debian-l10n-english;. Avrete le vostre bozze di modelli corrette."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:750
@@ -719,7 +719,7 @@ msgstr "I Modelli scritti male danno una cattiva immagine del pacchetto, del vos
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:754
 msgid "Avoid technical jargon as much as possible.  If some terms sound common to you, they may be impossible to understand for others.  If you cannot avoid them, try to explain them (use the extended description).  When doing so, try to balance between verbosity and simplicity."
-msgstr "Evitate il gergo tecnico il più possibile. Se alcuni termini suonano comuni a voi, possono essere impossibili da comprendere per gli altri. Se non si possono evitare, cercare di spiegare loro (utilizzate la descrizione estesa). Nel fare ciò, cercare di bilanciare tra verbosità e semplicità."
+msgstr "Evitate il gergo tecnico il più possibile. Se alcuni termini suonano comuni a voi, possono essere impossibili da comprendere per gli altri. Se non si possono evitare, cercare di spiegarli (utilizzate la descrizione estesa). Nel fare ciò, cercare di bilanciare tra verbosità e semplicità."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:762
@@ -729,7 +729,7 @@ msgstr "Siate gentili con i traduttori"
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:764
 msgid "Debconf templates may be translated.  Debconf, along with its sister package <command>po-debconf</command> offers a simple framework for getting templates translated by translation teams or even individuals."
-msgstr "I Modelli debconf possono essere tradotti. Debconf, insieme al suo pacchetto fratello <command> po-debconf </ command> offre una struttura semplice per ottenere modelli tradotti dai teams di traduzione o anche da singoli individui."
+msgstr "I Modelli debconf possono essere tradotti. Debconf, insieme al suo pacchetto fratello <command> po-debconf </ command> offre un framework semplice per ottenere i modelli tradotti dai teams di traduzione o anche dai singoli individui."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:769
@@ -829,7 +829,7 @@ msgstr "mkdir po_fridge; cp *.po po_fridge "
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:858
 msgid "Change the debconf template files to fix the typos."
-msgstr "Modificare i file dei modelli di debconf per correggere errori di battitura. "
+msgstr "Modificate i file dei modelli di debconf per correggere errori di battitura. "
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:863
@@ -892,7 +892,7 @@ msgstr "I modelli di frasi dovrebbero anche evitare di menzionare i valori prede
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:907
 msgid "More generally speaking, try to avoid referring to user actions.  Just give facts."
-msgstr "Più in generale, cercate di evitare di riferirsi alle azioni dell'utente. Basta indicari i fatti."
+msgstr "Più in generale, cercate di evitare di riferirsi alle azioni dell'utente. Basta indicare i fatti."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:913
@@ -947,7 +947,7 @@ msgstr "password  "
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:953
 msgid "Prompts the user for a password.  Use this with caution; be aware that the password the user enters will be written to debconf's database.  You should probably clean that value out of the database as soon as is possible."
-msgstr "Richiede all'utente una password. Usate con cautela; siate consapevoli del fatto che la password che l'utente inserisce sarà scritto al database di debconf. Si dovrebbe cancellare quel valore fuori dal database non appena è possibile."
+msgstr "Richiede all'utente una password. Usatela con cautela; siate consapevoli del fatto che la password che l'utente inserisce sarà scritta al database di debconf. Si dovrebbe cancellare quel valore fuori dal database appena è possibile."
 
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:960
@@ -1001,12 +1001,12 @@ msgstr ""
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:993
 msgid "In that example, only the 'Other' string is translatable while others are acronyms that should not be translated. The above allows only 'Other' to be included in PO and POT files."
-msgstr "In questo esempio, solo la stringa 'Altro' è traducibile, mentre altri sono acronimi che non devono essere tradotti. Quanto sopra consente solo 'Altro' da inserire nel files PO e POT."
+msgstr "In questo esempio, solo la stringa 'Other' è traducibile, mentre altri sono acronimi che non devono essere tradotti. Quanto sopra consente solo 'Other' da inserire nel files PO e POT."
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:998
 msgid "The debconf templates flag system offers many such possibilities. The <citerefentry> <refentrytitle>po-debconf</refentrytitle> <manvolnum>7</manvolnum> </citerefentry> manual page lists all these possibilities."
-msgstr "I modelli debconf con sistema a flag offreno molte di queste possibilità. La pagina del manuale di <citerefentry> <refentrytitle> po-debconf </ refentrytitle> <manvolnum> 7 </ manvolnum> </ citerefentry> elenca tutte queste possibilità."
+msgstr "I modelli debconf con sistema a flag offrono molte di queste possibilità. La pagina del manuale di <citerefentry> <refentrytitle> po-debconf </ refentrytitle> <manvolnum> 7 </ manvolnum> </ citerefentry> elenca tutte queste possibilità."
 
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:1006
