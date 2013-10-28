@@ -1126,12 +1126,12 @@ msgstr "Questo campo è facoltativo. Esso contiene la risposta predefinita per i
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1117
 msgid "Templates fields specific style guide"
-msgstr "Guida a specifici stili dei modelli di campi "
+msgstr "Guida a specifici stili di modelli di campi "
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1119
 msgid "Type field"
-msgstr "campo di tipo"
+msgstr "Campo di Tipo"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1121
@@ -1146,7 +1146,7 @@ msgstr "Campo descrittivo"
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1129
 msgid "Below are specific instructions for properly writing the Description (short and extended) depending on the template type."
-msgstr "Qui di seguito sono istruzioni specifiche per scrivere correttamente la descrizione (breve e lungo) a seconda del tipo di modello."
+msgstr "Qui di seguito sono istruzioni specifiche per scrivere correttamente la descrizione (breve e lunga) a seconda del tipo di modello."
 
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:1133
@@ -1186,7 +1186,7 @@ msgstr "Select/Multiselect"
 #. type: Content of: <chapter><section><section><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1178
 msgid "The short description is a prompt and <emphasis role=\"strong\">not</emphasis> a title.  Do <emphasis role=\"strong\">not</emphasis> use useless Please choose...  constructions.  Users are clever enough to figure out they have to choose something...:)"
-msgstr "La descrizione breve è un suggerimento e <emphasis role=\"strong\"> non </ emphasis>un titolo. <emphasis role=\"strong\"> Non </ emphasis> utilizzate inutili costrutti del tipo  Gentilmente scegliete ... . Gli utenti sono abbastanza intelligenti per capire che devono scegliere qualcosa ... :)"
+msgstr "La descrizione breve è un suggerimento e <emphasis role=\"strong\"> non </ emphasis>un titolo. <emphasis role=\"strong\"> Non </ emphasis> utilizzate inutili costrutti del tipo \"Gentilmente scegliete...\" . Gli utenti sono abbastanza intelligenti per capire che devono scegliere qualcosa ... :)"
 
 #. type: Content of: <chapter><section><section><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1186
@@ -1211,7 +1211,7 @@ msgstr "La descrizione estesa è ciò che sarà visualizzato come una spiegazion
 #. type: Content of: <chapter><section><section><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1211
 msgid "<emphasis role=\"strong\">Do not abuse debconf.</emphasis> Notes are the most common way to abuse debconf.  As written in debconf-devel manual page: it's best to use them only for warning about very serious problems.  The <filename>NEWS.Debian</filename> or <filename>README.Debian</filename> files are the appropriate location for a lot of notes.  If, by reading this, you consider converting your Note type templates to entries in <filename>NEWS.Debian</filename> or <filename>README.Debian</filename>, plus consider keeping existing translations for the future."
-msgstr "<emphasis role=\"strong\">Non abusate di debconf. </ emphasis> Le note sono il modo più comune per abusare di debconf. Come scritto nella pagina di manuale di debconf-devel: è meglio usarle solo come avvertimento di problemi molto seri. I files <filename> NEWS.Debian </ filename> o <filename> README.Debian </ filename> sono il luogo appropriato per molte note. Se, leggendo questo manule, state valutando di convertire i vostri modelli di tipo Nota in voci di <filename> NEWS.Debian </ filename> o <filename> README.Debian </ filename>, oltre a prendere in considerazione tenendo traduzioni esistenti per il futuro."
+msgstr "<emphasis role=\"strong\">Non abusate di debconf. </ emphasis> Le note sono il modo più comune per abusare di debconf. Come scritto nella pagina di manuale di debconf-devel: è meglio usarle solo come avvertimento di problemi molto seri. I files <filename> NEWS.Debian </ filename> o <filename> README.Debian </ filename> sono il luogo appropriato per molte note. Se, leggendo questo manule, state valutando di convertire i vostri modelli di tipo Nota in voci di <filename> NEWS.Debian </ filename> o <filename> README.Debian </ filename>,  considerate anche di mantenere le traduzioni esistenti per il futuro."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1226
@@ -1221,7 +1221,7 @@ msgstr "Campi di scelta"
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1228
 msgid "If the Choices are likely to change often, please consider using the __Choices trick.  This will split each individual choice into a single string, which will considerably help translators for doing their work."
-msgstr "Se le Scelte sono suscettibili di cambiare spesso, si prega di considerare l'uso del trucco __ Choices. Questo dividerà ogni singola scelta in una singola stringa, che aiuterà notevolmente i traduttori a fare il loro lavoro."
+msgstr "Se le \"Scelte\" sono suscettibili di cambiare spesso, si prega di considerare l'uso del trucco __ Choices. Questo dividerà ogni singola scelta in una singola stringa, che aiuterà notevolmente i traduttori nel compiere il loro lavoro."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1235
@@ -1237,12 +1237,12 @@ msgstr "Se il valore di default, per un modello di selezione, può variare a sec
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1242
 msgid "This special field allow translators to put the most appropriate choice according to their own language.  It will become the default choice when their language is used while your own mentioned Default Choice will be used when using English."
-msgstr "Questo campo speciale permette ai traduttori di mettere la scelta più appropriata in base alla loro propria lingua. Diventerà la scelta di default quando il loro linguaggio è usato durante il proprio menzionato scelta di default verrà usato quando si utilizza l'inglese."
+msgstr "Questo campo speciale permette ai traduttori di mettere la scelta più appropriata in base alla loro propria lingua. Diventerà la scelta di default quando il loro linguaggio è usato mentre la vostra scelta di Default verrà usata quando si utilizza l'inglese."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1248
 msgid "Example, taken from the geneweb package templates:"
-msgstr "Esempio, tratto dai modelli pacchetto GeneWeb:"
+msgstr "Esempio, tratto dai modelli del pacchetto GeneWeb:"
 
 #. type: Content of: <chapter><section><section><section><screen>
 #: best-pkging-practices.dbk:1251
@@ -1271,27 +1271,27 @@ msgstr ""
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1262
 msgid "Note the use of brackets which allow internal comments in debconf fields.  Also note the use of comments which will show up in files the translators will work with."
-msgstr "Si noti l'uso delle staffe che permettono commenti interni in campi di debconf. Da notare anche l'uso di commenti che appariranno nel file i traduttori potranno lavorare."
+msgstr "Si noti l'uso del \"cancelletto\" che consentono i commenti interni nei campi di debconf. Da notare anche l'uso di commenti che appariranno nel file sui quali i traduttori lavoreranno."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1267
 msgid "The comments are needed as the _Default trick is a bit confusing: the translators may put their own choice"
-msgstr "I commenti sono necessari come il trucco _Default è un po 'di confusione: i traduttori possono mettere la propria scelta"
+msgstr "I commenti sono necessari dato che  il trucco _Default genera un pò di confusione: i traduttori possono mettere la propria scelta"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1275
 msgid "Do NOT use empty default field.  If you don't want to use default values, do not use Default at all."
-msgstr "NON usare campo predefinito vuoto. Se non si desidera utilizzare i valori di default, non usare default a tutti."
+msgstr "NON usate un campo predefinito vuoto. Se non desiderate utilizzare i valori di default, non usateli."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1279
 msgid "If you use po-debconf (and you <emphasis role=\"strong\">should</emphasis>, see <xref linkend=\"s6.5.2.2\"/>), consider making this field translatable, if you think it may be translated."
-msgstr "Se si utilizza po-debconf (e si <emphasis role=\"strong\"> dovrebbe </ emphasis>, vedere <xref linkend=\"s6.5.2.2\"/>), considerare la materia traducibile, se si pensa che può essere tradotto."
+msgstr "Se si utilizza po-debconf (e si <emphasis role=\"strong\"> dovrebbe </ emphasis>, vedere <xref linkend=\"s6.5.2.2\"/>), si consideri di marcare questo campo come traducibile, se si pensa che possa essere tradotto."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1284
 msgid "If the default value may vary depending on language/country (for instance the default value for a language choice), consider using the special _Default type documented in <citerefentry> <refentrytitle>po-debconf</refentrytitle> <manvolnum>7</manvolnum> </citerefentry>."
-msgstr "Se il valore predefinito può variare a seconda della lingua / paese (ad esempio, il valore predefinito per una scelta della lingua), è possibile utilizzare il tipo di _Default speciale documentato in <citerefentry> <refentrytitle> po-debconf </ refentrytitle> <manvolnum> 7 </ manvolnum> </ citerefentry>."
+msgstr "Se il valore predefinito può variare a seconda della lingua / paese (ad esempio, il valore predefinito per una scelta della lingua), è possibile utilizzare il tipo speciale  _Default documentato in <citerefentry> <refentrytitle> po-debconf </ refentrytitle> <manvolnum> 7 </ manvolnum> </ citerefentry>."
 
 #. type: Content of: <chapter><section><title>
 #: best-pkging-practices.dbk:1296
@@ -1301,7 +1301,7 @@ msgstr "Internationalizzazione"
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:1298
 msgid "This section contains global information for developers to make translators' life easier.  More information for translators and developers interested in internationalization are available in the <ulink url=\"&url-i18n-l10n;\">Internationalisation and localisation in Debian</ulink> documentation."
-msgstr "Questa sezione contiene le informazioni a livello mondiale per gli sviluppatori per rendere più facile la vita dei traduttori. Maggiori informazioni per i traduttori e gli sviluppatori interessati a internazionalizzazione sono disponibili nel url=\"&url-i18n-l10n;\"> <ulink Internazionalizzazione e localizzazione in Debian </ ulink> documentazione."
+msgstr "Questa sezione contiene le informazioni a livello generale per gli sviluppatori per rendere più facile la vita dei traduttori. Maggiori informazioni per i traduttori e gli sviluppatori interessati alla internazionalizzazione sono disponibili nella documentazione <ulink url=\"&url-i18n-l10n;\"> Internazionalizzazione ed localizzazione in Debian</ulink>."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1305
@@ -1311,42 +1311,42 @@ msgstr "Gestione delle traduzioni debconf"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1307
 msgid "Like porters, translators have a difficult task.  They work on many packages and must collaborate with many different maintainers.  Moreover, most of the time, they are not native English speakers, so you may need to be particularly patient with them."
-msgstr "Come facchini, i traduttori hanno un compito difficile. Lavorano su molti pacchetti e devono collaborare con molti manutentori diversi. Inoltre, la maggior parte delle volte, non sono di madrelingua inglese, in modo da potete avere bisogno di essere particolarmente paziente con loro."
+msgstr "Come i porters, i traduttori hanno un compito difficile. Lavorano su molti pacchetti e devono collaborare con molti manutentori diversi. Inoltre, la maggior parte delle volte, non sono di madrelingua inglese, quindi potresti avere bisogno di essere particolarmente paziente con loro."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1313
 msgid "The goal of <systemitem role=\"package\">debconf</systemitem> was to make packages configuration easier for maintainers and for users.  Originally, translation of debconf templates was handled with <command>debconf-mergetemplate</command>.  However, that technique is now deprecated; the best way to accomplish <systemitem role=\"package\">debconf</systemitem> internationalization is by using the <systemitem role=\"package\">po-debconf</systemitem> package.  This method is easier both for maintainer and translators; transition scripts are provided."
-msgstr "Come facchini, i traduttori hanno un compito difficile. Lavorano sul gol di <systemitem role=\"package\"> debconf </ systemitem> era quello di rendere più facile la configurazione di pacchetti per i manutentori e per gli utenti. In origine, la traduzione di modelli debconf è stata gestita con <command> debconf-mergetemplate </ command>. Tuttavia, tale tecnica è ormai deprecato, il modo migliore per realizzare <systemitem role=\"package\"> debconf </ systemitem> internazionalizzazione è quello di utilizzare il <systemitem role=\"package\"> po-debconf </ systemitem> pacchetto. Questo metodo è più facile sia per il manutentore e traduttori; sono forniti script di transizione. pacchetti e devono collaborare con molti manutentori diversi. Inoltre, la maggior parte delle volte, non sono di madrelingua inglese, in modo da potete avere bisogno di essere particolarmente paziente con loro."
+msgstr " L'obbiettivo di <systemitem role=\"package\"> debconf </ systemitem> era quello di rendere più facile la configurazione di pacchetti per i manutentori e per gli utenti. In origine, la traduzione di modelli debconf è stata gestita con <command> debconf-mergetemplate </ command>. Tuttavia, tale tecnica è ormai deprecata, il modo migliore per realizzare una internazionalizzazione <systemitem role=\"package\"> debconf </ systemitem> è quello di utilizzare il pacchetto <systemitem role=\"package\"> po-debconf </ systemitem> . Questo metodo è più facile sia per il manutentore e sia per i traduttori; sono forniti script di transizione."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1323
 msgid "Using <systemitem role=\"package\">po-debconf</systemitem>, the translation is stored in <filename>.po</filename> files (drawing from <command>gettext</command> translation techniques).  Special template files contain the original messages and mark which fields are translatable.  When you change the value of a translatable field, by calling <command>debconf-updatepo</command>, the translation is marked as needing attention from the translators.  Then, at build time, the <command>dh_installdebconf</command> program takes care of all the needed magic to add the template along with the up-to-date translations into the binary packages.  Refer to the <citerefentry> <refentrytitle>po-debconf</refentrytitle> <manvolnum>7</manvolnum> </citerefentry> manual page for details."
-msgstr "Utilizzando <systemitem role=\"package\"> po-debconf </ systemitem>, la traduzione è memorizzata in <filename>. Po </ filename> file (disegno dal <command> gettext </ command> tecniche di traduzione). File di modello speciali contengono i messaggi originali e marchio che i campi sono traducibili. Quando si modifica il valore di un campo traducibile, chiamando <command> debconf-updatepo </ command>, la traduzione è contrassegnato come bisognose di attenzione da parte dei traduttori. Poi, in fase di compilazione, il <command> dh_installdebconf </ command> programma si prende cura di tutta la magia necessaria per aggiungere il modello lungo con i-to-date le traduzioni nelle pacchetti binari. Fare riferimento alla <citerefentry> <refentrytitle> po-debconf </ refentrytitle> <manvolnum> 7 </ manvolnum> </ citerefentry> pagina di manuale per i dettagli."
+msgstr "Utilizzando <systemitem role=\"package\"> po-debconf </ systemitem>, la traduzione è memorizzata in file  <filename>.po </ filename> (stabilito dalle tecniche di traduzione<command> gettext </ command> ). speciali file di modello contengono i messaggi originali e marcano quali i campi sono traducibili. Quando si modifica il valore di un campo traducibile, chiamando <command> debconf-updatepo </ command>, la traduzione è contrassegnata come bisognosa di attenzione da parte dei traduttori. Poi, in fase di compilazione, il programma <command> dh_installdebconf </ command> si prende cura di tutta la magia necessaria per aggiungere il modello con le traduzioni aggiornate nei pacchetti binari. Fate riferimento alla  pagina del manuale di<citerefentry> <refentrytitle> po-debconf </ refentrytitle> <manvolnum> 7 </ manvolnum> </ citerefentry> per i dettagli."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1339
 msgid "Internationalized documentation"
-msgstr "documentazione internazionalizzata"
+msgstr "Documentazione internazionalizzata"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1341
 msgid "Internationalizing documentation is crucial for users, but a lot of labor.  There's no way to eliminate all that work, but you can make things easier for translators."
-msgstr "Internazionalizzare documentazione è fondamentale per gli utenti, ma un sacco di lavoro. Non c'è modo di eliminare tutto quel lavoro, ma si può rendere le cose più facili per i traduttori."
+msgstr "Internazionalizzare la documentazione è fondamentale per gli utenti, ma richiede un sacco di lavoro. Non c'è modo di eliminare tutto quel lavoro, ma si possono rendere le cose più facili per i traduttori."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1346
 msgid "If you maintain documentation of any size, it is easier for translators if they have access to a source control system.  That lets translators see the differences between two versions of the documentation, so, for instance, they can see what needs to be retranslated.  It is recommended that the translated documentation maintain a note about what source control revision the translation is based on.  An interesting system is provided by <ulink url=\"&url-i18n-doc-check;\">doc-check</ulink> in the <systemitem role=\"package\">debian-installer</systemitem> package, which shows an overview of the translation status for any given language, using structured comments for the current revision of the file to be translated and, for a translated file, the revision of the original file the translation is based on.  You might wish to adapt and provide that in your VCS area."
-msgstr "Se si mantiene la documentazione di qualsiasi dimensione, è più facile per i traduttori se hanno accesso ad un sistema di controllo del codice sorgente. Che consente ai traduttori vedere le differenze tra due versioni della documentazione, così, per esempio, si può vedere ciò che deve essere ritradotto. Si raccomanda che la documentazione tradotta mantenere una nota su quale fonte di controllo delle revisioni della traduzione si basa su. Un sistema interessante è fornito dal <ulink url=\"&url-i18n-doc-check;\"> doc-controllare </ ulink> nel <systemitem role=\"package\"> debian-installer </ systemitem> pacchetto , che mostra una panoramica dello stato di traduzione per ogni lingua, utilizzando i commenti strutturati per la revisione in corso del file da tradurre e, per un file tradotto, la revisione del file originale della traduzione si basa su. Si potrebbe desiderare di adattarsi e di prevedere che nella tua zona VCS."
+msgstr "Se si mantiene una documentazione di qualsiasi dimensione, è più facile per i traduttori se hanno accesso ad un sistema di controllo del codice sorgente. Ciò consente ai traduttori di vedere le differenze tra due versioni della documentazione, così, per esempio, si può vedere ciò che deve essere ritradotto. Si raccomanda che la documentazione tradotta mantenga una nota circa la versione del codice sulla quale è basata. Un sistema interessante è fornito dal <ulink url=\"&url-i18n-doc-check;\">doc-check</ulink> nel pacchetto <systemitem role=\"package\"> debian-installer </ systemitem> , che mostra una panoramica dello stato di traduzione per ogni lingua, utilizzando i commenti strutturati per la revisione in corso del file da tradurre e, per un file tradotto, la revisione del file originale della traduzione sulla quale si basa. Si potrebbe desiderare di adattarsi e di fornirla nella VCS area."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1360
 msgid "If you maintain XML or SGML documentation, we suggest that you isolate any language-independent information and define those as entities in a separate file which is included by all the different translations.  This makes it much easier, for instance, to keep URLs up to date across multiple files."
-msgstr "Se si mantiene la documentazione XML o SGML, vi consigliamo di isolare qualsiasi informazione indipendente dal linguaggio e definire quelli come entità in un file separato che è incluso da tutte le diverse traduzioni. Ciò rende molto più facile, per esempio, per tenere gli URL aggiornati in più file."
+msgstr "Se si mantiene la documentazione XML o SGML, vi consigliamo di isolare qualsiasi informazione indipendente dal linguaggio e definire quelli come entità in un file separato che è incluso da tutte le diverse traduzioni. Ciò rende molto più facile, per esempio, per mantenere gli URL aggiornati in più file."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1366
 msgid "Some tools (e.g. <systemitem role=\"package\">po4a</systemitem>, <systemitem role=\"package\">poxml</systemitem>, or the <systemitem role=\"package\">translate-toolkit</systemitem>) are specialized in extracting the translatable material from different formats.  They produce PO files, a format quite common to translators, which permits to see what needs to be retranslated when the translated document is updated."
-msgstr "Alcuni strumenti (ad es <systemitem role=\"package\"> po4a </ systemitem>, <systemitem role=\"package\"> poxml </ systemitem>, o il role=\"package\"> <systemitem tradurre-toolkit </ systemitem>) è specializzata nella estrazione del materiale traducibile da diversi formati. Producono i file PO, un formato abbastanza comune ai traduttori, che permette di vedere ciò che deve essere ritradotto quando il documento tradotto viene aggiornato."
+msgstr "Alcuni strumenti (ad es <systemitem role=\"package\"> po4a </ systemitem>, <systemitem role=\"package\"> poxml </ systemitem>, o il role=\"package\"> <systemitem tradurre-toolkit </ systemitem>)sono specializzati nell' estrazione del materiale traducibile da diversi formati. Producono i file PO, un formato abbastanza comune ai traduttori, che permette di vedere ciò che deve essere ritradotto quando il documento tradotto viene aggiornato."
 
 #. type: Content of: <chapter><section><title>
 #: best-pkging-practices.dbk:1378
@@ -1356,12 +1356,12 @@ msgstr "Situazioni comuni durante la pacchettizzazione "
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1389
 msgid "Packages using <command>autoconf</command>/<command>automake</command>"
-msgstr "Pacchetti utilizzando <command> autoconf </ command> / <command> automake </ command>"
+msgstr "Pacchettizzazione utilizzando <command> autoconf </ command> / <command> automake </ command>"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1391
 msgid "Keeping <command>autoconf</command>'s <filename>config.sub</filename> and <filename>config.guess</filename> files up to date is critical for porters, especially on more volatile architectures.  Some very good packaging practices for any package using <command>autoconf</command> and/or <command>automake</command> have been synthesized in &file-bpp-autotools; from the <systemitem role=\"package\">autotools-dev</systemitem> package.  You're strongly encouraged to read this file and to follow the given recommendations."
-msgstr "Mantenere </ command> 's <filename> config.sub </ filename> e </ filename> file <filename> config.guess <comando> autoconf aggiornati è fondamentale per i facchini, soprattutto su architetture più volatili. Alcune pratiche packaging molto buona per ogni pacchetto usando <command> autoconf </ command> e / o <command> automake </ command> sono stati sintetizzati in & file BPP-autotools; dal <systemitem role=\"package\"> autotools-dev </ systemitem> pacchetto. Sei vivamente di leggere questo file e di seguire le raccomandazioni fornite."
+msgstr "Mantenere <command>autoconf</command>'s <filename>config.sub</filename>  e i file <filename> config.guess </filename > aggiornati è fondamentale per i porters, soprattutto su architetture più volatili. Alcune molto buone pratiche di packaging  per ogni pacchetto che usa <command> autoconf </ command> e/o <command> automake </ command> sono stati sintetizzati in  &file-bpp-autotools; dal pacchetto <systemitem role=\"package\"> autotools-dev </ systemitem> . Sei vivamente incoraggiato a leggere questo file e di seguire le raccomandazioni fornite."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1403
@@ -1371,12 +1371,12 @@ msgstr "Librerie "
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1405
 msgid "Libraries are always difficult to package for various reasons.  The policy imposes many constraints to ease their maintenance and to make sure upgrades are as simple as possible when a new upstream version comes out.  Breakage in a library can result in dozens of dependent packages breaking."
-msgstr "Biblioteche sono sempre difficili da pacchetto per vari motivi. La politica impone molti vincoli per facilitare il loro mantenimento e per assicurarsi che gli aggiornamenti sono il più semplice possibile, quando una nuova versione viene fuori. Rottura in una libreria può causare decine di pacchetti dipendenti rottura."
+msgstr "Le librerie sono sempre difficili da pacchettizzare per vari motivi. La policy impone molti vincoli per facilitare il loro mantenimento e per assicurarsi che gli aggiornamenti siano il più semplice possibile, quando una nuova versione viene pubblicata. Una rottura in una libreria può causare una rottura in decine di pacchetti dipendenti."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1411
 msgid "Good practices for library packaging have been grouped in <ulink url=\"&url-libpkg-guide;\">the library packaging guide</ulink>."
-msgstr "Buone pratiche per l'imballaggio biblioteca sono state raggruppate in <ulink url=\"&url-libpkg-guide;\"> la guida di imballaggio biblioteca </ ulink>."
+msgstr "Buone pratiche per la pacchettizzazione delle librerie sono state raggruppate in <ulink url=\"&url-libpkg-guide;\">Giuda alla pacchettizzazione delle librerie</ ulink>."
 
 #. type: Content of: <chapter><section><title>
 #: best-pkging-practices.dbk:1418
@@ -1387,17 +1387,17 @@ msgstr "Documentazione "
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1420
 msgid "Be sure to follow the <ulink url=\"&url-debian-policy;ch-docs.html\">Policy on documentation</ulink>."
-msgstr "Assicurarsi di seguire la politica url=\"&url-debian-policy;ch-docs.html\"> <ulink sulla documentazione </ ulink>."
+msgstr "Assicurarsi di seguire la policy <ulink url=\"&url-debian-policy;ch-docs.html\">Policy sulla documentazione</ulink>."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1425
 msgid "If your package contains documentation built from XML or SGML, we recommend you not ship the XML or SGML source in the binary package(s).  If users want the source of the documentation, they should retrieve the source package."
-msgstr "Se il pacchetto contiene la documentazione costruito da XML o SGML, si consiglia di non spedire il sorgente XML o SGML nel pacchetto binario (s). Se gli utenti vogliono la fonte della documentazione, dovrebbero recuperare il pacchetto sorgente."
+msgstr "Se il pacchetto contiene la documentazione costruita a partire da XML o SGML, si consiglia di non spedire il sorgente XML o SGML nel pacchetto binario (s). Se gli utenti vogliono la fonte della documentazione, dovrebbero poter recuperare il pacchetto sorgente."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1430
 msgid "Policy specifies that documentation should be shipped in HTML format.  We also recommend shipping documentation in PDF and plain text format if convenient and if output of reasonable quality is possible.  However, it is generally not appropriate to ship plain text versions of documentation whose source format is HTML."
-msgstr "Politica specifica che la documentazione deve essere spedita in formato HTML. Si consiglia anche la documentazione di trasporto in formato testo e PDF normale se conveniente e se l'uscita di discreta qualità è possibile. Tuttavia, non è in genere appropriato per la spedizione di testo normale documentazione la cui fonte è formato HTML."
+msgstr "La policy specifica che la documentazione deve essere spedita in formato HTML. Si consiglia anche di inviare la documentazione in formato testo e PDF normale se conveniente e se l'output di discreta qualità è possibile. Tuttavia, non è in genere appropriato inviare la versione in testo semplice della documentazione il cui formato sorgente è HTML."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1437
