@@ -1,9 +1,45 @@
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1807
 msgid "Some debug packages may contain an entire special debugging build of a library or other binary, but most of them can save space and build time by instead containing separated debugging symbols that <command>gdb</command> can find and load on the fly when debugging a program or library.  The convention in Debian is to keep these symbols in <filename>/usr/lib/debug/<replaceable>path</replaceable></filename>, where <replaceable>path</replaceable> is the path to the executable or library.  For example, debugging symbols for <filename>/usr/bin/foo</filename> go in <filename>/usr/lib/debug/usr/bin/foo</filename>, and debugging symbols for <filename>/usr/lib/libfoo.so.1</filename> go in <filename>/usr/lib/debug/usr/lib/libfoo.so.1</filename>."
-msgstr "Alcuni pacchetti di debug possono contenere un completo debug build di una libreria o di altro binario, ma la maggior parte di loro può risparmiare spazio e tempo di build contenendo invece simboli di debug separati che <command> gdb </ command> è in grado di trovare e caricare al volo quando si effettua il debug di un programma o di una libreria. La convenzione in Debian è quella di mantenere questi simboli in <filename>/usr/lib/debug/<replaceable>path</replaceable></filename>, dove <replaceable>path</replaceable> è il percorso al file eseguibile o alla libreria. Ad esempio, i simboli di debug per <filename>/usr/bin/foo </ filename> vanno in <filename> / usr / lib / debug / usr / bin / foo </ filename>, e simboli di debug per <filename> / usr / lib/libfoo.so.1 </ filename> vanno in <filename> / usr/lib/debug/usr/lib/libfoo.so.1 </ filename>."
+msgstr "Alcuni pacchetti di debug possono contenere un completo e particolare build di debug di una libreria o di altro binario, ma la maggior parte di loro può risparmiare spazio e tempo di build contenendo invece simboli di debug separati che <command> gdb </ command> è in grado di trovare e caricare al volo quando si effettua il debug di un programma o di una libreria. La convenzione in Debian è quella di mantenere questi simboli in <filename>/usr/lib/debug/<replaceable>path</replaceable></filename>, dove <replaceable>path</replaceable> è il percorso al file eseguibile o alla libreria. Ad esempio, i simboli di debug per <filename>/usr/bin/foo </ filename> vanno in <filename> / usr / lib / debug / usr / bin / foo </ filename>, e simboli di debug per <filename> / usr / lib/libfoo.so.1 </ filename> vanno in <filename> / usr/lib/debug/usr/lib/libfoo.so.1 </ filename>."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1819
 msgid "The debugging symbols can be extracted from an object file using <command>objcopy --only-keep-debug</command>.  Then the object file can be stripped, and <command>objcopy --add-gnu-debuglink</command> used to specify the path to the debugging symbol file.  <citerefentry> <refentrytitle>objcopy</refentrytitle> <manvolnum>1</manvolnum> </citerefentry> explains in detail how this works."
-msgstr "I simboli di debug possono essere estratti da un file oggetto usando <comando> objcopy - only-keep-debug </ command>. Successivamente il file oggetto può essere spogliato, e <comando> objcopy - add-gnu-debuglink </ command> è utilizzato per specificare il percorso del file di simboli di debug. <citerefentry> <refentrytitle> objcopy </ refentrytitle> <manvolnum> 1 </ manvolnum> </ citerefentry> spiega nel dettaglio come il processo funziona."
+msgstr "I simboli di debug possono essere estratti da un file oggetto usando <comando> objcopy - only-keep-debug </ command>. Successivamente il file oggetto può essere spogliato, e <comando> objcopy - add-gnu-debuglink </ command> è utilizzato per specificare il percorso del file di simboli di debug. <citerefentry> <refentrytitle> objcopy </ refentrytitle> <manvolnum> 1 </ manvolnum> </ citerefentry> spiega nel dettaglio come funziona questo processo."
+
+#. type: Content of: <chapter><section><section><para>
+#: best-pkging-practices.dbk:1827
+msgid "The <command>dh_strip</command> command in <systemitem role=\"package\">debhelper</systemitem> supports creating debug packages, and can take care of using <command>objcopy</command> to separate out the debugging symbols for you.  If your package uses <systemitem role=\"package\">debhelper</systemitem>, all you need to do is call <command>dh_strip --dbg-package=libfoo-dbg</command>, and add an entry to <filename>debian/control</filename> for the debug package."
+msgstr "Il comando <command>dh_strip</command> in <systemitem role=\"package\"> debhelper </ systemitem> supporta la creazione di pacchetti di debug, e può prendersi cura di utilizzare <command> objcopy </ command> per separare i simboli di debug per voi. Se il pacchetto utilizza <systemitem role=\"package\"> debhelper </ systemitem>, tutto quello che dovete fare è chiamare <comando> dh_strip - DBG-package = libfoo-dbg </ command>, ed aggiungere una voce al <filename> debian / control </ filename> per il pacchetto di debug."
+
+#. type: Content of: <chapter><section><section><para>
+#: best-pkging-practices.dbk:1834
+msgid "Note that the debug package should depend on the package that it provides debugging symbols for, and this dependency should be versioned.  For example:"
+msgstr "Nota che il pacchetto di debug dovrebbe dipendere dal pacchetto per il quale fornisce i simboli di debug, e questa dipendenza dovrebbe essere versionata. Per esempio:"
+
+#. type: Content of: <chapter><section><section><screen>
+#: best-pkging-practices.dbk:1838
+#, no-wrap
+msgid "Depends: libfoo (= ${binary:Version})\n"
+msgstr "Depends: libfoo (= ${binary:Version})\n"
+
+#. type: Content of: <chapter><section><section><title>
+#: best-pkging-practices.dbk:1842
+msgid "Best practices for meta-packages"
+msgstr "Best practices per i meta-packages"
+
+#. type: Content of: <chapter><section><section><para>
+#: best-pkging-practices.dbk:1844
+msgid "A meta-package is a mostly empty package that makes it easy to install a coherent set of packages that can evolve over time. It achieves this by depending on all the packages of the set. Thanks to the power of APT, the meta-package maintainer can adjust the dependencies and the user's system will automatically get the supplementary packages. The dropped packages that were automatically installed will be also be marked as removal candidates (and are even automatically removed by <command>aptitude</command>).  <systemitem role=\"package\">gnome</systemitem> and <systemitem role=\"package\">linux-image-amd64</systemitem> are two examples of meta-packages (built by the source packages <systemitem role=\"package\">meta-gnome2</systemitem> and <systemitem role=\"package\">linux-latest</systemitem>)."
+msgstr "Una meta-pacchetto è un pacchetto per lo più vuoto che lo rende facile da installare un insieme coerente di pacchetti che possono evolvere nel tempo. Realizza questo a seconda di tutti i pacchetti del set. Grazie alla potenza di APT, il manutentore del meta-pacchetto possono regolare le dipendenze e il sistema dell'utente otterranno automaticamente i pacchetti supplementari. I pacchetti eliminati che sono stati installati automaticamente verranno inoltre essere contrassegnati come candidati di rimozione (e sono anche rimossi automaticamente dal <command> aptitude </ command>). <systemitem role=\"package\"> gnome </ systemitem> e <systemitem role=\"package\"> linux-image-amd64 </ systemitem> sono due esempi di meta-pacchetti (costruito dai pacchetti sorgente <systemitem role = \ \"pacchetto \"> meta-gnome2 </ systemitem> e <systemitem role=\"package\"> linux-ultima </ systemitem>)."
+
+#. type: Content of: <chapter><section><section><para>
+#: best-pkging-practices.dbk:1858
+msgid "The long description of the meta-package must clearly document its purpose so that the user knows what they will lose if they remove the package. Being explicit about the consequences is recommended. This is particularly important for meta-packages which are installed during initial installation and that have not been explicitly installed by the user.  Those tend to be important to ensure smooth system upgrades and the user should be discouraged from uninstalling them to avoid potential breakages."
+msgstr "La lunga descrizione del meta-pacchetto deve documentare in modo chiaro il suo scopo in modo che l'utente sappia che cosa si perderà se rimuovono il pacchetto.  E' raccomandato essere esplicito circa le conseguenze. Ciò è particolarmente importante per i meta-pacchetti che vengono installati durante l'installazione iniziale e che non sono stati installati esplicitamente dall'utente. Questi  tendono ad essere importanti  per garantire regolari aggiornamenti del sistema e l'utente dovrebbe essere disincentivato dal disinstallarli in modo da evitare potenziali rotture."
+
+#. type: Content of: <chapter><title>
+#: beyond-pkging.dbk:7
+msgid "Beyond Packaging"
+msgstr "Oltre la pacchettizzazione"
