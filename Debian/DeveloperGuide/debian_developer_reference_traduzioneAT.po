@@ -1632,22 +1632,22 @@ msgstr "<emphasis role=\"strong\"> dovrebbe non </ emphasis> contenere qualsiasi
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1739
 msgid "<emphasis role=\"strong\">should</emphasis>, except where impossible for legal reasons, preserve the entire building and portablility infrastructure provided by the upstream author.  For example, it is not a sufficient reason for omitting a file that it is used only when building on MS-DOS.  Similarly, a <filename>Makefile</filename> provided by upstream should not be omitted even if the first thing your <filename>debian/rules</filename> does is to overwrite it by running a configure script."
-msgstr "<emphasis role=\"strong\"> dovrebbe </ emphasis>, salvo che per motivi legali, preservare l'intero building e l'infrastruttura di portabilità fornita dall'autore upstream. Ad esempio, non è una ragione sufficiente per omettere un file che viene utilizzato solo quando si costruisce su  MS-DOS. Allo stesso modo, un <filename> Makefile </ filename> fornito da upstream  non dovrebbe essere omesso anche se la prima cosa che il tuo <filename> debian / rules </ filename> fa è quello di sovrascriverlo eseguendo uno script di configurazione."
+msgstr "<emphasis role=\"strong\"> dovrebbe </ emphasis>, salvo che per motivi legali, preservare l'intero building e l'infrastruttura di portabilità fornita dall'autore upstream. Ad esempio, non è una ragione sufficiente per omettere un file che viene utilizzato solo quando si costruisce su  MS-DOS. Allo stesso modo, un <filename> Makefile </ filename> fornito da upstream  non dovrebbe essere omesso anche se la prima cosa che il tuo <filename> debian/rules </ filename> fa è sovrascriverlo eseguendo uno script di configurazione."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1748
 msgid "(<emphasis>Rationale:</emphasis> It is common for Debian users who need to build software for non-Debian platforms to fetch the source from a Debian mirror rather than trying to locate a canonical upstream distribution point)."
-msgstr "(<emphasis> Motivazione: </ emphasis> E 'comune per gli utenti Debian che hanno bisogno di costruire software per piattaforme non-Debian per andare a prendere la sorgente da uno dei mirror Debian piuttosto che cercare di individuare un punto di distribuzione a monte canonico)."
+msgstr "(<emphasis> Motivazione: </ emphasis> E 'comune per gli utenti Debian che hanno bisogno di costruire software per piattaforme non-Debian prendere il sorgente da uno dei mirror Debian piuttosto che cercare di individuare un punto canonico di distribuzione upstream )."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1755
 msgid "<emphasis role=\"strong\">should</emphasis> use <filename><replaceable>packagename</replaceable>-<replaceable>upstream-version</replaceable>.orig</filename> as the name of the top-level directory in its tarball.  This makes it possible to distinguish pristine tarballs from repackaged ones."
-msgstr "<emphasis role=\"strong\"> dovrebbe </ emphasis> l'uso come il nome della directory di livello superiore nel suo tarball. In questo modo è possibile distinguere tarball incontaminate da quelli riconfezionato."
+msgstr "<emphasis role=\"strong\">dovrebbe</emphasis> usare <filename><replaceable>packagename</replaceable>-<replaceable>upstream-version</replaceable>.orig</filename> come nome per la più alta directory nel suo tarball. Ciò rende possibile distinguere tarballs pure da quelle ripacchettizate."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1763
 msgid "<emphasis role=\"strong\">should</emphasis> be gzipped or bzipped with maximal compression."
-msgstr "<emphasis role=\"strong\"> dovrebbe </ emphasis> essere compressi con gzip o bzip con compressione massima."
+msgstr "<emphasis role=\"strong\"> dovrebbe </ emphasis> essere compressi con gzip o bzip con la massima compressione."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1770
