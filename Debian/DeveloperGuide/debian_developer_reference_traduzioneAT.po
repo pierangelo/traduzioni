@@ -1672,7 +1672,7 @@ msgstr "Un pacchetto di debug è un pacchetto con un nome che termina in-dbg, ch
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1797
 msgid "It is up to a package's maintainer whether to create a debug package or not.  Maintainers are encouraged to create debug packages for library packages, since this can aid in debugging many programs linked to a library.  In general, debug packages do not need to be added for all programs; doing so would bloat the archive.  But if a maintainer finds that users often need a debugging version of a program, it can be worthwhile to make a debug package for it.  Programs that are core infrastructure, such as apache and the X server are also good candidates for debug packages."
-msgstr "Spetta al manutentore di un pacchetto se creare un pacchetto di debug o meno.I maintainers sono incoraggiati a creare i pacchetti di debug per i pacchetti di libreria, dal momento che questo può aiutare nel debug di molti programmi legati a una libreria. In generale, i pacchetti di debug non devono essere aggiunti per tutti i programmi, facendo così gonfiare l'archivio. Ma se un maintainer rileva che gli utenti spesso hanno bisogno di una versione di debug di un programma, può essere utile fare un pacchetto di debug per quest'ultimo. I programmi che sono l' infrastruttura di base, come ad esempio Apache e il server X sono anche dei buoni candidati per i pacchetti di debug."
+msgstr "Spetta al maintainer di un pacchetto se creare un pacchetto di debug o meno.I maintainers sono incoraggiati a creare i pacchetti di debug per i pacchetti di libreria, dal momento che questo può aiutare nel debug di molti programmi legati ad una libreria. In generale, i pacchetti di debug non devono essere aggiunti per tutti i programmi, facendo così gonfiare l'archivio. Ma se un maintainer rileva che gli utenti spesso hanno bisogno di una versione di debug di un programma, può essere utile fare un pacchetto di debug per quest'ultimo. I programmi che sono l' infrastruttura di base, come ad esempio Apache e il server X sono anche dei buoni candidati per i pacchetti di debug."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1807
@@ -1708,28 +1708,27 @@ msgstr "Best practices per i meta-packages"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1844
 msgid "A meta-package is a mostly empty package that makes it easy to install a coherent set of packages that can evolve over time. It achieves this by depending on all the packages of the set. Thanks to the power of APT, the meta-package maintainer can adjust the dependencies and the user's system will automatically get the supplementary packages. The dropped packages that were automatically installed will be also be marked as removal candidates (and are even automatically removed by <command>aptitude</command>).  <systemitem role=\"package\">gnome</systemitem> and <systemitem role=\"package\">linux-image-amd64</systemitem> are two examples of meta-packages (built by the source packages <systemitem role=\"package\">meta-gnome2</systemitem> and <systemitem role=\"package\">linux-latest</systemitem>)."
-msgstr "Una meta-pacchetto è un pacchetto per lo più vuoto che lo rende facile da installare un insieme coerente di pacchetti che possono evolvere nel tempo. Realizza questo a seconda di tutti i pacchetti del set. Grazie alla potenza di APT, il manutentore del meta-pacchetto possono regolare le dipendenze e il sistema dell'utente otterranno automaticamente i pacchetti supplementari. I pacchetti eliminati che sono stati installati automaticamente verranno inoltre essere contrassegnati come candidati di rimozione (e sono anche rimossi automaticamente dal <command> aptitude </ command>). <systemitem role=\"package\"> gnome </ systemitem> e <systemitem role=\"package\"> linux-image-amd64 </ systemitem> sono due esempi di meta-pacchetti (costruito dai pacchetti sorgente <systemitem role = \ \"pacchetto \"> meta-gnome2 </ systemitem> e <systemitem role=\"package\"> linux-ultima </ systemitem>)."
+msgstr "Una meta-pacchetto è un pacchetto per lo più vuoto che rende facile installare un insieme coerente di pacchetti che possono evolvere nel tempo. Realizza ciò creando una dipendendenza da tutti i pacchetti dell'insieme. Grazie alla potenza di APT, il maintainer del meta-pacchetto può sistemare le dipendenze e il sistema dell'utente otterrà automaticamente i pacchetti supplementari. I pacchetti eliminati che sono stati installati automaticamente verranno contrassegnati come candidati alla rimozione (e sono anche rimossi automaticamente da <command> aptitude </ command>). <systemitem role=\"package\"> gnome </ systemitem> e <systemitem role=\"package\"> linux-image-amd64 </ systemitem> sono due esempi di meta-pacchetti (costruiti dai pacchetti sorgente <systemitem role =  \"pacchetto \"> meta-gnome2 </ systemitem> e <systemitem role=\"package\"> linux-latest </ systemitem>)."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1858
 msgid "The long description of the meta-package must clearly document its purpose so that the user knows what they will lose if they remove the package. Being explicit about the consequences is recommended. This is particularly important for meta-packages which are installed during initial installation and that have not been explicitly installed by the user.  Those tend to be important to ensure smooth system upgrades and the user should be discouraged from uninstalling them to avoid potential breakages."
-msgstr "La lunga descrizione del meta-pacchetto deve documentare in modo chiaro il suo scopo in modo che l'utente sappia che cosa si perderà se rimuovono il pacchetto.  E' raccomandato essere esplicito circa le conseguenze. Ciò è particolarmente importante per i meta-pacchetti che vengono installati durante l'installazione iniziale e che non sono stati installati esplicitamente dall'utente. Questi  tendono ad essere importanti  per garantire regolari aggiornamenti del sistema e l'utente dovrebbe essere disincentivato dal disinstallarli in modo da evitare potenziali rotture."
+msgstr "La descrizione lunga del meta-pacchetto deve documentare chiaramente il suo scopo in modo che l'utente sappia che cosa si perderà se rimuovono il pacchetto.  E' raccomandato essere esplicito circa le conseguenze. Ciò è particolarmente importante per i meta-pacchetti che vengono installati durante l'installazione iniziale e che non sono stati installati esplicitamente dall'utente. Questi  tendono ad essere importanti  per garantire regolari aggiornamenti del sistema e l'utente dovrebbe essere disincentivato dal disinstallarli in modo da evitare potenziali rotture."
 
 #. type: Content of: <chapter><title>
 #: beyond-pkging.dbk:7
 msgid "Beyond Packaging"
 msgstr "Oltre la pacchettizzazione"
 
-
 #. type: Content of: <chapter><para>
 #: beyond-pkging.dbk:9
 msgid "Debian is about a lot more than just packaging software and maintaining those packages.  This chapter contains information about ways, often really critical ways, to contribute to Debian beyond simply creating and maintaining packages."
-msgstr "Debian è circa molto più di un semplice software di confezionamento e il mantenimento di questi pacchetti. Questo capitolo contiene informazioni sui modi, modi spesso molto critici, per contribuire a Debian oltre la semplice creazione e la manutenzione dei pacchetti."
+msgstr "Debian è molto più di un semplice software di confezionamento e di mantenimento di questi pacchetti. Questo capitolo contiene informazioni sui modi, modi spesso molto critici, per contribuire a Debian oltre la semplice creazione e la manutenzione dei pacchetti."
 
 #. type: Content of: <chapter><para>
 #: beyond-pkging.dbk:14
 msgid "As a volunteer organization, Debian relies on the discretion of its members in choosing what they want to work on and in choosing the most critical thing to spend their time on."
-msgstr "Come organizzazione di volontariato, Debian si basa sulla discrezione dei suoi membri nella scelta di ciò che vogliono lavorare e nello scegliere la cosa più critica di trascorrere il loro tempo su."
+msgstr "Come organizzazione di volontariato, Debian si basa sulla discrezione dei suoi membri nella scelta di ciò su cui vogliono lavorare e nello scegliere la cosa più critica sulla quale trascorre la maggior parte del proprio tempo."
 
 #. type: Content of: <chapter><section><title>
 #: beyond-pkging.dbk:19
@@ -1739,67 +1738,67 @@ msgstr "Bug reporting"
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:21
 msgid "We encourage you to file bugs as you find them in Debian packages.  In fact, Debian developers are often the first line testers.  Finding and reporting bugs in other developers' packages improves the quality of Debian."
-msgstr "Ti consigliamo di inserire bug come li trovate nei pacchetti Debian. In realtà, gli sviluppatori Debian sono spesso i primi tester di linea. Individuazione e segnalazione bug nei pacchetti di altri sviluppatori di migliorare la qualità di Debian."
+msgstr "Ti consigliamo di inserire bug appena li trovate nei pacchetti Debian. In realtà, gli sviluppatori Debian sono spesso la prima linea di tester. L'individuazione e la segnalazione di bugs nei pacchetti di altri sviluppatori migliora la qualità di Debian."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:26
 msgid "Read the <ulink url=\"&url-bts-report;\">instructions for reporting bugs</ulink> in the Debian <ulink url=\"&url-bts;\">bug tracking system</ulink>."
-msgstr "Leggere le istruzioni url=\"&url-bts-report;\"> <ulink per la segnalazione di bug </ ulink> nel sistema di bug url=\"&url-bts;\"> Debian <ulink monitoraggio </ ulink>."
+msgstr "Leggi le<ulink url=\"&url-bts-report;\">istruzioni per la segnalazione di bugs</ulink> nel Debian <ulink url=\"&url-bts;\">bug tracking system</ulink>."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:31
 msgid "Try to submit the bug from a normal user account at which you are likely to receive mail, so that people can reach you if they need further information about the bug.  Do not submit bugs as root."
-msgstr "Provare a presentare il bug da un account utente normale, in cui si rischia di ricevere la posta, in modo che le persone possono arrivare a te se hanno bisogno di ulteriori informazioni sul bug. Non inviare bug come root."
+msgstr "Prova a presentare il bug da un account utente normale al preferisci ricevere la posta, in modo che le persone possano rintracciarti se hanno bisogno di ulteriori informazioni sul bug. Non inviare bug come root."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:36
 msgid "You can use a tool like <citerefentry> <refentrytitle>reportbug</refentrytitle> <manvolnum>1</manvolnum> </citerefentry> to submit bugs.  It can automate and generally ease the process."
-msgstr "È possibile utilizzare uno strumento come <citerefentry> <refentrytitle> reportbug </ refentrytitle> <manvolnum> 1 </ manvolnum> </ citerefentry> per segnalare bug. E 'in grado di automatizzare e in generale facilitare il processo."
+msgstr "È possibile utilizzare uno strumento come <citerefentry> <refentrytitle> reportbug </ refentrytitle> <manvolnum> 1 </ manvolnum> </ citerefentry> per segnalare bugs. E 'in grado di automatizzare e in generale facilitare il processo."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:41
 msgid "Make sure the bug is not already filed against a package.  Each package has a bug list easily reachable at <literal>http://&bugs-host;/<replaceable>packagename</replaceable></literal>.  Utilities like <citerefentry> <refentrytitle>querybts</refentrytitle> <manvolnum>1</manvolnum> </citerefentry> can also provide you with this information (and <command>reportbug</command> will usually invoke <command>querybts</command> before sending, too)."
-msgstr "Assicurarsi che il bug non sia già presentata contro un pacchetto. Ogni pacchetto ha una lista di bug facilmente raggiungibile a <literal> http://&bugs-host;/ <replaceable> nomepacchetto </ replaceable> </ literal>. Programmi di utilità come <citerefentry> <refentrytitle> querybts </ refentrytitle> <manvolnum> 1 </ manvolnum> </ citerefentry> può anche fornire queste informazioni (e reportbug </ command> di solito invocare querybts <comando> </ command> prima di inviare, anche)."
+msgstr "Assicurati che il bug non sia già presentata per un pacchetto. Ogni pacchetto ha una lista di bug facilmente raggiungibile a <literal> http://&bugs-host;/ <replaceable> nomepacchetto </ replaceable> </ literal>. Programmi di utilità come <citerefentry> <refentrytitle> querybts </ refentrytitle> <manvolnum> 1 </ manvolnum> </ citerefentry> possono anche fornire queste informazioni (e anche <command>reportbug</command> di solito invocherà querybts  prima di inviare)."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:50
 msgid "Try to direct your bugs to the proper location.  When for example your bug is about a package which overwrites files from another package, check the bug lists for <emphasis>both</emphasis> of those packages in order to avoid filing duplicate bug reports."
-msgstr "Cercate di indirizzare i bug nella posizione corretta. Quando per esempio il bug è di circa un pacchetto che sovrascrive i file da un altro pacchetto, controllare le liste di bug per <emphasis> sia </ emphasis> di questi pacchetti in modo da evitare di deposito segnalazioni di bug duplicati."
+msgstr "Cerca di indirizzare i bug nella posizione corretta. Quando per esempio il tuo bug è relativo ad un pacchetto che sovrascrive i file appartenenti ad un altro pacchetto, controlla le liste di bug per <emphasis> entrambi </ emphasis> questi pacchetti in modo da evitare di presentare duplicati di segnalazioni di bug."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:56
 msgid "For extra credit, you can go through other packages, merging bugs which are reported more than once, or tagging bugs `fixed' when they have already been fixed.  Note that when you are neither the bug submitter nor the package maintainer, you should not actually close the bug (unless you secure permission from the maintainer)."
-msgstr "Per il credito in più, si può passare attraverso altri pacchetti, fondendo i bug che sono riportati più di una volta, o bug di tagging `fissi 'quando sono già stati risolti. Si noti che quando si è né il bug mittente né il manutentore del pacchetto, si dovrebbe in realtà non chiude il bug (a meno che non si protegge il permesso del manutentore)."
+msgstr "Per maggior credito, si può passare attraverso altri pacchetti, unificando i bug che sono riportati più di una volta, o etichettando bug 'fixed' quando sono già stati risolti. Nota che quando non si è né il bug mittente né il manutentore del pacchetto, non dovresti in realtà chiudere il bug (a meno che non si ha il permesso del maintainer)."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:63
 msgid "From time to time you may want to check what has been going on with the bug reports that you submitted.  Take this opportunity to close those that you can't reproduce anymore.  To find out all the bugs you submitted, you just have to visit <literal>http://&bugs-host;/from:<replaceable>your-email-addr</replaceable></literal>."
-msgstr "Di tanto in tanto si consiglia di controllare che cosa è andata avanti con i bug che hai inviato. Cogliere l'occasione di chiudere quelli che non è possibile riprodurre più. Per scoprire tutti i bug che hai inviato, basta visitare <literal> http://&bugs-host;/ da: <replaceable> your-email-addr </ replaceable> </ literal>."
+msgstr "Di tanto in tanto si consiglia di controllare che cosa è andato avanti con il bug che hai inviato. Cogliere l'occasione di chiudere quelli che non è possibile riprodurre più. Per scoprire tutti i bug che hai inviato, basta visitare <literal> http://&bugs-host;/ da: <replaceable> your-email-addr </ replaceable> </ literal>."
 
 #. type: Content of: <chapter><section><section><title>
 #: beyond-pkging.dbk:70
 msgid "Reporting lots of bugs at once (mass bug filing)"
-msgstr "Segnalazione di un sacco di bug in una volta (nuovo bug di massa)"
+msgstr "Segnalare molti bug in una sola volta (presentazione massiva di bug)"
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:72
 msgid "Reporting a great number of bugs for the same problem on a great number of different packages — i.e., more than 10 — is a deprecated practice.  Take all possible steps to avoid submitting bulk bugs at all.  For instance, if checking for the problem can be automated, add a new check to <systemitem role=\"package\">lintian</systemitem> so that an error or warning is emitted."
-msgstr "Segnalazione di un gran numero di bug per lo stesso problema su un gran numero di pacchetti differenti - vale a dire, più di 10 - è una pratica sconsigliata. Prendere tutte le misure possibili per evitare di sottoporre i bug di massa a tutti. Per esempio, se il controllo per il problema può essere automatizzata, aggiungere un nuovo controllo per <systemitem role=\"package\"> lintian </ systemitem> in modo che viene emesso un errore o un avviso."
+msgstr "Segnalare di un gran numero di bug per lo stesso problema su un gran numero di pacchetti differenti - vale a dire, più di 10 - è una pratica sconsigliata. Prendere tutte le misure possibili per evitare del tutto di sottoporre  bug di massa. Per esempio, se il controllo per il problema può essere automatizzato, aggiungi un nuovo controllo per <systemitem role=\"package\"> lintian </ systemitem> in modo che viene emesso un errore o un avviso."
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:79
 msgid "If you report more than 10 bugs on the same topic at once, it is recommended that you send a message to &email-debian-devel; describing your intention before submitting the report, and mentioning the fact in the subject of your mail.  This will allow other developers to verify that the bug is a real problem.  In addition, it will help prevent a situation in which several maintainers start filing the same bug report simultaneously."
-msgstr "Se si riporta più di 10 bug sullo stesso argomento in una volta, si consiglia di inviare un messaggio di e-mail-debian-devel, che descrive la vostra intenzione prima di presentare il rapporto, e menzionare il fatto in oggetto della tua mail. Questo permetterà ad altri sviluppatori di verificare che il bug è un problema reale. Inoltre, aiuterà a prevenire una situazione in cui molti manutentori iniziano il deposito della stessa bug report contemporaneamente."
+msgstr "Se si riporta più di 10 bug sullo stesso argomento in una sola volta, si consiglia di inviare un messaggio a &email-debian-devel; che descrive la vostra intenzione prima di presentare il rapporto, e di menzionarla nell'oggetto della mail. Questo permetterà ad altri sviluppatori di verificare che il bug sia un problema reale. Inoltre, aiuterà a prevenire una situazione in cui molti maintainers iniziano ad occuparsi simultaneamente dello stesso bug."
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:87
 msgid "Please use the programs <command>dd-list</command> and if appropriate <command>whodepends</command> (from the package <systemitem role=\"package\">devscripts</systemitem>) to generate a list of all affected packages, and include the output in your mail to &email-debian-devel;."
-msgstr "Si prega di utilizzare i programmi <command> dd-lista </ command> e, se del caso whodepends <command> </ command> (dal pacchetto <systemitem role=\"package\"> devscripts </ systemitem>) per generare un elenco di tutti i pacchetti interessati, e includere l'output nella tua mail per e-mail-debian-devel,."
+msgstr "Si prega di utilizzare i programmi  <command>dd-list</command>  e se appropriato <command>whodepends</command> (dal pacchetto <systemitem role=\"package\"> devscripts </ systemitem>) per generare un elenco di tutti i pacchetti interessati, ed includere l'output nella tua mail indirizzata a &email-debian-devel;."
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:93
 msgid "Note that when sending lots of bugs on the same subject, you should send the bug report to <email>maintonly@&bugs-host;</email> so that the bug report is not forwarded to the bug distribution mailing list."
-msgstr "Si noti che quando si invia un sacco di bug sullo stesso argomento, è necessario inviare la segnalazione di bug per <email> maintonly @ & bug-host; </ email> in modo che la segnalazione non viene inoltrata alla mailing list di distribuzione bug."
+msgstr "Nota che quando si inviano molti bug sullo stesso argomento, dovresti inviare la segnalazione di bug a <email>maintonly@&bugs-host;</email> in modo che la segnalazione non venga inoltrata alla mailing list di distribuzione bug."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: beyond-pkging.dbk:98
@@ -1809,12 +1808,12 @@ msgstr "Usertags"
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:100
 msgid "You may wish to use BTS usertags when submitting bugs across a number of packages. Usertags are similar to normal tags such as 'patch' and 'wishlist' but differ in that they are user-defined and occupy a namespace that is unique to a particular user. This allows multiple sets of developers to 'usertag' the same bug in different ways without conflicting."
-msgstr "Si potrebbe desiderare di utilizzare BTS usertag momento di presentare i bug in un certo numero di pacchetti. Usertag sono simili ai normali tag come 'cerotto' e 'lista dei desideri', ma differiscono nel senso che sono definiti dall'utente e occupano uno spazio dei nomi univoco per un particolare utente. Questo consente a più insiemi di sviluppatori di 'usertag' lo stesso bug in modi diversi, senza conflitto."
+msgstr "Potresti voler utilizzare le BTS usertags al momento di presentare i bug in un certo numero di pacchetti. Usertags sono simili ai normali tag come 'patch' e 'wishlist', ma differiscono nel senso che sono definiti dall'utente e occupano uno spazio dei nomi univoco per un particolare utente. Questo consente a più insiemi di sviluppatori di 'usertag' lo stesso bug in modi diversi senza conflitto."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:107
 msgid "To add usertags when filing bugs, specify the <literal>User</literal> and <literal>Usertags</literal> pseudo-headers:"
-msgstr "Per aggiungere usertag al momento del deposito bug, specificare l'utente <literal> </ literal> e <literal> usertag </ literal> pseudo-header:"
+msgstr "Per aggiungere usertags al momento della presentazione di bugs, specifica gli pseudo-headers <literal>User</literal> e <literal>Usertags</literal>:"
 
 #. type: Content of: <chapter><section><section><section><screen>
 #: beyond-pkging.dbk:111
@@ -1843,17 +1842,17 @@ msgstr ""
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:122
 msgid "Note that tags are seperated by spaces and cannot contain underscores. If you are filing bugs for a particular group or team it is recommended that you set the <literal>User</literal> to an appropriate mailing list after describing your intention there."
-msgstr "Si noti che i tag sono separati da spazi e non possono contenere caratteri di sottolineatura. Se si sta inoltrando bug per un particolare gruppo o squadra si consiglia di impostare il <literal> utenti </ literal> per una mailing list appropriata dopo aver descritto la vostra intenzione c'è."
+msgstr "Nota che i tag sono separati da spazi e non possono contenere caratteri di sottolineatura. Se stai caricando bugs per un particolare gruppo o team è consigliato che imposti il <literal>User</literal>  ad una mailing list appropriata dopo aver descritto li i tuoi intenti."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:128
 msgid "To view bugs tagged with a specific usertag, visit <literal>http://&bugs-host;/cgi-bin/pkgreport.cgi?users=<replaceable>email-addr</replaceable>&amp;tag=<replaceable>tag-name</replaceable></literal>."
-msgstr "Per visualizzare i bug taggati con usertag specifico, visitare il sito"
+msgstr "Per visualizzare bugs etichettati con uno specifico usertag, visita la pagina <literal>http://&bugs-host;/cgi-bin/pkgreport.cgi?users=<replaceable>email-addr</replaceable>&amp;tag=<replaceable>tag-name</replaceable></literal>."
 
 #. type: Content of: <chapter><section><title>
 #: beyond-pkging.dbk:137
 msgid "Quality Assurance effort"
-msgstr "lo sforzo della Quality Assurance "
+msgstr "Costo della Quality Assurance"
 
 #. type: Content of: <chapter><section><section><title>
 #: beyond-pkging.dbk:139
@@ -1863,22 +1862,22 @@ msgstr "Lavoro giornaliero"
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:141
 msgid "Even though there is a dedicated group of people for Quality Assurance, QA duties are not reserved solely for them.  You can participate in this effort by keeping your packages as bug-free as possible, and as lintian-clean (see <xref linkend=\"lintian\"/>) as possible.  If you do not find that possible, then you should consider orphaning some of your packages (see <xref linkend=\"orphaning\"/>).  Alternatively, you may ask the help of other people in order to catch up with the backlog of bugs that you have (you can ask for help on &email-debian-qa; or &email-debian-devel;).  At the same time, you can look for co-maintainers (see <xref linkend=\"collaborative-maint\"/>)."
-msgstr "Anche se c'è un gruppo dedicato di persone per l'assicurazione della qualità, funzioni QA non sono riservati esclusivamente per loro. È possibile partecipare a questo sforzo, mantenendo i vostri pacchetti come privo di bug possibile, e come lintian-pulito (vedi <xref linkend=\"lintian\"/>) possibile. Se non trovi quello possibile, allora si dovrebbe prendere in considerazione orphaning alcuni dei vostri pacchetti (vedi <xref linkend=\"orphaning\"/>). In alternativa, si può chiedere l'aiuto di altre persone al fine di recuperare il ritardo con l'arretrato di bug che avete (si può chiedere aiuto su e-mail-debian-qa; oppure e-mail-debian-devel;). Allo stesso tempo, si può cercare di co-maintainer (vedi <xref linkend=\"collaborative-maint\"/>)."
+msgstr "Anche se c'è un gruppo dedicato di persone per la Quality Assurance, le mansioni QA non sono riservati esclusivamente per loro. È possibile partecipare a questo sforzo, mantenendo i vostri pacchetti come privo di bug possibile, e come lintian-pulito (vedi <xref linkend=\"lintian\"/>) possibile. Se non trovi quello possibile, allora si dovrebbe prendere in considerazione orphaning alcuni dei vostri pacchetti (vedi <xref linkend=\"orphaning\"/>). In alternativa, si può chiedere l'aiuto di altre persone al fine di recuperare il ritardo con l'arretrato di bug che avete (si può chiedere aiuto su e-mail-debian-qa; oppure e-mail-debian-devel;). Allo stesso tempo, si può cercare di co-maintainer (vedi <xref linkend=\"collaborative-maint\"/>)."
 
 #. type: Content of: <chapter><section><section><title>
 #: beyond-pkging.dbk:155
 msgid "Bug squashing parties"
-msgstr "Bug squashing parties"
+msgstr "Le feste dello schiacciamento del bug"
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:157
 msgid "From time to time the QA group organizes bug squashing parties to get rid of as many problems as possible.  They are announced on &email-debian-devel-announce; and the announcement explains which area will be the focus of the party: usually they focus on release critical bugs but it may happen that they decide to help finish a major upgrade (like a new <command>perl</command> version which requires recompilation of all the binary modules)."
-msgstr "Di volta in volta il gruppo QA organizza bug parti schiacciamento di sbarazzarsi di quanti più problemi possibile. Sono annunciati e-mail-debian-devel-announce, e l'annuncio spiega quale area sarà al centro della festa: di solito si concentrano sui bug critici per il rilascio, ma può accadere che decidono di aiutare terminare un importante aggiornamento (come un nuovo <command> perl </ command> versione che richiede la ricompilazione di tutti i moduli binari)."
+msgstr "Di volta in volta il gruppo QA organizza  feste dello schiacciamento del bug in modo da sbarazzarsi di quanti più problemi possibile. Sono annunciati  &email-debian-devel-announce;  e l'annuncio spiega quale area sarà al centro della festa: di solito si concentrano sui bug critici per il rilascio, ma può accadere che decidano di aiutare a terminare un importante aggiornamento (come una nuova versione <command> perl </ command>  che richiede la ricompilazione di tutti i moduli binari)."
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:166
 msgid "The rules for non-maintainer uploads differ during the parties because the announcement of the party is considered prior notice for NMU.  If you have packages that may be affected by the party (because they have release critical bugs for example), you should send an update to each of the corresponding bug to explain their current status and what you expect from the party.  If you don't want an NMU, or if you're only interested in a patch, or if you will deal yourself with the bug, please explain that in the BTS."
-msgstr "Le regole per arrivi non manutentori differiscono durante le feste perché l'annuncio della festa è considerata preavviso per NMU. Se si dispone di pacchetti che possono essere influenzati dal soggetto (perché hanno bug critici per esempio), è necessario inviare un aggiornamento per ciascun corrispondente bug per spiegare il loro stato attuale e cosa vi aspettate dal partito. Se non si desidera che un NMU, o se siete solo interessati a una patch, o se si vuole fare da soli con il bug, si prega di spiegare che nel BTS."
+msgstr "Le regole per uploads di  non-maintainer cambiano durante le feste perché l'annuncio della festa è considerata prioritaria per NMU. Se si dispone di pacchetti che possono essere influenzati dalla festa (perché hanno rilasciato bug critici per esempio), è necessario inviare un aggiornamento per ciascun bug corrispondente  per spiegare il loro stato attuale e cosa vi aspettate dalla festa. Se non si desidera che un NMU, o se siete solo interessati ad una patch, o se si vuole fare da soli con il bug, si prega di spiegarlo nel BTS."
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:175
@@ -1888,97 +1887,97 @@ msgstr "Le persone che partecipano alla festa hanno regole speciali per NMU, pos
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:182
 msgid "If you don't feel confident about doing an NMU, just send a patch to the BTS.  It's far better than a broken NMU."
-msgstr "Se non vi sentite sicuri di fare un NMU, basta inviare una patch al BTS. E 'molto meglio di un NMU rotto."
+msgstr "Se non vi sentite sicuri di fare un NMU, basta inviare una patch al BTS. E' molto meglio di un NMU non funzionante."
 
 #. type: Content of: <chapter><section><title>
 #: beyond-pkging.dbk:190
 msgid "Contacting other maintainers"
-msgstr "Come contattare gli altri manutentori"
+msgstr "Come contattare gli altri maintainers"
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:192
 msgid "During your lifetime within Debian, you will have to contact other maintainers for various reasons.  You may want to discuss a new way of cooperating between a set of related packages, or you may simply remind someone that a new upstream version is available and that you need it."
-msgstr "Durante il corso della vita all'interno di Debian, si dovrà contattare altri manutentori per vari motivi. Si consiglia di discutere di un nuovo modo di cooperare tra un insieme di pacchetti correlati, o si può semplicemente ricordare a qualcuno che una nuova versione è disponibile e che ne avete bisogno."
+msgstr "Durante il corso della vita all'interno di Debian, dovrai contattare altri manutentori per vari motivi. Vorrai discutere di un nuovo modo di cooperare tra un insieme di pacchetti correlati, o semplicemente vorai ricordare a qualcuno che una nuova versione è disponibile e che ne hai bisogno."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:198
 msgid "Looking up the email address of the maintainer for the package can be distracting.  Fortunately, there is a simple email alias, <literal><replaceable>package</replaceable>@&packages-host;</literal>, which provides a way to email the maintainer, whatever their individual email address (or addresses)  may be.  Replace <replaceable>package</replaceable> with the name of a source or a binary package."
-msgstr "Alzando l'indirizzo email del maintainer del pacchetto può essere fonte di distrazione. Fortunatamente, c'è un semplice alias di posta elettronica, <literal> <replaceable> pacchetto </ replaceable> @ & pacchetti-host; </ literal>, che fornisce un modo per inviare il manutentore, qualunque sia il loro indirizzo di posta elettronica individuale (o gli indirizzi) possono essere . Sostituire <replaceable> pacchetto </ replaceable> con il nome di una sorgente o un pacchetto binario."
+msgstr "Cercare l'indirizzo email del maintainer del pacchetto può essere fonte di distrazione. Fortunatamente, c'è un semplice alias di posta elettronica, <literal><replaceable>package</replaceable>@&packages-host;</literal>, che fornisce un modo per inviare mail al maintainer, qualunque possa essere il loro indirizzo di posta elettronica individuale (o gli indirizzi). Sostituisci <replaceable>package</replaceable> con il nome di una sorgente o un pacchetto binario."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:206
 msgid "You may also be interested in contacting the persons who are subscribed to a given source package via <xref linkend=\"pkg-tracking-system\"/>.  You can do so by using the <literal><replaceable>package</replaceable>@&pts-host;</literal> email address."
-msgstr "Potreste anche essere interessati a contattare le persone che sono iscritti ad un determinato pacchetto sorgente tramite <xref linkend=\"pkg-tracking-system\"/>. È possibile farlo utilizzando il <replaceable> pacchetto <literal> </ replaceable> @ & pts-host; </ literal> indirizzo e-mail."
+msgstr "Potresti anche essere interessato a contattare le persone che sono iscritte ad un determinato pacchetto sorgente tramite <xref linkend=\"pkg-tracking-system\"/>. È possibile farlo utilizzando l'indirizzo mail <literal><replaceable>package</replaceable>@&pts-host;</literal>."
 
 #. type: Content of: <chapter><section><title>
 #: beyond-pkging.dbk:215
 msgid "Dealing with inactive and/or unreachable maintainers"
-msgstr "Trattare con i manutentori non attivi e / o non raggiungibile"
+msgstr "Rapportarsi con maintainers non attivi e/o non raggiungibili"
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:217
 msgid "If you notice that a package is lacking maintenance, you should make sure that the maintainer is active and will continue to work on their packages.  It is possible that they are not active any more, but haven't registered out of the system, so to speak.  On the other hand, it is also possible that they just need a reminder."
-msgstr "Se si nota che un pacchetto è carente di manutenzione, è necessario assicurarsi che il manutentore è attivo e continuerà a lavorare sui loro pacchetti. È possibile che essi non sono attivi più, ma non hanno registrato fuori dal sistema, per così dire. D'altra parte, è anche possibile che hanno solo bisogno di un promemoria."
+msgstr "Se si nota che un pacchetto è carente di manutenzione, è necessario assicurarsi che i maintainers siano attivi e che continueranno a lavorare sui loro pacchetti. È possibile che essi non siano più attivi, ma non si sono deregistrati dal sistema, per così dire. D'altra parte, è anche possibile che abbiano solo bisogno di un promemoria."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:224
 msgid "There is a simple system (the MIA database) in which information about maintainers who are deemed Missing In Action is recorded.  When a member of the QA group contacts an inactive maintainer or finds more information about one, this is recorded in the MIA database.  This system is available in <filename>/org/qa.debian.org/mia</filename> on the host <literal>qa.debian.org</literal>, and can be queried with the <command>mia-query</command> tool.  Use <command>mia-query --help</command> to see how to query the database.  If you find that no information has been recorded about an inactive maintainer yet, or that you can add more information, you should generally proceed as follows."
-msgstr "C'è un sistema semplice (il database MIA) in cui viene rilevata informazioni sulla manutentori che sono considerati dispersi in azione. Quando un membro del gruppo di contatti QA un mantenitore inattivo o trova ulteriori informazioni su uno, questo viene registrato nel database di MIA. Questo sistema è disponibile in <filename> / org / qa.debian.org / MIA </ filename> sull'host <literal> qa.debian.org </ literal>, e può essere interrogato con l'<command> mia-ricerca </ command> strumento. Utilizzare <comando> mia-query - help </ command> per vedere come interrogare il database. Se si scopre che nessuna informazione è stata registrata circa un mantenitore inattivo ancora, o che è possibile aggiungere ulteriori informazioni, si dovrebbe eseguire le seguenti operazioni."
+msgstr "C'è un sistema semplice (il database MIA) in cui vengono registrate informazioni inerenti i maintainers etichettati come Missing In Action. Quando un membro del gruppo QA contatta un maintainer inattivo o trova ulteriori informazioni su qualcuno, questo viene registrato nel database di MIA. Questo sistema è disponibile in <filename> / org / qa.debian.org / MIA </ filename> sull'host <literal> qa.debian.org </ literal>, e può essere interrogato con l'<command> mia-ricerca </ command> strumento. Utilizzare <comando> mia-query - help </ command> per vedere come interrogare il database. Se si scopre che nessuna informazione è stata registrata circa un mantenitore inattivo ancora, o che è possibile aggiungere ulteriori informazioni, si dovrebbe eseguire le seguenti operazioni."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:235
 msgid "The first step is to politely contact the maintainer, and wait a reasonable time for a response.  It is quite hard to define reasonable time, but it is important to take into account that real life is sometimes very hectic.  One way to handle this would be to send a reminder after two weeks."
-msgstr "Il primo passo è quello di contattare gentilmente il manutentore, e attendere un ragionevole lasso di tempo per la risposta. E 'abbastanza difficile da definire tempi ragionevoli, ma è importante tenere in considerazione che la vita reale a volte è molto frenetico. Un modo per gestire questa situazione sarebbe quello di inviare un sollecito dopo due settimane."
+msgstr "Il primo passo è quello di contattare educatamente il maintainer, ed attendere un ragionevole lasso di tempo per la risposta. E' abbastanza difficile definire tempo ragionevole, ma è importante tenere in considerazione che la vita reale a volte è molto frenetica. Un modo per gestire questa situazione sarebbe quello di inviare un sollecito dopo due settimane."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:241
 msgid "If the maintainer doesn't reply within four weeks (a month), one can assume that a response will probably not happen.  If that happens, you should investigate further, and try to gather as much useful information about the maintainer in question as possible.  This includes:"
-msgstr "Se il manutentore non risponde entro quattro settimane (un mese), si può supporre che la risposta probabilmente non accadrà. Se ciò accade, si dovrebbe indagare ulteriormente, e cercare di raccogliere quante più informazioni utili sul manutentore in questione il più possibile. Ciò include:"
+msgstr "Se il maintainer non risponde entro quattro settimane (un mese), si può supporre che la risposta probabilmente non arriverà. Se ciò accade, si dovrebbe indagare ulteriormente, e cercare di raccogliere quante più informazioni utili possibili sul maintainer in questione. Ciò include:"
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:249
 msgid "The <literal>echelon</literal> information available through the <ulink url=\"&url-debian-db;\">developers' LDAP database</ulink>, which indicates when the developer last posted to a Debian mailing list.  (This includes mails about uploads distributed via the &email-debian-devel-changes; list.)  Also, remember to check whether the maintainer is marked as on vacation in the database."
-msgstr "Il Echelon <literal> </ literal> informazioni disponibili attraverso la <ulink url=\"&url-debian-db;\"> sviluppatori 'database LDAP </ ulink>, che indica quando lo sviluppatore ultimo pubblicato ad una mailing list Debian. (Questo include mail su aggiornamenti distribuiti tramite le e-mail-debian-devel-modifiche; lista). Inoltre, ricorda di controllare se il manutentore è contrassegnato come in vacanza nel database. "
+msgstr "Le informazioni <literal>echelon</literal> disponibili attraverso il <ulink url=\"&url-debian-db;\">developers' LDAP database</ulink>, che indica quando lo sviluppatore ha pubblicato l'ultimo post in una mailing list Debian. (Questo include mail su aggiornamenti distribuiti tramite la lista &email-debian-devel-changes; ). Inoltre, ricorda di controllare nel database se il maintainer è contrassegnato come in vacanza. "
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:259
 msgid "The number of packages this maintainer is responsible for, and the condition of those packages.  In particular, are there any RC bugs that have been open for ages? Furthermore, how many bugs are there in general? Another important piece of information is whether the packages have been NMUed, and if so, by whom."
-msgstr "Il numero di pacchetti di questo manutentore è responsabile, e la condizione di quei pacchetti. In particolare, ci sono dei bug RC che sono stati aperti per le età? Inoltre, quanti bug ci sono in generale? Un altro pezzo importante di informazioni è se i pacchetti sono stati NMUed, e se sì, da chi."
+msgstr "Il numero di pacchetti dei quali questo maintainer è responsabile, e la condizione di quei pacchetti. In particolare, ci sono dei bug RC che sono stati aperti da tempo? Inoltre, quanti bug ci sono in generale? Un altro pezzo importante di informazioni è se i pacchetti sono stati NMUed, e se sì, da chi."
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:268
 msgid "Is there any activity of the maintainer outside of Debian? For example, they might have posted something recently to non-Debian mailing lists or news groups."
-msgstr "C'è qualche attività del manutentore al di fuori di Debian? Ad esempio, potrebbero hanno inviato qualcosa di recente a mailing list non-Debian o newsgroup."
+msgstr "C'è qualche attività del maintainer al di fuori di Debian? Ad esempio, potrebbero aver inviato qualcosa di recente a mailing list non-Debian o newsgroup."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:275
 msgid "A bit of a problem are packages which were sponsored — the maintainer is not an official Debian developer.  The <literal>echelon</literal> information is not available for sponsored people, for example, so you need to find and contact the Debian developer who has actually uploaded the package.  Given that they signed the package, they're responsible for the upload anyhow, and are likely to know what happened to the person they sponsored."
-msgstr "Un po 'di un problema sono pacchetti che sono stati sponsorizzati - il manutentore non è uno sviluppatore Debian ufficiale. Il Echelon <literal> </ literal> informazioni non sono disponibili per le persone sponsorizzate, per esempio, quindi è necessario trovare e contattare lo sviluppatore Debian che ha effettivamente caricato il pacchetto. Dato che hanno firmato il pacchetto, che sono responsabili per l'upload in ogni caso, e sono suscettibili di sapere cosa è successo alla persona che hanno sponsorizzato."
+msgstr "Un po' problematici sono i pacchetti che sono stati sponsorizzati - il maintainer non è uno sviluppatore Debian ufficiale. Le informazioni <literal> echelon</ literal> non sono disponibili per le persone sponsorizzate, per esempio, quindi è necessario trovare e contattare lo sviluppatore Debian che ha effettivamente caricato il pacchetto. Dato che hanno firmato il pacchetto, che sono responsabili per l'upload in ogni caso, e sono probabilemente intenzionati di sapere cosa è successo alla persona che hanno sponsorizzato."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:283
 msgid "It is also allowed to post a query to &email-debian-devel;, asking if anyone is aware of the whereabouts of the missing maintainer.  Please Cc: the person in question."
-msgstr "E 'anche permesso di inviare una query per e-mail-debian-devel;, chiedendo se qualcuno è a conoscenza del luogo in cui il manutentore mancante. Prego Cc: la persona in questione."
+msgstr "E' anche consentito inviare una query  a &email-debian-devel; chiedendo se qualcuno è a conoscenza del luogo in cui si trova il maintainer mancante. Si metta in Cc: la persona in questione."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:288
 msgid "Once you have gathered all of this, you can contact &email-mia;.  People on this alias will use the information you provide in order to decide how to proceed.  For example, they might orphan one or all of the packages of the maintainer.  If a package has been NMUed, they might prefer to contact the NMUer before orphaning the package — perhaps the person who has done the NMU is interested in the package."
-msgstr "Dopo aver raccolto tutto questo, è possibile contattare e-mail-mia,. Persone su questo alias utilizzeranno le informazioni fornite al fine di decidere come procedere. Per esempio, essi potrebbero un orfano o tutti i pacchetti del manutentore. Se un pacchetto è stato NMUed, potrebbero preferiscono contattare la NMUer prima orfano il pacchetto - forse la persona che ha fatto la NMU è interessato al pacchetto."
+msgstr "Dopo aver raccolto tutto questo, è possibile contattare &email-mia;. Persone su questo alias utilizzeranno le informazioni fornite al fine di decidere come procedere. Per esempio, essi potrebbero rendere orfano uno o tutti i pacchetti del maintainer. Se un pacchetto è stato NMUed, potrebbero preferire contattare la NMUer prima di rendere orfano il pacchetto - forse la persona che ha fatto la NMU è interessato al pacchetto."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:296
 msgid "One last word: please remember to be polite.  We are all volunteers and cannot dedicate all of our time to Debian.  Also, you are not aware of the circumstances of the person who is involved.  Perhaps they might be seriously ill or might even have died — you do not know who may be on the receiving side.  Imagine how a relative will feel if they read the e-mail of the deceased and find a very impolite, angry and accusing message!"
-msgstr "Un'ultima parola: ricordati di essere educato. Siamo tutti volontari e non può dedicare tutto il nostro tempo a Debian. Inoltre, non si è a conoscenza delle circostanze della persona che è coinvolta. Forse potrebbero essere gravemente malati o potrebbe anche essere morto - non si sa chi potrebbe essere sul lato di ricezione. Immaginare come un parente si sentirà se leggono l'e-mail del defunto e trovare un messaggio molto scortese, arrabbiato e accusando!"
+msgstr "Un'ultima parola: ricordati di essere educato. Siamo tutti volontari e non possiamo dedicare tutto il nostro tempo a Debian. Inoltre, non si è a conoscenza delle circostanze della persona che è coinvolta. Forse potrebbero essere gravemente malati o potrebbero anche essere morti - non puoi sapere chi potrebbe essere dall'altra parte. Immagina come un parente si sentirà se leggessero l'e-mail del defunto e trovasse un messaggio molto scortese, arrabbiato e accusatorio!"
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:304
 msgid "On the other hand, although we are volunteers, we do have a responsibility.  So you can stress the importance of the greater good — if a maintainer does not have the time or interest anymore, they should let go and give the package to someone with more time."
-msgstr "D'altra parte, anche se siamo volontari, abbiamo una responsabilità. Così si può sottolineare l'importanza di un bene più grande - se un manutentore non ha il tempo o interesse più, essi dovrebbero lasciarsi andare e dare il pacchetto a qualcuno con più tempo."
+msgstr "D'altra parte, anche se siamo volontari, abbiamo una responsabilità. Così si può sottolineare l'importanza di un bene più grande - se un maintainer non ha più il tempo o interesse, dovrebbe lasciar andare e dare il pacchetto a qualcuno con più tempo."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:310
 msgid "If you are interested in working in the MIA team, please have a look at the <filename>README</filename> file in <filename>/org/qa.debian.org/mia</filename> on <literal>qa.debian.org</literal> where the technical details and the MIA procedures are documented and contact &email-mia;."
-msgstr "Se siete interessati a lavorare nel team di MIA, si prega di dare un'occhiata al file README </ filename> in <filename> / org / qa.debian.org / MIA </ filename> sul <literal> qa <filename>. debian.org </ literal>, dove i dettagli tecnici e le procedure di MIA sono documentate e contatti e-mail-mia,."
+msgstr "Se sei interessato a lavorare nel team  MIA, dai un'occhiata al file <filename>README</filename>  in <filename>/org/qa.debian.org/mia</filename> su <literal>qa.debian.org</literal> dove i dettagli tecnici e le procedure di MIA sono documentate e contatti  &email-mia;."
 
 #. type: Content of: <chapter><section><title>
 #: beyond-pkging.dbk:318
@@ -1988,7 +1987,7 @@ msgstr "Interagire con i potenziali sviluppatori Debian"
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:320
 msgid "Debian's success depends on its ability to attract and retain new and talented volunteers.  If you are an experienced developer, we recommend that you get involved with the process of bringing in new developers.  This section describes how to help new prospective developers."
-msgstr "Il successo di Debian dipende dalla sua capacità di attrarre e trattenere nuovi e talentuosi volontari. Se sei uno sviluppatore esperto, si consiglia di partecipare con il processo di portare a nuovi sviluppatori. Questa sezione descrive come aiutare i nuovi potenziali sviluppatori."
+msgstr "Il successo di Debian dipende dalla sua capacità di attrarre e trattenere nuovi e talentuosi volontari. Se sei uno sviluppatore esperto, consigliamo di partecipare con il processo per convolgere nuovi sviluppatori. Questa sezione descrive come aiutare i nuovi potenziali sviluppatori."
 
 #. type: Content of: <chapter><section><section><title>
 #: beyond-pkging.dbk:326
@@ -1998,32 +1997,32 @@ msgstr "Sponsorizzare pacchetti"
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:328
 msgid "Sponsoring a package means uploading a package for a maintainer who is not able to do it on their own. It's not a trivial matter, the sponsor must verify the packaging and ensure that it is of the high level of quality that Debian strives to have."
-msgstr "Sponsorizzare un pacchetto significa caricare un pacchetto per un manutentore, che non è in grado di farlo da soli. Non è una cosa da poco, lo sponsor deve verificare l'imballaggio ed assicuratevi che sia l'alto livello di qualità che Debian si sforza di avere."
+msgstr "Sponsorizzare un pacchetto significa caricare un pacchetto per un maintainer, che non è in grado di farlo da solo. Non è una cosa da poco, lo sponsor deve verificare il package ed assicurarsi che esso soddisfi l'elevato livello di qualità che Debian si sforza di avere."
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:334
 msgid "Debian Developers can sponsor packages. Debian Maintainers can't."
-msgstr "Gli sviluppatori Debian possono sponsorizzare i pacchetti. Debian Maintainer non può."
+msgstr "Gli sviluppatori Debian possono sponsorizzare i pacchetti. I Maintainers Debian non possono."
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
 #: beyond-pkging.dbk:340
 msgid "The maintainer prepares a source package (<filename>.dsc</filename>) and puts it online somewhere (like on <ulink url=\"http://mentors.debian.net/cgi-bin/welcome\">mentors.debian.net</ulink>) or even better, provides a link to a public VCS repository (see <xref linkend=\"servers-vcs\"/>) where the package is maintained."
-msgstr "Il manutentore prepara un pacchetto sorgente (<filename>. Dsc </ filename>) e la mette in linea da qualche parte (come su <ulink url=\"http://mentors.debian.net/cgi-bin/welcome\"> mentori . debian.net </ ulink>) o, meglio ancora, fornisce un collegamento a un VCS repository pubblico (vedi <xref linkend=\"servers-vcs\"/>) in cui viene mantenuto il pacchetto."
+msgstr "Il manutentore prepara un pacchetto sorgente (<filename>.dsc</ filename>) e la mette on line da qualche parte (come su <ulink url=\"http://mentors.debian.net/cgi-bin/welcome\">mentors.debian.net</ulink>) o, meglio ancora, fornisce un collegamento a un repository pubblico di VCS  (vedi <xref linkend=\"servers-vcs\"/>) in cui il pacchetto viene mantenuto ."
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
 #: beyond-pkging.dbk:346
 msgid "The sponsor downloads (or checkouts) the source package."
-msgstr "I download sponsor (o casse) il pacchetto sorgente."
+msgstr "Lo sponsor scarica (o fa il checkout) del sorgente del pacchetto."
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
 #: beyond-pkging.dbk:349
 msgid "The sponsor reviews the source package. If they find issues, they inform the maintainer and ask them to provide a fixed version (the process starts over at step 1)."
-msgstr "Lo sponsor esamina il pacchetto sorgente. Se trovano i problemi, essi informano il manutentore e chiedere loro di fornire una versione fissa (il processo inizia dal punto 1)."
+msgstr "Lo sponsor esamina il pacchetto sorgente. Se trova dei problemi,informano il maintainer chiedendogli di fornire una versione corretta (il processo inizia dal punto 1)."
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
 #: beyond-pkging.dbk:354
 msgid "The sponsor could not find any remaining problem. They build the package, sign it, and upload it to Debian."
-msgstr "Lo sponsor non ha trovato alcun problema rimanente. Costruiscono il pacchetto, firmarlo, e caricarlo su Debian."
+msgstr "Lo sponsor no può trovare tutti i problemi che ci sono. Costruisce il pacchetto, lo firma, e lo carica su Debian."
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:337
@@ -2033,22 +2032,22 @@ msgstr "Il processo di sponsorizzazione di un pacchetto è: <placeholder type=\"
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:360
 msgid "Before delving in the details of how to sponsor a package, you should ask yourself whether adding the proposed package is beneficial to Debian."
-msgstr "Prima di addentrarci nei dettagli su come sponsorizzare un pacchetto, si dovrebbe chiedere se l'aggiunta del pacchetto proposto è vantaggioso per Debian."
+msgstr "Prima di addentrarci nei dettagli su come sponsorizzare un pacchetto, ci si dovrebbe chiedere se l'aggiunta del pacchetto proposto è vantaggiosa per Debian."
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:364
 msgid "There's no simple rule to answer this question, it can depend on many factors: is the upstream codebase mature and not full of security holes? Are there pre-existing packages that can do the same task and how do they compare to this new package? Has the new package been requested by users and how large is the user base? How active are the upstream developers?"
-msgstr "Non c'è regola semplice per rispondere a questa domanda, può dipendere da molti fattori: è la base di codice a monte maturo e non pieno di buchi di sicurezza? Ci sono pacchetti pre-esistenti che possono fare lo stesso compito e come si confronta con questo nuovo pacchetto? È il nuovo pacchetto stato richiesto da utenti e quanto grande è la base di utenti? Come attivo sono gli sviluppatori a monte?"
+msgstr "Non è semplice rispondere a questa domanda, può dipendere da molti fattori: il codice upstream è maturo e non pieno di falle di sicurezza? Ci sono pacchetti pre-esistenti che possono fare lo stesso compito e come si comparano con questo nuovo pacchetto? Il nuovo pacchetto è stato richiesto dagli utenti e da quanti? Quanto sono attivi gli sviluppatori upstream?"
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:371
 msgid "You should also ensure that the prospective maintainer is going to be a good maintainer. Do they already have some experience with other packages? If yes, are they doing a good job with them (check out some bugs)? Are they familiar with the package and its programming language? Do they have the skills needed for this package? If not, are they able to learn them?"
-msgstr "Si dovrebbe anche assicurare che il potenziale manutentore sta per essere un buon manutentore. Hanno già una certa esperienza con altri pacchetti? Se sì, stanno facendo un buon lavoro con loro (controllare alcuni bug)? Sono familiarità con il pacchetto e il suo linguaggio di programmazione? Hanno le competenze necessarie per questo pacchetto? In caso contrario, sono in grado di imparare loro?"
+msgstr "Dovresti anche assicurarti che il potenziale maintainer sarà un buon maintainer. Hanno già una certa esperienza con altri pacchetti? Se sì, stanno facendo un buon lavoro con loro (corretti alcuni bug)? Hanno familiarità con il pacchetto e con il suo linguaggio di programmazione? Hanno le competenze necessarie per questo pacchetto? In caso contrario, sono in grado di impararle?"
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:379
 msgid "It's also a good idea to know where they stand with respect to Debian: do they agree with Debian's philosophy and do they intend to join Debian? Given how easy it is to become a Debian Maintainer, you might want to only sponsor people who plan to join. That way you know from the start that you won't have to act as a sponsor indefinitely."
-msgstr "E 'anche una buona idea per conoscere la loro posizione rispetto a Debian: non sono d'accordo con la filosofia di Debian e non hanno intenzione di aderire Debian? Visto come è facile diventare un Maintainer Debian, si potrebbe desiderare di sponsorizzare solo le persone che hanno intenzione di aderire. In questo modo si sa fin dall'inizio che non si dovrà agire in qualità di sponsor a tempo indeterminato."
+msgstr "E 'anche una buona idea conoscere la loro posizione rispetto a Debian: sono d'accordo con la filosofia di Debian e hanno intenzione di aderire a Debian? Considerato quanto sia facile diventare un Maintainer Debian, potresti voler sponsorizzare solo le persone che hanno intenzione di aderire. In questo modo fin dall'inizio si è consapevoli che non si dovrà agire in qualità di sponsor a tempo indeterminato."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: beyond-pkging.dbk:386
@@ -2058,47 +2057,47 @@ msgstr "Sponsorizzare un nuovo pacchetto"
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:388
 msgid "New maintainers usually have certain difficulties creating Debian packages — this is quite understandable. They will do mistakes. That's why sponsoring a brand new package into Debian requires a thorough review of the Debian packaging. Sometimes several iterations will be needed until the package is good enough to be uploaded to Debian. Thus being a sponsor implies being a mentor."
-msgstr "Nuovi manutentori di solito hanno alcune difficoltà che creano i pacchetti Debian - questo è abbastanza comprensibile. Faranno errori. Ecco perché sponsorizzare un nuovo pacchetto in Debian richiede una profonda revisione del pacchetto Debian. A volte saranno necessarie diverse iterazioni fino a quando il pacchetto è abbastanza buono per essere caricato a Debian. Così essendo uno sponsor implica essere un mentore."
+msgstr "I nuovi maintainer di solito hanno alcune difficoltà nel creare pacchetti Debian - questo è abbastanza comprensibile. Faranno errori. Ecco perché sponsorizzare un nuovo pacchetto in Debian richiede una profonda conoscenza della pacchettizzazione in Debian. A volte saranno necessarie diverse iterazioni fino a quando il pacchetto è abbastanza buono per essere caricato a Debian. Quindi essere uno sponsor implica essere un mentore."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:396
 msgid "Don't ever sponsor a new package without reviewing it. The review of new packages done by ftpmasters mainly ensures that the software is really free. Of course, it happens that they stumble on packaging problems but they really should not. It's your task to ensure that the uploaded package complies with the Debian Free Software Guidelines and is of good quality."
-msgstr "Non bisogna mai sponsorizzare un nuovo pacchetto senza revisionarlo. La revisione dei nuovi pacchetti realizzati da ftpmasters assicura principalmente che il software è veramente libero. Certo, capita che inciampino sui problemi di packaging, ma in realtà non dovrebbero. E 'il tuo compito di garantire che il pacchetto caricato è conforme alle Debian Free Software Guidelines ed è di buona qualità."
+msgstr "Non bisogna mai sponsorizzare un nuovo pacchetto senza revisionarlo. La revisione dei nuovi pacchetti realizzata da ftpmasters assicura principalmente che il software sia veramente libero. Certo, capita che inciampino sui problemi di packaging, ma in realtà non dovrebbero. E' il tuo compito garantire che il pacchetto caricato sia conforme alle Free Software Guidelines di Debian e sia di buona qualità."
 
 #. type: Content of: <chapter><section><section><section><para><footnote><para>
 #: beyond-pkging.dbk:409
 msgid "You can find more checks in the wiki where several developers share their own <ulink url=\"http://wiki.debian.org/SponsorChecklist\">sponsorship checklists</ulink>."
-msgstr "Puoi trovare altri controlli nel wiki in cui diversi sviluppatori condividono le proprie url=\"http://wiki.debian.org/SponsorChecklist\"> <ulink liste di controllo di sponsorizzazione </ ulink>."
+msgstr "Puoi trovare altri controlli nella wiki nella quale diversi sviluppatori condividono le proprie <ulink url=\"http://wiki.debian.org/SponsorChecklist\">liste di sponsorizzazione</ulink>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:404
 msgid "Building the package and testing the software is part of the review, but it's also not enough. The rest of this section contains a non-exhaustive list of points to check in your review.  <placeholder type=\"footnote\" id=\"0\"/>"
-msgstr "Costruzione del pacchetto e testare il software è parte della revisione, ma non è anche sufficiente. Il resto di questa sezione contiene un elenco non esaustivo dei punti per il check-in la tua opinione. <placeholder type=\"footnote\" id=\"0\"/>"
+msgstr "La Costruzione del pacchetto e il testare il software è parte della revisione, ma non è anche sufficiente. Il resto di questa sezione contiene un elenco non esaustivo dei punti da controllare nella tua revisione. <placeholder type=\"footnote\" id=\"0\"/>"
 
 #. type: Content of: <chapter><section><section><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:416
 msgid "Verify that the upstream tarball provided is the same that has been distributed by the upstream author (when the sources are repackaged for Debian, generate the modified tarball yourself)."
-msgstr "Verificare che l'archivio upstream fornita è lo stesso che è stato distribuito dall'autore a monte (quando le fonti sono riconfezionato per Debian, generare il tarball modificato da soli)."
+msgstr "Verifica che l'upstream tarball fornita è la stessa che è stata distribuita dall'autore principale (quando i sorgenti sono stati ripacchettizzati per Debian, generate voi stessi la tarball modificata)."
 
 #. type: Content of: <chapter><section><section><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:421
 msgid "Run <command>lintian</command> (see <xref linkend=\"lintian\"/>). It will catch many common problems. Be sure to verify that any <command>lintian</command> overrides setup by the maintainer is fully justified."
-msgstr "Esegui <command> lintian </ command> (vedi <xref linkend=\"lintian\"/>). Si prenderà molti problemi comuni. Assicurarsi di verificare che qualsiasi <command> lintian </ command> override di configurazione dal manutentore è pienamente giustificato."
+msgstr "Esegui <command> lintian</ command> (vedi <xref linkend=\"lintian\"/>). Troverà molti problemi comuni. Assicurati di verificare che qualsiasi <command> lintian </ command> che sovrascriva la configurazione sia pienamente giustificata dal maintainer."
 
 #. type: Content of: <chapter><section><section><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:426
 msgid "Run <command>licensecheck</command> (part of <xref linkend=\"devscripts\"/>) and verify that <filename>debian/copyright</filename> seems correct and complete. Look for license problems (like files with “All rights reserved” headers, or with a non-DFSG compliant license). <command>grep -ri</command> is your friend for this task."
-msgstr "Esegui <command> licensecheck </ command> (parte <xref linkend=\"devscripts\"/>) e verificare che <filename> debian / copyright </ filename> sembra corretta e completa. Cercare i problemi di licenza (come i file con \"tutti i diritti riservati\" intestazioni, o con una licenza non compatibile con DFSG). <comando> grep-ri </ command> è il tuo amico per questo compito."
+msgstr "Esegui <command> licensecheck </ command> (parte di <xref linkend=\"devscripts\"/>) e verifica che <filename> debian/copyright</ filename> sia corretto e completo. Cerca i problemi di licenza (come i file con intestazioni del tipo “All rights reserved”, o con una licenza non compatibile con DFSG). <comando> grep -ri </ command> è tuo amico per questo compito."
 
 #. type: Content of: <chapter><section><section><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:433
 msgid "Build the package with <command>pbuilder</command> (or any similar tool, see <xref linkend=\"pbuilder\"/>) to ensure that the build-dependencies are complete."
-msgstr "Costruire il pacchetto con <command> pbuilder </ command> (o qualsiasi strumento simile, vedere <xref linkend=\"pbuilder\"/>) per garantire che le dipendenze di compilazione sono completi."
+msgstr "Costruisci il pacchetto con <command> pbuilder </ command> (o qualsiasi strumento simile, vedi <xref linkend=\"pbuilder\"/>) per garantire che le dipendenze di compilazione siano soddisfatte."
 
 #. type: Content of: <chapter><section><section><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:438
 msgid "Proofread <filename>debian/control</filename>: does it follow the best practices (see <xref linkend=\"bpp-debian-control\"/>)? Are the dependencies complete?"
-msgstr "Correggi <filename> debian / control </ filename>: ne consegue che le migliori pratiche (vedi <xref linkend=\"bpp-debian-control\"/>)? Sono completate le dipendenze ?"
+msgstr "Correggi <filename> debian / control </ filename>: segue le best practices (vedi <xref linkend=\"bpp-debian-control\"/>)? Sono soddisfatte le dipendenze ?"
 
 #. type: Content of: <chapter><section><section><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:443
@@ -2108,37 +2107,37 @@ msgstr "Correggi <filename> debian / rules </ filename>: rispecchia le best prac
 #. type: Content of: <chapter><section><section><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:448
 msgid "Proofread the maintainer scripts (<filename>preinst</filename>, <filename>postinst</filename>, <filename>prerm</filename>, <filename>postrm</filename>, <filename>config</filename>): will the <filename>preinst</filename>/<filename>postrm</filename> work when the dependencies are not installed? Are all the scripts idempotent (i.e. can you run them multiple times without consequences)?"
-msgstr "Correggi gli script del manutentore (<filename> preinst </ filename>, <filename> postinst </ filename>, <filename> prerm </ filename>, <filename> postrm </ filename>, <filename> config </ filename>) : sarà il <filename> preinst </ filename> / <filename> postrm </ filename> lavoro quando le dipendenze non sono installati? Sono tutti idempotente script (cioè si può eseguirle più volte senza conseguenze)?"
+msgstr "Correggi gli script del maintainer (<filename> preinst </ filename>, <filename> postinst </ filename>, <filename> prerm </ filename>, <filename> postrm </ filename>, <filename> config </ filename>) : <filename> preinst </ filename> / <filename> postrm </ filename> funzioneranno quando le dipendenze non sono installate? Tutti gli scripts ono idempotenti  (cioè puoi eseguirli più volte senza conseguenze)?"
 
 #. type: Content of: <chapter><section><section><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:456
 msgid "Review any change to upstream files (either in <filename>.diff.gz</filename>, or in <filename>debian/patches/</filename> or directly embedded in the <filename>debian</filename> tarball for binary files). Are they justified? Are they properly documented (with <ulink url=\"&url-dep3;\">DEP-3</ulink> for patches)?"
-msgstr "Rivedere ogni modifica ai file di upstream (sia in <filename>. Diff.gz </ filename>, o in <filename> debian / patches / </ filename> o direttamente incorporato nel <filename> debian </ filename> tarball per binario file). Sono giustificate? Sono adeguatamente documentate (con <ulink url=\"&url-dep3;\"> DEP-3 </ ulink> per le patch)?"
+msgstr "Controlla ogni modifica ai file di upstream (sia in <filename>.diff.gz</filename>, o in <filename>debian/patches/</filename> o direttamente incluse nella tarball <filename>debian</filename> dei file binari). Sono giustificate? Sono adeguatamente documentate (con <ulink url=\"&url-dep3;\"> DEP-3 </ ulink> per le patch)?"
 
 #. type: Content of: <chapter><section><section><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:462
 msgid "For every file, ask yourself why the file is there and whether it's the right way to achieve the desired result. Is the maintainer following the best packaging practices (see <xref linkend=\"best-pkging-practices\"/>)?"
-msgstr "Per ogni file, chiedetevi perché il file è lì e se è il modo giusto per ottenere il risultato desiderato. È anche l'seguendo le migliori pratiche di confezionamento (vedi <xref linkend=\"best-pkging-practices\"/>)?"
+msgstr "Per ogni file, chiedetevi perché il file è lì e se è il modo giusto per ottenere il risultato desiderato. Il maintainer sta seguendo le best practices per la pacchettizzazione (vedi <xref linkend=\"best-pkging-practices\"/>)?"
 
 #. type: Content of: <chapter><section><section><section><itemizedlist><listitem><para>
 #: beyond-pkging.dbk:468
 msgid "Build the packages, install them and try the software. Ensure you can remove and purge the packages. Maybe test them with <command>piuparts</command>."
-msgstr "Compilare i pacchetti, installare e provare il software. Assicurarsi di poter rimuovere ed eliminare i pacchetti. Forse li prova con <command> piuparts </ command>."
+msgstr "Costruisci i pacchetti, installali e prova il software. Assicurati  di poter rimuovere ed eliminare i pacchetti. Forse provali con <command> piuparts </ command>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:474
 msgid "If the audit did not reveal any problem, you can build the package and upload it to Debian. Remember that even if you're not the maintainer, as a sponsor you are still responsible for what you upload to Debian. That's why you're encouraged to keep up with the package through the <xref linkend=\"pkg-tracking-system\"/>."
-msgstr "Se il controllo non ha evidenziato alcun problema, è possibile creare il pacchetto e caricarlo su Debian. Ricordate che, anche se non sei il manutentore, in qualità di sponsor si è ancora responsabile per ciò che si carica a Debian. Ecco perché siete incoraggiati a tenere il passo con il pacchetto attraverso il linkend=\"pkg-tracking-system\"/> <xref."
+msgstr "Se il controllo non ha evidenziato alcun problema, puoi costruire il pacchetto e caricarlo su Debian. Ricorda che, anche se non sei il maintainer, in qualità di sponsor si è ancora responsabile per ciò che carichi in Debian. Ecco perché siete incoraggiati a tenere il passo con il pacchetto attraverso il<xref linkend=\"pkg-tracking-system\"/>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:481
 msgid "Note that you should not need to modify the source package to put your name in the <filename>changelog</filename> or in the <filename>control</filename> file. The <literal>Maintainer</literal> field of the <filename>control</filename> file and the <filename>changelog</filename> should list the person who did the packaging, i.e. the sponsoree. That way they will get all the BTS mail."
-msgstr "Si noti che non dovrebbe essere necessario modificare il pacchetto sorgente di mettere il vostro nome nella <filename> changelog </ filename> o nel controllo <filename> </ filename>. Il Maintainer <literal> </ literal> campo del controllo <filename> </ filename> e il <filename> changelog </ filename> dovrebbe elencare la persona che ha fatto il packaging, ossia il sponsorizzato,. In questo modo si otterrà tutta la posta BTS."
+msgstr "Nota che non dovrebbe essere necessario modificare il pacchetto sorgente per inserire il vostro nome nella <filename> changelog </ filename> o nel file di <filename>control</filename>. Il campo <literal>Maintainer</literal> del file <filename>control</ filename> e del file  <filename> changelog </ filename> dovrebbe elencare la persona che ha fatto la pacchettizzazione, ossia la persona sponsorizzata. In questo modo riceveranno tutta la posta BTS."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:487
 msgid "Instead you should instruct <command>dpkg-buildpackage</command> to use your key for the signature. You do that with the <literal>-k</literal> option:"
-msgstr "Invece si dovrebbe istruire <command> dpkg-buildpackage </ command> per usare la chiave per la firma. Lo fai con il <literal>-k </ literal> opzione:"
+msgstr "Invece dovresti istruire <command> dpkg-buildpackage </ command> di usare la tua chiave per la firma. Lo fai con l'opzione <literal>-k </ literal> :"
 
 #. type: Content of: <chapter><section><section><section><screen>
 #: beyond-pkging.dbk:490
@@ -2149,7 +2148,7 @@ msgstr "dpkg-buildpackage -k<replaceable>KEY-ID</replaceable>\n"
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:492
 msgid "If you use <command>debuild</command> and <command>debsign</command>, you can even configure it permanently in <filename>~/.devscripts</filename>:"
-msgstr "Se si utilizza <command> debuild </ command> e <command> debsign </ command>, si può anche configurare in modo permanente in <filename> ~ / devscripts </ filename>.:"
+msgstr "Se usi <command> debuild </ command> e <command> debsign </ command>, puoi anche configurarlo in modo permanente in <filename> ~ / devscripts </ filename>.:"
 
 #. type: Content of: <chapter><section><section><section><programlisting>
 #: beyond-pkging.dbk:495
@@ -2678,7 +2677,7 @@ msgstr "La soluzione migliore potrebbe essere quella di marcare il bug come tras
 #. type: Content of: <chapter><section><title>
 #: l10n.dbk:170
 msgid "I18N &amp; L10N FAQ for translators"
-msgstr "I18N e L10N FAQ per i traduttori"
+msgstr "I18N &amp; L10N FAQ per i traduttori"
 
 #. type: Content of: <chapter><section><para>
 #: l10n.dbk:172
@@ -2713,7 +2712,7 @@ msgstr "La soluzione migliore è quella di aprire un bug normale contenente la t
 #. type: Content of: <chapter><section><title>
 #: l10n.dbk:205
 msgid "Best current practice concerning l10n"
-msgstr "Migliori prassi attuale riguardante l10n"
+msgstr "Le attuali migliori pratiche riguardanti l10n"
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: l10n.dbk:209
