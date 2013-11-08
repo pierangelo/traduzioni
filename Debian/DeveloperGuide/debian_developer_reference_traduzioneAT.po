@@ -2269,62 +2269,62 @@ msgstr "Gestire i bug critici per il rilascio "
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:58
 msgid "Generally you should deal with bug reports on your packages as described in <xref linkend=\"bug-handling\"/>.  However, there's a special category of bugs that you need to take care of — the so-called release-critical bugs (RC bugs). All bug reports that have severity <literal>critical</literal>, <literal>grave</literal> or <literal>serious</literal> make the package unsuitable for inclusion in the next <literal>stable</literal> release.  They can thus delay the Debian release (when they affect a package in <literal>testing</literal>) or block migrations to <literal>testing</literal> (when they only affect the package in <literal>unstable</literal>). In the worst scenario, they will lead to the package's removal. That's why these bugs need to be corrected as quickly as possible."
-msgstr "In genere si dovrebbe fare con le segnalazioni di bug sui vostri pacchetti come descritto in <xref linkend=\"bug-handling\"/>. Tuttavia, c'è una categoria speciale di bug che avete bisogno di prendersi cura di - i cosiddetti bug critici per il rilascio (bug RC). Tutte le segnalazioni di bug che hanno gravità <literal> critico </ literal>, <literal> tomba </ literal> o <literal> grave </ literal> fare il pacchetto adatto per l'inclusione nella prossima <literal> rilascio </ literal> stabile . Essi possono quindi ritardare il rilascio di Debian (quando riguardano un pacchetto in <literal> testing </ literal>) o blocco migrazioni di <literal> testing </ literal> (quando influiscono solo il pacchetto in <literal> unstable </ literal >). Nello scenario peggiore, che porterà alla rimozione del pacchetto. Ecco perché questi bug devono essere corretti al più presto."
+msgstr "In generale dovresti affrontare le segnalazioni di bug sui vostri pacchetti come è descritto in <xref linkend=\"bug-handling\"/>. Tuttavia, c'è una categoria speciale di bug di cui ti dovrai prendere cura - i cosiddetti bug critici per il rilascio  (RC bugs). Tutte le segnalazioni di bug che hanno gravità <literal>critical</literal>, <literal>grave</literal> o <literal>serious</literal> rendono  il pacchetto non adatto per l'inclusione nella prossima release <literal> stable</ literal>. quindi  possono ritardare il rilascio di Debian (quando riguardano un pacchetto in <literal> testing </ literal>) o bloccare migrazioni in <literal> testing </ literal> (quando influiscono solo sul pacchetto in <literal> unstable </ literal >). Nello scenario peggiore, procederanno alla rimozione del pacchetto. Ecco perché questi bug devono essere corretti al più presto."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:70
 msgid "If, for any reason, you aren't able fix an RC bug in a package of yours within 2 weeks (for example due to time constraints, or because it's difficult to fix), you should mention it clearly in the bug report and you should tag the bug <literal>help</literal> to invite other volunteers to chime in. Be aware that RC bugs are frequently the targets of Non-Maintainer Uploads (see <xref linkend=\"nmu\"/>) because they can block the <literal>testing</literal> migration of many packages."
-msgstr "Se, per qualsiasi motivo, non è possibile risolvere un bug RC in un pacchetto di vostra entro 2 settimane (per esempio a causa di vincoli di tempo, o perché è difficile da riparare), si dovrebbe dici chiaramente nel bug report e si dovrebbe contrassegnare il bug <literal> aiuto </ literal> per invitare altri volontari a suonare dentro Siate consapevoli che i bug RC sono spesso bersaglio di Upload non manutentori (vedi <xref linkend=\"nmu\"/>) perché in grado di bloccare la sperimentazione <literal> </ literal> migrazione di molti pacchetti."
+msgstr "Se, per qualsiasi motivo, non puoi risolvere un bug RC in uno dei tuoi pacchetti entro 2 settimane (per esempio a causa di vincoli di tempo, o perché è difficile da correggere), dovresti accennarlo chiaramente nel bug report e si dovrebbe contrassegnare il bug come <literal>help</literal> in modo da invitare altri volontari a partecipare alla sua risoluzione.Siate consapevoli che i bug RC sono spesso bersaglio Non-Maintainer Uploads  (vedi <xref linkend=\"nmu\"/>) perché in grado di bloccare la migrazione di <literal>testing</literal> di molti pacchetti."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:79
 msgid "Lack of attention to RC bugs is often interpreted by the QA team as a sign that the maintainer has disappeared without properly orphaning their package.  The MIA team might also get involved, which could result in your packages being orphaned (see <xref linkend=\"mia-qa\" />)."
-msgstr "Mancanza di attenzione per i bug RC è spesso interpretato dal team QA come un segno che il manutentore è scomparso senza correttamente orphaning loro pacchetto. Il team MIA potrebbe anche mettersi in gioco, che potrebbe tradursi in vostri pacchetti di essere orfani (vedi <xref linkend=\"mia-qa\" />)."
+msgstr "La mancanza di attenzione per i bug RC è spesso interpretata dal team QA come un segno che il maintainer è scomparso senza aver correttamente reso orfano il loro pacchetto. Il team MIA potrebbe anche mettersi in gioco, che potrebbe concretizzarsi nel rendere orfani i vostri pacchetti (vedi <xref linkend=\"mia-qa\" />)."
 
 #. type: Content of: <chapter><section><section><title>
 #: developer-duties.dbk:87
 msgid "Coordination with upstream developers"
-msgstr "Il coordinamento con gli sviluppatori upstream"
+msgstr "Coordinamento con gli sviluppatori upstream"
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:89
 msgid "A big part of your job as Debian maintainer will be to stay in contact with the upstream developers.  Debian users will sometimes report bugs that are not specific to Debian to our bug tracking system.  You have to forward these bug reports to the upstream developers so that they can be fixed in a future upstream release."
-msgstr "Una grande parte del tuo lavoro come manutentore Debian sarà quello di rimanere in contatto con gli sviluppatori upstream. Gli utenti Debian a volte segnalare i bug che non sono specifici di Debian per il nostro sistema di bug tracking. Si deve inoltrare tali segnalazioni di bug agli sviluppatori upstream in modo che possano essere fissate in una futura versione upstream."
+msgstr "Grande parte del tuo lavoro come maintainer Debian sarà quello di restare in contatto con gli sviluppatori upstream. Gli utenti Debian a volte segnaleranno  al nostro sistema di bug tracking bug che non sono specifici di Debian. Devi inoltrare tali segnalazioni di bug agli sviluppatori upstream in modo che possano essere corrette in una futura versione upstream."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:96
 msgid "While it's not your job to fix non-Debian specific bugs, you may freely do so if you're able.  When you make such fixes, be sure to pass them on to the upstream maintainers as well.  Debian users and developers will sometimes submit patches to fix upstream bugs — you should evaluate and forward these patches upstream."
-msgstr "Anche se non è il tuo lavoro per correggere i bug specifici non-Debian, si può fare liberamente, quindi se siete in grado. Quando si fanno queste correzioni, assicurarsi di trasmetterli ai manutentori monte pure. Utenti e sviluppatori Debian a volte inviare patch per correggere i bug upstream - si dovrebbe valutare e trasmettere queste patch upstream."
+msgstr "Anche se non è il tuo lavoro correggere i bug specifici non-Debian, puoi liberamente farlo se ne hai la possibilità. Quando effettui queste correzioni, assicurati di trasmetterli anche agli upstream maintainers. Utenti e sviluppatori Debian a volte invieranno patch che correggono bug upstream - dovresti valutare  e trasmettere queste patch all'upstream."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:103
 msgid "If you need to modify the upstream sources in order to build a policy compliant package, then you should propose a nice fix to the upstream developers which can be included there, so that you won't have to modify the sources of the next upstream version.  Whatever changes you need, always try not to fork from the upstream sources."
-msgstr "Se è necessario modificare i sorgenti a monte al fine di costruire un pacchetto conforme politica, allora si dovrebbe proporre una soluzione piacevole per gli sviluppatori originali che possono essere non incluso, in modo che non sarà necessario modificare le fonti della prossima versione upstream . Qualunque cambiamento è necessario, sempre cercare di non sborsare dalle sorgenti a monte."
+msgstr "Se necessiti di modificare i sorgenti upstream al fine di costruire un pacchetto conforme alla policy, allora dovresti proporre una soluzione accurata agli sviluppatori upstream che può essere applicata la, in modo da non dover modificare i sorgenti della prossima versione upstream. Qualunque cambiamento necessiti, cerca sempre di non effettuare il fork dai sorgenti upstream."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:110
 msgid "If you find that the upstream developers are or become hostile towards Debian or the free software community, you may want to re-consider the need to include the software in Debian. Sometimes the social cost to the Debian community is not worth the benefits the software may bring."
-msgstr "Se si scopre che gli sviluppatori upstream sono o diventano ostili verso Debian o la comunità del software libero, si consiglia di riconsiderare la necessità di includere il software in Debian. A volte il costo sociale per la comunità Debian non vale i benefici del software può portare."
+msgstr "Se si scopre che gli sviluppatori upstream sono o diventano ostili verso Debian o la comunità del software libero, potresti riconsiderare la necessità di includere il software in Debian. A volte il costo sociale per la comunità Debian non vale i benefici che il software può portare."
 
 #. type: Content of: <chapter><section><title>
 #: developer-duties.dbk:120
 msgid "Administrative Duties"
-msgstr "compiti amministrativi"
+msgstr "Doveri amministrativi"
 
 #. type: Content of: <chapter><section><para>
 #: developer-duties.dbk:121
 msgid "A project of the size of Debian relies on some administrative infrastructure to keep track of everything. As a project member, you have some duties to ensure everything keeps running smoothly."
-msgstr "Un progetto delle dimensioni di Debian si basa su alcune infrastrutture amministrative per tenere traccia di tutto ciò. Come membro di progetto, si dispone di alcune funzioni per assicurarsi che tutto continua a funzionare senza problemi."
+msgstr "Un progetto delle dimensioni di Debian si basa su alcune infrastrutture amministrative per tenere traccia di tutto. Come membro del progetto, hai dei doveri per far in modo che tutto continui a funzionare senza problemi."
 
 #. type: Content of: <chapter><section><section><title>
 #: developer-duties.dbk:126
 msgid "Maintaining your Debian information"
-msgstr "Mantenere le informazioni Debian"
+msgstr "Gestire le tue informazioni Debian"
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:128
 msgid "There's a LDAP database containing information about Debian developers at <ulink url=\"&url-debian-db;\"></ulink>.  You should enter your information there and update it as it changes.  Most notably, make sure that the address where your debian.org email gets forwarded to is always up to date, as well as the address where you get your debian-private subscription if you choose to subscribe there."
-msgstr "C'è un database LDAP contenente le informazioni relative agli sviluppatori Debian su <ulink url=\"&url-debian-db;\"> </ ulink>. È necessario immettere le informazioni di là e aggiornarlo come cambia. Più in particolare, fare in modo che l'indirizzo in cui la tua email debian.org viene trasmesso è sempre aggiornata, così come l'indirizzo in cui si ottiene l'abbonamento debian-privato, se si sceglie di iscriversi lì."
+msgstr "C'è un database LDAP contenente le informazioni relative agli sviluppatori Debian su <ulink url=\"&url-debian-db;\"> </ ulink>.Dovresti  immettere le informazioni li e aggiornarle appena cambiano. Più in particolare, fai in modo che l'indirizzo al quale la tua email debian.org viene trasmessa sia  sempre aggiornata, così come l'indirizzo in cui si ottieni le tue iscrizioni private debian se si sceglie di iscriversi."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:136
