@@ -2174,7 +2174,7 @@ msgstr "Per essere in grado di analizzare la differenza è necessario che tu abb
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:517
 msgid "Read the new changelog entry, it should tell you what to expect during the review. The main tool you will use is <command>debdiff</command> (provide by the <systemitem role=\"package\">devscripts</systemitem> package), you can run it with two source packages (<filename>.dsc</filename> files), or two binary packages, or two <filename>.changes</filename> files (it will then compare all the binary packages listed in the <filename>.changes</filename>)."
-msgstr "Leggi la nuova voce del changelog, dovrebbe dirti cosa aspettarsi durante la revisione. Il principale strumento che utilizzerai è <command> debdiff </ command> (fornito con il pacchetto <systemitem role=\"package\"> devscripts </ systemitem> ),puoi eseguirlo con due pacchetti sorgente (i file <filename>.dsc</filename> ), o due file  <filename>.changes</filename> (allora confronterà tutti i pacchetti binari elencati nel file <filename>.changes</filename>)."
+msgstr "Leggi la nuova voce del changelog, dovrebbe dirti cosa aspettarsi durante la revisione. Il principale strumento che utilizzerai è <command> debdiff </ command> (fornito con il pacchetto <systemitem role=\"package\"> devscripts </ systemitem> ), puoi eseguirlo con due pacchetti sorgente (i file <filename>.dsc</filename> ), o due file  <filename>.changes</filename> (allora confronterà tutti i pacchetti binari elencati nel file <filename>.changes</filename>)."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:524
@@ -2184,17 +2184,17 @@ msgstr "Se si confrontano i pacchetti sorgente (esclusi i file a monte nel caso 
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:531
 msgid "If everything is fine, build the package and compare the binary packages to verify that the changes on the source package have no unexpected consequences (like some files dropped by mistake, missing dependencies, etc.)."
-msgstr "Se tutto va bene, costruire il pacchetto e confrontare i pacchetti binari per verificare che le modifiche sul pacchetto sorgente non hanno conseguenze inattese (come alcuni file rilasciati per errore, le dipendenze mancanti, ecc)."
+msgstr "Se tutto va bene, costruisci il pacchetto e confronta i pacchetti binari per verificare che le modifiche sul pacchetto sorgente non abbiano conseguenze inattese (come alcuni file cancellati per errore, le dipendenze non soddisfatte, ecc)."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:537
 msgid "You might want to check out the Package Tracking System (see <xref linkend=\"pkg-tracking-system\"/>) to verify if the maintainer has not missed something important. Maybe there are translations updates sitting in the BTS that could have been integrated. Maybe the package has been NMUed and the maintainer forgot to integrate the changes from the NMU into their package. Maybe there's a release critical bug that they have left unhandled and that's blocking migration to <literal>testing</literal>.  If you find something that they could have done (better), it's time to tell them so that they can improve for next time, and so that they have a better understanding of their responsibilities."
-msgstr "Si potrebbe desiderare di controllare le Package Tracking System (vedi <xref linkend=\"pkg-tracking-system\"/>) per verificare se il manutentore non ha perso qualcosa di importante. Forse ci sono aggiornamenti traduzioni seduti nel BTS che avrebbero potuto essere integrate. Forse il pacchetto è stato NMUed e il manutentore dimenticato di integrare le modifiche dal NMU nel loro pacchetto. Forse c'è un bug critici per il rilascio che hanno lasciato non gestita e che sta bloccando la migrazione a <literal> testing </ literal>. Se trovate qualcosa che avrebbero potuto fare (meglio), è il momento di dire loro in modo che possano migliorare per la prossima volta, e in modo che abbiano una migliore comprensione delle loro responsabilità."
+msgstr "Potresti controllare il Package Tracking System (vedi <xref linkend=\"pkg-tracking-system\"/>) per verificare se il maintainer non abbia perso qualcosa di importante. Magari ci sono aggiornamenti di traduzioni che stanziano nel BTS che avrebbero potuto essere integrate. Forse il pacchetto è stato NMUed e il maintainer ha dimenticato di integrare le modifiche nel loro pacchetto dal NMU . Forse c'è un rilascio per un bug critico che hanno lasciato non gestito e che sta bloccando la migrazione in <literal> testing </ literal>. Se trovate qualcosa che avrebbero potuto fare (meglio), è il momento di dirglielo in modo che per la prossima volta possano migliorare, e in modo che abbiano una migliore comprensione delle loro responsabilità."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:549
 msgid "If you have found no major problem, upload the new version. Otherwise ask the maintainer to provide you a fixed version."
-msgstr "Se hai trovato nessun problema importante, caricare la nuova versione. In caso contrario, chiedere al manutentore di fornire una versione fissa."
+msgstr "Se non hai trovato alcun grande problema, carica la nuova versione. In caso contrario, chiedi al maintainer di fornire una versione corretta."
 
 #. type: Content of: <chapter><section><section><title>
 #: beyond-pkging.dbk:556
@@ -2204,17 +2204,17 @@ msgstr "Promuovere nuovi sviluppatori"
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:558
 msgid "See the page about <ulink url=\"&url-newmaint-advocate;\">advocating a prospective developer</ulink> at the Debian web site."
-msgstr "Vedere la pagina di <ulink url=\"&url-newmaint-advocate;\"> sostenendo uno sviluppatore potenziale </ ulink> sul sito web di Debian."
+msgstr "Consulta la pagina <ulink url=\"&url-newmaint-advocate;\"> Promuovere nuovi sviluppatori </ ulink> sul sito web di Debian."
 
 #. type: Content of: <chapter><section><section><title>
 #: beyond-pkging.dbk:565
 msgid "Handling new maintainer applications"
-msgstr "Manipolazione nuove applicazioni manutentore"
+msgstr "Gestire nuove candidature  di maintainer"
 
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:567
 msgid "Please see <ulink url=\"&url-newmaint-amchecklist;\">Checklist for Application Managers</ulink> at the Debian web site."
-msgstr "Si prega di consultare <ulink Checklist url=\"&url-newmaint-amchecklist;\"> per gli Application Manager </ ulink> sul sito web di Debian."
+msgstr "Si prega di consultare <ulink url=\"&url-newmaint-amchecklist;\">Checklist  per i Gestori delle Candidature</ulink> sul sito web di Debian."
 
 #. type: Content of: <chapter><title>
 #: developer-duties.dbk:7
@@ -2224,47 +2224,47 @@ msgstr "Doveri di un Debian Developer"
 #. type: Content of: <chapter><section><title>
 #: developer-duties.dbk:10
 msgid "Package Maintainer's Duties"
-msgstr "Doveri di un Manutentore di pacchetti"
+msgstr "Doveri di un Maintainer di Pacchetti"
 
 #. type: Content of: <chapter><section><para>
 #: developer-duties.dbk:11
 msgid "As a package maintainer, you're supposed to provide high-quality packages that are well integrated in the system and that adhere to the Debian Policy."
-msgstr "Come un manutentore del pacchetto, si suppone di fornire pacchetti di alta qualità che sono ben integrati nel sistema e che aderiscono alla politica di Debian."
+msgstr "Come un maintainer di un pacchetto, si suppone che tu fornisca pacchetti di alta qualità che sono ben integrati nel sistema e che aderiscono alla politica di Debian."
 
 #. type: Content of: <chapter><section><section><title>
 #: developer-duties.dbk:16
 msgid "Work towards the next <literal>stable</literal> release"
-msgstr "Lavorare per la prossima <literal> stabile </ literal> rilascio"
+msgstr "Lavora per il prossimo rilascio <literal>stable</ literal> "
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:18
 msgid "Providing high-quality packages in <literal>unstable</literal> is not enough, most users will only benefit from your packages when they are released as part of the next <literal>stable</literal> release. You are thus expected to collaborate with the release team to ensure your packages get included."
-msgstr "Fornitura di pacchetti di alta qualità in <literal> unstable </ literal> non è abbastanza, maggior parte degli utenti solo beneficiare i pacchetti quando vengono rilasciate come parte della prossima <literal> rilascio </ literal> stabile. Siete quindi tenuti a collaborare con il gruppo di rilascio per garantire i pacchetti vengano inclusi."
+msgstr "Fornire  pacchetti di alta qualità in <literal> unstable </ literal> non è abbastanza, la maggior parte degli utenti beneficeranno dei tuoi pacchetti solo quando sono rilasciati come parte della prossima release <literal> stable</ literal>. Siete quindi tenuti a collaborare con il gruppo di rilascio per esserre sicuri che i tuoi pacchetti vengano inclusi."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:24
 msgid "More concretely, you should monitor whether your packages are migrating to <literal>testing</literal> (see <xref linkend=\"testing\"/>). When the migration doesn't happen after the test period, you should analyze why and work towards fixing this.  It might mean fixing your package (in the case of release-critical bugs or failures to build on some architecture) but it can also mean updating (or fixing, or removing from <literal>testing</literal>) other packages to help complete a transition in which your package is entangled due to its dependencies. The release team might provide you some input on the current blockers of a given transition if you are not able to identify them."
-msgstr "Più concretamente, si dovrebbe controllare se i pacchetti stanno migrando verso <literal> testing </ literal> (vedi <xref linkend=\"testing\"/>). Quando la migrazione non avviene dopo il periodo di prova, si deve analizzare il motivo e lavorare per correggere questo. Potrebbe significare che fissa il pacchetto (nel caso dei bug critici per il rilascio o fallimenti di costruire su alcune architetture), ma può anche significare l'aggiornamento (o di fissaggio, o la rimozione di testing <literal> </ literal>) altri pacchetti per aiutare completo una transizione in cui il pacchetto è impigliata grazie alle sue dipendenze. Il team di rilascio potrebbe fornire alcuni input sui bloccanti vigenti di una data di transizione, se non si è in grado di identificarli."
+msgstr "Più concretamente, dovresti controllare che i pacchetti stiano migrando verso <literal> testing </ literal> (vedi <xref linkend=\"testing\"/>). Quando la migrazione non avviene dopo il periodo di prova, si deve analizzare il motivo e lavorare per correggere questo. Potrebbe significare che fissa il pacchetto (nel caso dei bug critici per il rilascio o fallimenti di costruire su alcune architetture), ma può anche significare l'aggiornamento (o di fissaggio, o la rimozione di testing <literal> </ literal>) altri pacchetti per aiutare completo una transizione in cui il pacchetto è impigliata grazie alle sue dipendenze. Il team di rilascio potrebbe fornire alcuni input sui bloccanti vigenti di una data di transizione, se non si è in grado di identificarli."
 
 #. type: Content of: <chapter><section><section><title>
 #: developer-duties.dbk:37
 msgid "Maintain packages in <literal>stable</literal>"
-msgstr "Mantenere i pacchetti in <literal> stabile </ literal>"
+msgstr "Mantenere i pacchetti in <literal>stable</ literal>"
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:39
 msgid "Most of the package maintainer's work goes into providing updated versions of packages in <literal>unstable</literal>, but their job also entails taking care of the packages in the current <literal>stable</literal> release."
-msgstr "La maggior parte del lavoro responsabile del pacchetto va in fornendo versioni aggiornate dei pacchetti in <literal> unstable </ literal>, ma il loro lavoro comporta anche prendersi cura dei pacchetti nella stalla </ literal> versione corrente <literal>."
+msgstr "La maggior parte del lavoro del maintainer del pacchetto è fornire versioni aggiornate dei pacchetti in <literal> unstable </ literal>, ma il loro lavoro comporta anche prendersi cura dei pacchetti nell'attuale release <literal>stable</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:44
 msgid "While changes in <literal>stable</literal> are discouraged, they are possible. Whenever a security problem is reported, you should collaborate with the security team to provide a fixed version (see <xref linkend=\"bug-security\"/>). When bugs of severity important (or more) are reported against the <literal>stable</literal> version of your packages, you should consider providing a targeted fix.  You can ask the <literal>stable</literal> release team whether they would accept such an update and then prepare a <literal>stable</literal> upload (see <xref linkend=\"upload-stable\"/>)."
-msgstr "Mentre i cambiamenti nei <literal> stabile </ literal> sono scoraggiati, sono possibili. Ogni volta che un problema di sicurezza è segnalato, si dovrebbe collaborare con il team di sicurezza per fornire una versione fissa (vedi <xref linkend=\"bug-security\"/>). Quando i bug di gravità importante (o più) vengono segnalati contro la <literal> stabile </ literal> versione dei pacchetti, si dovrebbe valutare la possibilità di una correzione mirata. Si può chiedere la </ literal> squadra <literal> versione stabile se avrebbero accettato tale aggiornamento e poi preparare un <literal> stabile </ literal> upload (vedi <xref linkend=\"upload-stable\"/>) ."
+msgstr "Mentre i cambiamenti in <literal> stable </ literal> sono scoraggiati, sono comunque possibili. Ogni volta che un problema di sicurezza è segnalato, dovresti collaborare con il team di sicurezza per fornire una versione corretta (vedi <xref linkend=\"bug-security\"/>). Quando i bug di gravità importante (o più) vengono segnalati per la versione <literal>stable</literal>  dei tuoi pacchetti, dovresti valutare la possibilità di fornire un fix mirato. Puoi chiedere al team della release<literal>stable</literal>  se accettano tale tipo di aggiornameto e poi preparare un upload <literal>stable</literal> (vedi <xref linkend=\"upload-stable\"/>) ."
 
 #. type: Content of: <chapter><section><section><title>
 #: developer-duties.dbk:56
 msgid "Manage release-critical bugs"
-msgstr "Gestire i bug critici per il rilascio"
+msgstr "Gestire i bug critici per il rilascio "
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:58
