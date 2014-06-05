@@ -1,11 +1,11 @@
-# Italian translation of mini-buildd debconf messages.
-# Copyright (C) 2013, mini-buildd package copyright holder
-# This file is distributed under the same license as the mini-buildd package.
+# Italian translation of Debian Developer's Reference debconf messages.
+# Copyright (C) 2014, Debian Developer's Reference package copyright holder
+# This file is distributed under the same license as the Debian Developer's Reference package.
 # Pierangelo Mancusi <pierangelo.mancusi@gmail.com>, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Debian Developer Reference\n"
+"Project-Id-Version: Debian Developer's Reference\n"
 "POT-Creation-Date: 2012-08-08 21:41-0400\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Pierangelo Mancusi <pierangelo.mancusi@gmail.com>\n"
@@ -9232,7 +9232,7 @@ msgid ""
 msgstr ""
 "Se proprio si ha intenzione di abbandonare il pacchetto, ma è possibile "
 "mantenerlo per il momento, allora si dovrebbe invece presentare un bug su "
-"<systemitem role=\"package\"> wnpp </systemitem> e titolarlo <literal> RFA: "
+"<systemitem role=\"package\"> wnpp </systemitem> ed inserire come titolo <literal>RFA: "
 "<replaceable> package</replaceable> -- <replaceable> breve descrizione </"
 "replaceable></literal>. <literal> RFA </literal> è l'acronimo di "
 "<literal>Request For Adoption</literal>."
