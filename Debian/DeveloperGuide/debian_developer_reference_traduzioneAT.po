@@ -1,11 +1,11 @@
-# Italian translation of mini-buildd debconf messages.
-# Copyright (C) 2013, mini-buildd package copyright holder
-# This file is distributed under the same license as the mini-buildd package.
+# Italian translation of Debian Developer's Reference debconf messages.
+# Copyright (C) 2014, Debian Developer's Reference package copyright holder
+# This file is distributed under the same license as the Debian Developer's Reference package.
 # Pierangelo Mancusi <pierangelo.mancusi@gmail.com>, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Debian Developer Reference\n"
+"Project-Id-Version: Debian Developer's Reference\n"
 "POT-Creation-Date: 2012-08-08 21:41-0400\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Pierangelo Mancusi <pierangelo.mancusi@gmail.com>\n"
