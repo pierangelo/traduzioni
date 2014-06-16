@@ -6366,32 +6366,32 @@ msgstr "Panoramica dei pacchetti per sviluppatori"
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1525
 msgid "A QA (quality assurance) web portal is available at <ulink url=\"&url-ddpo;\"></ulink> which displays a table listing all the packages of a single developer (including those where the party is listed as a co-maintainer).  The table gives a good summary about the developer's packages: number of bugs by severity, list of available versions in each distribution, testing status and much more including links to any other useful information."
-msgstr "Un portale web QA (garanzia di qualità) è disponibile all'indirizzo <ulink url=\"&url-ddpo;\"> </ulink>, che visualizza una tabella che elenca tutti i pacchetti di un singolo sviluppatore (compresi quelli in cui la festa è elencata come co-maintainer). La tabella fornisce una buona sintesi sui pacchetti dello sviluppatore: numero di bug di gravità, elenco delle versioni disponibili in ogni distribuzione, lo stato di test e molto altro tra cui link ad ogni altra informazione utile."
+msgstr "Un portale web QA (garanzia di qualità) è disponibile all'indirizzo <ulink url=\"&url-ddpo;\"></ulink> che visualizza una tabella che elenca tutti i pacchetti di un singolo sviluppatore (compresi quelli in cui è elencato come co-maintainer). La tabella fornisce una buona sintesi sui pacchetti dello sviluppatore: numero di bug ordinadi per gravità, l'elenco delle versioni disponibili in ogni distribuzione, lo stato di testing e molto altro tra cui link ad ogni altra informazione utile."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1534
 msgid "It is a good idea to look up your own data regularly so that you don't forget any open bugs, and so that you don't forget which packages are your responsibility."
-msgstr "E 'una buona idea per cercare i propri dati regolarmente in modo che non si dimentica eventuali bug aperti, e in modo che non si dimentichi che i pacchetti sono a vostro carico."
+msgstr "E' una buona idea per cercare i propri dati regolarmente in modo da non dimenticare eventuali bug aperti, e in modo da non dimenticare che i pacchetti sono a proprio carico."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:1541
 msgid "Debian's FusionForge installation: Alioth"
-msgstr "Installazione FusionForge di Debian: Alioth"
+msgstr "L'installazione FusionForge di Debian: Alioth"
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1543
 msgid "Alioth is a Debian service based on a slightly modified version of the FusionForge software (which evolved from SourceForge and GForge). This software offers developers access to easy-to-use tools such as bug trackers, patch manager, project/task managers, file hosting services, mailing lists, VCS repositories etc.  All these tools are managed via a web interface."
-msgstr "Alioth è un servizio di Debian basato su una versione leggermente modificata del software FusionForge (che si è evoluta da SourceForge e GForge). Questo software offre agli sviluppatori l'accesso a facile da usare strumenti come i bug tracker, manager di patch, di progetti / attività manager, servizi di file hosting, mailing list, VCS al pubblico, ecc Tutti questi strumenti sono gestiti tramite un'interfaccia web."
+msgstr "Alioth è un servizio di Debian basato su una versione leggermente modificata del software FusionForge (che si è evoluta da SourceForge e GForge). Questo software offre agli sviluppatori l'accesso a strumenti easy-to-use come i bug tracker, manager di patch, manager di progetti/attività, servizi di file hosting, mailing list, repository VCS ecc Tutti questi strumenti sono gestiti tramite un'interfaccia web."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1550
 msgid "It is intended to provide facilities to free software projects backed or led by Debian, facilitate contributions from external developers to projects started by Debian, and help projects whose goals are the promotion of Debian or its derivatives. It's heavily used by many Debian teams and provides hosting for all sorts of VCS repositories."
-msgstr "Esso è destinato a fornire servizi per progetti di software libero sostenuti o guidato da Debian, facilitare contributi da sviluppatori esterni a progetti avviati da Debian, e contribuire a progetti i cui obiettivi sono la promozione di Debian o suoi derivati​​. E 'molto utilizzato da molte squadre di Debian e fornisce hosting per tutti i tipi di repository VCS."
+msgstr "Esso è destinato a fornire servizi per progetti di software libero sostenuti o guidati da Debian, facilitare contributi da sviluppatori esterni a progetti avviati da Debian, e contribuire a progetti i cui obiettivi sono la promozione di Debian o suoi derivati​​. E' molto utilizzato da molti team di Debian e fornisce hosting per tutti i tipi di repository VCS."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1557
 msgid "All Debian developers automatically have an account on Alioth.  They can activate it by using the recover password facility.  External developers can request guest accounts on Alioth."
-msgstr "Tutti gli sviluppatori Debian hanno automaticamente un account su Alioth. Essi possono attivarlo utilizzando l'impianto Password Recover. Sviluppatori esterni possono richiedere gli account guest su Alioth."
+msgstr "Tutti gli sviluppatori Debian hanno automaticamente un account su Alioth. Essi possono attivarlo utilizzando l'utilty di recupero password. Gli sviluppatori esterni possono richiedere gli account guest su Alioth."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1562
@@ -6416,7 +6416,7 @@ msgstr "<ulink url=\"&url-alioth-pkg;\" />"
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: resources.dbk:1568
 msgid "<ulink url=\"&url-alioth;\" />"
-msgstr "<ulink url=\"&url-alioth-pkg;\" />"
+msgstr "<ulink url=\"&url-alioth;\" />"
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:1573
@@ -6426,12 +6426,12 @@ msgstr "Chicche per gli sviluppatori"
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:1575
 msgid "LWN Subscriptions"
-msgstr "LWN Sottoscrizioni"
+msgstr "Sottoscrizioni LWN"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1577
 msgid "Since October of 2002, HP has sponsored a subscription to LWN for all interested Debian developers.  Details on how to get access to this benefit are in <ulink url=\"http://&lists-host;/debian-devel-announce/2002/10/msg00018.html\"></ulink>."
-msgstr "Dal mese di ottobre del 2002, HP ha promosso una sottoscrizione a LWN per tutti gli sviluppatori Debian interessati. I dettagli su come ottenere l'accesso a questo beneficio sono <ulink url=\"http://&lists-host;/debian-devel-announce/2002/10/msg00018.html\"> </ulink>."
+msgstr "Dal mese di ottobre del 2002, HP ha promosso una sottoscrizione a LWN per tutti gli sviluppatori Debian interessati. I dettagli su come ottenere l'accesso a questo beneficio sono contenuti in <ulink url=\"http://&lists-host;/debian-devel-announce/2002/10/msg00018.html\"> </ulink>."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:1584
@@ -6441,67 +6441,67 @@ msgstr "Gandi.net Hosting Discount"
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1586
 msgid "As of November 2008, Gandi.net offers a discount rate on their VPS hosting for Debian Developers.  See <ulink url=\"http://&lists-host;/debian-devel-announce/2008/11/msg00004.html\"></ulink>."
-msgstr "A novembre 2008, Gandi.net offre un tasso di sconto sul loro VPS hosting per sviluppatori Debian. Vedere <ulink url=\"http://&lists-host;/debian-devel-announce/2008/11/msg00004.html\"> </ulink>."
+msgstr "Da novembre 2008, Gandi.net offre un tasso di sconto sul loro hosting VPS per sviluppatori Debian. Si consulti <ulink url=\"http://&lists-host;/debian-devel-announce/2008/11/msg00004.html\"></ulink>."
 
 #. type: Content of: <chapter><title>
 #: scope.dbk:7
 msgid "Scope of This Document"
-msgstr "Scopo di questo documento"
+msgstr "Scopo di questo Documento"
 
 #. type: Content of: <chapter><para>
 #: scope.dbk:9
 msgid "The purpose of this document is to provide an overview of the recommended procedures and the available resources for Debian developers."
-msgstr "Lo scopo di questo documento è quello di fornire una panoramica delle procedure consigliate e le risorse disponibili per gli sviluppatori Debian."
+msgstr "Lo scopo di questo documento è quello di fornire una panoramica delle procedure consigliate e delle risorse disponibili per gli sviluppatori Debian."
 
 #. type: Content of: <chapter><para>
 #: scope.dbk:14
 msgid "The procedures discussed within include how to become a maintainer (<xref linkend=\"new-maintainer\"/>); how to create new packages (<xref linkend=\"newpackage\"/>) and how to upload packages (<xref linkend=\"upload\"/>); how to handle bug reports (<xref linkend=\"bug-handling\"/>); how to move, remove, or orphan packages (<xref linkend=\"archive-manip\"/>); how to port packages (<xref linkend=\"porting\"/>); and how and when to do interim releases of other maintainers' packages (<xref linkend=\"nmu\"/>)."
-msgstr "Le procedure descritte qui includono come diventare un  maintainer (<xref linkend=\"new-maintainer\"/>); come creare nuovi pacchetti (<xref linkend=\"newpackage\"/>) e su come caricare i pacchetti (<xref linkend=\"upload\"/>); come gestire le segnalazioni di bug (<xref linkend=\"bug-handling\"/>); come spostare, rimuovere o rendere orfani i pacchetti(<xref linkend=\"archive-manip\"/>); come fare il porting dei pacchetti (<xref linkend=\"porting\"/>); e come e quando fare versioni provvisorie dei pacchetti di altri Maintainer (<xref linkend=\"nmu\"/>)."
+msgstr "Le procedure descritte qui includono come diventare un maintainer (<xref linkend=\"new-maintainer\"/>); come creare nuovi pacchetti (<xref linkend=\"newpackage\"/>) e su come caricare i pacchetti (<xref linkend=\"upload\"/>); come gestire le segnalazioni di bug (<xref linkend=\"bug-handling\"/>); come spostare, rimuovere o rendere orfani i pacchetti (<xref linkend=\"archive-manip\"/>); come fare il porting dei pacchetti (<xref linkend=\"porting\"/>); e come e quando fare versioni provvisorie dei pacchetti di altri Maintainer (<xref linkend=\"nmu\"/>)."
 
 #. type: Content of: <chapter><para>
 #: scope.dbk:23
 msgid "The resources discussed in this reference include the mailing lists (<xref linkend=\"mailing-lists\"/>) and servers (<xref linkend=\"server-machines\"/>); a discussion of the structure of the Debian archive (<xref linkend=\"archive\"/>); explanation of the different servers which accept package uploads (<xref linkend=\"upload-ftp-master\"/>); and a discussion of resources which can help maintainers with the quality of their packages (<xref linkend=\"tools\"/>)."
-msgstr "Le risorse discussi in questa relazione sono le mailing list (<xref linkend=\"mailing-lists\"/>) e server (<xref linkend=\"server-machines\"/>), una discussione sulla struttura del Debian (<xref linkend=\"archive\"/>); spiegazione dei diversi server che accettano arrivi dei pacchetti (<xref linkend=\"upload-ftp-master\"/>) e una discussione delle risorse che possono aiutare i manutentori con la qualità dei loro pacchetti (<xref linkend=\"tools\"/>)."
+msgstr "Le risorse discusse in questa reference includono le mailing list (<xref linkend=\"mailing-lists\"/>) e server (<xref linkend=\"server-machines\"/>); una discussione sulla struttura dell'archivio Debian (<xref linkend=\"archive\"/>); spiegazione dei diversi server che accettano uploads di pacchetti (<xref linkend=\"upload-ftp-master\"/>); e una discussione delle risorse che possono aiutare i maintainer con la qualità dei propri pacchetti (<xref linkend=\"tools\"/>)."
 
 #. type: Content of: <chapter><para>
 #: scope.dbk:31
 msgid "It should be clear that this reference does not discuss the technical details of Debian packages nor how to generate them.  Nor does this reference detail the standards to which Debian software must comply.  All of such information can be found in the <ulink url=\"&url-debian-policy;\">Debian Policy Manual</ulink>."
-msgstr "Dovrebbe essere chiaro che questo riferimento non discutere i dettagli tecnici di pacchetti Debian né come per generarli. Né questo particolare riferimento alle norme alle quali il software Debian deve rispettare. Tutte queste informazioni possono essere trovate nel <ulink url=\"&url-debian-policy;\"> Debian Policy Manual </ulink>."
+msgstr "Dovrebbe essere chiaro che questa reference non discutere i dettagli tecnici di pacchetti Debian né come per generarli. Né questa refence dettaglia le norme le quali il software Debian deve rispettare. Tutte queste informazioni possono essere trovate nel <ulink url=\"&url-debian-policy;\">Debian Policy Manual</ulink>."
 
 #. type: Content of: <chapter><para>
 #: scope.dbk:38
 msgid "Furthermore, this document is <emphasis>not an expression of formal policy</emphasis>.  It contains documentation for the Debian system and generally agreed-upon best practices.  Thus, it is not what is called a ``normative'' document."
-msgstr "Inoltre, questo documento non è <emphasis> espressione della politica ufficiale </emphasis>. Contiene documentazione per il sistema Debian e generalmente concordato migliori pratiche. Pertanto, non è quello che viene chiamato un documento `` normativo''."
+msgstr "Inoltre, questo documento non è <emphasis> espressione della politica ufficiale </emphasis>. Contiene documentazione per il sistema Debian e le migliori pratiche diffusamente condivise. Pertanto, non è quello che viene chiamato un documento «normativo»."
 
 #. type: Content of: <appendix><title>
 #: tools.dbk:7
 msgid "Overview of Debian Maintainer Tools"
-msgstr "Panoramica di Debian Maintainer Tools"
+msgstr "Panoramica dei tool del Debian Maintainer"
 
 #. type: Content of: <appendix><para>
 #: tools.dbk:9
 msgid "This section contains a rough overview of the tools available to maintainers.  The following is by no means complete or definitive, but just a guide to some of the more popular tools."
-msgstr "Questa sezione contiene una panoramica generale degli strumenti disponibili per i manutentori. La seguente non è affatto completa o definitiva, ma solo una guida per alcuni degli strumenti più popolari."
+msgstr "Questa sezione contiene una panoramica generale degli strumenti disponibili per i maintainer. La seguente non è affatto completa o definitiva, ma solo una guida per alcuni degli strumenti più popolari."
 
 #. type: Content of: <appendix><para>
 #: tools.dbk:14
 msgid "Debian maintainer tools are meant to aid developers and free their time for critical tasks.  As Larry Wall says, there's more than one way to do it."
-msgstr "Strumenti Debian maintainer hanno lo scopo di aiutare gli sviluppatori e liberare il loro tempo per attività critiche. Come dice Larry Wall, c'è più di un modo per farlo."
+msgstr "Gli strumenti del maintainer Debian hanno lo scopo di aiutare gli sviluppatori e liberare il loro tempo per attività critiche. Come dice Larry Wall, c'è più di un modo per farlo."
 
 #. type: Content of: <appendix><para>
 #: tools.dbk:18
 msgid "Some people prefer to use high-level package maintenance tools and some do not.  Debian is officially agnostic on this issue; any tool which gets the job done is fine.  Therefore, this section is not meant to stipulate to anyone which tools they should use or how they should go about their duties of maintainership.  Nor is it meant to endorse any particular tool to the exclusion of a competing tool."
-msgstr "Alcune persone preferiscono utilizzare ad alto livello gli strumenti di manutenzione dei pacchetti e altri no. Debian è ufficialmente agnostico su questo problema, qualsiasi strumento che ottiene il lavoro fatto va bene. Pertanto, questa sezione non intende stipulare con nessuno che gli strumenti devono adottare o di come dovrebbero andare circa le loro funzioni di mantenimento del pacchetto. Né è destinata ad approvare qualsiasi strumento particolare per l'esclusione di uno strumento di competizione."
+msgstr "Alcune persone preferiscono utilizzare ad alto livello gli strumenti di manutenzione dei pacchetti e altri no. Debian è ufficialmente agnostico su questo problema, qualsiasi strumento che ottiene il lavoro fatto va bene. Pertanto, questa sezione non intende indicare a nessuno quali strumenti devono adottare o di come dovrebbero essere condotte le loro funzioni di mantenimento del pacchetto. Né è destinata ad approvare qualsiasi strumento particolare per l'esclusione di uno strumento in competizione."
 
 #. type: Content of: <appendix><para>
 #: tools.dbk:26
 msgid "Most of the descriptions of these packages come from the actual package descriptions themselves.  Further information can be found in the package documentation itself.  You can also see more info with the command <command>apt-cache show <replaceable>package-name</replaceable></command>."
-msgstr "La maggior parte delle descrizioni di questi pacchetti vengono dalle descrizioni effettive dei pacchetti stessi. Ulteriori informazioni possono essere trovate nella documentazione del pacchetto stesso. È anche possibile visualizzare ulteriori informazioni con il comando <command> apt-cache show <replaceable> nome-pacchetto </replaceable> </command>."
+msgstr "La maggior parte delle descrizioni di questi pacchetti vengono dalle descrizioni effettive dei pacchetti stessi. Ulteriori informazioni possono essere trovate nella documentazione del pacchetto stesso. È anche possibile visualizzare ulteriori informazioni con il comando <command>apt-cache show<replaceable>package-name</replaceable></command>."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:32
 msgid "Core tools"
-msgstr "Core tools"
+msgstr "Core tool"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:34
@@ -6516,7 +6516,7 @@ msgstr "<systemitem role=\"package\">dpkg-dev</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:39
 msgid "<systemitem role=\"package\">dpkg-dev</systemitem> contains the tools (including <command>dpkg-source</command>) required to unpack, build, and upload Debian source packages.  These utilities contain the fundamental, low-level functionality required to create and manipulate packages; as such, they are essential for any Debian maintainer."
-msgstr "<systemitem role=\"package\"> dpkg-dev </systemitem> contiene gli utensili (comprese <command> dpkg-source </command>) necessari per spacchettare, creare e caricare pacchetti sorgenti Debian. Queste utilità contengono la, funzionalità fondamentale di basso livello necessarie per creare e manipolare i pacchetti, in quanto tali, essi sono essenziali per qualsiasi maintainer Debian."
+msgstr "<systemitem role=\"package\">dpkg-dev</systemitem> contiene gli strumenti (compreso <command>dpkg-source</command>) necessari per spacchettare, creare e caricare pacchetti sorgenti Debian. Queste utilità contengono la fondamentale funzionalità di basso livello necessaria per creare e manipolare i pacchetti; in quanto tali, essi sono essenziali per qualsiasi maintainer Debian."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:48
@@ -6526,17 +6526,17 @@ msgstr "<systemitem role=\"package\">debconf</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:50
 msgid "<systemitem role=\"package\">debconf</systemitem> provides a consistent interface to configuring packages interactively.  It is user interface independent, allowing end-users to configure packages with a text-only interface, an HTML interface, or a dialog interface.  New interfaces can be added as modules."
-msgstr "<systemitem role=\"package\"> debconf </systemitem> fornisce un'interfaccia coerente per la configurazione di pacchetti interattivo. Si tratta di un'interfaccia utente indipendente, consentendo agli utenti finali di configurare i pacchetti con un solo testo di interfaccia, l'interfaccia HTML, o un'interfaccia di dialogo. Nuove interfacce possono essere aggiunti come moduli."
+msgstr "<systemitem role=\"package\">debconf</systemitem> fornisce un'interfaccia coerente per la configurazione di pacchetti interattivamente. Si tratta di un'interfaccia utente indipendente, che consente agli utenti finali di configurare i pacchetti con un'interfaccia testuale, un'interfaccia HTML, o un'interfaccia interattiva. Nuove interfacce possono essere aggiunte come moduli."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:56
 msgid "You can find documentation for this package in the <systemitem role=\"package\">debconf-doc</systemitem> package."
-msgstr "È possibile trovare la documentazione per questo pacchetto in <systemitem role=\"package\"> debconf-doc </systemitem> pacchetto."
+msgstr "È possibile trovare la documentazione per questo pacchetto nel  pacchetto <systemitem role=\"package\">debconf-doc</systemitem>."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:60
 msgid "Many feel that this system should be used for all packages which require interactive configuration; see <xref linkend=\"bpp-config-mgmt\"/>.  <systemitem role=\"package\">debconf</systemitem> is not currently required by Debian Policy, but that may change in the future."
-msgstr "Molti ritengono che questo sistema dovrebbe essere utilizzato per tutti i pacchetti che richiedono una configurazione interattiva, vedi <xref linkend=\"bpp-config-mgmt\"/>. <systemitem role=\"package\"> debconf </systemitem> non è attualmente richiesto dalla policy di Debian, ma che potrebbe cambiare in futuro."
+msgstr "Molti ritengono che questo sistema dovrebbe essere utilizzato per tutti i pacchetti che richiedono una configurazione interattiva, si consulti <xref linkend=\"bpp-config-mgmt\"/>. <systemitem role=\"package\">debconf</systemitem> non è attualmente richiesto dalla policy di Debian, ma che potrebbe cambiare in futuro."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:68
@@ -6546,17 +6546,17 @@ msgstr "<systemitem role=\"package\">fakeroot</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:70
 msgid "<systemitem role=\"package\">fakeroot</systemitem> simulates root privileges.  This enables you to build packages without being root (packages usually want to install files with root ownership).  If you have <systemitem role=\"package\">fakeroot</systemitem> installed, you can build packages as a regular user: <literal>dpkg-buildpackage -rfakeroot</literal>."
-msgstr "<systemitem role=\"package\"> fakeroot </systemitem> simula i privilegi di root. Questo permette di costruire pacchetti senza essere root (pacchetti di solito vogliono installare i file con la proprietà di root). Se si dispone di <systemitem role=\"package\"> fakeroot </systemitem> installato, è possibile costruire pacchetti come utente normale: <literal> dpkg-buildpackage-rfakeroot </literal>."
+msgstr "<systemitem role=\"package\">fakeroot</systemitem> simula i privilegi di root. Questo permette di costruire pacchetti senza essere root (i pacchetti di solito vogliono installare i file con la proprietà del root). Se si dispone di <systemitem role=\"package\">fakeroot</systemitem> installato, è possibile costruire pacchetti come utente normale: <literal>dpkg-buildpackage-rfakeroot</literal>."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:81
 msgid "Package lint tools"
-msgstr "Pacchetto lint tools"
+msgstr "Tool del pacchetto lint"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:83
 msgid "According to the Free On-line Dictionary of Computing (FOLDOC), `lint' is a Unix C language processor which carries out more thorough checks on the code than is usual with C compilers.  Package lint tools help package maintainers by automatically finding common problems and policy violations in their packages."
-msgstr "Secondo il Dizionario On-line di Informatica (FOLDOC), `lint 'è un processore di linguaggio Unix C che effettua verifiche più approfondite sul codice del solito con compilatori C. Strumenti lint confezione aiutano i manutentori dei pacchetti, trovando automaticamente i problemi più comuni e le violazioni delle policy nei loro pacchetti."
+msgstr "Secondo il Dizionario On-line di Informatica (FOLDOC), «lint» è un processore di linguaggio Unix C che effettua verifiche più approfondite sul codice rispetto ai normali compilatori C. Gli strumenti del pacchetto lint aiutano i miantainer dei pacchetti, trovando automaticamente i problemi più comuni e le violazioni delle policy nei loro pacchetti."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:89
@@ -6566,22 +6566,22 @@ msgstr "<systemitem role=\"package\">lintian</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:91
 msgid "<systemitem role=\"package\">lintian</systemitem> dissects Debian packages and emits information about bugs and policy violations.  It contains automated checks for many aspects of Debian policy as well as some checks for common errors."
-msgstr "pacchetti <systemitem role=\"package\"> lintian </systemitem> sviscera Debian ed emette informazioni su bug e violazioni delle policy. Contiene controlli automatici per molti aspetti della politica Debian così come alcuni controlli per gli errori comuni."
+msgstr "<systemitem role=\"package\">lintian</systemitem> sviscera i pacchetti Debian ed fornisce informazioni su bug e violazioni delle policy. Contiene controlli automatici per molti aspetti della policy Debian così come alcuni controlli per gli errori comuni."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:97
 msgid "You should periodically get the newest <systemitem role=\"package\">lintian</systemitem> from <literal>unstable</literal> and check over all your packages.  Notice that the <literal>-i</literal> option provides detailed explanations of what each error or warning means, what its basis in Policy is, and commonly how you can fix the problem."
-msgstr "Si dovrebbe ottenere periodicamente il più nuovo <systemitem role=\"package\"> lintian </systemitem> da <literal> unstable </literal> e controllare su tutti i pacchetti. Si noti che il </literal> opzione <literal>-i fornisce spiegazioni dettagliate di ciò che ogni errore o di mezzi di allarme, quello che il suo fondamento nella politica è, e comunemente come si può risolvere il problema."
+msgstr "Si dovrebbe ottenere periodicamente il più nuovo <systemitem role=\"package\">lintian</systemitem> da <literal>unstable</literal> e controllare tutti i propri pacchetti. Si noti che l'opzione <literal>-i<literal> fornisce spiegazioni dettagliate di ciò che ogni errore o warning significa, quale sia la sua base nella Policy, e come generalmente si può risolvere il problema."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:104
 msgid "Refer to <xref linkend=\"sanitycheck\"/> for more information on how and when to use Lintian."
-msgstr "Consultare <xref linkend=\"sanitycheck\"/> per maggiori informazioni su come e quando utilizzare Lintian."
+msgstr "Si consulti <xref linkend=\"sanitycheck\"/> per maggiori informazioni su come e quando utilizzare Lintian."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:108
 msgid "You can also see a summary of all problems reported by Lintian on your packages at <ulink url=\"&url-lintian;\"></ulink>.  These reports contain the latest <command>lintian</command> output for the whole development distribution (<literal>unstable</literal>)."
-msgstr "È anche possibile visualizzare un riepilogo di tutti i problemi segnalati da Lintian sui vostri pacchetti a <ulink url=\"&url-lintian;\"> </ulink>. Questi rapporti contengono le ultime <command> lintian </command> in uscita per l'intera distribuzione sviluppo (<literal> unstable </literal>)."
+msgstr "È anche possibile visualizzare un riepilogo di tutti i problemi segnalati da Lintian sui vostri pacchetti su <ulink url=\"&url-lintian;\"></ulink>. Questi rapporti contengono gli ultimi report di <command>lintian</command>  per l'intera distribuzione in sviluppo (<literal>unstable</literal>)."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:116
@@ -6591,12 +6591,12 @@ msgstr "<command>debdiff</command>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:118
 msgid "<command>debdiff</command> (from the <systemitem role=\"package\">devscripts</systemitem> package, <xref linkend=\"devscripts\"/>)  compares file lists and control files of two packages.  It is a simple regression test, as it will help you notice if the number of binary packages has changed since the last upload, or if something has changed in the control file.  Of course, some of the changes it reports will be all right, but it can help you prevent various accidents."
-msgstr "<command> debdiff </command> (dalle <systemitem role=\"package\"> devscripts </systemitem> pacchetto, <xref linkend=\"devscripts\"/>) confronta elenchi di file e file di controllo dei due pacchetti. Si tratta di un test di regressione semplice, in quanto vi aiuterà a notare se il numero di pacchetti binari è cambiato dall'ultima operazione di caricamento, o se qualcosa è cambiato nel file di controllo. Naturalmente, alcuni dei cambiamenti che le relazioni saranno a posto, ma può aiutare a prevenire incidenti vari."
+msgstr "<command> debdiff </command> (dal pacchetto <systemitem role=\"package\">devscripts</systemitem>, <xref linkend=\"devscripts\"/>) confronta elenchi di file e file di controllo di due pacchetti. Si tratta di un test di regressione semplice, in quanto vi aiuterà a notare se il numero di pacchetti binari è cambiato dall'ultima operazione di caricamento, o se qualcosa è cambiato nel file di controllo. Naturalmente, alcuni delle modifiche che segnalerà saranno a posto, ma può aiutare a prevenire incidenti vari."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:127
 msgid "You can run it over a pair of binary packages:"
-msgstr "È possibile eseguire più di un paio di pacchetti binari:"
+msgstr "È possibile eseguirlo su più di un paio di pacchetti binari:"
 
 #. type: Content of: <appendix><section><section><screen>
 #: tools.dbk:130
@@ -6607,7 +6607,7 @@ msgstr "debdiff package_1-1_arch.deb package_2-1_arch.deb\n"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:133
 msgid "Or even a pair of changes files:"
-msgstr "O anche un paio di file di modifiche:"
+msgstr "O anche su un paio di file di modifiche:"
 
 #. type: Content of: <appendix><section><section><screen>
 #: tools.dbk:136
@@ -6618,52 +6618,52 @@ msgstr "debdiff package_1-1_arch.changes package_2-1_arch.changes\n"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:139
 msgid "For more information please see <citerefentry> <refentrytitle>debdiff</refentrytitle> <manvolnum>1</manvolnum> </citerefentry>."
-msgstr "Per ulteriori informazioni si prega di consultare <citerefentry> <refentrytitle> debdiff </refentrytitle> <manvolnum> 1 </manvolnum> </citerefentry>."
+msgstr "Per ulteriori informazioni si prega di consultare <citerefentry><refentrytitle>debdiff</refentrytitle><manvolnum>1</manvolnum></citerefentry>."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:148
 msgid "Helpers for <filename>debian/rules</filename>"
-msgstr "Aiuti per <filename> debian / rules </filename>"
+msgstr "Helpers per <filename>debian/rules</filename>"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:150
 msgid "Package building tools make the process of writing <filename>debian/rules</filename> files easier.  See <xref linkend=\"helper-scripts\"/> for more information about why these might or might not be desired."
-msgstr "Strumenti di costruzione della confezione rendono il processo di scrittura <filename> debian / rules </filename> file più facile. Per ulteriori informazioni sul motivo per cui questi potrebbero o non potrebbero essere desiderato vedere <xref linkend=\"helper-scripts\"/>."
+msgstr "Gli strumenti per il build dei pacchetti rendono il processo di scrittura dei file <filename>debian/rules</filename>  più facile. Per ulteriori informazioni sul motivo per cui questi potrebbero o non potrebbero essere desiderati si consulti <xref linkend=\"helper-scripts\"/>."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:156
 msgid "<systemitem role=\"package\">debhelper</systemitem>"
-msgstr "<systemitem role=\"package\"> debhelper </systemitem>"
+msgstr "<systemitem role=\"package\">debhelper</systemitem>"
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:158
 msgid "<systemitem role=\"package\">debhelper</systemitem> is a collection of programs which can be used in <filename>debian/rules</filename> to automate common tasks related to building binary Debian packages.  <systemitem role=\"package\">debhelper</systemitem> includes programs to install various files into your package, compress files, fix file permissions, and integrate your package with the Debian menu system."
-msgstr "<systemitem role=\"package\"> debhelper </systemitem> è una raccolta di programmi che possono essere utilizzati in <filename> debian / rules </filename> per automatizzare i compiti per creare pacchetti Debian binari. <systemitem role=\"package\"> debhelper </systemitem> include programmi per installare vari file all'interno del pacchetto, comprimere i file, correggere i permessi dei file, e di integrare il pacchetto nel sistema dei menù Debian."
+msgstr "<systemitem role=\"package\">debhelper</systemitem> è una raccolta di programmi che possono essere utilizzati in <filename>debian/rules</filename> per automatizzare i compiti per creare pacchetti Debian binari. <systemitem role=\"package\">debhelper</systemitem> include programmi per installare vari file all'interno del pacchetto, comprimere i file, correggere i permessi dei file, e di integrare il pacchetto nel sistema dei menù Debian."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:166
 msgid "Unlike some approaches, <systemitem role=\"package\">debhelper</systemitem> is broken into several small, simple commands which act in a consistent manner.  As such, it allows more fine-grained control than some of the other debian/rules tools."
-msgstr "A differenza di altri approcci, <systemitem role=\"package\"> debhelper </systemitem> è suddiviso in diverse piccole, semplici comandi che agiscono in modo coerente. Come tale, essa permette più capillare controllo di alcuni degli altri debian / strumenti regole."
+msgstr "A differenza di altri approcci, <systemitem role=\"package\">debhelper</systemitem> è suddiviso in diverse piccoli, semplici comandi che agiscono in modo coerente. Come tale, esso permette un controllo più capillare di alcuni degli altri tool debian/rules."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:172
 msgid "There are a number of little <systemitem role=\"package\">debhelper</systemitem> add-on packages, too transient to document.  You can see the list of most of them by doing <literal>apt-cache search ^dh-</literal>."
-msgstr "Ci sono una serie di piccoli <systemitem role=\"package\"> debhelper </systemitem> pacchetti aggiuntivi, anche transitori di documento. È possibile vedere l'elenco della maggior parte di loro facendo <literal> apt-cache search ^ dh-</literal>."
+msgstr "Ci sono una serie di piccoli pacchetti aggiuntivi <systemitem role=\"package\">debhelper</systemitem>, troppo effimeri da documentare. È possibile vedere l'elenco della maggior parte di loro facendo <literal>apt-cache search ^dh-</literal>."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:179
 msgid "<systemitem role=\"package\">dh-make</systemitem>"
-msgstr "<systemitem role=\"package\"> dh-make </systemitem>"
+msgstr "<systemitem role=\"package\">dh-make</systemitem>"
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:181
 msgid "The <systemitem role=\"package\">dh-make</systemitem> package contains <command>dh_make</command>, a program that creates a skeleton of files necessary to build a Debian package out of a source tree.  As the name suggests, <command>dh_make</command> is a rewrite of <systemitem role=\"package\">debmake</systemitem> and its template files use <command>dh_*</command> programs from <systemitem role=\"package\">debhelper</systemitem>."
-msgstr "Il pacchetto <systemitem role=\"package\">dh-make</systemitem> contiene <command>dh_make</command>, un programma che crea uno scheletro di file necessari per costruire un pacchetto Debian fuori da un albero sorgente. Come suggerisce il nome, <command>dh_make</command> è una riscrittura di <systemitem role=\"package\">debmake</systemitem> ed i relativi file template usanoi  programmi <command>dh_*</command> da <systemitem role=\"package\">debhelper</systemitem>."
+msgstr "Il pacchetto <systemitem role=\"package\">dh-make</systemitem> contiene <command>dh_make</command>, un programma che crea uno scheletro di file necessari per costruire un pacchetto Debian fuori da un albero sorgente. Come suggerisce il nome, <command>dh_make</command> è una riscrittura di <systemitem role=\"package\">debmake</systemitem> ed i relativi file di template usano i programmi <command>dh_*</command> da <systemitem role=\"package\">debhelper</systemitem>."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:189
 msgid "While the rules files generated by <command>dh_make</command> are in general a sufficient basis for a working package, they are still just the groundwork: the burden still lies on the maintainer to finely tune the generated files and make the package entirely functional and Policy-compliant."
-msgstr "Mentre i file di regole generati da <command> dh_make </command> sono, in generale, una base sufficiente per un pacchetto di lavoro, sono ancora solo le basi: l'onere si trova ancora sul maintainer per sintonizzare con precisione i file generati e rendere il pacchetto tutto funzionale e Policy-compliant."
+msgstr "Mentre i file di regole generati da <command> dh_make </command> sono, in generale, una base sufficiente per un pacchetto funzionante, sono ancora solo le basi: l'onere si trova ancora sul maintainer per sintonizzare con precisione i file generati e rendere il pacchetto tutto funzionale e conforme alla Policy."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:197
@@ -6673,17 +6673,17 @@ msgstr "<systemitem role=\"package\">equivs</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:199
 msgid "<systemitem role=\"package\">equivs</systemitem> is another package for making packages.  It is often suggested for local use if you need to make a package simply to fulfill dependencies.  It is also sometimes used when making ``meta-packages'', which are packages whose only purpose is to depend on other packages."
-msgstr "<systemitem role=\"package\"> equivs </systemitem> è un altro pacchetto per fare i pacchetti. E 'spesso suggerito per uso locale, se avete bisogno di fare un pacchetto semplicemente per soddisfare le dipendenze. A volte è anche utilizzato quando si effettua `` meta-pacchetti'', che sono pacchetti il ​​cui unico scopo è quello di dipendere da altri pacchetti."
+msgstr "<systemitem role=\"package\">equivs</systemitem> è un altro pacchetto per fare i pacchetti. E' spesso suggerito per uso locale, se avete bisogno di fare un pacchetto semplicemente per soddisfare le dipendenze. A volte è anche utilizzato quando si costruisce un «meta-pacchetto» , che sono pacchetti il ​​cui unico scopo è quello di dipendere da altri pacchetti."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:210
 msgid "Package builders"
-msgstr "Builders del pacchetto"
+msgstr " Pacchetto dei builder"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:212
 msgid "The following packages help with the package building process, general driving <command>dpkg-buildpackage</command> as well as handling supporting tasks."
-msgstr "I seguenti pacchetti di aiuto con il processo di costruzione del pacchetto, guida <command> dpkg-buildpackage </command> generale e gestione di compiti di supporto."
+msgstr "I seguenti pacchetti di aiuto con il processo di costruzione del pacchetto, una guida generale <command>dpkg-buildpackage</command> cosi come la gestione di compiti di supporto."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:216
@@ -6693,42 +6693,42 @@ msgstr "<systemitem role=\"package\">cvs-buildpackage</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:218
 msgid "<systemitem role=\"package\">cvs-buildpackage</systemitem> provides the capability to inject or import Debian source packages into a CVS repository, build a Debian package from the CVS repository, and helps in integrating upstream changes into the repository."
-msgstr "<systemitem role=\"package\"> cvs-buildpackage </systemitem> fornisce la capacità di iniettare o importare pacchetti sorgenti Debian in un repository CVS, di costruire un pacchetto Debian dal repository CVS, e aiuta a integrare i cambiamenti a monte nel repository ."
+msgstr "<systemitem role=\"package\">cvs-buildpackage</systemitem> fornisce la capacità di iniettare o importare pacchetti sorgenti Debian in un repository CVS, di costruire un pacchetto Debian dal repository CVS, e aiuta a integrare i cambiamenti nel codice originale nel repository ."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:224
 msgid "These utilities provide an infrastructure to facilitate the use of CVS by Debian maintainers.  This allows one to keep separate CVS branches of a package for <literal>stable</literal>, <literal>unstable</literal> and possibly <literal>experimental</literal> distributions, along with the other benefits of a version control system."
-msgstr "Queste utilità forniscono un'infrastruttura per facilitare l'uso del CVS da Debian manutentori. Questo permette di mantenere CVS rami separati di un pacchetto per <literal> stabile </literal>, <literal> unstable </literal> e possibilmente <literal> sperimentale </literal> distribuzioni, con gli altri benefici di un controllo di versione sistema."
+msgstr "Queste utilità forniscono un'infrastruttura per facilitare l'uso del CVS da maintainer Debian. Questo permette di mantenere in CVS rami separati di un pacchetto per le distribuzioni <literal>stable</literal>, <literal>unstable</literal> e possibilmente <literal>experimental</literal>, con gli altri benefici di un controllo di versione sistema."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:233
 msgid "<systemitem role=\"package\">debootstrap</systemitem>"
-msgstr "<systemitem role=\"package\"> debootstrap </systemitem>"
+msgstr "<systemitem role=\"package\">debootstrap</systemitem>"
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:235
 msgid "The <systemitem role=\"package\">debootstrap</systemitem> package and script allows you to bootstrap a Debian base system into any part of your filesystem.  By base system, we mean the bare minimum of packages required to operate and install the rest of the system."
-msgstr "Il <systemitem role=\"package\"> debootstrap </systemitem> pacchetto e script permette di bootstrap di un sistema Debian di base in qualsiasi parte del vostro filesystem. Dal sistema di base, si intende il minimo dei pacchetti necessari al funzionamento e installare il resto del sistema."
+msgstr "Il pacchetto <systemitem role=\"package\">debootstrap</systemitem> e gli script permetteno di avviare un sistema Debian di base in qualsiasi parte del vostro filesystem. Per sistema di base, si intende il minimo dei pacchetti necessari al funzionamento e ad installare il resto del sistema."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:241
 msgid "Having a system like this can be useful in many ways.  For instance, you can <command>chroot</command> into it if you want to test your build dependencies.  Or you can test how your package behaves when installed into a bare base system.  Chroot builders use this package; see below."
-msgstr "Avere un sistema come questo può essere utile in molti modi. Ad esempio, è possibile <command> chroot </command> in esso se si vuole testare il vostro dipendenze di compilazione. Oppure si può verificare come il pacchetto si comporta quando installato in un sistema di base nudo. Costruttori chroot utilizzare questo pacchetto, vedere di seguito."
+msgstr "Avere un sistema come questo può essere utile in molti modi. Ad esempio, è possibile effettuare <command>chroot</command>  se si vuole testare le proprie dipendenze di compilazione. Oppure si può verificare come il pacchetto si comporta quando installato in un sistema di base puro. I builder chroot usano questo pacchetto; si veda di seguito."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:249
 msgid "<systemitem role=\"package\">pbuilder</systemitem>"
-msgstr "<systemitem role=\"package\"> pbuilder </systemitem>"
+msgstr "<systemitem role=\"package\">pbuilder</systemitem>"
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:251
 msgid "<systemitem role=\"package\">pbuilder</systemitem> constructs a chrooted system, and builds a package inside the chroot.  It is very useful to check that a package's build-dependencies are correct, and to be sure that unnecessary and wrong build dependencies will not exist in the resulting package."
-msgstr "<systemitem role=\"package\"> pbuilder </systemitem> costruisce un sistema chroot, e costruisce un pacchetto all'interno del chroot. E 'molto utile per controllare che dipendenze di compilazione di un pacchetto sono corrette e per essere certi che dipendenze non necessarie o sbagliate non esistano nel pacchetto risultante."
+msgstr "<systemitem role=\"package\">pbuilder</systemitem> costruisce un sistema chroot, e costruisce un pacchetto all'interno del chroot. E' molto utile per controllare che dipendenze di compilazione di un pacchetto sono corrette e per essere certi che dipendenze non necessarie o sbagliate non esistano nel pacchetto risultante."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:257
 msgid "A related package is <systemitem role=\"package\">pbuilder-uml</systemitem>, which goes even further by doing the build within a User Mode Linux environment."
-msgstr "Un pacchetto correlato è <systemitem role=\"package\"> pbuilder-uml </systemitem>, che va anche oltre, facendo l'accumulo all'interno di una modalità di ambiente Linux User."
+msgstr "Un pacchetto correlato è <systemitem role=\"package\">pbuilder-uml</systemitem>, che va anche oltre, facendo il build all'interno di un'ambiente Linux User."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:264
@@ -6738,12 +6738,12 @@ msgstr "<systemitem role=\"package\">sbuild</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:266
 msgid "<systemitem role=\"package\">sbuild</systemitem> is another automated builder.  It can use chrooted environments as well.  It can be used stand-alone, or as part of a networked, distributed build environment.  As the latter, it is part of the system used by porters to build binary packages for all the available architectures.  See <xref linkend=\"wanna-build\"/> for more information, and <ulink url=\"&url-buildd;\"></ulink> to see the system in action."
-msgstr "<systemitem role=\"package\"> sbuild </systemitem> è un altro costruttore automatizzato. E 'possibile utilizzare ambienti chroot pure. Può essere utilizzata da sola, o come parte di una rete, distribuito costruire ambiente. Come quest'ultimo, è parte del sistema utilizzato dai portatori per costruire pacchetti binari per tutte le architetture disponibili. Vedi <xref linkend=\"wanna-build\"/> per maggiori informazioni, e <ulink url=\"&url-buildd;\"> </ulink> per vedere il sistema in azione."
+msgstr "<systemitem role=\"package\">sbuild</systemitem> è un altro builder automatizzato. E' possibile anche utilizzare ambienti chroot. Può essere utilizzata da solo, o come parte di una rete, distribuita di ambiente di build. Come quest'ultimo, è parte del sistema utilizzato dai porter per costruire pacchetti binari per tutte le architetture disponibili. Si consulti <xref linkend=\"wanna-build\"/> per maggiori informazioni, e <ulink url=\"&url-buildd;\"> </ulink> per vedere il sistema in azione."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:278
 msgid "Package uploaders"
-msgstr "Uploaders del pacchetto"
+msgstr "Uploader del pacchetto"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:280
