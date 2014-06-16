@@ -5471,42 +5471,42 @@ msgstr "Sezioni "
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:466
 msgid "The <literal>main</literal> section of the Debian archive is what makes up the <emphasis role=\"strong\">official &debian-formal; distribution</emphasis>.  The <literal>main</literal> section is official because it fully complies with all our guidelines.  The other two sections do not, to different degrees; as such, they are <emphasis role=\"strong\">not</emphasis> officially part of &debian-formal;."
-msgstr "Il <literal> principale </literal> sezione dell'archivio Debian è ciò che rende il <emphasis role=\"strong\"> ufficiale e debian-formale; distribuzione </emphasis>. La sezione principale </literal> <literal> è ufficiale perché soddisfa pienamente tutte le nostre linee guida. Le altre due sezioni non fanno, a gradi diversi, in quanto tali, essi sono <emphasis role=\"strong\"> non </emphasis> ufficialmente parte della & debian-formale."
+msgstr "La sezione <literal>mian</literal> dell'archivio Debian è ciò che rende il <emphasis role=\"strong\"> ufficiale la distribuzione &debian-formal;</emphasis>. La sezione </literal>main<literal> è ufficiale perché soddisfa pienamente tutte le nostre linee guida. Le altre due sezioni no, a gradi diversi; in quanto tali, esse <emphasis role=\"strong\">non</emphasis> sono ufficialmente parte della &debian-formal."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:474
 msgid "Every package in the main section must fully comply with the <ulink url=\"&url-dfsg;\">Debian Free Software Guidelines</ulink> (DFSG) and with all other policy requirements as described in the <ulink url=\"&url-debian-policy;\">Debian Policy Manual</ulink>.  The DFSG is our definition of “free software.” Check out the Debian Policy Manual for details."
-msgstr "Ogni pacchetto nella sezione principale deve soddisfare le <ulink url=\"&url-dfsg;\">Debian Free Software Guidelines</ulink> (DFSG) e tutti gli altri requisiti delle policy come descritto nel <ulink url=\"&url-debian-policy;\">Debian Policy Manual</ulink>. Il DFSG è la nostra definizione del «free software». Si controlli il Debian Policy Manual per maggiori dettagli."
+msgstr "Ogni pacchetto nella sezione main deve soddisfare le <ulink url=\"&url-dfsg;\">Debian Free Software Guidelines</ulink> (DFSG) e tutti gli altri requisiti delle policy come descritto nel <ulink url=\"&url-debian-policy;\">Debian Policy Manual</ulink>. Il DFSG è la nostra definizione del «free software». Si controlli il Debian Policy Manual per maggiori dettagli."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:482
 msgid "Packages in the <literal>contrib</literal> section have to comply with the DFSG, but may fail other requirements.  For instance, they may depend on non-free packages."
-msgstr "I pacchetti nella sezione contrib </literal> <literal> sono tenuti a rispettare le DFSG, ma può cedere ad altri requisiti. Ad esempio, possono dipendere da pacchetti non-free."
+msgstr "I pacchetti nella sezione </literal>contrib<literal> sono tenuti a rispettare le DFSG, ma può non soddisfare altri requisiti. Ad esempio, possono dipendere da pacchetti non-free."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:487
 msgid "Packages which do not conform to the DFSG are placed in the <literal>non-free</literal> section.  These packages are not considered as part of the Debian distribution, though we enable their use, and we provide infrastructure (such as our bug-tracking system and mailing lists) for non-free software packages."
-msgstr "Pacchetti che non sono conformi alle DFSG sono collocati nella </literal> sezione non-free <literal>. Questi pacchetti non sono considerati come parte della distribuzione Debian, anche se consentiamo loro uso, e mettiamo a disposizione le infrastrutture (ad esempio, il nostro sistema di bug-tracking e mailing list) per i pacchetti software non-free."
+msgstr "Pacchetti che non sono conformi alle DFSG sono collocati nella </literal> sezione non-free <literal>. Questi pacchetti non sono considerati come parte della distribuzione Debian, anche se consentiamo il loro uso, e mettiamo a disposizione le infrastrutture (ad esempio, il nostro sistema di bug-tracking e mailing list) per i pacchetti software non-free."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:494
 msgid "The <ulink url=\"&url-debian-policy;\">Debian Policy Manual</ulink> contains a more exact definition of the three sections.  The above discussion is just an introduction."
-msgstr "Il <ulink url=\"&url-debian-policy;\"> Debian Policy Manual </ulink> contiene una definizione più precisa delle tre sezioni. La discussione di cui sopra è solo un'introduzione."
+msgstr "Il <ulink url=\"&url-debian-policy;\">Debian Policy Manual</ulink> contiene una definizione più precisa delle tre sezioni. La discussione di cui sopra è solo un'introduzione."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:499
 msgid "The separation of the three sections at the top-level of the archive is important for all people who want to distribute Debian, either via FTP servers on the Internet or on CD-ROMs: by distributing only the <literal>main</literal> and <literal>contrib</literal> sections, one can avoid any legal risks.  Some packages in the <literal>non-free</literal> section do not allow commercial distribution, for example."
-msgstr "La separazione delle tre sezioni in alto a livello di archivio è importante per tutte le persone che vogliono distribuire Debian, sia tramite server FTP su Internet o su CD-ROM: distribuendo solo il <literal> principale </literal> e <literal> contrib </literal> sezioni, si possono evitare eventuali rischi legali. Alcuni pacchetti in </literal> sezione non-free <literal> non prevedono la distribuzione commerciale, per esempio."
+msgstr "La separazione delle tre sezioni al livello più alto di archivio è importante per tutte le persone che vogliono distribuire Debian, sia tramite server FTP su Internet o su CD-ROM: distribuendo solo le sezioni <literal>main</literal> e <literal> contrib </literal>, si possono evitare eventuali rischi legali. Alcuni pacchetti nella sezione <literal>non-free</literal> non prevedono la distribuzione commerciale, per esempio."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:507
 msgid "On the other hand, a CD-ROM vendor could easily check the individual package licenses of the packages in <literal>non-free</literal> and include as many on the CD-ROMs as it's allowed to.  (Since this varies greatly from vendor to vendor, this job can't be done by the Debian developers.)"
-msgstr "D'altra parte, un venditore di CD-ROM potrebbe controllare facilmente le singole licenze dei pacchetti dei pacchetti in <literal> non-free </literal> e di includere il maggior numero sul CD-ROM come è permesso. (Dal momento che questo varia da fornitore a fornitore, questo lavoro non può essere fatto dagli sviluppatori Debian.)"
+msgstr "D'altra parte, un venditore di CD-ROM potrebbe controllare facilmente le singole licenze dei pacchetti di quelli presenti in <literal>non-free</literal> e di includere il maggior numero sul CD-ROM come è permesso. (Dal momento che questo varia da fornitore a fornitore, questo lavoro non può essere fatto dagli sviluppatori Debian.)"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:513
 msgid "Note that the term section is also used to refer to categories which simplify the organization and browsing of available packages, e.g.  <literal>admin</literal>, <literal>net</literal>, <literal>utils</literal> etc.  Once upon a time, these sections (subsections, rather) existed in the form of subdirectories within the Debian archive.  Nowadays, these exist only in the Section header fields of packages."
-msgstr "Si noti che la sezione termine è usato anche per riferirsi a categorie che semplificano l'organizzazione e la navigazione di pacchetti disponibili, ad esempio <literal> Admin </literal>, <literal> net </literal>, <literal> utils </literal>, ecc C'era una volta, queste sezioni (sottosezioni, piuttosto) esisteva in forma di sottodirectory all'interno dell'archivio Debian . Al giorno d'oggi, questi esistono solo nei campi di intestazione Sezione di pacchetti."
+msgstr "Si noti che la sezione termini è usata anche per riferirsi a categorie che semplificano l'organizzazione e la navigazione di pacchetti disponibili, ad esempio <literal>admin</literal>, <literal>net</literal>, <literal>utils</literal>, ecc. Tempo fa, queste sezioni (sottosezioni, piuttosto) esistevano in forma di sottodirectory all'interno dell'archivio Debian . Al giorno d'oggi, questi esistono solo nei campi Section degli header dei pacchetti."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:523
@@ -5516,17 +5516,17 @@ msgstr "Architetture"
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:525
 msgid "In the first days, the Linux kernel was only available for Intel i386 (or greater) platforms, and so was Debian.  But as Linux became more and more popular, the kernel was ported to other architectures and Debian started to support them. And as if supporting so much hardware was not enough, Debian decided to build some ports based on other Unix kernels, like <literal>hurd</literal> and <literal>kfreebsd</literal>."
-msgstr "Nei primi giorni, il kernel Linux è disponibile solo per Intel i386 (o superiore), le piattaforme, e così è stato Debian. Ma, come Linux è diventato sempre più popolare, il kernel è stato portato su altre architetture e di Debian iniziò a sostenerli. E come se sostenere tanto l'hardware non è stato sufficiente, Debian ha deciso di costruire alcuni porti sulla base di altri kernel Unix, come <literal> Hurd </literal> e <literal> kFreeBSD </literal>."
+msgstr "I primi tempi, il kernel Linux era disponibile solo per le piattaforme Intel i386 (o superiore), e così è stato Debian. Ma, come Linux è diventato sempre più popolare, il kernel è stato portato su altre architetture e Debian iniziò a supportarle. E come se sostenere tanto l'hardware non fosse sufficiente, Debian ha deciso di costruire alcuni porti sulla base di altri kernel Unix, come <literal>hurd</literal> e <literal>kFreeBSD</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:533
 msgid "&debian-formal; 1.3 was only available as <literal>i386</literal>.  Debian 2.0 shipped for <literal>i386</literal> and <literal>m68k</literal> architectures.  Debian 2.1 shipped for the <literal>i386</literal>, <literal>m68k</literal>, <literal>alpha</literal>, and <literal>sparc</literal> architectures.  Since then Debian has grown hugely.  Debian 6 supports a total of nine Linux architectures (<literal>amd64</literal>, <literal>armel</literal>, <literal>i386</literal>, <literal>ia64</literal>, <literal>mips</literal>, <literal>mipsel</literal>, <literal>powerpc</literal>, <literal>s390</literal>, <literal>sparc</literal>) and two kFreeBSD architectures (<literal>kfreebsd-i386</literal> and <literal>kfreebsd-amd64</literal>)."
-msgstr "e debian-formale; 1.3 era disponibile solo come i386 <literal> </literal>. Debian 2.0 spediti per i386 <literal> </literal> e <literal> m68k </literal> architetture. Debian 2.1 spediti per l'i386 <literal> </literal>, <literal> m68k </literal>, <literal> alpha </literal>, e SPARC </literal> architetture <literal>. Da allora Debian è cresciuto enormemente. Debian 6 supporta un totale di nove architetture Linux (<literal> amd64 </literal>, <literal> armel </literal>, <literal> i386 </literal>, <literal> ia64 </literal>, <literal> MIPS </literal>, <literal> mipsel </literal>, <literal> powerpc </literal>, <literal> s390 </literal>, <literal> SPARC </literal>) e due architetture kFreeBSD (<literal> kFreeBSD -i386 </literal> e <literal> kfreebsd-amd64 </literal>)."
+msgstr "&debian-formal; 1.3 era disponibile solo come <literal>i386</literal>. Debian 2.0 è distribuito per le architetture <literal>i386</literal> e <literal>m68k</literal>. Debian 2.1 distribuito per <literal>i386</literal>, <literal>m68k</literal>, <literal>alpha</literal>, <literal>sparc</literal>. Da allora Debian è cresciuto enormemente. Debian 6 supporta un totale di nove architetture Linux (<literal>amd64</literal>, <literal>armel</literal>, <literal>i386</literal>, <literal>ia64</literal>, <literal>mips</literal>, <literal>mipsel</literal>, <literal>powerpc</literal>, <literal>s390</literal>, <literal>sparc</literal>) e due architetture kFreeBSD (<literal>kFreeBSD -i386</literal> e <literal>kfreebsd-amd64</literal>)."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:546
 msgid "Information for developers and users about the specific ports are available at the <ulink url=\"&url-debian-ports;\">Debian Ports web pages</ulink>."
-msgstr "Informazioni per gli sviluppatori e gli utenti sulle porte specifiche sono disponibili presso la <ulink url=\"&url-debian-ports;\"> Debian Ports pagine web </ulink>."
+msgstr "Informazioni per gli sviluppatori e gli utenti sui port specifici sono disponibili presso le <ulink url=\"&url-debian-ports;\">pagine web Debian Ports</ulink>."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:552
@@ -5536,37 +5536,37 @@ msgstr "Pacchetti "
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:554
 msgid "There are two types of Debian packages, namely <literal>source</literal> and <literal>binary</literal> packages."
-msgstr "Ci sono due tipi di pacchetti Debian, e cioè <literal> fonte </literal> e <literal> binario </literal> pacchetti."
+msgstr "Ci sono due tipi di pacchetti Debian, e cioè pacchetti <literal>source</literal> e <literal>binary</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:558
 msgid "Depending on the format of the source package, it will consist of one or more files in addition to the mandatory <filename>.dsc</filename> file:"
-msgstr "A seconda del formato del pacchetto sorgente, esso sarà composto da uno o più file in aggiunta al <filename> obbligatorio dsc </filename>.:"
+msgstr "A seconda del formato del pacchetto sorgente, esso sarà composto da uno o più file in aggiunta all'obbligatorio <filename>.dsc</filename>.:"
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
 #: resources.dbk:562
 msgid "with format “1.0”, it has either a <filename>.tar.gz</filename> file or both an <filename>.orig.tar.gz</filename> and a <filename>.diff.gz</filename> file;"
-msgstr "con il formato \"1.0\", ha sia un <filename>. tar.gz </filename> oppure sia da un <filename>. orig.tar.gz </filename> e un <filename>. diff.gz </filename > file;"
+msgstr "con il formato «1.0», ha sia un file <filename>.tar.gz</filename> o sia un file <filename>.orig.tar.gz</filename> e un <filename>.diff.gz</filename >;"
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
 #: resources.dbk:565
 msgid "with format “3.0 (quilt)”, it has a mandatory <filename>.orig.tar.{gz,bz2,xz}</filename> upstream tarball, multiple optional <filename>.orig-<replaceable>component</replaceable>.tar.{gz,bz2,xz}</filename> additional upstream tarballs and a mandatory <filename>debian.tar.{gz,bz2,xz}</filename> debian tarball;"
-msgstr "con il formato \"3.0 (quilt)\", ha un <filename> obbligatori. orig.tar. {gz, bz2, xz} </filename> archivio upstream, multiplo <filename> opzionale. <replaceable>-orig componente </sostituibile ..> {tar gz, bz2, xz} </filename> aggiuntivi tarball upstream e una <filename> debian.tar obbligatorio {gz, bz2, xz} </filename> debian tarball.;"
+msgstr "con il formato «3.0 (quilt)», ha una obbligatoria tarball originale <filename>.orig.tar.{gz, bz2, xz}</filename>, diverse opzionali <filename>.orig-<replaceable>component </replaceable>.tar.{tar gz, bz2, xz}</filename> aggiuntive tarball originali e un obbligatorio debian tarball <filename> debian.tar.{gz, bz2, xz} </filename>.;"
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
 #: resources.dbk:571
 msgid "with format “3.0 (native)”, it has only a single <filename>.tar.{gz,bz2,xz}</filename> tarball."
-msgstr "con il formato \"3.0 (nativo)\", si ha solo un unico <filename>. tar. {gz, bz2, xz} </filename> tarball."
+msgstr "con il formato «3.0 (native)», si ha solo un'unica tarball <filename>.tar.{gz, bz2, xz} </filename>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:576
 msgid "If a package is developed specially for Debian and is not distributed outside of Debian, there is just one <filename>.tar.{gz,bz2,xz}</filename> file which contains the sources of the program, it's called a “native” source package.  If a package is distributed elsewhere too, the <filename>.orig.tar.{gz,bz2,xz}</filename> file stores the so-called <literal>upstream source code</literal>, that is the source code that's distributed by the <literal>upstream maintainer</literal> (often the author of the software). In this case, the <filename>.diff.gz</filename> or the <filename>debian.tar.{gz,bz2,xz}</filename> contains the changes made by the Debian maintainer."
-msgstr "Se un pacchetto è stato sviluppato appositamente per Debian e non è distribuito al di fuori di Debian, c'è solo un <filename>. Tar. {Gz, bz2, xz} </filename>, che contiene i sorgenti del programma, si chiama \"nativo \"pacchetto sorgente. Se un pacchetto viene distribuito anche altrove, il <filename>. Orig.tar. {Gz, bz2, xz} </filename> contiene il cosiddetto <literal> monte codice sorgente </literal>, che è il codice sorgente che viene distribuito dal <literal> upstream maintainer </literal> (spesso l'autore del software). In questo caso, il <filename>. Diff.gz </filename> o il debian.tar <filename>. {Gz, bz2, xz} </filename> contiene le modifiche apportate dal maintainer Debian."
+msgstr "Se un pacchetto è stato sviluppato appositamente per Debian e non è distribuito al di fuori di Debian, c'è solo un <filename>.tar.{gz, bz2, xz} </filename>, che contiene i sorgenti del programma, è chiamato «nativo». Se un pacchetto viene distribuito anche altrove, il <filename>.orig.tar. {gz, bz2, xz} </filename> contiene il cosiddetto <literal>codice sorgente originale</literal>, che è il codice sorgente che viene distribuito dal <literal> upstream maintainer </literal> (spesso l'autore del software). In questo caso, il <filename>.diff.gz </filename> o il <filename>debian.tar.{gz, bz2, xz} </filename> contiene le modifiche apportate dal maintainer Debian."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:589
 msgid "The <filename>.dsc</filename> file lists all the files in the source package together with checksums (<command>md5sums</command>) and some additional info about the package (maintainer, version, etc.)."
-msgstr "Il <filename>. DSC </filename> elenca tutti i file nel pacchetto sorgente con checksum (<command> md5sum </command>) e alcuni ulteriori informazioni sul pacchetto (maintainer, versione, ecc.)"
+msgstr "Il <filename>.dsc</filename> elenca tutti i file nel pacchetto sorgente con checksum (<command>md5sum</command>) e alcuni ulteriori informazioni sul pacchetto (maintainer, versione, ecc.)"
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:596
