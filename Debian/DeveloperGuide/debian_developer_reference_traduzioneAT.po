@@ -4901,12 +4901,12 @@ msgstr "Influenza del pacchetto in testing"
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2608
 msgid "Generally, there is nothing that the status of a package in <literal>testing</literal> means for transition of the next version from <literal>unstable</literal> to <literal>testing</literal>, with two exceptions: If the RC-bugginess of the package goes down, it may go in even if it is still RC-buggy.  The second exception is if the version of the package in <literal>testing</literal> is out of sync on the different arches: Then any arch might just upgrade to the version of the source package; however, this can happen only if the package was previously forced through, the arch is in fuckedarches, or there was no binary package of that arch present in <literal>unstable</literal> at all during the <literal>testing</literal> migration."
-msgstr "In generale, non c'è nulla che lo stato di un pacchetto in <literal> testing </literal> significa per il passaggio della prossima versione di <literal> unstable </literal> per <literal> testing </literal>, con due eccezioni: Se l'RC-bugginess del pacchetto va giù, si può andare in anche se è ancora in RC-buggy. La seconda eccezione è se la versione del pacchetto in testing <literal> </literal> è fuori sincrono sui diversi archi: Allora ogni arco potrebbe semplicemente eseguire l'aggiornamento alla versione del pacchetto sorgente, ma questo può avvenire solo se la pacchetto è stato precedentemente forzata attraverso, l'arco è in fuckedarches, o non c'era nessun pacchetto binario di quell'arco presente in <literal> unstable </literal> a tutti durante la <literal> testing </literal> migrazione."
+msgstr "In generale, non c'è nulla che lo stato di un pacchetto in <literal>testing</literal> che indichi il passaggio della prossima versione da <literal>unstable</literal> a <literal>testing</literal>, con due eccezioni: se l'RC-bacata del pacchetto va giù, ò potrebbe andarci anche se è ancora in RC-bacata. La seconda eccezione è se la versione del pacchetto in <literal>testing</literal> è fuori sincrono sulle diverse architetture: allora ogni architettura potrebbe semplicemente eseguire l'aggiornamento alla versione del pacchetto dei sorgenti; ma questo può avvenire solo se il pacchetto è stato precedentemente forzato , l'architettura è in fuckedarches, o non c'era nessun pacchetto binario di quell'architettura presente in <literal>unstable</literal>  durante la migrazione <literal>testing</literal>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2620
 msgid "In summary this means: The only influence that a package being in <literal>testing</literal> has on a new version of the same package is that the new version might go in easier."
-msgstr "In sintesi questo significa: L'unica influenza che un pacchetto di essere in fase di test <literal> </literal> ha su una nuova versione dello stesso pacchetto è che la nuova versione potrebbe andare a facili."
+msgstr "In sintesi questo significa: L'unica influenza che un pacchetto presente in <literal>testing</literal> ha su una nuova versione dello stesso pacchetto è che la nuova versione potrebbe entrarci più facilemente."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: pkgs.dbk:2627
@@ -4916,22 +4916,22 @@ msgstr "Dettagli "
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2629
 msgid "If you are interested in details, this is how britney works:"
-msgstr "Se siete interessati a maggiori dettagli, questo è come funziona britney:"
+msgstr "Se siete interessati a maggiori dettagli, cosi è come funziona britney:"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2632
 msgid "The packages are looked at to determine whether they are valid candidates.  This gives the update excuses.  The most common reasons why a package is not considered are too young, RC-bugginess, and out of date on some arches.  For this part of britney, the release managers have hammers of various sizes, called hints (see below), to force britney to consider a package."
-msgstr "I pacchetti sono guardato per determinare se essi sono candidati validi. Questo dà la scuse aggiornamento. Le ragioni più comuni per cui un pacchetto non è considerato troppo giovane, RC-bugginess, e fuori della data in alcuni archi. Per questa parte di Britney, i gestori di rilascio sono martelli di varie dimensioni, chiamati suggerimenti (si consulti sotto), per forzare britney da considerare un pacchetto."
+msgstr "I pacchetti sono osservati per determinare se essi sono validi candidati. Questo dà i pretesti per l'aggiornamento. Le ragioni più comuni per cui un pacchetto non è considerato essere troppo giovane, RC-bugginess, e datati su alcune architetture. Per questa parte di britney, i managers della release posseggono martelli di varie dimensioni, chiamati suggerimenti (si consulti sotto), per forzare britney a considerare un pacchetto."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2639
 msgid "Now, the more complex part happens: Britney tries to update <literal>testing</literal> with the valid candidates. For that, britney tries to add each valid candidate to the testing distribution. If the number of uninstallable packages in <literal>testing</literal> doesn't increase, the package is accepted. From that point on, the accepted package is considered to be part of <literal>testing</literal>, such that all subsequent installability tests include this package.  Hints from the release team are processed before or after this main run, depending on the exact type."
-msgstr "Ora, la parte più complessa accade: Britney tenta di aggiornare <literal> testing </literal> con i candidati validi. Per questo, Britney cerca di aggiungere ogni candidato valido per la distribuzione testing. Se il numero di pacchetti non installabili in <literal> testing </literal> non aumenta, il pacchetto viene accettato. Da quel momento in poi, il pacchetto viene considerato accettato di far parte di <literal> testing </literal>, in modo che tutti i test installabilità successive includono questo pacchetto. Suggerimenti da parte del team di rilascio vengono elaborati prima o dopo questo ciclo principale, a seconda del tipo esatto."
+msgstr "Ora, arriva la parte più complessa: Britney tenta di aggiornare <literal>testing</literal> con i candidati validi. Per questo, Britney cerca di aggiungere ogni candidato valido per la distribuzione testing. Se il numero di pacchetti non installabili in <literal> testing </literal> non aumenta, il pacchetto viene accettato. Da quel momento in poi, il pacchetto viene considerato parte di <literal>testing</literal>, in modo che tutti i test di installabilità successivi includeranno questo pacchetto. Suggerimenti da parte del team di release vengono elaborati prima o dopo questo ciclo principale, a seconda del tipo esatto."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2649
 msgid "If you want to see more details, you can look it up on <ulink url=\"http://&ftp-master-host;/testing/update_output/\"></ulink>."
-msgstr "Se vuoi vedere i dettagli, è possibile cercare su <ulink url=\"http://&ftp-master-host;/testing/update_output/\"> </ulink>."
+msgstr "Se si vuole vedere i dettagli, è possibile cercare su <ulink url=\"http://&ftp-master-host;/testing/update_output/\"></ulink>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2653
@@ -4941,42 +4941,42 @@ msgstr "I suggerimenti sono disponibili tramite<ulink url=\"http://&ftp-master-h
 #. type: Content of: <chapter><section><section><title>
 #: pkgs.dbk:2667
 msgid "Direct updates to testing"
-msgstr "Aggiornamenti diretti al testing"
+msgstr "Aggiornamenti diretti di testing"
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2669
 msgid "The <literal>testing</literal> distribution is fed with packages from <literal>unstable</literal> according to the rules explained above.  However, in some cases, it is necessary to upload packages built only for <literal>testing</literal>.  For that, you may want to upload to <literal>testing-proposed-updates</literal>."
-msgstr "Il test <literal> </literal> di distribuzione è alimentata con i pacchetti dal <literal> unstable </literal> secondo le regole sopra esposte. Tuttavia, in alcuni casi, è necessario caricare i pacchetti costruiti solo per <literal> testing </literal>. Per questo, si consiglia di caricare <literal> testing-proposed-updates </literal>."
+msgstr "La distribuzione <literal>testing</literal> è alimentata con i pacchetti dal <literal>unstable</literal> rispettando le regole sopra esposte. Tuttavia, in alcuni casi, è necessario caricare i pacchetti costruiti solo per <literal>testing</literal>. Per questo, si consiglia di caricare <literal>testing-proposed-updates</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2676
 msgid "Keep in mind that packages uploaded there are not automatically processed, they have to go through the hands of the release manager.  So you'd better have a good reason to upload there.  In order to know what a good reason is in the release managers' eyes, you should read the instructions that they regularly give on &email-debian-devel-announce;."
-msgstr "Tenete a mente che i pacchetti siano inviati lì non vengono elaborati automaticamente, essi devono passare attraverso le mani del direttore di rilascio. Quindi è meglio avere un buon motivo per caricare lì. Per sapere che cos'è un buon motivo è negli occhi Release Manager ', si consiglia di leggere le istruzioni che danno regolarmente su e-mail-debian-devel-announce;."
+msgstr "Tenete a mente che i pacchetti siano inviati lì non vengono elaborati automaticamente, essi devono passare attraverso le mani del manager della release. Quindi è meglio avere un buon motivo per caricarli lì. Per sapere qual'è un buon motivo agli occhi del manager della release, si consiglia di leggere le istruzioni che danno regolarmente su &email-debian-devel-announce;."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2683
 msgid "You should not upload to <literal>testing-proposed-updates</literal> when you can update your packages through <literal>unstable</literal>.  If you can't (for example because you have a newer development version in <literal>unstable</literal>), you may use this facility, but it is recommended that you ask for authorization from the release manager first.  Even if a package is frozen, updates through <literal>unstable</literal> are possible, if the upload via <literal>unstable</literal> does not pull in any new dependencies."
-msgstr "Si consiglia di non caricare <literal> testing-proposed-updates </literal>, quando è possibile aggiornare i pacchetti attraverso <literal> unstable </literal>. Se non è possibile (ad esempio perché si dispone di una versione di sviluppo più recente in <literal> unstable </literal>), è possibile utilizzare questo strumento, ma si consiglia di chiedere l'autorizzazione del responsabile del rilascio prima. Anche se un pacchetto è congelato, aggiornamenti tramite <literal> unstable </literal> sono possibili, se il caricamento tramite <literal> unstable </literal> non tirare in qualsiasi nuove dipendenze."
+msgstr "Si consiglia di non caricare <literal>testing-proposed-updates</literal>, quando è possibile aggiornare i pacchetti attraverso <literal>unstable</literal>. Se non è possibile (ad esempio perché si dispone di una versione di sviluppo più recente in <literal>unstable</literal>), è possibile utilizzare questo strumento, ma si consiglia di chiedere prima l'autorizzazione del manager della release. Anche se un pacchetto è congelato, sono possibili aggiornamenti tramite <literal>unstable</literal>, se l'upload tramite <literal>unstable</literal> non aggiunge nuove dipendenze."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2692
 msgid "Version numbers are usually selected by adding the codename of the <literal>testing</literal> distribution and a running number, like <literal>1.2squeeze1</literal> for the first upload through <literal>testing-proposed-updates</literal> of package version <literal>1.2</literal>."
-msgstr "I numeri di versione sono in genere scelti aggiungendo il nome in codice del test <literal> </literal> di distribuzione e di un numero progressivo, come <literal> 1.2squeeze1 </literal> per la prima caricare attraverso <literal> testing-proposed-updates </literal> di versione del pacchetto <literal> 1.2 </literal>."
+msgstr "I numeri di versione sono in genere scelti aggiungendo il nome in codice della distribuzione <literal>testing</literal> e di un numero progressivo, come <literal>1.2squeeze1</literal> per il primo upload attraverso <literal> testing-proposed-updates </literal> del pacchetto con versione <literal>1.2</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2699
 msgid "Please make sure you didn't miss any of these items in your upload:"
-msgstr "Assicurarsi di non perdere uno di questi elementi nella vostra caricamento Per favore:"
+msgstr "Assicurarsi di non perdere nessuno di questi elementi nel proprio upload:"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2704
 msgid "Make sure that your package really needs to go through <literal>testing-proposed-updates</literal>, and can't go through <literal>unstable</literal>;"
-msgstr "Assicuratevi che il vostro pacchetto ha davvero bisogno di passare attraverso <literal> testing-proposed-updates </literal>, e non può passare attraverso <literal> unstable </literal>;"
+msgstr "Assicurarsi che il proprio pacchetto abbia davvero bisogno di passare attraverso <literal>testing-proposed-updates</literal>, e non può passare attraverso <literal>unstable</literal>;"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2711
 msgid "Make sure that you included only the minimal amount of changes;"
-msgstr "Assicurarsi di includere solo la quantità minima di cambiamenti;"
+msgstr "Assicurarsi di includere solo la quantità minima di modfiche;"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2716
@@ -4986,22 +4986,22 @@ msgstr "Assicurarsi che hai incluso una spiegazione appropriata nel changelog;"
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2721
 msgid "Make sure that you've written <literal>testing</literal> or <literal>testing-proposed-updates</literal> into your target distribution;"
-msgstr "Assicurarsi che hai scritto test <literal> </literal> o <literal> testing-proposed-updates </literal> nella distribuzione di destinazione;"
+msgstr "Assicurarsi di aver scritto <literal>testing</literal> o <literal>testing-proposed-updates</literal> come distribuzione di destinazione;"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2727
 msgid "Make sure that you've built and tested your package in <literal>testing</literal>, not in <literal>unstable</literal>;"
-msgstr "Assicurarsi che hai costruito e testato il vostro pacchetto in <literal> testing </literal>, non in <literal> unstable </literal>;"
+msgstr "Assicurarsi di aver costruito e testato il proprio pacchetto in <literal>testing</literal>, non in <literal>unstable</literal>;"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2733
 msgid "Make sure that your version number is higher than the version in <literal>testing</literal> and <literal>testing-proposed-updates</literal>, and lower than in <literal>unstable</literal>;"
-msgstr "Assicurarsi che il numero di versione è più alto rispetto alla versione in <literal> testing </literal> e <literal> testing-proposed-updates </literal>, e inferiore a quello <literal> unstable </literal>;"
+msgstr "Assicurarsi che il numero di versione sia più alto rispetto alla versione in <literal>testing</literal> e <literal>testing-proposed-updates</literal>, e inferiore a quello <literal>unstable</literal>;"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2740
 msgid "After uploading and successful build on all platforms, contact the release team at &email-debian-release; and ask them to approve your upload."
-msgstr "Dopo il caricamento e di successo si basano su tutte le piattaforme, contattare il team di rilascio a & e-mail-debian-release, e chiedere loro di approvare il caricamento."
+msgstr "Dopo aver effettuato l'upload ed i build riusciti su tutte le piattaforme, si contatti il team di rilascio su &email-debian-release; e chiedendogli di approvare l'upload."
 
 #. type: Content of: <chapter><section><section><title>
 #: pkgs.dbk:2748
@@ -5016,47 +5016,47 @@ msgstr "Quali sono i bug critici per il rilascio, e come vengono contati?"
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2752
 msgid "All bugs of some higher severities are by default considered release-critical; currently, these are <literal>critical</literal>, <literal>grave</literal> and <literal>serious</literal> bugs."
-msgstr "Tutti i bug di alcuni livelli di gravità più elevati sono di default considerati release-critical, attualmente, questi sono <literal> critico </literal>, <literal> tomba </literal> e <literal> gravi bug </literal>."
+msgstr "Tutti i bug di alcuni livelli di gravità più elevati sono di default considerati release-critical; attualmente, questi sono i bug <literal>critical</literal>, <literal>grave</literal> e <literal>serious</literal>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2757
 msgid "Such bugs are presumed to have an impact on the chances that the package will be released with the <literal>stable</literal> release of Debian: in general, if a package has open release-critical bugs filed on it, it won't get into <literal>testing</literal>, and consequently won't be released in <literal>stable</literal>."
-msgstr "Tali insetti sono presume di avere un impatto sulle possibilità che il pacchetto verrà rilasciato con il <literal> stabile </literal> rilascio di Debian: in generale, se un pacchetto ha bug critici per il rilascio aperti depositati su di esso, ha vinto 't entrare in <literal> testing </literal>, e di conseguenza non sarà rilasciato in <literal> stabile </literal>."
+msgstr "Tali bug sono ritenuti di avere un impatto sulle possibilità che il pacchetto venga rilasciato con la <literal>stable</literal> release di Debian: in generale, se un pacchetto ha bug critico per il rilascio aperto, non sarà integrato in <literal>testing</literal>, e di conseguenza non sarà rilasciato in <literal>stable</literal>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2764
 msgid "The <literal>unstable</literal> bug count are all release-critical bugs which are marked to apply to <replaceable>package</replaceable>/<replaceable>version</replaceable> combinations that are available in unstable for a release architecture. The <literal>testing</literal> bug count is defined analogously."
-msgstr "Il <literal> unstable </literal> conteggio dei bug sono tutti i bug critici per il rilascio che sono contrassegnati da applicare al <replaceable> pacchetto </replaceable> / <replaceable> versione combinazioni </replaceable> che sono disponibili in unstable per un'architettura di rilascio . Il test <literal> </literal> conteggio dei bug è definita in modo analogo."
+msgstr "Il conteggio dei bug in <literal>unstable</literal> sono tutti i bug critici per il rilascio che sono contrassegnati tali a combinazioni <replaceable>package</replaceable>/<replaceable>version</replaceable>  che sono disponibili in unstable per un'architettura di rilascio . Il conteggio dei  bug in <literal>testing</literal>  è definito in modo analogo."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: pkgs.dbk:2772
 msgid "How could installing a package into <literal>testing</literal> possibly break other packages?"
-msgstr "Come potrebbe l'installazione di un pacchetto in <literal> testing </literal> possibilmente rompere altri pacchetti?"
+msgstr "Come potrebbe l'installazione di un pacchetto in <literal>testing</literal> rompere altri pacchetti?"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2775
 msgid "The structure of the distribution archives is such that they can only contain one version of a package; a package is defined by its name.  So when the source package <literal>acmefoo</literal> is installed into <literal>testing</literal>, along with its binary packages <literal>acme-foo-bin</literal>, <literal>acme-bar-bin</literal>, <literal>libacme-foo1</literal> and <literal>libacme-foo-dev</literal>, the old version is removed."
-msgstr "La struttura degli archivi distribuzione è tale che essi possono contenere solo una versione di un pacchetto, un pacchetto è definito dal suo nome. Così, quando il pacchetto sorgente <literal> acmefoo </literal> è installato in <literal> testing </literal>, insieme con i suoi pacchetti binari <literal> acme-foo-bin </literal>, <literal> acme-bar-bin </literal>, <literal> libacme-foo1 </literal> e <literal> libacme-foo-dev </literal>, la versione precedente viene rimossa."
+msgstr "La struttura degli archivi di distribuzione è tale che possono contenere solo una versione di un pacchetto; un pacchetto è definito dal suo nome. Così, quando il pacchetto sorgente <literal>acmefoo</literal> è installato in <literal>testing</literal>, insieme con i suoi pacchetti binari <literal>acme-foo-bin</literal>, <literal>acme-bar-bin</literal>, <literal>libacme-foo1</literal> e <literal>libacme-foo-dev</literal>, la versione precedente viene rimossa."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2783
 msgid "However, the old version may have provided a binary package with an old soname of a library, such as <literal>libacme-foo0</literal>.  Removing the old <literal>acmefoo</literal> will remove <literal>libacme-foo0</literal>, which will break any packages which depend on it."
-msgstr "Tuttavia, la vecchia versione fornisse un pacchetto binario con un vecchio soname di una libreria, come <literal> libacme-foo0 </literal>. Rimozione del vecchio <literal> acmefoo </literal> rimuoverà <literal> libacme-foo0 </literal>, che romperà tutti i pacchetti che dipendono da esso."
+msgstr "Tuttavia, la vecchia versione potrebbe aver fornito un pacchetto binario con un vecchio nome di una libreria che è in uso, come <literal>libacme-foo0</literal>. La rimozione del vecchio <literal>acmefoo</literal> rimuoverà <literal>libacme-foo0</literal>, che romperà tutti i pacchetti che dipendono da esso."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2789
 msgid "Evidently, this mainly affects packages which provide changing sets of binary packages in different versions (in turn, mainly libraries).  However, it will also affect packages upon which versioned dependencies have been declared of the ==, &lt;=, or &lt;&lt; varieties."
-msgstr "Evidentemente, questo riguarda principalmente i pacchetti che forniscono insiemi di pacchetti binari in versioni differenti (in e principalmente le librerie). Tuttavia, anche i pacchetti su cui dipendenze versionati sono state dichiarate con ==, <=, o varietà. <<"
+msgstr "Evidentemente, questo riguarda principalmente i pacchetti che forniscono insiemi di pacchetti binari in versioni differenti (principalmente le librerie). Tuttavia, ne saranno affetti anche i pacchetti su cui dipendenze versionate sono state dichiarate con variante di ==, &lt;=, or &lt;&lt;"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2795
 msgid "When the set of binary packages provided by a source package change in this way, all the packages that depended on the old binaries will have to be updated to depend on the new binaries instead.  Because installing such a source package into <literal>testing</literal> breaks all the packages that depended on it in <literal>testing</literal>, some care has to be taken now: all the depending packages must be updated and ready to be installed themselves so that they won't be broken, and, once everything is ready, manual intervention by the release manager or an assistant is normally required."
-msgstr "Quando il set di pacchetti binari forniti da un pacchetto sorgente è modificato in questo modo, tutti i pacchetti che dipendevano dai precedenti binari dovranno essere aggiornati per dipendere dai nuovi binari. Poiché l'installazione di un pacchetto sorgente in <literal> testing </literal> rompe tutti i pacchetti che ne dipendono in <literal> testing </literal>, una certa attenzione deve essere presa adesso: tutti i pacchetti dipendenti devono essere aggiornati e pronti per essere installato se stessi in modo che essi non saranno suddivisi, e, una volta che tutto è pronto, è normalmente richiesto un intervento manuale del responsabile del rilascio o di un assistente."
+msgstr "Quando il set di pacchetti binari forniti da un pacchetto sorgente è modificato in questo modo, tutti i pacchetti che dipendevano dai precedenti binari dovranno essere aggiornati in modo da dipendere dai nuovi binari. Poiché l'installazione di un pacchetto sorgente in <literal>testing</literal> rompe tutti i pacchetti che ne dipendono in <literal>testing</literal>, una certa attenzione deve essere presa ora: tutti i pacchetti dipendenti devono essere aggiornati e pronti per essere installati in modo da non risultare rotti, e, una volta che tutto è pronto, è normalmente richiesto un intervento manuale del manager della release o di un assistente."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2806
 msgid "If you are having problems with complicated groups of packages like this, contact &email-debian-devel; or &email-debian-release; for help."
-msgstr "Se si hanno problemi con gruppi complessi di pacchetti come questo, il contatto e-mail-debian-devel, oppure e-mail-debian-release, per chiedere aiuto."
+msgstr "Se si hanno problemi con gruppi complessi di pacchetti come questo,  si contatti &email-debian-devel; or &email-debian-release; per aiuto."
 
 #. type: Content of: <chapter><title>
 #: resources.dbk:7
@@ -5066,7 +5066,7 @@ msgstr "Risorse per sviluppatori Debian"
 #. type: Content of: <chapter><para>
 #: resources.dbk:9
 msgid "In this chapter you will find a very brief road map of the Debian mailing lists, the Debian machines which may be available to you as a developer, and all the other resources that are available to help you in your maintainer work."
-msgstr "In questo capitolo troverete una mappa molto breve strada delle mailing list Debian, le macchine Debian che possono essere disponibili per voi come uno sviluppatore, e tutte le altre risorse che sono a disposizione per aiutarvi nel vostro lavoro maintainer."
+msgstr "In questo capitolo troverete una breve road map delle mailing list Debian, le macchine Debian che possono essere disponibili per voi come sviluppatore, e tutte le altre risorse che sono a disposizione per aiutarvi nel vostro lavoro maintainer."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:14
@@ -5076,7 +5076,7 @@ msgstr "Mailing lists"
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:16
 msgid "Much of the conversation between Debian developers (and users) is managed through a wide array of mailing lists we host at <literal><ulink url=\"http://&lists-host;/\">&lists-host;</ulink></literal>.  To find out more on how to subscribe or unsubscribe, how to post and how not to post, where to find old posts and how to search them, how to contact the list maintainers and see various other information about the mailing lists, please read <ulink url=\"&url-debian-lists;\"></ulink>.  This section will only cover aspects of mailing lists that are of particular interest to developers."
-msgstr "Gran parte della conversazione tra gli sviluppatori Debian (e gli utenti) è gestito attraverso una vasta gamma di mailing lists che ospitiamo a <literal><ulink url=\"http://&lists-host;/\">&lists-host;</ulink></literal>.  Per saperne di più su come iscriversi o cancellarsi, come inviare e come non inviare, dove trovare vecchi post e come cercarli, come contattare la lista dei maintainers e visionare varie altre informazioni sulle mailing list, si prega di leggere  <ulink url=\"&url-debian-lists;\"></ulink>. Questa sezione tratterà solo gli aspetti delle mailing list che sono di particolare interesse per gli sviluppatori."
+msgstr "Gran parte delle conversazioni tra gli sviluppatori Debian (e gli utenti) è gestito attraverso una vasta gamma di mailing lists che ospitiamo a <literal><ulink url=\"http://&lists-host;/\">&lists-host;</ulink></literal>. Per saperne di più su come iscriversi o cancellarsi, come inviare e come non inviare, dove trovare vecchi post e come cercarli, come contattare la lista dei maintainers e visionare varie altre informazioni sulle mailing list, si prega di leggere  <ulink url=\"&url-debian-lists;\"></ulink>. Questa sezione tratterà solo gli aspetti delle mailing list che sono di particolare interesse per gli sviluppatori."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:27
@@ -5086,7 +5086,7 @@ msgstr "Regole di base per l'utilizzo"
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:29
 msgid "When replying to messages on the mailing list, please do not send a carbon copy (<literal>CC</literal>) to the original poster unless they explicitly request to be copied.  Anyone who posts to a mailing list should read it to see the responses."
-msgstr "Quando si risponde ai messaggi della mailing list, si prega di non inviare una copia per conoscenza (CC <literal> </literal>) per il manifesto originale a meno che non richiedano esplicitamente da copiare. Chiunque messaggi a una mailing list dovrebbero leggerlo per vedere le risposte."
+msgstr "Quando si risponde ai messaggi della mailing list, si prega di non inviare una copia per conoscenza (<literal>CC</literal>) al poter originale a meno che non lo richiedano esplicitamente. Chiunque invii messaggi a una mailing list dovrebbe leggerla per vedere le risposte."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:35
@@ -5096,12 +5096,12 @@ msgstr "Cross-posting (invio dello stesso messaggio a più liste) è sconsigliat
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:40
 msgid "Please read the <ulink url=\"&url-debian-lists;#codeofconduct\">code of conduct</ulink> for more information. The <ulink url=\"&url-dcg;\">Debian Community Guidelines</ulink> are also worth reading."
-msgstr "Si prega di leggere il codice url=\"&url-debian-lists;#codeofconduct\"> <ulink di condotta </ulink> per ulteriori informazioni. <ulink Url=\"&url-dcg;\"> Debian orientamenti comunitari </ulink> sono anche la pena di leggere."
+msgstr "Si prega di leggere il  <ulink url=\"&url-debian-lists;#codeofconduct\">code of conduct</ulink> per ulteriori informazioni. <ulink Url=\"&url-dcg;\">Debian Community Guidelines</ulink> sono anche una lettura consigliata."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:48
 msgid "Core development mailing lists"
-msgstr "Mailing list di sviluppo di base"
+msgstr "Mailing list del core development"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:50
@@ -5111,27 +5111,27 @@ msgstr "Le principali Debian mailing list che gli sviluppatori dovrebbero utiliz
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:55
 msgid "&email-debian-devel-announce;, used to announce important things to developers.  All developers are expected to be subscribed to this list."
-msgstr "e-mail-debian-devel-announce;, usato per annunciare cose importanti per gli sviluppatori. Tutti gli sviluppatori dovrebbero essere iscritti a questa lista."
+msgstr "&email-debian-devel-announce;,  usata per annunciare cose importanti per gli sviluppatori. Tutti gli sviluppatori dovrebbero essere iscritti a questa lista."
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:62
 msgid "&email-debian-devel;, used to discuss various development related technical issues."
-msgstr "e-mail-debian-devel;, utilizzato per discutere di vari problemi tecnici legati allo sviluppo."
+msgstr "&email-debian-devel;, utilizzata per discutere di vari problemi tecnici legati allo sviluppo."
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:68
 msgid "&email-debian-policy;, where the Debian Policy is discussed and voted on."
-msgstr "e-mail-debian-policy;, dove viene discusso il Debian Policy e votato."
+msgstr "&email-debian-policy;, dove viene discusso il Debian Policy e votato."
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:74
 msgid "&email-debian-project;, used to discuss various non-technical issues related to the project."
-msgstr "e-mail debian-project-;, utilizzato per discutere di varie questioni non tecniche legate al progetto."
+msgstr "&email debian-project;, utilizzata per discutere di varie questioni non tecniche legate al progetto."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:80
 msgid "There are other mailing lists available for a variety of special topics; see <ulink url=\"http://&lists-host;/\"></ulink> for a list."
-msgstr "Ci sono altre mailing list disponibili per una varietà di argomenti particolari, vedi <ulink url=\"http://&lists-host;/\"> </ulink> per una lista."
+msgstr "Ci sono altre mailing list disponibili per una varietà di particolari argomenti, ci consulti <ulink url=\"http://&lists-host;/\"></ulink> per una lista."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:86
@@ -5141,27 +5141,27 @@ msgstr "Liste speciali"
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:88
 msgid "&email-debian-private; is a special mailing list for private discussions amongst Debian developers.  It is meant to be used for posts which for whatever reason should not be published publicly.  As such, it is a low volume list, and users are urged not to use &email-debian-private; unless it is really necessary.  Moreover, do <emphasis>not</emphasis> forward email from that list to anyone.  Archives of this list are not available on the web for obvious reasons, but you can see them using your shell account on <literal>&master-host;</literal> and looking in the <filename>&file-debian-private-archive;</filename> directory."
-msgstr "e-mail-debian-private; è una mailing list speciale per discussioni private tra gli sviluppatori Debian. E 'pensato per essere utilizzato per i messaggi che per qualsiasi ragione non dovrebbero essere pubblicati pubblicamente. Come tale, è una lista a basso traffico, e gli utenti sono invitati a non usare e-mail-debian-private, a meno che non sia veramente necessario. Inoltre, fare <emphasis> non </emphasis> avanti-mail da tale lista a nessuno. Archivi di questa lista non sono disponibili sul web per ovvie ragioni, ma è possibile vederli usando il tuo account di shell sul <literal> & master-ospite; </literal> e guardando nel <filename> & file debian-private-archivio; </filename>."
+msgstr "&email-debian-private; è una mailing list speciale per discussioni private tra gli sviluppatori Debian. E' pensata per essere utilizzata per i messaggi che per qualsiasi ragione non dovrebbero essere pubblicati pubblicamente. Come tale, è una lista a basso traffico, e gli utenti sono invitati a non usare &email-debian-private, a meno che non sia veramente necessario. Inoltre, <emphasis>non</emphasis> inoltrare email da tale lista a nessuno. Archivi di questa lista non sono disponibili sul web per ovvie ragioni, ma è possibile vederli usando il tuo account di shell sul <literal>&master-host;</literal> e guardando nel <filename>&file-debian-private-archive;</filename>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:100
 msgid "&email-debian-email; is a special mailing list used as a grab-bag for Debian related correspondence such as contacting upstream authors about licenses, bugs, etc.  or discussing the project with others where it might be useful to have the discussion archived somewhere."
-msgstr "e-mail-debian-mail, è una mailing list speciale usato come grab-bag per la corrispondenza relativi Debian come contattare gli autori upstream su licenze, bug, etc o discutere il progetto con altri, in cui potrebbe essere utile avere la discussione archiviata da qualche parte ."
+msgstr "&email-debian-mail, è una mailing list speciale usata come grab-bag per la corrispondenza relativa a Debian così come contattare gli autori upstream su licenze, bug, etc o discutere il progetto con altri, in cui potrebbe essere utile avere la discussione archiviata da qualche parte ."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:108
 msgid "Requesting new development-related lists"
-msgstr "Richiesta di nuove liste connessi con lo sviluppo"
+msgstr "Richiesta di nuove liste connesse con lo sviluppo"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:110
 msgid "Before requesting a mailing list that relates to the development of a package (or a small group of related packages), please consider if using an alias (via a .forward-aliasname file on master.debian.org, which translates into a reasonably nice <replaceable>you-aliasname@debian.org</replaceable> address) or a self-managed mailing list on <link linkend=\"alioth\">Alioth</link> is more appropriate."
-msgstr "Prima di richiedere una mailing list che si riferisce allo sviluppo di un pacchetto (o di un piccolo gruppo di pacchetti correlati), si prega di prendere in considerazione se si utilizza un alias (tramite un file. Forward-aliasname su master.debian.org, che si traduce in un ragionevolmente bello <replaceable> you-aliasname@debian.org </replaceable> indirizzo) o una mailing list autogestita su <link linkend=\"alioth\"> Alioth </link> è più appropriato."
+msgstr "'Prima di richiedere una mailing list che si riferisce allo sviluppo di un pacchetto (o di un piccolo gruppo di pacchetti correlati), si prega di prendere in considerazione se si utilizza un alias (tramite un file .forward-aliasname su master.debian.org, che si traduce in un ragionevole simpatico indirizzo <replaceable>you-aliasname@debian.org</replaceable>) o una mailing list autogestita su <link linkend=\"alioth\">Alioth</link> è più appropriato."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:118
 msgid "If you decide that a regular mailing list on &lists-host; is really what you want, go ahead and fill in a request, following <ulink url=\"&url-debian-lists-new;\">the HOWTO</ulink>."
-msgstr "Se si decide che una mailing list regolare & liste-host; è davvero quello che vuoi, andare avanti e compilare una richiesta, a seguito di <ulink url=\"&url-debian-lists-new;\"> l'HOWTO </ulink >."
+msgstr "Se si decide che una mailing list regolare su &liste-host; è davvero quello che vuoi, si compili un modulo di richiesta, in appendice all'<ulink url=\"&url-debian-lists-new;\">HOWTO</ulink >."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:127
@@ -5171,47 +5171,47 @@ msgstr "Canali IRC"
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:129
 msgid "Several IRC channels are dedicated to Debian's development.  They are mainly hosted on the <ulink url=\"&url-oftc;\">Open and free technology community (OFTC)</ulink> network.  The <literal>irc.debian.org</literal> DNS entry is an alias to <literal>irc.oftc.net</literal>."
-msgstr "Diversi canali IRC sono dedicati allo sviluppo di Debian. Essi sono principalmente ospitati sul url=\"&url-oftc;\"> <ulink aperto e comunità tecnologica gratuito (OFTC) </ulink> rete. Il <literal> irc.debian.org </literal> voce DNS è un alias per <literal> irc.oftc.net </literal>."
+msgstr "Diversi canali IRC sono dedicati allo sviluppo di Debian. Essi sono principalmente ospitati sul <ulink url=\"&url-oftc;\">Open and free technology community (OFTC) </ulink> rete. Il <literal> irc.debian.org </literal> DNS entry è un alias per <literal>irc.oftc.net</literal>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:135
 msgid "The main channel for Debian in general is <literal>#debian</literal>.  This is a large, general-purpose channel where users can find recent news in the topic and served by bots.  <literal>#debian</literal> is for English speakers; there are also <literal>#debian.de</literal>, <literal>#debian-fr</literal>, <literal>#debian-br</literal> and other similarly named channels for speakers of other languages."
-msgstr "Il principale canale di Debian in generale è <literal> # debian </literal>. Questo è un grande, canale generico dove gli utenti possono trovare le notizie recenti in tema e servito da bot. <literal> # debian </literal> è per chi parla inglese, ci sono anche <literal> # debian.de </literal>, <literal> # debian-fr </literal>, <literal> # debian-br </literal> e altri canali con nomi simili per parlanti di altre lingue."
+msgstr "Il principale canale di Debian in generale è <literal>#debian</literal>. Questo è un grande, canale generico dove gli utenti possono trovare le notizie recenti nel topic e forniti dai bot. <literal>#debian</literal> è per chi parla inglese, ci sono anche <literal>#debian.de </literal>, <literal>#debian-fr</literal>, <literal>#debian-br</literal> e altri canali con nomi simili per utenti di altre lingue."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:143
 msgid "The main channel for Debian development is <literal>#debian-devel</literal>.  It is a very active channel; it will typically have a minimum of 150 people at any time of day.  It's a channel for people who work on Debian, it's not a support channel (there's <literal>#debian</literal> for that).  It is however open to anyone who wants to lurk (and learn).  Its topic is commonly full of interesting information for developers."
-msgstr "Il canale principale per lo sviluppo di Debian è <literal> # debian-devel </literal>. E 'un canale molto attivo, ma in genere hanno un minimo di 150 persone in ogni momento della giornata. E 'un canale per le persone che lavorano su Debian, non è un canale di supporto (c'è <literal> # debian </literal> per quello). E 'comunque aperto a chiunque voglia nascondersi (e imparare). Il suo argomento è comunemente pieno di informazioni interessanti per gli sviluppatori."
+msgstr "Il canale principale per lo sviluppo di Debian è <literal>#debian-devel</literal>. E 'un canale molto attivo, ma in genere hanno un minimo di 150 persone in ogni momento della giornata. E 'un canale per le persone che lavorano su Debian, non è un canale di supporto (c'è <literal>#debian</literal> per quello). E 'comunque aperto a chiunque voglia dare un'occhiata (e imparare). Il suo topic è generalmente pieno di informazioni interessanti per gli sviluppatori."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:152
 msgid "Since <literal>#debian-devel</literal> is an open channel, you should not speak there of issues that are discussed in &email-debian-private;.  There's another channel for this purpose, it's called <literal>#debian-private</literal> and it's protected by a key.  This key is available at <filename>master.debian.org:&file-debian-private-key;</filename>."
-msgstr "Dal <literal> # debian-devel </literal> è un canale aperto, non si dovrebbe parlare non di problemi che vengono discussi in e-mail-debian-privato;. C'è un altro canale per questo scopo, si chiama <literal> # debian-privato </literal> ed è protetto da una chiave. Questa chiave è disponibile presso master.debian.org <filename>: & di file-debian-private-key; </filename>."
+msgstr "Siccome <literal>#debian-devel</literal> è un canale aperto, non si dovrebbe parlare di problemi che vengono discussi in &email-debian-private;. C'è un altro canale per questo scopo, si chiama <literal>#debian-private</literal> ed è protetto da una chiave. Questa chiave è disponibile presso <filename>master.debian.org: &file-debian-private-key; </filename>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:160
 msgid "There are other additional channels dedicated to specific subjects.  <literal>#debian-bugs</literal> is used for coordinating bug squashing parties.  <literal>#debian-boot</literal> is used to coordinate the work on the debian-installer.  <literal>#debian-doc</literal> is occasionally used to talk about documentation, like the document you are reading.  Other channels are dedicated to an architecture or a set of packages: <literal>#debian-kde</literal>, <literal>#debian-dpkg</literal>, <literal>#debian-jr</literal>, <literal>#debian-edu</literal>, <literal>#debian-oo</literal> (OpenOffice.org package)..."
-msgstr "Ci sono altri canali aggiuntivi dedicati a temi specifici. <literal> # debian-bugs </literal> è usato per coordinare bug parti schiacciamento. <literal> # debian-boot </literal> è usato per coordinare il lavoro sul debian-installer. <literal> # debian-doc </literal> è usato occasionalmente per parlare di documentazione, come il documento che si sta leggendo. Altri canali sono dedicati ad una architettura o di un insieme di pacchetti: <literal> # debian-kde </literal>, <literal> # debian-dpkg </literal>, <literal> # debian-jr </literal>, <literal> # debian-edu </literal>, <literal> # debian-oo </literal> (pacchetto OpenOffice.org) ..."
+msgstr "Ci sono altri canali aggiuntivi dedicati a temi specifici. <literal>#debian-bugs</literal> è usato per coordinare i bug squashing parties. <literal>#debian-boot</literal> è usato per coordinare il lavoro sul debian-installer. <literal>#debian-doc</literal> è usato occasionalmente per parlare di documentazione, come il documento che si sta leggendo. Altri canali sono dedicati ad una architettura o di un insieme di pacchetti: <literal>#debian-kde</literal>, <literal># debian-dpkg</literal>, <literal># debian-jr</literal>, <literal>#debian-edu</literal>, <literal># debian-oo</literal> (pacchetto OpenOffice.org) ..."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:171
 msgid "Some non-English developers' channels exist as well, for example <literal>#debian-devel-fr</literal> for French speaking people interested in Debian's development."
-msgstr "Esistono pure i canali alcuni sviluppatori non inglesi ', per esempio <literal> # debian-devel-it </literal> per le persone di lingua francese interessati allo sviluppo di Debian."
+msgstr "Esistono anche alcuni canali di sviluppatori non inglesi, per esempio <literal>#debian-devel-fr</literal> per le persone di lingua francese interessate allo sviluppo di Debian."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:176
 msgid "Channels dedicated to Debian also exist on other IRC networks, notably on the <ulink url=\"&url-openprojects;\">freenode</ulink> IRC network, which was pointed at by the <literal>irc.debian.org</literal> alias until 4th June 2006."
-msgstr "Canali dedicati a Debian esistono anche su altre reti IRC, in particolare sulla <ulink url=\"&url-openprojects;\"> freenode </ulink> rete IRC, che è stato puntato dal irc.debian.org <literal> </literal> alias fino al 4 giugno 2006."
+msgstr "Canali dedicati a Debian esistono anche su altre reti IRC, in particolare sulla rete IRC <ulink url=\"&url-openprojects;\">freenode</ulink>, che è stato puntato dall'alias <literal>irc.debian.org</literal> fino al 4 giugno 2006."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:182
 msgid "To get a cloak on freenode, you send Jörg Jaspert &lt;joerg@debian.org&gt; a signed mail where you tell what your nick is.  Put cloak somewhere in the Subject: header.  The nick should be registered: <ulink url=\"http://freenode.net/faq.shtml#nicksetup\">Nick Setup Page</ulink>.  The mail needs to be signed by a key in the Debian keyring.  Please see <ulink url=\"http://freenode.net/faq.shtml#projectcloak\">Freenode documentation</ulink> for more information about cloaks."
-msgstr "Per ottenere un mantello su freenode, si invia Jörg Jasper <joerg@debian.org> una posta firmata dove dite che cosa il vostro nick è. Mettere mantello da qualche parte nel Subject:. Il nick deve essere registrato: <ulink url=\"http://freenode.net/faq.shtml#nicksetup\"> Nick Imposta pagina </ulink>. La posta deve essere firmato da una chiave nel portachiavi Debian. Si prega di vedere <ulink documentazione url=\"http://freenode.net/faq.shtml#projectcloak\"> Freenode </ulink> per ulteriori informazioni sui mantelli."
+msgstr "Per ottenere un copertura su freenode, si invii Jörg Jasper <joerg@debian.org> una mail firmata dove dite qual'è il vostro nick. Mettere il nome del canale da qualche parte nel Subject:. Il nick deve essere registrato: <ulink url=\"http://freenode.net/faq.shtml#nicksetup\">Nick Setup Page</ulink>. La posta deve essere firmata da una chiave nel portachiavi Debian. Si prega di vedere <ulink documentazione url=\"http://freenode.net/faq.shtml#projectcloak\">Freenode</ulink> per ulteriori informazioni sulla copertura."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:195
 msgid "This document contains a lot of information which is useful to Debian developers, but it cannot contain everything.  Most of the other interesting documents are linked from <ulink url=\"&url-devel-docs;\">The Developers' Corner</ulink>.  Take the time to browse all the links, you will learn many more things."
-msgstr "Questo documento contiene un sacco di informazioni che è utile per gli sviluppatori di Debian, ma non può contenere tutto. La maggior parte degli altri documenti interessanti sono legati da <ulink url=\"&url-devel-docs;\"> Angolo degli sviluppatori </ulink>. Prendete il tempo di sfogliare tutti i link, imparerete molte più cose."
+msgstr "Questo documento contiene un sacco di informazioni che utili per gli sviluppatori di Debian, ma non può contenere tutto. La maggior parte degli altri documenti interessanti sono indicati in <ulink url=\"&url-devel-docs;\">Angolo degli sviluppatori</ulink>. Prendetevi il tempo di sfogliare tutti i link, imparerete molte più cose."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:204
@@ -5221,97 +5221,97 @@ msgstr "Macchine Debian "
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:206
 msgid "Debian has several computers working as servers, most of which serve critical functions in the Debian project.  Most of the machines are used for porting activities, and they all have a permanent connection to the Internet."
-msgstr "Debian ha diversi computer che lavorano come assistenti, molti dei quali servono le funzioni critiche del progetto Debian. La maggior parte delle macchine sono utilizzate per le attività di porting, e tutti hanno una connessione permanente a Internet."
+msgstr "Debian ha diversi computer che lavorano come assistenti, molti dei quali utilizzati per le funzioni critiche del progetto Debian. La maggior parte delle macchine sono utilizzate per le attività di porting, e tutti hanno una connessione permanente a Internet."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:211
 msgid "Some of the machines are available for individual developers to use, as long as the developers follow the rules set forth in the <ulink url=\"&url-dmup;\">Debian Machine Usage Policies</ulink>."
-msgstr "Alcune delle macchine sono disponibili per i singoli sviluppatori di utilizzare, a patto che gli sviluppatori seguono le regole stabilite nei <ulink url=\"&url-dmup;\"> Debian macchina Politiche di utilizzo </ulink>."
+msgstr "Alcune delle macchine sono disponibili per l'uso di singoli sviluppatori, a patto che gli sviluppatori seguano le regole stabilite nei <ulink url=\"&url-dmup;\">Policy Debian per l'utilizzo delle macchine</ulink>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:216
 msgid "Generally speaking, you can use these machines for Debian-related purposes as you see fit.  Please be kind to system administrators, and do not use up tons and tons of disk space, network bandwidth, or CPU without first getting the approval of the system administrators.  Usually these machines are run by volunteers."
-msgstr "In generale, è possibile utilizzare queste macchine per scopi relativi a Debian come meglio credi. Si prega di essere gentile con gli amministratori di sistema, e non utilizzare fino tonnellate e tonnellate di spazio su disco, larghezza di banda, o CPU senza prima ottenere l'approvazione degli amministratori di sistema. Di solito queste macchine sono gestite da volontari."
+msgstr "In generale, è possibile utilizzare queste macchine come meglio crede per scopi relativi a Debian. Si prega di essere gentili con gli amministratori di sistema, e non utilizzare tonnellate e tonnellate di spazio su disco, larghezza di banda, o CPU senza prima ottenere l'approvazione degli amministratori di sistema. Di solito queste macchine sono gestite da volontari."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:223
 msgid "Please take care to protect your Debian passwords and SSH keys installed on Debian machines.  Avoid login or upload methods which send passwords over the Internet in the clear, such as Telnet, FTP, POP etc."
-msgstr "Si prega di fare attenzione a proteggere le password e le chiavi SSH Debian installati su macchine Debian. Evitare il login o caricare metodi che inviano le password su Internet in chiaro, come Telnet, FTP, POP ecc"
+msgstr "Si prega di fare attenzione a proteggere le proprie password e le chiavi SSHDebian installate su macchine Debian. Evitare il login o metodi di upload che inviano le password su Internet in chiaro, come Telnet, FTP, POP ecc"
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:228
 msgid "Please do not put any material that doesn't relate to Debian on the Debian servers, unless you have prior permission."
-msgstr "Prega di non inserire alcun materiale che non riguarda Debian sui server Debian, se non avete permesso."
+msgstr "Si prega di non inserire alcun materiale che non riguarda Debian sui server Debian, se non avete il permesso."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:232
 msgid "The current list of Debian machines is available at <ulink url=\"&url-devel-machines;\"></ulink>.  That web page contains machine names, contact information, information about who can log in, SSH keys etc."
-msgstr "L'elenco attuale delle macchine Debian è disponibile presso <ulink url=\"&url-devel-machines;\"> </ulink>. Quella pagina web contiene i nomi delle macchine, informazioni di contatto, informazioni su chi può accedere, le chiavi SSH ecc"
+msgstr "L'elenco attuale delle macchine Debian è disponibile presso <ulink url=\"&url-devel-machines;\"></ulink>. Quella pagina web contiene i nomi delle macchine, informazioni di contatto, informazioni su chi può accedere, le chiavi SSH ecc"
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:238
 msgid "If you have a problem with the operation of a Debian server, and you think that the system operators need to be notified of this problem, you can check the list of open issues in the DSA queue of our request tracker at <ulink url=\"&url-rt;\" /> (you can login with user \"debian\", its password is available at <filename>master.debian.org:&file-debian-rt-password;</filename>).  To report a new problem, simply send a mail to &email-rt-dsa; and make sure to put the string \"Debian RT\" somewhere in the subject."
-msgstr "Se si ha un problema con il funzionamento di un server Debian, e si pensa che i gestori del sistema devono essere avvisati di questo problema, è possibile consultare l'elenco dei problemi aperti nella coda DSA del tracker della richiesta all'indirizzo <ulink url=\"&url-rt;\" /> (si può effettuare il login con user «Debian», la cui password è disponibile <filename>master.debian.org:&file-debian-rt-password;</filename>).  Per segnalare un nuovo problema, è sufficiente inviare una mail all'indirizzo  &email-rt-dsa; e fare in modo di mettere la stringa «Debian RT» in qualche parte dell'oggetto."
+msgstr "Se si ha un problema con il funzionamento di un server Debian, e si pensa che i gestori del sistema devono essere avvisati di questo problema, è possibile consultare l'elenco dei problemi aperti nella coda DSA del nostro tracker delle richieste all'indirizzo <ulink url=\"&url-rt;\" /> (si può effettuare il login con user «Debian», la cui password è disponibile <filename>master.debian.org:&file-debian-rt-password;</filename>).  Per segnalare un nuovo problema, è sufficiente inviare una mail all'indirizzo  &email-rt-dsa; e fare in modo di mettere la stringa «Debian RT» in qualche parte dell'oggetto."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:247
 msgid "If you have a problem with a certain service, not related to the system administration (such as packages to be removed from the archive, suggestions for the web site, etc.), generally you'll report a bug against a ``pseudo-package''.  See <xref linkend=\"submit-bug\"/> for information on how to submit bugs."
-msgstr "Se hai un problema con un certo servizio, non legati alla gestione del sistema (come ad esempio i pacchetti da rimuovere dall'archivio, suggerimenti per il sito web, ecc), generalmente si segnalare un bug contro un `` pseudo-pacchetto''. Per informazioni su come segnalare bug vedere <xref linkend=\"submit-bug\"/>."
+msgstr "Se hai un problema con un certo servizio, non legati alla gestione del sistema (come ad esempio i pacchetti da rimuovere dall'archivio, suggerimenti per il sito web, ecc), generalmente si segnala un bug su uno «psudo-pacchetto». Per informazioni su come segnalare bug vedere <xref linkend=\"submit-bug\"/>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:254
 msgid "Some of the core servers are restricted, but the information from there is mirrored to another server."
-msgstr "Alcuni dei server centrali sono limitati, ma le informazioni da lì si rispecchia in un altro server."
+msgstr "Alcuni dei server centrali sono ristretti, ma le informazioni sono rispecchite in un altro server."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:258
 msgid "The bugs server"
-msgstr "The bugs server"
+msgstr "Il server dei bugs"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:260
 msgid "<literal>&bugs-host;</literal> is the canonical location for the Bug Tracking System (BTS)."
-msgstr "<literal> e bug-host; </literal> è il percorso canonico per il Bug Tracking System (BTS)."
+msgstr "<literal>&bug-host; </literal> è il percorso canonico per il Bug Tracking System (BTS)."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:264
 msgid "If you plan on doing some statistical analysis or processing of Debian bugs, this would be the place to do it.  Please describe your plans on &email-debian-devel; before implementing anything, however, to reduce unnecessary duplication of effort or wasted processing time."
-msgstr "Se hai intenzione di fare un po 'di analisi e trattamenti di bug Debian statistiche, questo sarebbe il posto per farlo. Descrivete i vostri piani su e-mail-debian-devel, prima di attuare qualsiasi cosa, tuttavia, di ridurre inutili duplicazioni di attività o di tempo di elaborazione sprecato."
+msgstr "Se si ha intenzione di fare un pò di analisi statistiche o statistiche sulle lavorazioni dei bug Debian, questo sarebbe il posto per farlo. Descrivete le vostre intenzioni su &email-debian-devel; prima di attuare qualsiasi cosa, tuttavia, per ridurre inutili duplicazioni di attività o di tempo di elaborazione sprecato."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:272
 msgid "The ftp-master server"
-msgstr "The ftp-master server"
+msgstr "Il server ftp-master"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:274
 msgid "The <literal>&ftp-master-host;</literal> server holds the canonical copy of the Debian archive.  Generally, package uploaded to &ftp-upload-host; end up on this server, see <xref linkend=\"upload\"/>."
-msgstr "Il <literal> & ftp-master-host; </literal> server contiene la copia canonica dell'archivio Debian. In generale, il pacchetto caricato a & ftp-upload-host; finiscono su questo server, vedere <xref linkend=\"upload\"/>."
+msgstr "L' <literal>&ftp-master-host;</literal> server contiene la copia canonica dell'archivio Debian. In generale, il pacchetto caricato su &ftp-upload-host; finiscono su questo server, si consulti <xref linkend=\"upload\"/>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:279
 msgid "It is restricted; a mirror is available on <literal>&ftp-master-mirror;</literal>."
-msgstr "E 'limitata; uno specchio è disponibile in <literal> & ftp-master-specchio; </literal>."
+msgstr "E' limitata; un mirror è disponibile su <literal>&ftp-master-mirror;</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:282
 msgid "Problems with the Debian FTP archive generally need to be reported as bugs against the <systemitem role=\"package\">&ftp-debian-org;</systemitem> pseudo-package or an email to &email-ftpmaster;, but also see the procedures in <xref linkend=\"archive-manip\"/>."
-msgstr "Problemi con il FTP Debian genere bisogno di essere segnalato come bug contro il <systemitem role=\"package\"> & ftp-debian-org; </systemitem> pseudo-pacchetto o una mail a e-mail ftpmaster;, ma anche vedere le procedure in <xref linkend=\"archive-manip\"/>."
+msgstr "I problemi con l'archivio FTP Debian generalmente necessitano di essere segnalati come bug nei confronti dello pseudo-pacchetto <systemitem role=\"package\">&ftp-debian-org;</systemitem> o una mail a &email-ftpmaster;, ma anche vedere le procedure in <xref linkend=\"archive-manip\"/>."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:290
 msgid "The www-master server"
-msgstr "The www-master server"
+msgstr "Il server www-master "
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:292
 msgid "The main web server is <literal>www-master.debian.org</literal>.  It holds the official web pages, the face of Debian for most newbies."
-msgstr "Il web server principale è <literal> www-master.debian.org </literal>. Contiene le pagine web ufficiali, il volto di Debian per la maggior parte dei neofiti."
+msgstr "Il web server principale è <literal>www-master.debian.org</literal>. Contiene le pagine web ufficiali, il volto di Debian per la maggior parte dei neofiti."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:296
 msgid "If you find a problem with the Debian web server, you should generally submit a bug against the pseudo-package, <systemitem role=\"package\">www.debian.org</systemitem>.  Remember to check whether or not someone else has already reported the problem to the <ulink url=\"http://&bugs-host;/&www-debian-org;\">Bug Tracking System</ulink>."
-msgstr "Se si trova un problema con il server web di Debian, si dovrebbe generalmente presentare un bug verso lo pseudo-pacchetto, <systemitem role=\"package\"> www.debian.org </systemitem>. Ricordati di controllare se qualcun altro ha già segnalato il problema al url=\"http://&bugs-host;/&www-debian-org;\"> Bug Tracking System <ulink </ulink>."
+msgstr "Se si trova un problema con il server web di Debian, si dovrebbe generalmente presentare un bug nei confronti pseudo-pacchetto, <systemitem role=\"package\"> www.debian.org </systemitem>. Ricordati di controllare se qualcun altro ha già segnalato il problema al <ulink url=\"http://&bugs-host;/&www-debian-org;\">Bug Tracking System<ulink </ulink>."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:305
@@ -5321,12 +5321,12 @@ msgstr "Il web server persone"
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:307
 msgid "<literal>people.debian.org</literal> is the server used for developers' own web pages about anything related to Debian."
-msgstr "<literal> people.debian.org </literal> è il server utilizzato per creare pagine web sviluppatori 'su qualsiasi cosa relativa a Debian."
+msgstr "<literal>people.debian.org</literal> è il server utilizzato per creare pagine web proprie degli sviluppatori su qualsiasi cosa relativa a Debian."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:311
 msgid "If you have some Debian-specific information which you want to serve on the web, you can do this by putting material in the <filename>public_html</filename> directory under your home directory on <literal>people.debian.org</literal>.  This will be accessible at the URL <literal>http://people.debian.org/~<replaceable>your-user-id</replaceable>/</literal>."
-msgstr "Se si dispone di alcune informazioni specifiche di Debian che si vuole servire sul web, è possibile farlo da materiale mettendo in public_html <filename> </filename> sotto la directory home su <literal> people.debian.org </literal>. Questo sarà accessibile all'URL <literal> http://people.debian.org/ ~ <replaceable> tuo-user-id </replaceable> / </literal>."
+msgstr "Se si dispone di alcune informazioni specifiche di Debian che si vuole fornire sul web, è possibile farlo mettendo il materiale in <filename>public_html</filename> sotto la directory home su <literal>people.debian.org</literal>. Questo sarà accessibile all'URL <literal> http://people.debian.org/~<replaceable>proprio-user-id</replaceable>/</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:318
