@@ -5701,7 +5701,7 @@ msgstr "Ogni distribuzione Debian rilasciata ha <literal>un nome in codice</lite
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:780
 msgid "Since Debian has an open development model (i.e., everyone can participate and follow the development) even the <literal>unstable</literal> and <literal> testing</literal> distributions are distributed to the Internet through the Debian FTP and HTTP server network. Thus, if we had called the directory which contains the release candidate version <literal>testing</literal>, then we would have to rename it to <literal>stable</literal> when the version is released, which would cause all FTP mirrors to re-retrieve the whole distribution (which is quite large)."
-msgstr "Dal momento che Debian ha un modello di sviluppo aperto (vale a dire, tutti possono partecipare e seguire lo sviluppo) anche la distribuzioni <literal>unstable</literal> e <literal>testing</literal> sono distribuite su Internet attraverso la rete Debian dei server FTP e HTTP. Così, se avessimo chiamato la directory che contiene la versione candidata al rilascio in <literal>testing</literal>, allora dovremmo rinominarla <literal>stable</literal>, quando la versione viene rilasciata, che causerebbe a tutti i mirror FTP  di ri-recuperare l'intera distribuzione (che è abbastanza grande)."
+msgstr "Dal momento che Debian ha un modello di sviluppo aperto (vale a dire, tutti possono partecipare e seguire lo sviluppo) anche la distribuzioni <literal>unstable</literal> e <literal>testing</literal> sono distribuite su Internet attraverso la rete Debian dei server FTP e HTTP. Così, se avessimo chiamato la directory che contiene la versione candidata al rilascio in <literal>testing</literal>, allora dovremmo rinominarla <literal>stable</literal>, quando la versione viene rilasciata, che obbligherebbe tutti i mirror FTP  di ri-recuperare l'intera distribuzione (che è abbastanza grande)."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:790
@@ -5711,7 +5711,7 @@ msgstr "D'altra parte, se abbiamo chiamato le directory di distribuzione <litera
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:798
 msgid "Thus, the names of the distribution directories in the archive are determined by their code names and not their release status (e.g., `squeeze'). These names stay the same during the development period and after the release; symbolic links, which can be changed easily, indicate the currently released stable distribution.  That's why the real distribution directories use the <literal>code names</literal>, while symbolic links for <literal>stable</literal>, <literal>testing</literal>, and <literal>unstable</literal> point to the appropriate release directories."
-msgstr "Così, i nomi delle directory di distribuzione presenti in archivio sono determinati dai loro nomi in codice e non il loro stato di rilascio (per esempio, `squeeze '). Questi nomi rimangono invariati durante il periodo di sviluppo e dopo il rilascio; link simbolici, che possono essere modificati facilmente, indicano la distribuzione stabile attualmente rilasciata. Ecco perché le directory di distribuzione reali utilizzare i nomi in codice <literal> </literal>, mentre i collegamenti simbolici per <literal> </literal>, <literal> testing stabile </literal>, e <literal> unstable </literal> punto nelle directory di rilascio del caso."
+msgstr "Così, i nomi delle directory della distribuzione presenti in archivio sono determinati dai loro nomi in codice e non dal loro stato di rilascio (per esempio, «squeeze»). Questi nomi rimangono invariati durante il periodo di sviluppo e dopo il rilascio; i link simbolici, che possono essere modificati facilmente, indicano la distribuzione stabile attualmente rilasciata. Ecco perché le directory di distribuzione reali utilizzano i  <literal>code names</literal>, mentre i collegamenti simbolici per <literal>stable</literal>, <literal>testing</literal>, e <literal>unstable</literal> puntano alle appropriate directory di rilascio."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:812
@@ -5721,17 +5721,17 @@ msgstr "Debian mirrors"
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:814
 msgid "The various download archives and the web site have several mirrors available in order to relieve our canonical servers from heavy load.  In fact, some of the canonical servers aren't public — a first tier of mirrors balances the load instead.  That way, users always access the mirrors and get used to using them, which allows Debian to better spread its bandwidth requirements over several servers and networks, and basically makes users avoid hammering on one primary location.  Note that the first tier of mirrors is as up-to-date as it can be since they update when triggered from the internal sites (we call this push mirroring)."
-msgstr "Vari archivi di download e il sito web sono svariati mirror disponibili al fine di alleviare i nostri server canoniche da carico pesante. In effetti, alcuni dei server canonici non sono pubbliche - un primo livello di specchi bilancia il carico, invece. In questo modo, gli utenti accedere sempre gli specchi e abituarsi al loro utilizzo, che consente di Debian per diffondere meglio le sue esigenze di larghezza di banda su più server e reti, e rende praticamente agli utenti di evitare martellare su un percorso primario. Si noti che la prima fila di specchi è up-to-date, come può essere visto che aggiornano quando innescato dai siti interni (chiamiamo questa spinta mirroring)."
+msgstr "I vari archivi di download e il sito web hanno diversi mirror disponibili al fine di alleviare i nostri server canonici da carico pesante. In effetti, alcuni dei server canonici non sono pubblici - un primo livello di mirror bilancia il carico, invece. In questo modo, gli utenti sempre accededono ai mirror e si abituano al loro utilizzo, che consente a Debian di gestire meglio i suoi requisiti di larghezza di banda su più server e reti, e praticamente evita agli utenti di martellare una sola location primaria. Si noti che la prima fila di mirror è up-to-date come può essere visto che si aggiornano quando innescati dai siti interni (chiamiamo questo push mirroring)."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:825
 msgid "All the information on Debian mirrors, including a list of the available public FTP/HTTP servers, can be found at <ulink url=\"&url-debian-mirrors;\"></ulink>.  This useful page also includes information and tools which can be helpful if you are interested in setting up your own mirror, either for internal or public access."
-msgstr "Tutte le informazioni sui mirror Debian, tra cui un elenco di server FTP / HTTP pubbliche disponibili, può essere trovato alla <ulink url=\"&url-debian-mirrors;\"> </ulink>. Questa pagina contiene anche utili informazioni e strumenti che possono essere utili se siete interessati a realizzare il proprio specchio, sia per l'accesso interno o pubblico."
+msgstr "Tutte le informazioni sui mirror Debian, tra cui un elenco di server pubblici FTP / HTTP disponibili, può essere trovato nella <ulink url=\"&url-debian-mirrors;\"></ulink>. Questa pagina contiene anche utili informazioni e strumenti che possono essere utili se siete interessati a realizzare il proprio mirror, sia per l'accesso interno che pubblico."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:832
 msgid "Note that mirrors are generally run by third-parties who are interested in helping Debian.  As such, developers generally do not have accounts on these machines."
-msgstr "Si noti che gli specchi sono generalmente gestiti da terzi che sono interessati ad aiutare Debian. Come tale, gli sviluppatori in genere non hanno account su queste macchine."
+msgstr "Si noti che i mirror sono generalmente gestiti da terzi che sono interessati ad aiutare Debian. Come tale, gli sviluppatori in genere non hanno account su queste macchine."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:839
@@ -5741,32 +5741,32 @@ msgstr "Il sistema Incoming"
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:841
 msgid "The Incoming system is responsible for collecting updated packages and installing them in the Debian archive.  It consists of a set of directories and scripts that are installed on <literal>&ftp-master-host;</literal>."
-msgstr "Il sistema Incoming è responsabile della raccolta dei pacchetti aggiornati e installarli nell'archivio Debian. Si compone di un insieme di directory e script che vengono installati sul <literal> & ftp-master-host; </literal>."
+msgstr "Il sistema Incoming è responsabile della raccolta dei pacchetti aggiornati e li installa nell'archivio Debian. Si compone di un insieme di directory e script che vengono installati sul <literal>&ftp-master-host;</literal>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:846
 msgid "Packages are uploaded by all the maintainers into a directory called <filename>UploadQueue</filename>.  This directory is scanned every few minutes by a daemon called <command>queued</command>, <filename>*.command</filename>-files are executed, and remaining and correctly signed <filename>*.changes</filename>-files are moved together with their corresponding files to the <filename>unchecked</filename> directory.  This directory is not visible for most Developers, as ftp-master is restricted; it is scanned every 15 minutes by the <command>dak process-upload</command> script, which verifies the integrity of the uploaded packages and their cryptographic signatures.  If the package is considered ready to be installed, it is moved into the <filename>done</filename> directory.  If this is the first upload of the package (or it has new binary packages), it is moved to the <filename>new</filename> directory, where it waits for approval by the ftpmasters.  If the package contains files to be installed by hand it is moved to the <filename>byhand</filename> directory, where it waits for manual installation by the ftpmasters.  Otherwise, if any error has been detected, the package is refused and is moved to the <filename>reject</filename> directory."
-msgstr "I pacchetti sono caricati da tutti i manutentori in una directory denominata <filename> UploadQueue </filename>. Questa directory viene analizzato ogni pochi minuti da un demone chiamato <command> in coda </command>, <filename> *. Comandi </filename>-files vengono eseguiti, e rimanendo e firmato correttamente <filename> *. Modifiche </filename> -i file vengono spostati insieme ai loro file corrispondenti al <filename> incontrollato </filename>. Questa directory non è visibile per la maggior parte degli sviluppatori, come ftp-master è limitato, ma viene sottoposto a scansione ogni 15 minuti dal <command> Dak processo-upload </command> script, che verifica l'integrità dei pacchetti caricati e le loro firme crittografiche. Se il pacchetto è considerato pronto per essere installato, viene spostato nella <filename> fatto </filename>. Se questo è il primo di upload del pacchetto (o ha nuovi pacchetti binari), viene spostato al <filename> nuovo </filename>, dove si attende l'approvazione da parte ftpmasters. Se il pacchetto contiene i file da installare a mano viene spostato al <filename> Byhand </filename>, dove si attende l'installazione manuale dal ftpmasters. Altrimenti, se è stato rilevato alcun errore, il pacchetto viene rifiutato e viene spostato nel <filename> rifiutare </filename>."
+msgstr "I pacchetti sono caricati da tutti i maintainer in una directory denominata <filename>UploadQueue</filename>. Questa directory viene analizzata ogni pochi minuti da un demone chiamato <command>queued</command>, <filename> *.commandi </filename>-files vengono eseguiti, e i restanti e correttamente firmati file <filename> *.changes </filename> vengono spostati insieme ai loro file corrispondenti <filename>unchecked</filename>. Questa directory non è visibile alla maggior parte degli sviluppatori, dato che ftp-master è ristretto; ma viene sottoposta a scansione ogni 15 minuti dallo script <command> dak process-upload </command>, che verifica l'integrità dei pacchetti caricati e le loro firme crittografiche. Se il pacchetto è considerato pronto per essere installato, viene spostato nella <filename>done</filename>. Se questo è il primo upload del pacchetto (o ha nuovi pacchetti binari), viene spostato nella directory <filename>new</filename>, dove si attende l'approvazione da parte dell'ftpmasters. Se il pacchetto contiene i file da installare a mano viene spostato al <filename>byhand</filename>, dove si attende l'installazione manuale dall' ftpmasters. Altrimenti, se è stato rilevato qualche errore, il pacchetto viene rifiutato e viene spostato nella directory <filename>reject</filename>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:865
 msgid "Once the package is accepted, the system sends a confirmation mail to the maintainer and closes all the bugs marked as fixed by the upload, and the auto-builders may start recompiling it.  The package is now publicly accessible at <ulink url=\"&url-incoming;\"></ulink> until it is really installed in the Debian archive.  This happens four times a day (and is also called the `dinstall run' for historical reasons); the package is then removed from incoming and installed in the pool along with all the other packages.  Once all the other updates (generating new <filename>Packages</filename> and <filename>Sources</filename> index files for example) have been made, a special script is called to ask all the primary mirrors to update themselves."
-msgstr "Una volta che il pacchetto viene accettato, il sistema invia una mail di conferma al maintainer e chiude tutti i bug marcati come fissati dal caricati, e le auto-costruttori può iniziare ricompilarlo. Il pacchetto è ora accessibile al pubblico presso <ulink url=\"&url-incoming;\"> </ulink> fino a quando non è realmente installato nell'archivio Debian. Questo accade quattro volte al giorno (ed è chiamata anche la `dinstall run 'per ragioni storiche), il pacchetto viene quindi rimosso dalla entrante ed installato in piscina insieme a tutti gli altri pacchetti. Una volta che tutti gli altri aggiornamenti (generare nuovo <filename> Pacchetti </filename> e <filename> Fonti </filename> file di indice per esempio) sono state portate, uno speciale script è chiamato a chiedere a tutti gli specchi primari di aggiornarsi."
+msgstr "Una volta che il pacchetto viene accettato, il sistema invia una mail di conferma al maintainer e chiude tutti i bug marcandoli come corretti dall' upload, gli auto-builder possono iniziare a ricompilarlo. Il pacchetto è ora accessibile al pubblico presso <ulink url=\"&url-incoming;\"> </ulink> fino a quando non sarà realmente installato nell'archivio Debian. Questo accade quattro volte al giorno (ed è chiamata anche la «dinstall run» per ragioni storiche), il pacchetto viene quindi rimosso da incoming ed installato in pool insieme a tutti gli altri pacchetti. Una volta che tutti gli altri aggiornamenti (che generano i nuovi file di indice di <filename>Packages</filename> e <filename>Sources</filename> per esempio) sono state apportati, uno speciale script è chiamato per chiedere a tutti i mirror primari di aggiornarsi."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:877
 msgid "The archive maintenance software will also send the OpenPGP/GnuPG signed <filename>.changes</filename> file that you uploaded to the appropriate mailing lists.  If a package is released with the <literal>Distribution</literal> set to <literal>stable</literal>, the announcement is sent to &email-debian-changes;.  If a package is released with <literal>Distribution</literal> set to <literal>unstable</literal> or <literal>experimental</literal>, the announcement will be posted to &email-debian-devel-changes; instead."
-msgstr "Il software di mantenimento, invierà anche l'OpenPGP / GnuPG firmato <filename>. Modifiche </filename> file caricato alle mailing list appropriate. Se un pacchetto è rilasciato con la distribuzione <literal> </literal> impostato <literal> stabile </literal>, l'annuncio viene inviato e-mail-debian-changes;. Se un pacchetto è rilasciato con <literal> Distribuzione </literal> impostato <literal> unstable </literal> o <literal> sperimentale </literal>, l'annuncio verrà pubblicato per e-mail-debian-devel-changes; invece."
+msgstr "Il software di mantenimento dell'archivio, invierà anche il file <filename>.changes</filename> firmato con OpenPGP/GnuPG che si è inviato alle mailing list appropriate. Se un pacchetto è rilasciato con il campo <literal>Distribution</literal> impostato su <literal>stable</literal>, l'annuncio viene inviato a &email-debian-changes;. Se un pacchetto è rilasciato con il campo <literal>Distribution</literal> impostato a <literal>unstable</literal> o <literal>experimental</literal>, l'annuncio verrà pubblicato invece su &email-debian-devel-changes;."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:887
 msgid "Though ftp-master is restricted, a copy of the installation is available to all developers on <literal>&ftp-master-mirror;</literal>."
-msgstr "Anche se ftp-master è limitato, una copia della installazione è disponibile per tutti gli sviluppatori su <literal> & ftp-master-specchio; </literal>."
+msgstr "Anche se ftp-master è limitato, una copia dell'installazione è disponibile per tutti gli sviluppatori su <literal> &ftp-master-mirror;</literal>."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:950
 msgid "Package information"
-msgstr "informazioni Package"
+msgstr "Informazioni sul pacchetto"
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:952
@@ -5776,22 +5776,22 @@ msgstr "On the web"
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:954
 msgid "Each package has several dedicated web pages.  <literal>http://&packages-host;/<replaceable>package-name</replaceable></literal> displays each version of the package available in the various distributions.  Each version links to a page which provides information, including the package description, the dependencies, and package download links."
-msgstr "Ogni pacchetto ha diverse pagine web dedicate. <literal> http://&packages-host;/ <replaceable> nome-pacchetto </replaceable> </literal> visualizza ogni versione del pacchetto disponibile nelle varie distribuzioni. Ogni link versione in una pagina che fornisce informazioni, compresa la descrizione del pacchetto, le dipendenze, e link per il download del pacchetto."
+msgstr "Ogni pacchetto ha diverse pagine web dedicate. <literal>http://&packages-host;/<replaceable>package-name</replaceable></literal> visualizza ogni versione del pacchetto disponibile nelle varie distribuzioni. Ogni versione punta ad una pagina che fornisce informazioni, compresa la descrizione del pacchetto, le dipendenze, e i link per il download del pacchetto."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:961
 msgid "The bug tracking system tracks bugs for each package.  You can view the bugs of a given package at the URL <literal>http://&bugs-host;/<replaceable>package-name</replaceable></literal>."
-msgstr "Il sistema di tracciamento dei bug traccia bug per ogni pacchetto. È possibile visualizzare i bug di un determinato pacchetto all'URL <literal> http://&bugs-host;/ <replaceable> nome-pacchetto </replaceable> </literal>."
+msgstr "Il sistema di tracciamento dei bug mantiene traccia dei bug di ogni pacchetto. È possibile visualizzare i bug di un determinato pacchetto all'URL <literal>http://&bugs-host;/<replaceable>package-name</replaceable> </literal>."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:968
 msgid "The <command>dak ls</command> utility"
-msgstr "Il <command> dak ls </command> utilità"
+msgstr "L'utility <command>dak ls</command>"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:970
 msgid "<command>dak ls</command> is part of the dak suite of tools, listing available package versions for all known distributions and architectures.  The <command>dak</command> tool is available on <literal>&ftp-master-host;</literal>, and on the mirror on <literal>&ftp-master-mirror;</literal>.  It uses a single argument corresponding to a package name. An example will explain it better:"
-msgstr "<command> dak ls </command> è parte della suite di strumenti di Dak, elencare le versioni dei pacchetti disponibili per tutte le distribuzioni e le architetture conosciute. Il <command> dak </command> strumento è disponibile sul <literal> & ftp-master-host; </literal>, e sullo specchio su <literal> & ftp-master-specchio; </literal>. Esso utilizza un singolo argomento corrispondente a un nome di pacchetto. Un esempio servirà a chiarire meglio:"
+msgstr "<command>dak ls</command> è parte della suite di strumenti di dak, ed elenca le versioni dei pacchetti disponibili per tutte le distribuzioni e le architetture conosciute. Il tool <command>dak </command> è disponibile sul <literal>&ftp-master-host;</literal>, e sul mirror su <literal> &ftp-master-mirror;</literal>. Esso utilizza un singolo argomento corrispondente a un nome di pacchetto. Un esempio servirà a chiarire meglio:"
 
 #. type: Content of: <chapter><section><section><screen>
 #: resources.dbk:978
@@ -5816,7 +5816,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:987
 msgid "In this example, you can see that the version in <literal>unstable</literal> differs from the version in <literal>testing</literal> and that there has been a binary-only NMU of the package for all architectures.  Each version of the package has been recompiled on all architectures."
-msgstr "In this example, you can see that the version in <literal>unstable</literal> differs from the version in <literal>testing</literal> and that there has been a binary-only NMU of the package for all architectures.  Each version of the package has been recompiled on all architectures."
+msgstr "In questo esempio,si può vedere che la versione in <literal>unstable</literal> differisce da quella in <literal>testing</literal> e che ci sono stati solo NMU  del binario del pacchetto per tutte le architetture. Ciascuna versione del pacchetto è stata ricompilata su tutte le architetture."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:997
