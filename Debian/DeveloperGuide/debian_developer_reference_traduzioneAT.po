@@ -5816,22 +5816,22 @@ msgstr ""
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:987
 msgid "In this example, you can see that the version in <literal>unstable</literal> differs from the version in <literal>testing</literal> and that there has been a binary-only NMU of the package for all architectures.  Each version of the package has been recompiled on all architectures."
-msgstr "In questo esempio,si può vedere che la versione in <literal>unstable</literal> differisce da quella in <literal>testing</literal> e che ci sono stati solo NMU  del binario del pacchetto per tutte le architetture. Ciascuna versione del pacchetto è stata ricompilata su tutte le architetture."
+msgstr "In questo esempio, si può vedere che la versione in <literal>unstable</literal> differisce da quella in <literal>testing</literal> e che ci sono stati solo NMU del binario del pacchetto per tutte le architetture. Ciascuna versione del pacchetto è stata ricompilata su tutte le architetture."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:997
 msgid "The Package Tracking System"
-msgstr "The Package Tracking System"
+msgstr "Il Package Tracking System"
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:999
 msgid "The Package Tracking System (PTS) is an email-based tool to track the activity of a source package.  This really means that you can get the same emails that the package maintainer gets, simply by subscribing to the package in the PTS."
-msgstr "Il Package Tracking System (PTS) è uno strumento basato sulla posta elettronica per monitorare l'attività di un pacchetto sorgente. Questo vuol dire davvero che è possibile ottenere gli stessi messaggi di posta elettronica che il maintainer del pacchetto diventa, semplicemente sottoscrivendo il pacchetto nella PTS."
+msgstr "Il Package Tracking System (PTS) è uno strumento basato sulla posta elettronica per monitorare l'attività di un pacchetto sorgente. Questo vuol dire che è possibile ottenere gli stessi messaggi di posta elettronica che riceve il maintainer del pacchetto, semplicemente sottoscrivendo il pacchetto nella PTS."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1004
 msgid "Each email sent through the PTS is classified under one of the keywords listed below.  This will let you select the mails that you want to receive."
-msgstr "Ogni email inviata attraverso il PTS è classificato, secondo una delle parole chiave sotto elencate. Questo vi permetterà di selezionare i messaggi che si desidera ricevere."
+msgstr "Ogni email inviata attraverso il PTS è classificata, secondo una delle parole chiave sotto elencate. Questo vi permetterà di selezionare i messaggi che si desidera ricevere."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1008
@@ -5846,7 +5846,7 @@ msgstr "<literal>bts</literal>"
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1015
 msgid "All the bug reports and following discussions."
-msgstr "Tutte le segnalazioni di bug e seguenti discussioni."
+msgstr "Tutte le segnalazioni di bug e le successive discussioni."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1020
@@ -5856,7 +5856,7 @@ msgstr "<literal>bts-control</literal>"
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1023
 msgid "The email notifications from <email>control@&bugs-host;</email> about bug report status changes."
-msgstr "Le notifiche e-mail da <email> controllo @ & bug-host; </email> circa di segnalazioni di bug cambiamenti di stato."
+msgstr "Le notifiche email da <email>control@&bug-host;</email> sui cambiamenti di stato delle segnalazioni di bug."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1029
@@ -5866,7 +5866,7 @@ msgstr "<literal>upload-source</literal>"
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1032
 msgid "The email notification from <command>dak</command> when an uploaded source package is accepted."
-msgstr "La notifica e-mail da <command> dak </command>, quando un pacchetto sorgente caricato è accettato."
+msgstr "La notifica email da <command>dak</command>, quando un pacchetto sorgente caricato è accettato."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1038
@@ -5876,7 +5876,7 @@ msgstr "<literal>katie-other</literal>"
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1041
 msgid "Other warning and error emails from <command>dak</command> (such as an override disparity for the section and/or the priority field)."
-msgstr "Altro avvertimento e messaggi di errore da <command> dak </command> (ad esempio una disparità di override per la sezione e / o il campo di priorità)."
+msgstr "Altri avvertimenti e messaggi di errore da <command>dak</command> (ad esempio una disparità di override per il campo section e/o il campo priority)."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1047
@@ -5886,17 +5886,17 @@ msgstr "<literal>buildd</literal>"
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1050
 msgid "Build failures notifications sent by the network of build daemons, they contain a pointer to the build logs for analysis."
-msgstr "Costruire notifiche fallimenti inviati dalla rete di costruire demoni, essi contengono un puntatore ai registri di costruire per l'analisi."
+msgstr "Le notifiche di errori di build inviate dalla rete dei demoni di build, contengono un link ai log di build per l'analisi."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1056
 msgid "<literal>default</literal>"
-msgstr "<literal> default </literal>"
+msgstr "<literal>default</literal>"
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1059
 msgid "Any non-automatic email sent to the PTS by people who wanted to contact the subscribers of the package.  This can be done by sending mail to <literal><replaceable>sourcepackage</replaceable>@&pts-host;</literal>.  In order to prevent spam, all messages sent to these addresses must contain the <literal>X-PTS-Approved</literal> header with a non-empty value."
-msgstr "Qualsiasi email non automatico inviato al PTS da persone che volevano contattare i sottoscrittori del pacchetto. Questo può essere fatto mediante l'invio di mail a <literal> <replaceable> sourcepackage </replaceable> @ & pts-host; </literal>. Per evitare lo spam, tutti i messaggi inviati a questi indirizzi devono contenere l'<literal> X-PTS-Approvato </literal> intestazione con un valore non vuoto."
+msgstr "Qualsiasi email non automatica inviata al PTS da persone che volevano contattare i subscribers del pacchetto. Questo può essere fatto mediante l'invio di email a <literal><replaceable>sourcepackage</replaceable>@&pts-host;</literal>. Per evitare lo spam, tutti i messaggi inviati a questi indirizzi devono contenere l'header <literal> X-PTS-Approved</literal> con un valore non vuoto."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1068
@@ -5906,17 +5906,17 @@ msgstr "<literal>contact</literal>"
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1071
 msgid "Mails sent to the maintainer through the *@packages.debian.org email aliases."
-msgstr "Mail inviate al maintainer attraverso le * @ packages.debian.org alias di posta elettronica."
+msgstr "Le email inviate al maintainer attraverso gli alias di posta elettronica *@packages.debian.org."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1077
 msgid "<literal>summary</literal>"
-msgstr "<literal>summario</literal>"
+msgstr "<literal>sommario</literal>"
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1080
 msgid "Regular summary emails about the package's status, including progression into <literal>testing</literal>, <ulink url=\"&url-dehs;\">DEHS</ulink> notifications of new upstream versions, and a notification if the package is removed or orphaned."
-msgstr "Sommario mail periodiche sullo stato del pacchetto, compresa la progressione in <literal> testing </literal>, <ulink url=\"&url-dehs;\"> DEHS </ulink> notifiche di nuove versioni, e una notifica se il pacchetto viene rimosso o orfani."
+msgstr "Email periodiche di riepilogo sullo stato del pacchetto, compreso l'avanzamento in <literal>testing</literal>, <ulink url=\"&url-dehs;\">DEHS</ulink> notifiche di nuove versioni originali, e una notifica se il pacchetto viene rimosso o diventato orfano."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1090
@@ -5931,7 +5931,7 @@ msgstr "<literal>upload-binary</literal>"
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1097
 msgid "The email notification from <command>katie</command> when an uploaded binary package is accepted.  In other words, whenever a build daemon or a porter uploads your package for another architecture, you can get an email to track how your package gets recompiled for all architectures."
-msgstr "La notifica e-mail da <command> katie </command>, quando un pacchetto binario caricato è accettato. In altre parole, ogni volta che un demone di compilazione o di un porter arrivi il tuo pacchetto per un'altra architettura, è possibile ottenere una mail a monitorare il vostro pacchetto viene ricompilato per tutte le architetture."
+msgstr "L'email di notifica da <command>katie</command>, quando un pacchetto binario caricato è accettato. In altre parole, ogni volta che un demone di build o di un porter carichi il tuo pacchetto per un'altra architettura, è possibile ottenere una email per monitorare come il proprio pacchetto viene ricompilato per tutte le architetture."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1105
@@ -5941,7 +5941,7 @@ msgstr "<literal>cvs</literal>"
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1108
 msgid "VCS commit notifications, if the package has a VCS repository and the maintainer has set up forwarding of commit notifications to the PTS. The \"cvs\" name is historic, in most cases commit notifications will come from some other VCS like subversion or git."
-msgstr "Le notifiche di commit di VCS, se il pacchetto ha un repository VCS e il maintainer ha impostato l'inoltro di notifiche di commit sul PTS. Il  nome «cvs»  è storico, nella maggior parte dei casi le notifiche di commit verranno da altri VCS come Subversion o Git."
+msgstr "Le notifiche di commit di VCS, se il pacchetto ha un repository VCS e il maintainer ha impostato l'inoltro di notifiche di commit sul PTS. Il nome «cvs»  è storico, nella maggior parte dei casi le notifiche di commit verranno da altri VCS come Subversion o Git."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1116
@@ -5951,7 +5951,7 @@ msgstr "<literal>ddtp</literal>"
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1119
 msgid "Translations of descriptions or debconf templates submitted to the Debian Description Translation Project."
-msgstr "Traduzioni di descrizioni o modelli debconf presentate alla Debian Description Translation Project."
+msgstr "Le traduzioni delle descrizioni o i modelli debconf presentati al Debian Description Translation Project."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1125
@@ -5961,7 +5961,7 @@ msgstr "<literal>derivatives</literal>"
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1128
 msgid "Information about changes made to the package in derivative distributions (for example Ubuntu)."
-msgstr "Information about changes made to the package in derivative distributions (for example Ubuntu)."
+msgstr "Le informazioni sulle modifiche fatte al pacchetto nelle distribuzioni derivate (per esempio Ubuntu)."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1134
@@ -5971,22 +5971,22 @@ msgstr "<literal>derivatives-bugs</literal>"
 #. type: Content of: <chapter><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1137
 msgid "Bugs reports and comments from derivative distributions (for example Ubuntu)."
-msgstr "Bugs report e commenti da distribuzioni derivate (ad esempio Ubuntu)."
+msgstr "Le segnalazioni di bug e i commenti da distribuzioni derivate (ad esempio Ubuntu)."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:1143
 msgid "The PTS email interface"
-msgstr "The PTS email interface"
+msgstr "L'interfaccia email PTS"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1145
 msgid "You can control your subscription(s) to the PTS by sending various commands to <email>pts@qa.debian.org</email>."
-msgstr "È possibile controllare il tuo abbonamento (s) per il PTS inviando vari comandi per <email> pts@qa.debian.org </email>."
+msgstr "È possibile controllare la propria sottoscrizione(i) al PTS inviando vari comandi a  <email>pts@qa.debian.org</email>."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1150
 msgid "<literal>subscribe &lt;sourcepackage&gt; [&lt;email&gt;]</literal>"
-msgstr "<literal> subscribe <sourcepackage> [<email>] </literal>"
+msgstr "<literal>subscribe &lt;sourcepackage&gt; [&lt;email&gt;]</literal>"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1153
