@@ -5991,7 +5991,7 @@ msgstr "<literal>subscribe &lt;sourcepackage&gt; [&lt;email&gt;]</literal>"
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1153
 msgid "Subscribes <replaceable>email</replaceable> to communications related to the source package <replaceable>sourcepackage</replaceable>.  Sender address is used if the second argument is not present.  If <replaceable>sourcepackage</replaceable> is not a valid source package, you'll get a warning.  However if it's a valid binary package, the PTS will subscribe you to the corresponding source package."
-msgstr "Sottoscrive <replaceable> email </replaceable> per le comunicazioni relative al pacchetto sorgente <replaceable> sourcepackage </replaceable>. Indirizzo del mittente viene utilizzato se il secondo argomento non è presente. Se <replaceable> sourcepackage </replaceable> non è un pacchetto sorgente valida, si otterrà un messaggio di avviso. Tuttavia, se si tratta di un pacchetto binario valido, il PTS si iscrivervi al pacchetto sorgente corrispondente."
+msgstr "Sottoscrivere <replaceable>email</replaceable> per le comunicazioni relative al pacchetto sorgente <replaceable>sourcepackage</replaceable>. L'indirizzo del mittente viene utilizzato se il secondo argomento non è presente. Se <replaceable>sourcepackage</replaceable> non è un pacchetto sorgente valido, si otterrà un messaggio di avviso. Tuttavia, se si tratta di un pacchetto binario valido, il PTS vi iscriverà al pacchetto sorgente corrispondente."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1163
@@ -6001,27 +6001,27 @@ msgstr "<literal>unsubscribe &lt;sourcepackage&gt; [&lt;email&gt;]</literal>"
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1166
 msgid "Removes a previous subscription to the source package <replaceable>sourcepackage</replaceable> using the specified email address or the sender address if the second argument is left out."
-msgstr "Rimuove un abbonamento precedente al pacchetto sorgente <replaceable> sourcepackage </replaceable> utilizzando l'indirizzo di posta elettronica specificato o l'indirizzo del mittente, se il secondo argomento è lasciato fuori."
+msgstr "Rimuove una sottoscrizione precedente al pacchetto sorgente <replaceable>sourcepackage</replaceable> utilizzando l'indirizzo di posta elettronica specificato o l'indirizzo del mittente se il secondo argomento è stato lasciato vuoto."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1173
 msgid "<literal>unsubscribeall [&lt;email&gt;]</literal>"
-msgstr "<literal>unsubscribe all [&lt;email&gt;]</literal>"
+msgstr "<literal>unsubscribeall [&lt;email&gt;]</literal>"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1176
 msgid "Removes all subscriptions of the specified email address or the sender address if the second argument is left out."
-msgstr "Rimuove tutti gli abbonamenti di indirizzo di posta elettronica specificato o l'indirizzo del mittente, se il secondo argomento è lasciato fuori."
+msgstr "Rimuove tutte le sottoscrizioni dell' indirizzo di posta elettronica specificato o l'indirizzo del mittente, se il secondo argomento è lasciato vuoto."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1182
 msgid "<literal>which [&lt;email&gt;]</literal>"
-msgstr "<literal>che [&lt;email&gt;]</literal>"
+msgstr "<literal>wich [&lt;email&gt;]</literal>"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1185
 msgid "Lists all subscriptions for the sender or the email address optionally specified."
-msgstr "Elenca tutte le sottoscrizioni per il mittente o l'indirizzo di posta elettronica eventualmente specificato."
+msgstr "Elenca tutte le sottoscrizioni per il mittente o per l'indirizzo di posta elettronica eventualmente specificato."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1191
@@ -6031,112 +6031,112 @@ msgstr "<literal>keyword [&lt;email&gt;]</literal>"
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1194
 msgid "Tells you the keywords that you are accepting.  For an explanation of keywords, <link linkend=\"pkg-tracking-system\">see above</link>.  Here's a quick summary:"
-msgstr "Indica le parole chiave che si sta accettando. Per una spiegazione delle parole chiave, linkend=\"pkg-tracking-system\"> <link vedi sopra </link>. Ecco un breve riassunto:"
+msgstr "Indica le parole chiave che si stanno accettando. Per una spiegazione delle parole chiave, <link linkend=\"pkg-tracking-system\">si vedi sopra</link>. Ecco un breve riassunto:"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1201
 msgid "<literal>bts</literal>: mails coming from the Debian Bug Tracking System"
-msgstr "<literal> BTS </literal>: mail provenienti dal Debian Bug Tracking System"
+msgstr "<literal>bts</literal>: mail provenienti dal Debian Bug Tracking System"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1206
 msgid "<literal>bts-control</literal>: reply to mails sent to &email-bts-control;"
-msgstr "<literal> bts-control </literal>: risposta alla mail inviate a e-mail-BTS-controllo;"
+msgstr "<literal>bts-control</literal>: risponde alla mail inviate a &email-bts-control;"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1212
 msgid "<literal>summary</literal>: automatic summary mails about the state of a package"
-msgstr "<literal> sintesi </literal>: mail di riepilogo automatici sullo stato di un pacchetto"
+msgstr "<literal>summary</literal>: email di riepilogo automatici sullo stato di un pacchetto"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1218
 msgid "<literal>contact</literal>: mails sent to the maintainer through the *@packages.debian.org aliases"
-msgstr "<literal> contatto </literal>: le email inviate al maintainer attraverso le * @ packages.debian.org alias"
+msgstr "<literal>contact</literal>: email inviate al maintainer attraverso gli alias *@packages.debian.org"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1224
 msgid "<literal>cvs</literal>: notification of VCS commits"
-msgstr "<literal> cvs </literal>: notifica di VCS impegna"
+msgstr "<literal>cvs</literal>: notifica dei commit sul VCS "
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1229
 msgid "<literal>ddtp</literal>: translations of descriptions and debconf templates"
-msgstr "<literal> DDTP </literal>: traduzioni di descrizioni e modelli di debconf"
+msgstr "<literal>ddtp</literal>: traduzioni delle descrizioni e dei modelli di debconf"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1234
 msgid "<literal>derivatives</literal>: changes made on the package by derivative distributions"
-msgstr "<literal> derivati ​​</literal>: le modifiche apportate al pacchetto di distribuzioni derivate"
+msgstr "<literal>derivatives​​</literal>: le modifiche apportate al pacchetto da distribuzioni derivate"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1240
 msgid "<literal>derivatives-bugs</literal>: bugs reports and comments from derivative distributions"
-msgstr "<literal> derivati​​-bugs </literal>: bug report e commenti da distribuzioni derivate"
+msgstr "<literal>derivatives​​-bugs</literal>: segnalazioni di bug e commenti da distribuzioni derivate"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1246
 msgid "<literal>upload-source</literal>: announce of a new source upload that has been accepted"
-msgstr "<literal> caricare-source </literal>: annunciare di una nuova fonte di upload che è stato accettato"
+msgstr "<literal>upload-source</literal>: annuncia un nuovo upload di source che è stato accettato"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1252
 msgid "<literal>upload-binary</literal>: announce of a new binary-only upload (porting)"
-msgstr "<literal> caricare-binario </literal>: annunciare di nuovo solo binario upload (porting)"
+msgstr "<literal>upload-binary</literal>: annuncia un nuovo upload di solo un binario(porting)"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1258
 msgid "<literal>katie-other</literal>: other mails from ftpmasters (override disparity, etc.)"
-msgstr "<literal> katie-altri </literal>: altre mail da ftpmasters (override di disparità, ecc)"
+msgstr "<literal>katie-other</literal>: altre mail da ftpmasters (override di disparità, ecc)"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1264
 msgid "<literal>buildd</literal>: build failures notifications from build daemons"
-msgstr "<literal> buildd </literal>: costruire notifiche fallimenti da costruire demoni"
+msgstr "<literal>buildd</literal>: notifiche di fallimenti di build dai demoni build"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1269
 msgid "<literal>default</literal>: all the other mails (those which aren't automatic)"
-msgstr "<literal> default </literal>: tutti gli altri messaggi (quelli che non sono automatici)"
+msgstr "<literal>default</literal>: tutti le altre email (quelle che non sono automatiche)"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1276
 msgid "<literal>keyword &lt;sourcepackage&gt; [&lt;email&gt;]</literal>"
-msgstr "<literal> parola chiave <sourcepackage> [<email>] </literal>"
+msgstr "<literal>keyword &lt;sourcepackage&gt; [&lt;email&gt;]</literal>"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1279
 msgid "Same as the previous item but for the given source package, since you may select a different set of keywords for each source package."
-msgstr "Corrisponde alla voce precedente, ma per il dato pacchetto sorgente, dal momento che è possibile selezionare un diverso insieme di parole chiave per ogni pacchetto sorgente."
+msgstr "Corrisponde alla voce precedente ma per il dato pacchetto sorgente, dal momento che è possibile selezionare un diverso insieme di keyword per ogni pacchetto sorgente."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1285
 msgid "<literal>keyword [&lt;email&gt;] {+|-|=} &lt;list of keywords&gt;</literal>"
-msgstr "<literal> parola chiave [<email>] {+ | - | =} <list di keywords> </literal>"
+msgstr "<literal>keyword [&lt;email&gt;] {+|-|=} &lt;list of keywords&gt;</literal>"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1288
 msgid "Accept (+) or refuse (-) mails classified under the given keyword(s).  Define the list (=) of accepted keywords.  This changes the default set of keywords accepted by a user."
-msgstr "Accetta (+) o rifiutare (-) mails classificati alla data parola chiave (s). Definire la lista (=) delle parole chiave accettate. Ciò cambia l'insieme predefinito di parole chiave accettate da un utente."
+msgstr "Accetta (+) o rifiuta (-) email classificate sotto le parole chiave. Definisci la lista (=) delle keyword accettate. Ciò cambia l'insieme predefinito di keyword accettate da un utente."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1295
 msgid "<literal>keywordall [&lt;email&gt;] {+|-|=} &lt;list of keywords&gt;</literal>"
-msgstr "<literal> keywordall [<email>] {+ | - | =} <list di keywords> </literal>"
+msgstr "<literal>keywordall [&lt;email&gt;] {+|-|=} &lt;list of keywords&gt;</literal>"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1298
 msgid "Accept (+) or refuse (-) mails classified under the given keyword(s).  Define the list (=) of accepted keywords.  This changes the set of accepted keywords of all the currently active subscriptions of a user."
-msgstr "Accetta (+) o rifiutare (-) mails classificati alla data parola chiave (s). Definire la lista (=) delle parole chiave accettate. Ciò cambia l'insieme di parole chiave accettati di tutti gli abbonamenti attualmente attivi di un utente."
+msgstr "Accetta (+) o rifiutata (-) email classificate sotto la data keyword. Definisci la lista (=) delle keyword accettate. Ciò cambia l'insieme di keyword accettate di tutti le sottoscrizioni attualmente attive di un utente."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1305
 msgid "<literal>keyword &lt;sourcepackage&gt; [&lt;email&gt;] {+|-|=} &lt;list of keywords&gt;</literal>"
-msgstr "<literal>keyword &lt;sourcepackage&gt; [&lt;email&gt;] {+|-|=} &lt;lista delle  keywords&gt;</literal>"
+msgstr "<literal>keyword &lt;sourcepackage&gt; [&lt;email&gt;] {+|-|=} &lt;list of keywords&gt;</literal>"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1308
 msgid "Same as previous item but overrides the keywords list for the indicated source package."
-msgstr "Stessa voce precedente, ma prevale l'elenco di parole chiave per il pacchetto sorgente indicata."
+msgstr "Stessa voce precedente, ma prevale l'elenco di keyword per il pacchetto sorgente indicato."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1314
@@ -6146,27 +6146,27 @@ msgstr "<literal>quit | thanks | --</literal>"
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><para>
 #: resources.dbk:1317
 msgid "Stops processing commands.  All following lines are ignored by the bot."
-msgstr "Interrompe comandi di elaborazione. Tutte le seguenti righe vengono ignorati dal bot."
+msgstr "Interrompe i comandi in elaborazione. Tutte le seguenti righe vengono ignorate dal bot."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1323
 msgid "The <command>pts-subscribe</command> command-line utility (from the <systemitem role=\"package\">devscripts</systemitem> package) can be handy to temporarily subscribe to some packages, for example after having made an non-maintainer upload."
-msgstr "Il PTS-subscribe </command> riga di comando <comando> (dalle <systemitem role=\"package\"> devscripts </systemitem> pacchetto) può essere utile per iscriversi temporaneamente per alcuni pacchetti, per esempio, dopo aver fatto un non-maintainer."
+msgstr "L'utily da riga di comando <command>pts-subscribe</comando> (dal pacchetto <systemitem role=\"package\">devscripts</systemitem>) può essere utile per iscriversi temporaneamente ad alcuni pacchetti, per esempio, dopo aver fatto un upload non-maintainer."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:1331
 msgid "Filtering PTS mails"
-msgstr "Filtraggio PTS mail"
+msgstr "Filtrare le email PTS "
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1333
 msgid "Once you are subscribed to a package, you will get the mails sent to <literal><replaceable>sourcepackage</replaceable>@&pts-host;</literal>.  Those mails have special headers appended to let you filter them in a special mailbox (e.g.  with <command>procmail</command>).  The added headers are <literal>X-Loop</literal>, <literal>X-PTS-Package</literal>, <literal>X-PTS-Keyword</literal> and <literal>X-Unsubscribe</literal>."
-msgstr "Una volta che l'utente è iscritto a un pacchetto, si otterrà le mail inviate a <literal> <replaceable> sourcepackage </replaceable> @ & pts-host; </literal>. Quei messaggi hanno intestazioni speciali allegate per farvi filtrare in una casella postale speciale (ad esempio con <command> procmail </command>). Le intestazioni sono aggiunti <literal> X-Loop </literal>, <literal> X-PTS-Package </literal>, <literal> X-PTS-chiave </literal> e <literal> X-Cancellati </literal >."
+msgstr "Una volta che si è iscritto a un pacchetto, si riceveranno le email inviate a <literal> <replaceable>sourcepackage</replaceable> @&pts-host;</literal>. Quei messaggi hanno intestazioni speciali allegate per farvi filtrare in una casella postale speciale (ad esempio con <command>procmail</command>). Gli header aggiunti sono <literal>X-Loop</literal>, <literal>X-PTS-Package</literal>, <literal>X-PTS-Keyword</literal> e <literal>X-Unsubscribe</literal >."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1341
 msgid "Here is an example of added headers for a source upload notification on the <systemitem role=\"package\">dpkg</systemitem> package:"
-msgstr "Ecco un esempio di intestazioni aggiuntive per una fonte di caricare notifica sul <systemitem role=\"package\"> dpkg </systemitem> pacchetto:"
+msgstr "Ecco un esempio di header aggiuntivi per una notifica di un source upload sul pacchetto <systemitem role=\"package\">dpkg</systemitem>:"
 
 #. type: Content of: <chapter><section><section><screen>
 #: resources.dbk:1345
@@ -6185,22 +6185,22 @@ msgstr ""
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:1353
 msgid "Forwarding VCS commits in the PTS"
-msgstr "VCS Inoltro impegna nel PTS"
+msgstr "Inoltrare i commit del VCS nel PTS"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1355
 msgid "If you use a publicly accessible VCS repository for maintaining your Debian package, you may want to forward the commit notification to the PTS so that the subscribers (and possible co-maintainers) can closely follow the package's evolution."
-msgstr "Se si utilizza un repository VCS accessibile al pubblico per la manutenzione del pacchetto Debian, si consiglia di inoltrare la notifica di commit per il PTS in modo che gli abbonati (e possibile co-maintainer) possono seguire da vicino l'evoluzione del pacchetto."
+msgstr "Se si utilizza un repository VCS accessibile al pubblico per la manutenzione del proprio pacchetto Debian, si consiglia di inoltrare le notifiche di commit  al PTS in modo che gli abbonati (ed  i possibili co-maintainer) possano seguire da vicino l'evoluzione del pacchetto."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1361
 msgid "Once you set up the VCS repository to generate commit notifications, you just have to make sure it sends a copy of those mails to <literal><replaceable>sourcepackage</replaceable>_cvs@&pts-host;</literal>.  Only the people who accept the <literal>cvs</literal> keyword will receive these notifications. Note that the mail needs to be sent from a <literal>debian.org</literal> machine, otherwise you'll have to add the <literal>X-PTS-Approved: 1</literal> header."
-msgstr "Dopo aver configurato il repository VCS per generare notifiche di commit, basta assicurarsi che invia una copia di quelle mail di <literal> <replaceable> sourcepackage </replaceable> _cvs @ & pts-host; </literal>. Solo le persone che accettano la <literal> cvs </literal> chiave riceveranno queste notifiche. Si noti che la posta deve essere inviato da una <literal> debian.org </literal> macchina, altrimenti si dovrà aggiungere il <literal> X-PTS-Approvato: 1 </literal> intestazione."
+msgstr "Dopo aver configurato il repository VCS per generare notifiche di commit, basta assicurarsi che invii una copia delle email di <literal> <replaceable>sourcepackage</replaceable>_cvs@&pts-host;</literal>. Solo le persone che accettano la keyword <literal>cvs</literal> riceveranno queste notifiche. Si noti che la posta deve essere inviata da una macchina <literal>debian.org</literal>, altrimenti si dovrà aggiungere l'header <literal>X-PTS-Approved: 1 </literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1370
 msgid "For Subversion repositories, the usage of svnmailer is recommended.  See <ulink url=\"&url-alioth-pkg;\" /> for an example on how to do it."
-msgstr "Per i repository Subversion, si consiglia l'utilizzo di svnmailer. Vedere <ulink url=\"&url-alioth-pkg;\" /> per un esempio su come farlo."
+msgstr "Per i repository Subversion, si consiglia l'utilizzo di svnmailer. Si consulti <ulink url=\"&url-alioth-pkg;\" /> per un esempio su come farlo."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:1376
@@ -6210,32 +6210,32 @@ msgstr "L'intefaccia web di PTS"
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1378
 msgid "The PTS has a web interface at <ulink url=\"http://&pts-host;/\"></ulink> that puts together a lot of information about each source package.  It features many useful links (BTS, QA stats, contact information, DDTP translation status, buildd logs) and gathers much more information from various places (30 latest changelog entries, testing status, etc.).  It's a very useful tool if you want to know what's going on with a specific source package.  Furthermore there's a form that allows easy subscription to the PTS via email."
-msgstr "Il PTS ha una interfaccia web all'indirizzo <ulink url=\"http://&pts-host;/\"> </ulink>, che mette insieme un sacco di informazioni su ogni pacchetto sorgente. È dotato di molti link utili (BTS, QA statistiche, informazioni di contatto, lo stato di traduzione DDTP, tronchi buildd) e raccoglie molte più informazioni da vari luoghi (30 più recenti contenuti di changelog, lo stato di prova, ecc.) E 'uno strumento molto utile se si vuole sapere che cosa sta succedendo con un pacchetto sorgente specifica. Inoltre c'è un modulo che permette una facile sottoscrizione al PTS via email."
+msgstr "Il PTS ha una interfaccia web all'indirizzo <ulink url=\"http://&pts-host;/\"> </ulink>, che mette insieme molte informazioni su ogni pacchetto sorgente. È dotato di molti link utili (BTS, QA statistiche, informazioni sui contatti, lo stato di traduzione DDTP, logs di buildd) e raccoglie molte informazioni da vari luoghi (le ultime 30 voci del changelog, lo stato di testing, ecc.) E' uno strumento molto utile se si vuole sapere che cosa sta succedendo a uno specifico pacchetto sorgente. Inoltre c'è un modulo che permette una facile sottoscrizione al PTS via email."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1388
 msgid "You can jump directly to the web page concerning a specific source package with a URL like <literal>http://&pts-host;/<replaceable>sourcepackage</replaceable></literal>."
-msgstr "È possibile passare direttamente alla pagina web relativa a un pacchetto sorgente specifica con un URL del tipo <literal> http://&pts-host;/ <replaceable> sourcepackage </replaceable> </literal>."
+msgstr "È possibile passare direttamente alla pagina web relativa ad uno specifico pacchetto sorgente con un URL del tipo <literal>http://&pts-host;/<replaceable>sourcepackage</replaceable></literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1393
 msgid "This web interface has been designed like a portal for the development of packages: you can add custom content on your packages' pages.  You can add static information (news items that are meant to stay available indefinitely)  and news items in the latest news section."
-msgstr "L'interfaccia web è stato progettato come un portale per lo sviluppo di pacchetti: è possibile aggiungere contenuto personalizzato sulle pagine vostri pacchetti. È possibile aggiungere informazioni statiche (notizie che sono destinate a rimanere a disposizione a tempo indeterminato) e news in l'ultima sezione news."
+msgstr "L'interfaccia web è stata progettata come un portale per lo sviluppo di pacchetti: è possibile aggiungere contenuti personalizzati sulle pagine dei propri pacchetti. È possibile aggiungere informazioni statiche (notizie che sono destinate a rimanere a disposizione a tempo indeterminato) e news nelle notizie recenti."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1399
 msgid "Static news items can be used to indicate:"
-msgstr "Notizie statici elementi possono essere utilizzati per indicare:"
+msgstr "Notizie statiche possono essere utilizzate per indicare:"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1404
 msgid "the availability of a project hosted on <link linkend=\"alioth\">Alioth</link> for co-maintaining the package"
-msgstr "la disponibilità di un progetto ospitato su <link linkend=\"alioth\"> Alioth </link> per la co-mantenimento del pacchetto"
+msgstr "la disponibilità di un progetto ospitato su <link linkend=\"alioth\">Alioth</link> per il co-maintaining del pacchetto"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1410
 msgid "a link to the upstream web site"
-msgstr "un collegamento al sito Web di monte"
+msgstr "un collegamento al sito web originale"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1415
@@ -6255,12 +6255,12 @@ msgstr "qualsiasi altra risorsa disponibile che potrebbe essere utile nel manten
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1431
 msgid "Usual news items may be used to announce that:"
-msgstr "Notizie soliti elementi possono essere utilizzati per annunciare che:"
+msgstr "Notizie normali possono essere utilizzate per annunciare che:"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1436
 msgid "beta packages are available for testing"
-msgstr "Pacchetti beta sono disponibili per il test"
+msgstr "pacchetti beta sono disponibili per il test"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1441
@@ -6270,7 +6270,7 @@ msgstr "pacchetti finali sono attesi per la prossima settimana"
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1446
 msgid "the packaging is about to be redone from scratch"
-msgstr "la confezione è circa da rifare da zero"
+msgstr "il packaging è quasi da rifare da zero"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1451
@@ -6280,7 +6280,7 @@ msgstr "backport sono disponibili"
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1456
 msgid "the maintainer is on vacation (if they wish to publish this information)"
-msgstr "il maintainer è in vacanza (se lo desiderano, di pubblicare tali informazioni)"
+msgstr "il maintainer è in vacanza (se desiderano pubblicare tali informazioni)"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1461
@@ -6290,17 +6290,17 @@ msgstr "un NMU è in lavorazione"
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1466
 msgid "something important will affect the package"
-msgstr "cosa importante influenzerà il pacchetto"
+msgstr "qualcosa di importante influenzerà il pacchetto"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1471
 msgid "Both kinds of news are generated in a similar manner: you just have to send an email either to <email>pts-static-news@qa.debian.org</email> or to <email>pts-news@qa.debian.org</email>.  The mail should indicate which package is concerned by having the name of the source package in a <literal>X-PTS-Package</literal> mail header or in a <literal>Package</literal> pseudo-header (like the BTS reports).  If a URL is available in the <literal>X-PTS-Url</literal> mail header or in the <literal>Url</literal> pseudo-header, then the result is a link to that URL instead of a complete news item."
-msgstr "Entrambi i tipi di notizie vengono generati in modo simile: basta inviare una e-mail o per <email> pts-static-news@qa.debian.org </email> oppure a <email> pts-news@qa.debian . org </email>. La posta dovrebbe indicare quale pacchetto è interessato da avere il nome del pacchetto sorgente in un <literal> X-PTS-Package </literal> intestazione posta o in un pacchetto <literal> </literal> pseudo-intestazione (come il BTS relazioni). Se un URL è disponibile nel <literal> X-PTS-URL </literal> intestazione posta o nella URL <literal> </literal> pseudo-intestazione, quindi il risultato è un link a tale URL al posto di una notizia completa elemento."
+msgstr "Entrambi i tipi di notizie vengono generati in modo simile: basta inviare una email sia a <email>pts-static-news@qa.debian.org</email> oppure a <email>pts-news@qa.debian.org</email>. La email dovrebbe indicare a quale pacchetto si è interessati indicando il nome del pacchetto sorgente in un header <literal>X-PTS-Package</literal>  o in uno pseudo-header <literal>Package</literal> (come i report BTS). Se un URL è disponibile nell'header <literal>X-PTS-URL</literal> o nella pseudo-header <literal>Url</literal>, allora il risultato è un link a tale URL al posto di una notizia completa."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1482
 msgid "Here are a few examples of valid mails used to generate news items in the PTS.  The first one adds a link to the viewsvn interface of debian-cd in the Static information section:"
-msgstr "Ecco alcuni esempi di messaggi validi utilizzati per generare news in PTS. Il primo aggiunge un link per l'interfaccia viewsvn di debian-cd nella sezione informazioni statica:"
+msgstr "Ecco alcuni esempi di messaggi validi utilizzati per generare news in PTS. Il primo aggiunge un link per l'interfaccia viewsvn di debian-cd nella sezione informazioni statiche:"
 
 #. type: Content of: <chapter><section><section><screen>
 #: resources.dbk:1487
@@ -6323,7 +6323,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1495
 msgid "The second one is an announcement sent to a mailing list which is also sent to the PTS so that it is published on the PTS web page of the package.  Note the use of the BCC field to avoid answers sent to the PTS by mistake."
-msgstr "Il secondo è un annuncio inviato a una mailing list, che viene trasmessa anche al PTS in modo che sia pubblicato sulla pagina web PTS del pacchetto. Notare l'uso del campo BCC per evitare risposte inviate al PTS per errore."
+msgstr "Il secondo è un annuncio inviato a una mailing list, che viene trasmesso anche al PTS in modo che sia pubblicato sulla pagina web PTS del pacchetto. Si noti l'uso del campo BCC per evitare risposte inviate al PTS per errore."
 
 #. type: Content of: <chapter><section><section><screen>
 #: resources.dbk:1500
@@ -6356,7 +6356,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1513
 msgid "Think twice before adding a news item to the PTS because you won't be able to remove it later and you won't be able to edit it either.  The only thing that you can do is send a second news item that will deprecate the information contained in the previous one."
-msgstr "Pensaci due volte prima di aggiungere un elemento di novità per il PTS, perché non sarà in grado di rimuovere in un secondo momento e non sarà in grado di modificare lo sia. L'unica cosa che si può fare è inviare una seconda notizia che deprecare le informazioni contenute in quello precedente."
+msgstr "Pensaci due volte prima di aggiungere una news al PTS, perché non potrà rimuoverla in un secondo momento e non sarà  possibile modificarla. L'unica cosa che si può fare è inviare una seconda notizia che depreca le informazioni contenute in quella precedente."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:1523
