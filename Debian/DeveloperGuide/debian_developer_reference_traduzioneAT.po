@@ -5266,12 +5266,12 @@ msgstr "Alcuni dei server centrali sono ristretti, ma le informazioni sono rispe
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:258
 msgid "The bugs server"
-msgstr "Il server dei bugs"
+msgstr "Il server dei bug"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:260
 msgid "<literal>&bugs-host;</literal> is the canonical location for the Bug Tracking System (BTS)."
-msgstr "<literal>&bug-host; </literal> è il percorso canonico per il Bug Tracking System (BTS)."
+msgstr "<literal>&bug-host;</literal> è il percorso canonico per il Bug Tracking System (BTS)."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:264
@@ -5311,7 +5311,7 @@ msgstr "Il web server principale è <literal>www-master.debian.org</literal>. Co
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:296
 msgid "If you find a problem with the Debian web server, you should generally submit a bug against the pseudo-package, <systemitem role=\"package\">www.debian.org</systemitem>.  Remember to check whether or not someone else has already reported the problem to the <ulink url=\"http://&bugs-host;/&www-debian-org;\">Bug Tracking System</ulink>."
-msgstr "Se si trova un problema con il server web di Debian, si dovrebbe generalmente presentare un bug nei confronti pseudo-pacchetto, <systemitem role=\"package\"> www.debian.org </systemitem>. Ricordati di controllare se qualcun altro ha già segnalato il problema al <ulink url=\"http://&bugs-host;/&www-debian-org;\">Bug Tracking System<ulink </ulink>."
+msgstr "Se si trova un problema con il server web di Debian, si dovrebbe generalmente presentare un bug nei confronti pseudo-pacchetto, <systemitem role=\"package\"> www.debian.org </systemitem>. Ricordati di controllare se qualcun altro ha già segnalato il problema al <ulink url=\"http://&bugs-host;/&www-debian-org;\">Bug Tracking System</ulink>."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:305
@@ -5331,27 +5331,27 @@ msgstr "Se si dispone di alcune informazioni specifiche di Debian che si vuole f
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:318
 msgid "You should only use this particular location because it will be backed up, whereas on other hosts it won't."
-msgstr "Si consiglia di utilizzare solo questa posizione particolare, perché verrà eseguito il backup, mentre su altri host non lo farà."
+msgstr "Si consiglia di utilizzare solo questa particolare posizione, perchè verrà eseguito il backup, mentre su altri host no."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:322
 msgid "Usually the only reason to use a different host is when you need to publish materials subject to the U.S.  export restrictions, in which case you can use one of the other servers located outside the United States."
-msgstr "Di solito l'unica ragione per usare un host diverso è quando si ha bisogno di pubblicare materiali soggetti a restrizioni all'esportazione degli Stati Uniti, nel qual caso è possibile utilizzare uno degli altri server situati al di fuori degli Stati Uniti."
+msgstr "Di solito l'unica ragione per usare un host diverso è quando si ha bisogno di pubblicare materiali soggetti a restrizioni sull'esportazione degli Stati Uniti, nel qual caso è possibile utilizzare uno degli altri server situati al di fuori degli Stati Uniti."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:327
 msgid "Send mail to &email-debian-devel; if you have any questions."
-msgstr "Inviare una mail a e-mail-debian-devel, se avete domande."
+msgstr "Si invii una mail a &email-debian-devel; se avete domande."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:332
 msgid "The VCS servers"
-msgstr "The VCS servers"
+msgstr "I server VCS"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:334
 msgid "If you need to use a Version Control System for any of your Debian work, you can use one of the existing repositories hosted on Alioth or you can request a new project and ask for the VCS repository of your choice.  Alioth supports CVS (cvs.alioth.debian.org/cvs.debian.org), Subversion (svn.debian.org), Arch (tla/baz, both on arch.debian.org), Bazaar (bzr.debian.org), Darcs (darcs.debian.org), Mercurial (hg.debian.org) and Git (git.debian.org).  Checkout <ulink url=\"&url-alioth-pkg;\" /> if you plan to maintain packages in a VCS repository. See <xref linkend=\"alioth\"/> for information on the services provided by Alioth."
-msgstr "Se è necessario utilizzare un sistema di controllo versione per qualsiasi tipo di lavoro di Debian, è possibile utilizzare uno dei repository esistenti ospitati su Alioth oppure si può richiedere un nuovo progetto e chiedere il repository VCS di vostra scelta. Alioth supporti CVS (cvs.alioth.debian.org / cvs.debian.org), Subversion (svn.debian.org), Arco (tla / baz, sia su arch.debian.org), Bazar (bzr.debian.org ), Darcs (darcs.debian.org), Mercurial (hg.debian.org) e Git (git.debian.org). Acquista <ulink url=\"&url-alioth-pkg;\" /> se si prevede di mantenere i pacchetti in un repository VCS. Per informazioni sui servizi forniti da Alioth Vedi <xref linkend=\"alioth\"/>."
+msgstr "Se è necessario utilizzare un sistema di controllo versione per qualsiasi tipo di lavoro di Debian, è possibile utilizzare uno dei repository esistenti ospitati su Alioth oppure si può richiedere un nuovo progetto e chiedere il repository VCS di vostra scelta. Alioth supporta CVS (cvs.alioth.debian.org / cvs.debian.org), Subversion (svn.debian.org), Arco (tla / baz, sia su arch.debian.org), Bazar (bzr.debian.org ), Darcs (darcs.debian.org), Mercurial (hg.debian.org) e Git (git.debian.org). Checkout <ulink url=\"&url-alioth-pkg;\" /> se si prevede di mantenere pacchetti in un repository VCS. Per informazioni sui servizi forniti da Alioth si consulti <xref linkend=\"alioth\"/>."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:347
@@ -5361,7 +5361,7 @@ msgstr "chroot per diverse distribuzioni"
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:349
 msgid "On some machines, there are chroots to different distributions available.  You can use them like this:"
-msgstr "Su alcune macchine, ci sono chroot a differenti distribuzioni disponibili. Si possono utilizzare in questo modo:"
+msgstr "Su alcune macchine, ci sono chroot disponibili per differenti distribuzioni. Si possono utilizzare in questo modo:"
 
 #. type: Content of: <chapter><section><section><screen>
 #: resources.dbk:353
@@ -5376,22 +5376,22 @@ msgstr ""
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:357
 msgid "In all chroots, the normal user home directories are available.  You can find out which chroots are available via <ulink url=\"&url-devel-machines;\"></ulink>."
-msgstr "In tutti chroot, le home directory degli utenti normali sono disponibili. Si può scoprire che chroot sono disponibili tramite <ulink url=\"&url-devel-machines;\"> </ulink>."
+msgstr "In tutti i chroot, sono disponibili le home directory degli utenti normali. Si possono scoprire quali chroot sono disponibili tramite <ulink url=\"&url-devel-machines;\"></ulink>."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:366
 msgid "The Developers Database"
-msgstr "The Developers Database"
+msgstr "Il Database dei Developers"
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:368
 msgid "The Developers Database, at <ulink url=\"&url-debian-db;\"></ulink>, is an LDAP directory for managing Debian developer attributes.  You can use this resource to search the list of Debian developers.  Part of this information is also available through the finger service on Debian servers, try <command>finger yourlogin@db.debian.org</command> to see what it reports."
-msgstr "Il Database Developers, a <ulink url=\"&url-debian-db;\"> </ulink>, è una directory LDAP per la gestione di attributi degli sviluppatori Debian. È possibile utilizzare questa risorsa per cercare l'elenco degli sviluppatori Debian. Parte di queste informazioni sono disponibili anche attraverso il servizio dito su server Debian, provate <command> dito yourlogin@db.debian.org </command> per vedere cosa si riferisce."
+msgstr "Il Database dei Developers, a <ulink url=\"&url-debian-db;\"></ulink>, è una directory LDAP per la gestione di attributi degli sviluppatori Debian. È possibile utilizzare questa risorsa per cercare l'elenco degli sviluppatori Debian. Parte di queste informazioni sono disponibili anche attraverso il servizio finger sui server Debian, si provi <command>finger yourlogin@db.debian.org</command> per vedere cosa riporta."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:376
 msgid "Developers can <ulink url=\"&url-debian-db-login;\">log into the database</ulink> to change various information about themselves, such as:"
-msgstr "Gli sviluppatori possono <ulink log url=\"&url-debian-db-login;\"> al database </ulink> per cambiare le varie informazioni su se stessi, come ad esempio:"
+msgstr "Gli sviluppatori possono <ulink log url=\"&url-debian-db-login;\">autenticarsi al database</ulink> per cambiare le varie informazioni su se stessi, come ad esempio:"
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: resources.dbk:382
@@ -5411,7 +5411,7 @@ msgstr "se si è in vacanza"
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: resources.dbk:397
 msgid "personal information such as your address, country, the latitude and longitude of the place where you live for use in <ulink url=\"&url-worldmap;\">the world map of Debian developers</ulink>, phone and fax numbers, IRC nickname and web page"
-msgstr "informazioni personali, come il vostro indirizzo, il paese, la latitudine e la longitudine del luogo in cui si vive per l'uso in <ulink url=\"&url-worldmap;\"> la mappa del mondo di sviluppatori Debian </ulink>, telefono e fax , IRC nickname e pagina web"
+msgstr "informazioni personali, come il vostro indirizzo, il paese, la latitudine e la longitudine del luogo in cui si vive per l'uso nella <ulink url=\"&url-worldmap;\">mappa del mondo di sviluppatori Debian </ulink>, telefono e fax , IRC nickname e pagina web"
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: resources.dbk:405
@@ -5421,12 +5421,12 @@ msgstr "la password e la shell preferita su macchine Debian Project"
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:410
 msgid "Most of the information is not accessible to the public, naturally.  For more information please read the online documentation that you can find at <ulink url=\"&url-debian-db-doc;\"></ulink>."
-msgstr "La maggior parte delle informazioni non è accessibile al pubblico, in modo naturale. Per ulteriori informazioni si prega di leggere la documentazione online che si possono trovare presso <ulink url=\"&url-debian-db-doc;\"> </ulink>."
+msgstr "La maggior parte delle informazioni non sono accessibili al pubblico, ovviamente. Per ulteriori informazioni si prega di leggere la documentazione online che si può trovare presso <ulink url=\"&url-debian-db-doc;\"></ulink>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:415
 msgid "Developers can also submit their SSH keys to be used for authorization on the official Debian machines, and even add new *.debian.net DNS entries.  Those features are documented at <ulink url=\"&url-debian-db-mail-gw;\"></ulink>."
-msgstr "Gli sviluppatori possono inoltre presentare le loro chiavi SSH per essere utilizzati per l'autorizzazione sulle macchine ufficiali di Debian, e persino aggiungere nuovi file *. Debian.net voci DNS. Tali caratteristiche sono documentate a <ulink url=\"&url-debian-db-mail-gw;\"> </ulink>."
+msgstr "Gli sviluppatori possono inoltre presentare le loro chiavi SSH per essere utilizzati per l'autorizzazione sulle macchine ufficiali di Debian, e persino aggiungere nuove voci DNS *.debian.net. Tali caratteristiche sono documentate a <ulink url=\"&url-debian-db-mail-gw;\"></ulink>."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:423
@@ -5436,7 +5436,7 @@ msgstr "L'archivio Debian"
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:425
 msgid "The &debian-formal; distribution consists of a lot of packages (currently around &number-of-pkgs; source packages) and a few additional files (such as documentation and installation disk images)."
-msgstr "L'& debian-formale; distribuzione è composto da un sacco di pacchetti (attualmente intorno e numero-di-pkgs; pacchetti sorgente) e un paio di file aggiuntivi (come ad esempio la documentazione e le immagini del disco di installazione)."
+msgstr "La distribuzione &debian-formal; è composta da molti pacchetti (attualmente intorno &numero-di-pkgs; pacchetti sorgente) e un paio di file aggiuntivi (come ad esempio la documentazione e le immagini del disco di installazione)."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:430
@@ -5446,22 +5446,22 @@ msgstr "Ecco un esempio albero di directory di un archivio completo di Debian:"
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:434
 msgid "As you can see, the top-level directory contains two directories, <filename>dists/</filename> and <filename>pool/</filename>.  The latter is a “pool” in which the packages actually are, and which is handled by the archive maintenance database and the accompanying programs.  The former contains the distributions, <literal>stable</literal>, <literal>testing</literal> and <literal>unstable</literal>.  The <filename>Packages</filename> and <filename>Sources</filename> files in the distribution subdirectories can reference files in the <filename>pool/</filename> directory.  The directory tree below each of the distributions is arranged in an identical manner.  What we describe below for <literal>stable</literal> is equally applicable to the <literal>unstable</literal> and <literal>testing</literal> distributions."
-msgstr "Come si può vedere, la directory di livello superiore contiene due directory, dists <filename> / </filename> e <filename> piscina / </filename>. Quest'ultimo è un \"pool\", in cui i pacchetti sono in realtà, e che sono gestiti dal database di manutenzione dell'archivio e dei programmi di accompagnamento. La prima contiene le distribuzioni, <literal> stabile </literal>, <literal> testing </literal> e <literal> unstable </literal>. I pacchetti <filename> </filename> e <filename> Fonti </filename> file delle sottodirectory di distribuzione possono fare riferimento i file nella <filename> piscina / </filename>. L'albero delle directory sotto ciascuna delle distribuzioni è disposto in modo identico. Ciò che descriviamo qui di seguito per <literal> stabile </literal> è ugualmente applicabile al <literal> </literal> e <literal> test </literal> distribuzioni instabile."
+msgstr "Come si può vedere, la directory di livello superiore contiene due directory, <filename>dists/</filename> e <filename>pool/</filename>. Quest'ultimo è un «insieme», nel quale i pacchetti sono in realtà, e che sono gestiti dal database di manutenzione dell'archivio e dai programmi di accompagnamento. La prima contiene le distribuzioni, <literal>stable</literal>, <literal>testing</literal> e <literal>unstable</literal>.I file <filename>Packages</filename> e <filename> Sources</filename> delle sottodirectory di distribuzione possono fare riferimento ai file in <filename>pool/</filename>. L'albero delle directory sotto ciascuna delle distribuzioni è disposto in modo identico. Ciò che descriviamo qui di seguito per <literal>stable</literal> è ugualmente applicabile alle distribuzioni  <literal>unstable</literal> e <literal>testing</literal>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:448
 msgid "<filename>dists/stable</filename> contains three directories, namely <filename>main</filename>, <filename>contrib</filename>, and <filename>non-free</filename>."
-msgstr "<filename> dists / stable </filename> contiene tre directory, e cioè <filename> principale </filename>, <filename> contrib </filename>, e <filename> non-free </filename>."
+msgstr "<filename>dists/stable</filename> contiene tre directory, e cioè <filename>main</filename>, <filename>contrib</filename>, e <filename>non-free</filename>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:453
 msgid "In each of the areas, there is a directory for the source packages (<filename>source</filename>) and a directory for each supported architecture (<filename>binary-i386</filename>, <filename>binary-amd64</filename>, etc.)."
-msgstr "In ciascuna delle aree, vi è una directory per i pacchetti sorgente (<filename> fonte </filename>) e una directory per ogni architettura supportata (<filename> binary-i386 </filename>, <filename> binary-amd64 </filename>, ecc.)"
+msgstr "In ciascuna delle aree, vi è una directory per i pacchetti sorgente (<filename>source</filename>) e una directory per ogni architettura supportata (<filename>binary-i386</filename>, <filename> binary-amd64</filename>, ecc.)"
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:458
 msgid "The <filename>main</filename> area contains additional directories which hold the disk images and some essential pieces of documentation required for installing the Debian distribution on a specific architecture (<filename>disks-i386</filename>, <filename>disks-amd64</filename>, etc.)."
-msgstr "Il <filename> principale </filename> area contiene altre directory che contengono le immagini del disco e alcuni pezzi essenziali della documentazione necessari per l'installazione della distribuzione Debian su una specifica architettura (<filename> dischi-i386 </filename>, <filename> dischi -amd64 </filename>, ecc.)"
+msgstr "Il <filename>main</filename> area contiene altre directory che contengono le immagini del disco e alcuni pezzi essenziali della documentazione necessari per l'installazione della distribuzione Debian su una specifica architettura (<filename>disk-i386</filename>, <filename>disk-amd64</filename>, ecc.)"
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:464
