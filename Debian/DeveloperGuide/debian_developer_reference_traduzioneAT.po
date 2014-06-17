@@ -6748,17 +6748,17 @@ msgstr "Uploader del pacchetto"
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:280
 msgid "The following packages help automate or simplify the process of uploading packages into the official archive."
-msgstr "I seguenti pacchetti consentono di automatizzare e semplificare il processo di caricare i pacchetti nell'archivio ufficiale."
+msgstr "I seguenti pacchetti consentono di automatizzare e semplificare il processo di upload dei pacchetti nell'archivio ufficiale."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:284
 msgid "<systemitem role=\"package\">dupload</systemitem>"
-msgstr "<systemitem role=\"package\"> dupload </systemitem>"
+msgstr "<systemitem role=\"package\">dupload</systemitem>"
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:286
 msgid "<systemitem role=\"package\">dupload</systemitem> is a package and a script to automatically upload Debian packages to the Debian archive, to log the upload, and to send mail about the upload of a package.  You can configure it for new upload locations or methods."
-msgstr "<systemitem role=\"package\"> dupload </systemitem> è un pacchetto e uno script per caricare automaticamente i pacchetti Debian per l'archivio Debian, per registrare l'upload, e di inviare mail per l'upload di un pacchetto. È possibile configurarlo per nuove posizioni o metodi di upload."
+msgstr "<systemitem role=\"package\">dupload</systemitem> è un pacchetto e uno script per caricare automaticamente i pacchetti Debian nell'archivio Debian, per registrare l'upload, e di inviare email  sull'upload di un pacchetto. È possibile configurarlo per nuovi repository o metodi per l'upload."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:294
@@ -6768,7 +6768,7 @@ msgstr "<systemitem role=\"package\">dput</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:296
 msgid "The <systemitem role=\"package\">dput</systemitem> package and script does much the same thing as <systemitem role=\"package\">dupload</systemitem>, but in a different way.  It has some features over <systemitem role=\"package\">dupload</systemitem>, such as the ability to check the GnuPG signature and checksums before uploading, and the possibility of running <command>dinstall</command> in dry-run mode after the upload."
-msgstr "Il <systemitem role=\"package\"> dput </systemitem> pacchetto e lo script fa la stessa cosa come <systemitem role=\"package\"> dupload </systemitem>, ma in un modo diverso. Ha alcune caratteristiche sopra <systemitem role=\"package\"> dupload </systemitem>, come ad esempio la possibilità di verificare la firma GnuPG e checksum prima di caricare, e la possibilità di correre <command> dinstall </command> in secca modalità di conduzione, dopo l'upload."
+msgstr "Il pacchetto <systemitem role=\"package\">dput</systemitem> e lo script fanno la stessa cosa come <systemitem role=\"package\">dupload</systemitem>, ma in un modo diverso. Ha alcune caratteristiche oltre <systemitem role=\"package\">dupload</systemitem>, come ad esempio la possibilità di verificare la firma GnuPG e checksum prima di caricare, e la possibilità di lanciare <command>dinstall</command> in modalità secca dopo l'upload."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:306
@@ -6778,7 +6778,7 @@ msgstr "<command>dcut</command>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:308
 msgid "The <command>dcut</command> script (part of the package <systemitem role=\"package\">dput</systemitem>, <xref linkend=\"dput\"/>) helps in removing files from the ftp upload directory."
-msgstr "Il <command> dcut </command> copione (parte del pacchetto <systemitem role=\"package\"> dput </systemitem>, <xref linkend=\"dput\"/>) aiuta a rimuovere i file dal ftp la directory di upload."
+msgstr "Lo script <command>dcut</command>  (parte del pacchetto <systemitem role=\"package\">dput</systemitem>, <xref linkend=\"dput\"/>) aiuta a rimuovere i file dalla directory ftp di upload."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:316
@@ -6788,7 +6788,7 @@ msgstr "Automatizzazione delle manutenzione"
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:318
 msgid "The following tools help automate different maintenance tasks, from adding changelog entries or signature lines and looking up bugs in Emacs to making use of the newest and official <filename>config.sub</filename>."
-msgstr "I seguenti strumenti aiutano ad automatizzare diverse attività di manutenzione, di aggiungere le voci changelog o linee di firma e di guardare bug in Emacs per fare uso dei più nuovi e ufficiali <filename> config.sub </filename>."
+msgstr "I seguenti strumenti aiutano ad automatizzare diverse attività di manutenzione, ad aggiungere le voci changelog o la firma e di guardare bug in Emacs facedo uso dei più nuovi e ufficiali <filename>config.sub</filename>."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:323
@@ -6798,22 +6798,22 @@ msgstr "<systemitem role=\"package\">devscripts</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:325
 msgid "<systemitem role=\"package\">devscripts</systemitem> is a package containing wrappers and tools which are very helpful for maintaining your Debian packages.  Example scripts include <command>debchange</command> and <command>dch</command>, which manipulate your <filename>debian/changelog</filename> file from the command-line, and <command>debuild</command>, which is a wrapper around <command>dpkg-buildpackage</command>.  The <command>bts</command> utility is also very helpful to update the state of bug reports on the command line.  <command>uscan</command> can be used to watch for new upstream versions of your packages.  <command>debrsign</command> can be used to remotely sign a package prior to upload, which is nice when the machine you build the package on is different from where your GPG keys are."
-msgstr "<systemitem role=\"package\"> devscripts </systemitem> è un pacchetto contenente involucri e gli strumenti che sono molto utili per mantenere i pacchetti Debian. Script di esempio includono <command> debchange </command> e <command> DCH </command>, che manipolano la tua <filename> debian / changelog </filename> dalla riga di comando, e <command> debuild </command> , che è un wrapper <command> dpkg-buildpackage </command>. Il BTS <command> </command> utilità è anche molto utile per aggiornare lo stato delle segnalazioni di bug sulla riga di comando. <command> uscan </command> può essere utilizzato per vedere nuove versioni fornite di propri pacchetti. <command> debrsign </command> può essere utilizzata per firmare in remoto un pacchetto prima di caricare, che è bello quando la macchina si genera il pacchetto su è diverso da dove le chiavi GPG sono."
+msgstr "<systemitem role=\"package\">devscripts</systemitem> è un pacchetto contenente wrapper e strumenti che sono molto utili per mantenere i pacchetti Debian. Script di esempio includono <command>debchange</command> e <command>dch</command>, che manipolano il <filename>debian/changelog</filename> da riga di comando, e <command>debuild</command> , che è un wrapper per <command>dpkg-buildpackage</command>. La utility <command>bts</command> è anche molto utile per aggiornare lo stato delle segnalazioni di bug da riga di comando. <command>uscan</command> può essere utilizzato per vedere nuove versioni fornite dei propri pacchetti. <command>debrsign</command> può essere utilizzata per firmare in remoto un pacchetto prima di caricarlo, che è simpatico dato che la macchina per la quale si genera il pacchetto è diversa da dove sono le chiavi GPG."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:339
 msgid "See the <citerefentry> <refentrytitle>devscripts</refentrytitle> <manvolnum>1</manvolnum> </citerefentry> manual page for a complete list of available scripts."
-msgstr "Vedere le <citerefentry> <refentrytitle> devscripts </refentrytitle> <manvolnum> 1 </manvolnum> </citerefentry> pagina di manuale per un elenco completo degli script disponibili."
+msgstr "Si consulti pagina di manuale <citerefentry> <refentrytitle>devscripts</refentrytitle> <manvolnum>1</manvolnum> </citerefentry> per un elenco completo degli script disponibili."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:346
 msgid "<systemitem role=\"package\">autotools-dev</systemitem>"
-msgstr "<systemitem role=\"package\"> autotools-dev </systemitem>"
+msgstr "<systemitem role=\"package\">autotools-dev</systemitem>"
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:348
 msgid "<systemitem role=\"package\">autotools-dev</systemitem> contains best practices for people who maintain packages which use <command>autoconf</command> and/or <command>automake</command>.  Also contains canonical <filename>config.sub</filename> and <filename>config.guess</filename> files which are known to work on all Debian ports."
-msgstr "<systemitem role=\"package\"> autotools-dev </systemitem> contiene le migliori pratiche per le persone che mantengono i pacchetti che usano <command> autoconf </command> e / o <command> automake </command>. Contiene anche canonico <filename> config.sub </filename> e <filename> config.guess </filename> file che sono conosciute per funzionare su tutte le porte di Debian."
+msgstr "<systemitem role=\"package\">autotools-dev</systemitem> contiene le best pratices per le persone che mantengono i pacchetti e che usano <command>autoconf</command> e/o <command>automake</command>. Contiene anche il file canonico <filename>config.sub</filename> e <filename>config.guess</filename> che sono conosciuti per funzionare su tutte i port di Debian."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:357
@@ -6823,12 +6823,12 @@ msgstr "<systemitem role=\"package\">dpkg-repack</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:359
 msgid "<command>dpkg-repack</command> creates Debian package file out of a package that has already been installed.  If any changes have been made to the package while it was unpacked (e.g., files in <filename>/etc</filename> were modified), the new package will inherit the changes."
-msgstr "<comando> dpkg-repack </command> crea file di pacchetto Debian da un pacchetto che è già stato installato. Se sono state apportate modifiche al pacchetto mentre era spacchettato (ad esempio, i file in <filename> / etc </filename> sono stati modificati), il nuovo pacchetto erediterà le modifiche."
+msgstr "<comando>dpkg-repack</command> crea il pacchetto Debian da un pacchetto che è già stato installato. Se sono state apportate modifiche al pacchetto mentre era spacchettato (ad esempio, i file in <filename>/etc</filename> sono stati modificati), il nuovo pacchetto erediterà le modifiche."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:365
 msgid "This utility can make it easy to copy packages from one computer to another, or to recreate packages which are installed on your system but no longer available elsewhere, or to save the current state of a package before you upgrade it."
-msgstr "Questa utility può rendere più facile per copiare i pacchetti da un computer ad un altro, o di ricreare pacchetti che sono installati sul vostro sistema, ma non è più disponibile altrove, o per salvare lo stato attuale di un pacchetto prima che si aggiorna."
+msgstr "Questa utility può rendere più facile copiare i pacchetti da un computer ad un altro, o di ricreare pacchetti che sono installati sul vostro sistema ma non è più disponibile, o per salvare lo stato attuale di un pacchetto prima di un aggiornamento."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:372
@@ -6838,7 +6838,7 @@ msgstr "<systemitem role=\"package\">alien</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:374
 msgid "<command>alien</command> converts binary packages between various packaging formats, including Debian, RPM (RedHat), LSB (Linux Standard Base), Solaris, and Slackware packages."
-msgstr "<command> alieno </command> converte i pacchetti binari tra vari formati, tra cui Debian, RPM (RedHat), LSB (Linux Standard Base), Solaris e pacchetti Slackware."
+msgstr "<command>alien</command> converte i pacchetti binari tra vari formati, tra cui Debian, RPM (RedHat), LSB (Linux Standard Base), Solaris e pacchetti Slackware."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:381
@@ -6848,7 +6848,7 @@ msgstr "<systemitem role=\"package\">debsums</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:383
 msgid "<command>debsums</command> checks installed packages against their MD5 sums.  Note that not all packages have MD5 sums, since they aren't required by Policy."
-msgstr "<command> debsums </command> controlla i pacchetti installati contro i loro somme MD5. Si noti che non tutti i pacchetti hanno somme MD5, dal momento che non sono richiesti dalla politica."
+msgstr "<command>debsums</command> controlla i pacchetti installati con le loro somme MD5. Si noti che non tutti i pacchetti hanno somme MD5, dal momento che non sono richiesti dalla Policy."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:389
@@ -6858,7 +6858,7 @@ msgstr "<systemitem role=\"package\">dpkg-dev-el</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:391
 msgid "<systemitem role=\"package\">dpkg-dev-el</systemitem> is an Emacs lisp package which provides assistance when editing some of the files in the <filename>debian</filename> directory of your package.  For instance, there are handy functions for listing a package's current bugs, and for finalizing the latest entry in a <filename>debian/changelog</filename> file."
-msgstr "<systemitem role=\"package\"> dpkg-dev-el </systemitem> è un pacchetto Lisp Emacs che fornisce assistenza durante la modifica di alcuni file nella <filename> debian </filename> del vostro pacchetto. Per esempio, ci sono funzioni a portata di mano in vendita di bug attuali di un pacchetto, e per finalizzare l'ultima voce in una debian / changelog </filename> <filename>."
+msgstr "<systemitem role=\"package\">dpkg-dev-el</systemitem> è un pacchetto Lisp Emacs che fornisce assistenza durante la modifica di alcuni file nella <filename>debian</filename> del vostro pacchetto. Per esempio, ci sono funzioni a portata di mano per l'elencazione dei bug attuali di un pacchetto, e per finalizzare l'ultima voce in una </filename>debian/changelog<filename>."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:400
@@ -6868,12 +6868,12 @@ msgstr "<command>dpkg-depcheck</command>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:402
 msgid "<command>dpkg-depcheck</command> (from the <systemitem role=\"package\">devscripts</systemitem> package, <xref linkend=\"devscripts\"/>)  runs a command under <command>strace</command> to determine all the packages that were used by the said command."
-msgstr "<comando> dpkg-depcheck </command> (dalle <systemitem role=\"package\"> devscripts </systemitem> pacchetto, <xref linkend=\"devscripts\"/>) esegue un comando sotto <comando> strace comando </command> per determinare tutti i pacchetti che sono stati da lui utilizzati."
+msgstr "<comando>dpkg-depcheck</command> (dal pacchetto <systemitem role=\"package\">devscripts</systemitem>, <xref linkend=\"devscripts\"/>) esegue un comando sotto <comando>strace</command> per determinare tutti i pacchetti che sono stati da lui utilizzati."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:408
 msgid "For Debian packages, this is useful when you have to compose a <literal>Build-Depends</literal> line for your new package: running the build process through <command>dpkg-depcheck</command> will provide you with a good first approximation of the build-dependencies.  For example:"
-msgstr "Per i pacchetti Debian, questo è utile quando si deve comporre un <literal> Build-Depends </literal> line per il vostro nuovo pacchetto: l'esecuzione del processo di generazione attraverso <command> dpkg-depcheck </command> vi fornirà una buona prima approssimazione delle dipendenze di compilazione. Per esempio:"
+msgstr "Per i pacchetti Debian, questo è utile quando si deve creare una linea <literal>Build-Depends</literal> per il proprio nuovo pacchetto: l'esecuzione del processo di generazione attraverso <command>dpkg-depcheck</command> vi fornirà una buona prima approssimazione delle dipendenze per la compilazione. Per esempio:"
 
 #. type: Content of: <appendix><section><section><screen>
 #: tools.dbk:414
@@ -6884,22 +6884,22 @@ msgstr "dpkg-depcheck -b debian/rules build\n"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:417
 msgid "<command>dpkg-depcheck</command> can also be used to check for run-time dependencies, especially if your package uses <citerefentry> <refentrytitle>exec</refentrytitle> <manvolnum>2</manvolnum> </citerefentry> to run other programs."
-msgstr "<comando> dpkg-depcheck </command> può essere utilizzato anche per controllare le dipendenze in fase di esecuzione, soprattutto se il pacchetto usa <citerefentry> <refentrytitle> exec </refentrytitle> <manvolnum> 2 </manvolnum> </citerefentry> per eseguire altri programmi."
+msgstr "<comando>dpkg-depcheck</command> può essere utilizzato anche per controllare le dipendenze in fase di esecuzione, soprattutto se il pacchetto usa <citerefentry> <refentrytitle>exec</refentrytitle> <manvolnum>2</manvolnum> </citerefentry> per eseguire altri programmi."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:423
 msgid "For more information please see <citerefentry> <refentrytitle>dpkg-depcheck</refentrytitle> <manvolnum>1</manvolnum> </citerefentry>."
-msgstr "Per ulteriori informazioni si prega di consultare <citerefentry> <refentrytitle> dpkg-depcheck </refentrytitle> <manvolnum> 1 </manvolnum> </citerefentry>."
+msgstr "Per ulteriori informazioni si prega di consultare <citerefentry> <refentrytitle>dpkg-depcheck</refentrytitle> <manvolnum>1</manvolnum> </citerefentry>."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:432
 msgid "Porting tools"
-msgstr "Porting tools"
+msgstr "Strumenti per il Porting"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:434
 msgid "The following tools are helpful for porters and for cross-compilation."
-msgstr "I seguenti strumenti sono utili per i facchini e per la cross-compilazione."
+msgstr "I seguenti strumenti sono utili per i porter e per la cross-compilazione."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:437
@@ -6909,7 +6909,7 @@ msgstr "<systemitem role=\"package\">quinn-diff</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:439
 msgid "<systemitem role=\"package\">quinn-diff</systemitem> is used to locate the differences from one architecture to another.  For instance, it could tell you which packages need to be ported for architecture <replaceable>Y</replaceable>, based on architecture <replaceable>X</replaceable>."
-msgstr "<systemitem role=\"package\"> quinn-diff </systemitem> è usato per individuare le differenze da una architettura ad un'altra. Per esempio, si potrebbe dire quali pacchetti necessitano di essere adattati per l'architettura <replaceable> Y </replaceable>, basato su architettura <replaceable> X </replaceable>."
+msgstr "<systemitem role=\"package\">quinn-diff</systemitem> è usato per individuare le differenze da una architettura ad un'altra. Per esempio, si potrebbe dire quali pacchetti necessitano di essere adattati per l'architettura <replaceable>Y</replaceable>, basato su architettura <replaceable>X</replaceable>."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:447
@@ -6919,17 +6919,17 @@ msgstr "<systemitem role=\"package\">dpkg-cross</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:449
 msgid "<systemitem role=\"package\">dpkg-cross</systemitem> is a tool for installing libraries and headers for cross-compiling in a way similar to <systemitem role=\"package\">dpkg</systemitem>.  Furthermore, the functionality of <command>dpkg-buildpackage</command> and <command>dpkg-shlibdeps</command> is enhanced to support cross-compiling."
-msgstr "<systemitem role=\"package\"> dpkg-cross </systemitem> è uno strumento per installare librerie e header per cross-compilare in modo simile a <systemitem role=\"package\"> dpkg </systemitem>. Inoltre, la funzionalità di <command> dpkg-buildpackage </command> e <command> dpkg-shlibdeps </command> è migliorato per supportare la cross-compilazione."
+msgstr "<systemitem role=\"package\">dpkg-cross</systemitem> è uno strumento per installare librerie e header per cross-compilare in modo simile a <systemitem role=\"package\">dpkg</systemitem>. Inoltre, la funzionalità di <command>dpkg-buildpackage</command> e <command>dpkg-shlibdeps</command> è stata migliorata per supportare la cross-compilazione."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:460
 msgid "Documentation and information"
-msgstr "Documentazione ed Informazione"
+msgstr "Documentazione ed informazioni"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:462
 msgid "The following packages provide information for maintainers or help with building documentation."
-msgstr "I seguenti pacchetti forniscono informazioni per manutentori o aiutare con la costruzione di documentazione."
+msgstr "I seguenti pacchetti forniscono informazioni per i maintainer o aiutano con la scrittura di documentazione."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:467
@@ -6939,17 +6939,17 @@ msgstr "<systemitem role=\"package\">docbook-xml</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:469
 msgid "<systemitem role=\"package\">docbook-xml</systemitem> provides the DocBook XML DTDs, which are commonly used for Debian documentation (as is the older debiandoc SGML DTD). This manual, for instance, is written in DocBook XML."
-msgstr "<systemitem role=\"package\">docbook-xml</systemitem> provides the DocBook XML DTDs, which are commonly used for Debian documentation (as is the older debiandoc SGML DTD). This manual, for instance, is written in DocBook XML."
+msgstr "<systemitem role=\"package\">docbook-xml</systemitem> fornisce i DocBook XML DTDs,che sono comunemente usati per la documentazione Debian (come il vecchio debiandoc SGML DTD). Questo manuale, per esempio, is stato scritto in DocBook XML."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:475
 msgid "The <systemitem role=\"package\">docbook-xsl</systemitem> package provides the XSL files for building and styling the source to various output formats. You will need an XSLT processor, such as <systemitem role=\"package\">xsltproc</systemitem>, to use the XSL stylesheets.  Documentation for the stylesheets can be found in the various <systemitem role=\"package\">docbook-xsl-doc-*</systemitem> packages."
-msgstr "Il <systemitem role=\"package\"> docbook-xsl </systemitem> pacchetto fornisce i file XSL per la costruzione e lo styling la fonte di vari formati di output. Avrete bisogno di un processore XSLT, come <systemitem role=\"package\"> xsltproc </systemitem>, di utilizzare i fogli di stile XSL. La documentazione per i fogli di stile si possono trovare nei vari <systemitem role=\"package\"> docbook-xsl-doc-* </systemitem> pacchetti."
+msgstr "Il pacchetto <systemitem role=\"package\">docbook-xsl</systemitem> fornisce i file XSL per la costruzione e lo styling il source in vari formati di output. Avrete bisogno di un processore XSLT, come <systemitem role=\"package\">xsltproc</systemitem>, di utilizzare i fogli di stile XSL. La documentazione per i fogli di stile si possono trovare nei vari pacchetti <systemitem role=\"package\">docbook-xsl-doc-*</systemitem>."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:483
 msgid "To produce PDF from FO, you need an FO processor, such as <systemitem role=\"package\">xmlroff</systemitem> or <systemitem role=\"package\">fop</systemitem>. Another tool to generate PDF from DocBook XML is <systemitem role=\"package\">dblatex</systemitem>."
-msgstr "Per produrre PDF da FO, è necessario un processore FO, come <systemitem role=\"package\"> xmlroff </systemitem> o <systemitem role=\"package\"> FOP </systemitem>. Un altro strumento per generare PDF da DocBook XML è <systemitem role=\"package\"> dblatex </systemitem>."
+msgstr "Per produrre PDF da FO, è necessario un processore FO, come <systemitem role=\"package\">xmlroff</systemitem> o <systemitem role=\"package\">fop</systemitem>. Un altro strumento per generare PDF da DocBook XML è <systemitem role=\"package\">dblatex</systemitem>."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:491
@@ -6959,12 +6959,12 @@ msgstr "<systemitem role=\"package\">debiandoc-sgml</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:493
 msgid "<systemitem role=\"package\">debiandoc-sgml</systemitem> provides the DebianDoc SGML DTD, which is commonly used for Debian documentation, but is now deprecated (<systemitem role=\"package\">docbook-xml</systemitem> should be used instead).  It also provides scripts for building and styling the source to various output formats."
-msgstr "<systemitem role=\"package\"> debiandocsgml </systemitem> fornisce il DebianDoc SGML DTD, che è comunemente usato per la documentazione di Debian, ma ora è deprecato (<systemitem role=\"package\"> docbook-xml </systemitem> dovrebbe essere usato al posto). Fornisce anche gli script per la creazione e lo styling la fonte di vari formati di output."
+msgstr "<systemitem role=\"package\">debiandocsgml</systemitem> fornisce il DebianDoc SGML DTD, che è comunemente usato per la documentazione di Debian, ma ora è deprecato (al suo posto  dovrebbe essere usato <systemitem role=\"package\">docbook-xml</systemitem> ). Fornisce anche gli script per la creazione e lo styling dei source in vari formati di output."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:502
 msgid "Documentation for the DTD can be found in the <systemitem role=\"package\">debiandoc-sgml-doc</systemitem> package."
-msgstr "La documentazione per la DTD può essere trovato nel <systemitem role=\"package\"> debiandocsgml-doc </systemitem> pacchetto."
+msgstr "La documentazione per la DTD può essere trovata nel pacchetto <systemitem role=\"package\">debiandocsgml-doc</systemitem>."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:508
@@ -6974,7 +6974,7 @@ msgstr "<systemitem role=\"package\">debian-keyring</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:510
 msgid "Contains the public GPG and PGP keys of Debian developers.  See <xref linkend=\"key-maint\"/> and the package documentation for more information."
-msgstr "Contiene il pubblico GPG e PGP chiavi di sviluppatori Debian. Vedi <xref linkend=\"key-maint\"/> e la documentazione del pacchetto per ulteriori informazioni."
+msgstr "Contiene le chiavi pubbliche GPG e PGP degli sviluppatori Debian. Si consulti <xref linkend=\"key-maint\"/> e la documentazione del pacchetto per ulteriori informazioni."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:516
@@ -6984,7 +6984,7 @@ msgstr "<systemitem role=\"package\">debian-maintainers</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:518
 msgid "Contains the public GPG keys of Debian Maintainers.  See <ulink url=\"&url-wiki-dm;\"></ulink> for more information."
-msgstr "Contiene le chiavi pubbliche GPG di Debian Maintainer. Vedere <ulink url=\"&url-wiki-dm;\"> </ulink> per ulteriori informazioni."
+msgstr "Contiene le chiavi pubbliche GPG dei Debian Maintainer. Si consulti <ulink url=\"&url-wiki-dm;\"> </ulink> per ulteriori informazioni."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:524
@@ -6994,5 +6994,5 @@ msgstr "<systemitem role=\"package\">debview</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:526
 msgid "<systemitem role=\"package\">debview</systemitem> provides an Emacs mode for viewing Debian binary packages.  This lets you examine a package without unpacking it."
-msgstr "<systemitem role=\"package\"> debview </systemitem> fornisce una modalità Emacs per la visualizzazione dei pacchetti binari Debian. Questo consente di esaminare un pacchetto senza estrarlo."
+msgstr "<systemitem role=\"package\">debview</systemitem> fornisce una modalità Emacs per la visualizzazione dei pacchetti binari Debian. Questo consente di esaminare un pacchetto senza estrarlo."
 
