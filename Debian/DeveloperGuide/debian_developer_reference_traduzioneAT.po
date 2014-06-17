@@ -4886,12 +4886,12 @@ msgstr "2; depends: a=2"
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2595
 msgid "Neither package <literal>a</literal> nor package <literal>b</literal> is considered for update."
-msgstr "Né il pacchetto <literal>a</literal>, né il pacchetto <literal>b</literal> è considerato per l'aggiornamento."
+msgstr "Né il pacchetto <literal>a</literal>, né il pacchetto <literal>b</literal> sono considerati per l'aggiornamento."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2599
 msgid "Currently, this requires some manual hinting from the release team.  Please contact them by sending mail to &email-debian-release; if this happens to one of your packages."
-msgstr "Attualmente, questo richiede qualche suggerimento manuale dal team di rilascio. Si prega di contattare con l'invio di una email a &email-debian-release; se ciò dovesse accadere ad uno dei tuoi pacchetti."
+msgstr "Attualmente, questo richiede qualche suggerimento manuale dal team di rilascio. Si prega di contattarli con l'invio di una email a &email-debian-release; se ciò dovesse accadere ad uno dei tuoi pacchetti."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: pkgs.dbk:2606
@@ -4901,7 +4901,7 @@ msgstr "Influenza del pacchetto in testing"
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2608
 msgid "Generally, there is nothing that the status of a package in <literal>testing</literal> means for transition of the next version from <literal>unstable</literal> to <literal>testing</literal>, with two exceptions: If the RC-bugginess of the package goes down, it may go in even if it is still RC-buggy.  The second exception is if the version of the package in <literal>testing</literal> is out of sync on the different arches: Then any arch might just upgrade to the version of the source package; however, this can happen only if the package was previously forced through, the arch is in fuckedarches, or there was no binary package of that arch present in <literal>unstable</literal> at all during the <literal>testing</literal> migration."
-msgstr "In generale, non c'è nulla che lo stato di un pacchetto in <literal>testing</literal> che indichi il passaggio della prossima versione da <literal>unstable</literal> a <literal>testing</literal>, con due eccezioni: se l'RC-bacata del pacchetto va giù, ò potrebbe andarci anche se è ancora in RC-bacata. La seconda eccezione è se la versione del pacchetto in <literal>testing</literal> è fuori sincrono sulle diverse architetture: allora ogni architettura potrebbe semplicemente eseguire l'aggiornamento alla versione del pacchetto dei sorgenti; ma questo può avvenire solo se il pacchetto è stato precedentemente forzato , l'architettura è in fuckedarches, o non c'era nessun pacchetto binario di quell'architettura presente in <literal>unstable</literal>  durante la migrazione <literal>testing</literal>."
+msgstr "In generale, non c'è nulla che lo stato di un pacchetto in <literal>testing</literal> che indichi il passaggio della prossima versione da <literal>unstable</literal> a <literal>testing</literal>, con due eccezioni: se l'RC-bacata del pacchetto va giù, potrebbe andarci anche se è ancora una RC-bacata. La seconda eccezione è se la versione del pacchetto in <literal>testing</literal> è fuori sincrono sulle diverse architetture: allora ogni architettura potrebbe semplicemente eseguire l'aggiornamento alla versione dei sorgenti del pacchetto; ma questo può avvenire solo se il pacchetto è stato precedentemente forzato, se l'architettura è in fuckedarches, o se non c'era nessun pacchetto binario di quell'architettura presente in <literal>unstable</literal> durante la migrazione su <literal>testing</literal>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2620
@@ -4921,22 +4921,22 @@ msgstr "Se siete interessati a maggiori dettagli, cosi è come funziona britney:
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2632
 msgid "The packages are looked at to determine whether they are valid candidates.  This gives the update excuses.  The most common reasons why a package is not considered are too young, RC-bugginess, and out of date on some arches.  For this part of britney, the release managers have hammers of various sizes, called hints (see below), to force britney to consider a package."
-msgstr "I pacchetti sono osservati per determinare se essi sono validi candidati. Questo dà i pretesti per l'aggiornamento. Le ragioni più comuni per cui un pacchetto non è considerato essere troppo giovane, RC-bugginess, e datati su alcune architetture. Per questa parte di britney, i managers della release posseggono martelli di varie dimensioni, chiamati suggerimenti (si consulti sotto), per forzare britney a considerare un pacchetto."
+msgstr "I pacchetti sono osservati per determinare se essi sono validi candidati. Questo dà i pretesti per l'aggiornamento. Le ragioni più comuni per cui un pacchetto non viene considerato sono troppo giovane, RC-bugginess, e obsoleto su alcune architetture. Per questa parte di britney, i manager della release posseggono martelli di varie dimensioni, chiamati suggerimenti (si consulti sotto), per forzare britney a considerare un pacchetto."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2639
 msgid "Now, the more complex part happens: Britney tries to update <literal>testing</literal> with the valid candidates. For that, britney tries to add each valid candidate to the testing distribution. If the number of uninstallable packages in <literal>testing</literal> doesn't increase, the package is accepted. From that point on, the accepted package is considered to be part of <literal>testing</literal>, such that all subsequent installability tests include this package.  Hints from the release team are processed before or after this main run, depending on the exact type."
-msgstr "Ora, arriva la parte più complessa: Britney tenta di aggiornare <literal>testing</literal> con i candidati validi. Per questo, Britney cerca di aggiungere ogni candidato valido per la distribuzione testing. Se il numero di pacchetti non installabili in <literal> testing </literal> non aumenta, il pacchetto viene accettato. Da quel momento in poi, il pacchetto viene considerato parte di <literal>testing</literal>, in modo che tutti i test di installabilità successivi includeranno questo pacchetto. Suggerimenti da parte del team di release vengono elaborati prima o dopo questo ciclo principale, a seconda del tipo esatto."
+msgstr "Ora, arriva la parte più complessa: Britney tenta di aggiornare <literal>testing</literal> con i candidati validi. Per questo, Britney cerca di aggiungere ogni candidato valido per la distribuzione testing. Se il numero di pacchetti non installabili in <literal>testing</literal> non aumenta, il pacchetto viene accettato. Da quel momento in poi, il pacchetto viene considerato parte di <literal>testing</literal>, in modo che tutti i test di installabilità successivi includeranno questo pacchetto. Suggerimenti da parte del team di release vengono elaborati prima o dopo questo ciclo principale, a seconda del tipo esatto."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2649
 msgid "If you want to see more details, you can look it up on <ulink url=\"http://&ftp-master-host;/testing/update_output/\"></ulink>."
-msgstr "Se si vuole vedere i dettagli, è possibile cercare su <ulink url=\"http://&ftp-master-host;/testing/update_output/\"></ulink>."
+msgstr "Se si vuole avere maggiori dettagli, è possibile cercare su <ulink url=\"http://&ftp-master-host;/testing/update_output/\"></ulink>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2653
 msgid "The hints are available via <ulink url=\"http://&ftp-master-host;/testing/hints/\"></ulink>, where you can find the <ulink url=\"http://&ftp-master-host;/testing/hints/README\">description</ulink> as well.  With the hints, the Debian Release team can block or unblock packages, ease or force packages into <literal>testing</literal>, remove packages from <literal>testing</literal>, approve uploads to <link linkend=\"t-p-u\">testing-proposed-updates</link> or override the urgency."
-msgstr "I suggerimenti sono disponibili tramite<ulink url=\"http://&ftp-master-host;/testing/hints/\"></ulink>, dove è possibile trovare anche la <ulink url=\"http://&ftp-master-host;/testing/hints/README\">descrizione</ulink>. Con i suggerimenti, il team di rilascio di Debian può bloccare o sbloccare i pacchetti, adagiare o forzare pacchetti in <literal>testing</literal>, rimuovere i pacchetti da <literal>testing</literal>, approvare uploads al <link linkend=\"t-p-u\">testing-proposed-updates</link> o ignorare l'urgenza."
+msgstr "I suggerimenti sono disponibili tramite <ulink url=\"http://&ftp-master-host;/testing/hints/\"></ulink>, dove è possibile trovare anche la <ulink url=\"http://&ftp-master-host;/testing/hints/README\">descrizione</ulink>. Con i suggerimenti, il team di rilascio di Debian può bloccare o sbloccare i pacchetti, adagiare o forzare pacchetti in <literal>testing</literal>, rimuovere i pacchetti da <literal>testing</literal>, approvare uploads al <link linkend=\"t-p-u\">testing-proposed-updates</link> o ignorare l'urgenza."
 
 #. type: Content of: <chapter><section><section><title>
 #: pkgs.dbk:2667
@@ -4946,22 +4946,22 @@ msgstr "Aggiornamenti diretti di testing"
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2669
 msgid "The <literal>testing</literal> distribution is fed with packages from <literal>unstable</literal> according to the rules explained above.  However, in some cases, it is necessary to upload packages built only for <literal>testing</literal>.  For that, you may want to upload to <literal>testing-proposed-updates</literal>."
-msgstr "La distribuzione <literal>testing</literal> è alimentata con i pacchetti dal <literal>unstable</literal> rispettando le regole sopra esposte. Tuttavia, in alcuni casi, è necessario caricare i pacchetti costruiti solo per <literal>testing</literal>. Per questo, si consiglia di caricare <literal>testing-proposed-updates</literal>."
+msgstr "La distribuzione <literal>testing</literal> è alimentata con i pacchetti da <literal>unstable</literal> che rispettano le regole sopra esposte. Tuttavia, in alcuni casi, è necessario caricare i pacchetti costruiti solo per <literal>testing</literal>. Per questo, si consiglia di caricare <literal>testing-proposed-updates</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2676
 msgid "Keep in mind that packages uploaded there are not automatically processed, they have to go through the hands of the release manager.  So you'd better have a good reason to upload there.  In order to know what a good reason is in the release managers' eyes, you should read the instructions that they regularly give on &email-debian-devel-announce;."
-msgstr "Tenete a mente che i pacchetti siano inviati lì non vengono elaborati automaticamente, essi devono passare attraverso le mani del manager della release. Quindi è meglio avere un buon motivo per caricarli lì. Per sapere qual'è un buon motivo agli occhi del manager della release, si consiglia di leggere le istruzioni che danno regolarmente su &email-debian-devel-announce;."
+msgstr "Si tenga a mente che i pacchetti che sono inviati lì non vengono elaborati automaticamente, essi devono passare attraverso le mani del manager della release. Quindi è meglio avere un buon motivo per caricarli lì. Per sapere qual'è un buon motivo agli occhi del manager della release, si consiglia di leggere le indicazioni che danno regolarmente su &email-debian-devel-announce;."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2683
 msgid "You should not upload to <literal>testing-proposed-updates</literal> when you can update your packages through <literal>unstable</literal>.  If you can't (for example because you have a newer development version in <literal>unstable</literal>), you may use this facility, but it is recommended that you ask for authorization from the release manager first.  Even if a package is frozen, updates through <literal>unstable</literal> are possible, if the upload via <literal>unstable</literal> does not pull in any new dependencies."
-msgstr "Si consiglia di non caricare <literal>testing-proposed-updates</literal>, quando è possibile aggiornare i pacchetti attraverso <literal>unstable</literal>. Se non è possibile (ad esempio perché si dispone di una versione di sviluppo più recente in <literal>unstable</literal>), è possibile utilizzare questo strumento, ma si consiglia di chiedere prima l'autorizzazione del manager della release. Anche se un pacchetto è congelato, sono possibili aggiornamenti tramite <literal>unstable</literal>, se l'upload tramite <literal>unstable</literal> non aggiunge nuove dipendenze."
+msgstr "Si consiglia di non caricare <literal>testing-proposed-updates</literal> quando è possibile aggiornare i pacchetti attraverso <literal>unstable</literal>. Se non è possibile (ad esempio perché si dispone di una versione di sviluppo più recente in <literal>unstable</literal>), è possibile utilizzare questo strumento, ma si consiglia di chiedere prima l'autorizzazione al manager della release. Anche se un pacchetto è congelato, sono possibili aggiornamenti tramite <literal>unstable</literal>, se l'upload tramite <literal>unstable</literal> non aggiunge nuove dipendenze."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2692
 msgid "Version numbers are usually selected by adding the codename of the <literal>testing</literal> distribution and a running number, like <literal>1.2squeeze1</literal> for the first upload through <literal>testing-proposed-updates</literal> of package version <literal>1.2</literal>."
-msgstr "I numeri di versione sono in genere scelti aggiungendo il nome in codice della distribuzione <literal>testing</literal> e di un numero progressivo, come <literal>1.2squeeze1</literal> per il primo upload attraverso <literal> testing-proposed-updates </literal> del pacchetto con versione <literal>1.2</literal>."
+msgstr "I numeri di versione sono in genere scelti aggiungendo il nome in codice della distribuzione <literal>testing</literal> e di un numero progressivo, come <literal>1.2squeeze1</literal> per il primo upload attraverso <literal>testing-proposed-updates</literal> del pacchetto con versione <literal>1.2</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2699
@@ -4981,7 +4981,7 @@ msgstr "Assicurarsi di includere solo la quantità minima di modfiche;"
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2716
 msgid "Make sure that you included an appropriate explanation in the changelog;"
-msgstr "Assicurarsi che hai incluso una spiegazione appropriata nel changelog;"
+msgstr "Assicurarsi di includere una spiegazione appropriata nel changelog;"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2721
@@ -4996,12 +4996,12 @@ msgstr "Assicurarsi di aver costruito e testato il proprio pacchetto in <literal
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2733
 msgid "Make sure that your version number is higher than the version in <literal>testing</literal> and <literal>testing-proposed-updates</literal>, and lower than in <literal>unstable</literal>;"
-msgstr "Assicurarsi che il numero di versione sia più alto rispetto alla versione in <literal>testing</literal> e <literal>testing-proposed-updates</literal>, e inferiore a quello <literal>unstable</literal>;"
+msgstr "Assicurarsi che il numero di versione sia più alto rispetto alla versione in <literal>testing</literal> e in <literal>testing-proposed-updates</literal>, e inferiore a quello in <literal>unstable</literal>;"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2740
 msgid "After uploading and successful build on all platforms, contact the release team at &email-debian-release; and ask them to approve your upload."
-msgstr "Dopo aver effettuato l'upload ed i build riusciti su tutte le piattaforme, si contatti il team di rilascio su &email-debian-release; e chiedendogli di approvare l'upload."
+msgstr "Dopo aver effettuato l'upload ed i build riusciti su tutte le piattaforme, si contatti il team di rilascio su &email-debian-release; chiedendogli di approvare l'upload."
 
 #. type: Content of: <chapter><section><section><title>
 #: pkgs.dbk:2748
@@ -5021,7 +5021,7 @@ msgstr "Tutti i bug di alcuni livelli di gravità più elevati sono di default c
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2757
 msgid "Such bugs are presumed to have an impact on the chances that the package will be released with the <literal>stable</literal> release of Debian: in general, if a package has open release-critical bugs filed on it, it won't get into <literal>testing</literal>, and consequently won't be released in <literal>stable</literal>."
-msgstr "Tali bug sono ritenuti di avere un impatto sulle possibilità che il pacchetto venga rilasciato con la <literal>stable</literal> release di Debian: in generale, se un pacchetto ha bug critico per il rilascio aperto, non sarà integrato in <literal>testing</literal>, e di conseguenza non sarà rilasciato in <literal>stable</literal>."
+msgstr "Tali bug sono ritenuti avere un impatto sulle possibilità che il pacchetto venga rilasciato con la release <literal>stable</literal> di Debian: in generale, se un pacchetto ha un bug critico per il rilascio aperto, non sarà integrato in <literal>testing</literal>, e di conseguenza non sarà rilasciato in <literal>stable</literal>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2764
