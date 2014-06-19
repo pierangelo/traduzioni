@@ -6783,7 +6783,7 @@ msgstr "Lo script <command>dcut</command>  (parte del pacchetto <systemitem role
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:316
 msgid "Maintenance automation"
-msgstr "Automatizzazione della manutenzione"
+msgstr "Automazione della manutenzione"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:318
@@ -6798,7 +6798,7 @@ msgstr "<systemitem role=\"package\">devscripts</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:325
 msgid "<systemitem role=\"package\">devscripts</systemitem> is a package containing wrappers and tools which are very helpful for maintaining your Debian packages.  Example scripts include <command>debchange</command> and <command>dch</command>, which manipulate your <filename>debian/changelog</filename> file from the command-line, and <command>debuild</command>, which is a wrapper around <command>dpkg-buildpackage</command>.  The <command>bts</command> utility is also very helpful to update the state of bug reports on the command line.  <command>uscan</command> can be used to watch for new upstream versions of your packages.  <command>debrsign</command> can be used to remotely sign a package prior to upload, which is nice when the machine you build the package on is different from where your GPG keys are."
-msgstr "<systemitem role=\"package\">devscripts</systemitem> è un pacchetto contenente wrapper e strumenti che sono molto utili per mantenere i pacchetti Debian. Script di esempio includono <command>debchange</command> e <command>dch</command>, che manipolano il <filename>debian/changelog</filename> da riga di comando, e <command>debuild</command> , che è un wrapper per <command>dpkg-buildpackage</command>. La utility <command>bts</command> è anche molto utile per aggiornare lo stato delle segnalazioni di bug da riga di comando. <command>uscan</command> può essere utilizzato per vedere nuove versioni fornite dei propri pacchetti. <command>debrsign</command> può essere utilizzata per firmare in remoto un pacchetto prima di caricarlo, che è simpatico dato che la macchina per la quale si genera il pacchetto è diversa da dove sono le chiavi GPG."
+msgstr "<systemitem role=\"package\">devscripts</systemitem> è un pacchetto contenente wrapper e strumenti che sono molto utili per mantenere i pacchetti Debian. Script di esempio includono <command>debchange</command> e <command>dch</command>, che manipolano il <filename>debian/changelog</filename> da riga di comando, e <command>debuild</command> , che è un wrapper per <command>dpkg-buildpackage</command>. L'utility <command>bts</command> è anche molto utile per aggiornare lo stato delle segnalazioni di bug da riga di comando. <command>uscan</command> può essere utilizzato per vedere nuove versioni fornite dei propri pacchetti. <command>debrsign</command> può essere utilizzata per firmare in remoto un pacchetto prima di caricarlo, che è simpatico dato che la macchina per la quale si genera il pacchetto è diversa da dove sono le chiavi GPG."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:339
@@ -6858,7 +6858,7 @@ msgstr "<systemitem role=\"package\">dpkg-dev-el</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:391
 msgid "<systemitem role=\"package\">dpkg-dev-el</systemitem> is an Emacs lisp package which provides assistance when editing some of the files in the <filename>debian</filename> directory of your package.  For instance, there are handy functions for listing a package's current bugs, and for finalizing the latest entry in a <filename>debian/changelog</filename> file."
-msgstr "<systemitem role=\"package\">dpkg-dev-el</systemitem> è un pacchetto lisp Emacs che fornisce assistenza durante la modifica di alcuni file nella directory <filename>debian</filename> del vostro pacchetto. Per esempio, ci sono funzioni a portata di mano per l'elencazione dei bug attuali di un pacchetto, e per finalizzare l'ultima voce in una </filename>debian/changelog<filename>."
+msgstr "<systemitem role=\"package\">dpkg-dev-el</systemitem> è un pacchetto lisp Emacs che fornisce assistenza durante la modifica di alcuni file nella directory <filename>debian</filename> del vostro pacchetto. Per esempio, ci sono funzioni a portata di mano per l'elencazione dei bug attuali di un pacchetto, e per finalizzare l'ultima voce in un file </filename>debian/changelog<filename>."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:400
