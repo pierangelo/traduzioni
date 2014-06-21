@@ -1,0 +1,27 @@
+### Eclipse Workspace Patch 1.0
+#P italian
+Index: devel/index.wml
+===================================================================
+RCS file: /cvs/webwml/webwml/italian/devel/index.wml,v
+retrieving revision 1.149
+diff -u -r1.149 index.wml
+--- devel/index.wml	30 Apr 2014 07:46:09 -0000	1.149
++++ devel/index.wml	20 Jun 2014 12:59:47 -0000
+@@ -32,7 +32,7 @@
+       <dt>Le persone</dt>
+       <dd>
+       Debian è creata in modo collaborativo da molte persone sparse per il
+-      mondo. <em>Il lavoro di pacchettizazione</em> è solitamente un
++      mondo. <em>Il lavoro di pacchettizzazione</em> è solitamente un
+       contributo degli <a href="https://wiki.debian.org/DebianDeveloper"> 
+       sviluppatori Debian (DD)</a> (che sono membri a pieno titolo del progetto
+       Debian) e dei <a href="https://wiki.debian.org/DebianMaintainer">manutentori
+@@ -285,7 +285,7 @@
+ 	Il sistema Incoming</a></dt>
+ 	<dd>
+ 	I nuovi pacchetti sono inviati al sistema "Incoming" sui server interni
+-	dell'archivio. I pacchetti accettati vengono quasi immediatamenti
++	dell'archivio. I pacchetti accettati vengono quasi immediatamente
+ 	resi <a href="http://incoming.debian.org/">accessibili via HTTP</a>,
+ 	e propagati verso i <a href="$(HOME)/mirror/">mirror</a> 
+         quattro volte al giorno.
