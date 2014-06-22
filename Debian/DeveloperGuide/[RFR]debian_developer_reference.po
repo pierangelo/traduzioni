@@ -79,7 +79,7 @@ msgstr "Separare le proprie patch in più file"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:90
 msgid "Big, complex packages may have many bugs that you need to deal with. If you correct a number of bugs directly in the source, and you're not careful, it can get hard to differentiate the various patches that you applied. It can get quite messy when you have to update the package to a new upstream version which integrates some of the fixes (but not all). You can't take the total set of diffs (e.g., from <filename>.diff.gz</filename>) and work out which patch sets to back out as a unit as bugs are fixed upstream."
-msgstr "Grandi, pacchetti complessi possono avere molti bug con cui ci si deve rapportare. Se si corregge una serie di bug direttamente nel sorgente, e non si sta attenti, può diventare difficile distinguere le varie patch che si sono applicate. Può essere abbastanza caotico quando è necessario aggiornare il pacchetto ad una nuova versione che integra alcune delle correzioni (ma non tutte). Non si può prendere l'intero insieme di diff (ad esempio, da <filename>.diff.gz</filename>) e capire quali patch occorrono per tornare indietro di una unità a seconda di quanti bug sono stati corretti nell'upstream."
+msgstr "Grandi, pacchetti complessi possono avere molti bug con cui ci si deve rapportare. Se si corregge una serie di bug direttamente nel sorgente, e non si sta attenti, può diventare difficile distinguere le varie patch che si sono applicate. Può essere abbastanza caotico quando è necessario aggiornare il pacchetto ad una nuova versione che integra alcune delle correzioni (ma non tutte). Non si può prendere l'intero insieme di diff (ad esempio, da <filename>.diff.gz</filename>) e capire quali patch occorrono per tornare indietro di una unità man mano che i bug vengono corretti nell'upstream."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:99
@@ -89,7 +89,7 @@ msgstr "Fortunatamente, con il formato sorgente «3.0 (quilt)» è ora possibile
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:107
 msgid "When using the older source “1.0”, it's also possible to separate patches but a dedicated patch system must be used: the patch files are shipped within the Debian patch file (<filename>.diff.gz</filename>), usually within the <filename>debian/</filename> directory. The only difference is that they aren't applied immediately by <command>dpkg-source</command>, but by the <literal>build</literal> rule of <filename>debian/rules</filename>, through a dependency on the <literal>patch</literal> rule. Conversely, they are reverted in the <literal>clean</literal> rule, through a dependency on the <literal>unpatch</literal> rule."
-msgstr "Quando si utilizza il più anziano sourgente «1.0», è anche possibile separare le patches, ma un sistema di patch dedicato deve essere utilizzato: i file di patch sono distribuiti all'interno del file di patch Debian (<filename>diff.gz</filename>.), di solito nella directory <filename>debian/</filename>. L'unica differenza è che non vengono applicate immediatamente da <command>dpkg-source</command>, ma dalla regola <literal>build</literal> di <filename>debian/rules</filename>, attraverso una dipendenza dalla regola <literal>patch</literal>. Al contrario, essi sono ritornati nella regola </literal>clean <literal>, attraverso una dipendenza dalla regola <literal>unpatch</literal>."
+msgstr "Quando si utilizza il più anziano sourgente «1.0», è anche possibile separare le patches, ma un sistema di patch dedicato deve essere utilizzato: i file di patch sono distribuiti all'interno del file di patch Debian (<filename>diff.gz</filename>.), di solito nella directory <filename>debian/</filename>. L'unica differenza è che non vengono applicate immediatamente da <command>dpkg-source</command>, ma dalla regola <literal>build</literal> di <filename>debian/rules</filename>, attraverso una dipendenza dalla regola <literal>patch</literal>. Al contrario, essi sono annullati nella regola </literal>clean<literal>, attraverso una dipendenza dalla regola <literal>unpatch</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:119
@@ -109,7 +109,7 @@ msgstr "Pacchetti binari multipli"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:134
 msgid "A single source package will often build several binary packages, either to provide several flavors of the same software (e.g., the <systemitem role=\"package\">vim</systemitem> source package) or to make several small packages instead of a big one (e.g., so the user can install only the subset needed, and thus save some disk space)."
-msgstr "Un singolo pacchetto sorgente costruirà diversi pacchetti binari, sia per fornire diverse versioni dello stesso software (ad esempio, il pacchetto sorgente <systemitem role=\"package\">vim</systemitem>) o per fare diversi piccoli pacchetti invece di uno grande (ad esempio, in modo che l'utente può installare solo il sottoinsieme necessario, e quindi di risparmiare spazio su disco)."
+msgstr "Un singolo pacchetto sorgente costruirà spesso diversi pacchetti binari, sia per fornire diverse versioni dello stesso software (ad esempio, il pacchetto sorgente <systemitem role=\"package\">vim</systemitem>) o per fare diversi piccoli pacchetti invece di uno grande (ad esempio, in modo che l'utente possa installare solo il sottoinsieme necessario, e quindi di risparmiare spazio su disco)."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:141
@@ -144,27 +144,27 @@ msgstr "Linee guida generali per le descrizioni dei pacchetti "
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:181
 msgid "The package description should be written for the average likely user, the average person who will use and benefit from the package. For instance, development packages are for developers, and can be technical in their language. More general-purpose applications, such as editors, should be written for a less technical user."
-msgstr "La descrizione del pacchetto dovrebbe essere scritta probabilmente per l'utente medio, la persona media che utilizzerà ed avrà benefici dal pacchetto. Per esempio, pacchetti di sviluppo sono per gli sviluppatori, e possono essere di natura tecnica nella loro lingua. Applicazioni più generiche, come editors, dovrebbero essere scritte per un utente meno tecnico."
+msgstr "La descrizione del pacchetto dovrebbe essere scritta probabilmente per l'utente medio, la persona media che utilizzerà ed avrà benefici dal pacchetto. Per esempio, pacchetti di sviluppo sono per gli sviluppatori, e possono essere di natura tecnica nella loro linguaggio. Applicazioni più generiche, come gli editor, dovrebbero essere scritte per un utente meno tecnico."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:188
 msgid "Our review of package descriptions lead us to conclude that most package descriptions are technical, that is, are not written to make sense for non-technical users. Unless your package really is only for technical users, this is a problem."
-msgstr "La nostra recensione delle descrizioni dei pacchetti ci porta a concludere che la maggior parte delle descrizioni dei pacchetti sono di natura tecnica, cosi è, non sono scritti per avere senso per gli utenti non tecnici. A meno che il vostro pacchetto è realmente solo per utenti tecnici, questo costituisce un problema."
+msgstr "La nostra analisi delle descrizioni dei pacchetti ci porta a concludere che la maggior parte delle descrizioni dei pacchetti sono di natura tecnica, cosi è, non sono scritti per avere senso per gli utenti non tecnici. A meno che il vostro pacchetto non sia realmente solo per utenti tecnici, questo costituisce un problema."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:194
 msgid "How do you write for non-technical users? Avoid jargon. Avoid referring to other applications or frameworks that the user might not be familiar with — GNOME or KDE is fine, since users are probably familiar with these terms, but GTK+ is probably not. Try not to assume any knowledge at all. If you must use technical terms, introduce them."
-msgstr "Come si scrive per gli utenti non tecnici? Evitare il gergo. Evitare di riferirsi ad altre applicazioni o framework che l'utente potrebbe non conoscere - GNOME o KDE va bene, dal momento che gli utenti hanno probabilmente familiarità con questi termini, ma GTK+ probabilmente non lo è. Cercate di ipotizzare nessuna conoscenza a priori. Se è necessario utilizzare termini tecnici, presentateli."
+msgstr "Come si scrive per gli utenti non tecnici? Si eviti il gergo. Evitare di riferirsi ad altre applicazioni o framework che l'utente potrebbe non conoscere - GNOME o KDE va bene, dal momento che gli utenti hanno probabilmente familiarità con questi termini, ma GTK+ probabilmente non lo è. Cercate di ipotizzare nessuna conoscenza a priori. Se è necessario utilizzare termini tecnici, spiegateli."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:201
 msgid "Be objective. Package descriptions are not the place for advocating your package, no matter how much you love it. Remember that the reader may not care about the same things you care about."
-msgstr "Siate obiettivi. Le descrizioni dei pacchetti non sono il posto per promuovere il vostro pacchetto, non importa quanto lo amiate. Ricordate che il lettore non può occuparsi delle stesse cose che vi interessano."
+msgstr "Siate obiettivi. Le descrizioni dei pacchetti non sono il posto per promuovere il vostro pacchetto, non importa quanto lo amiate. Ricordate che il lettore potrebbe non essere interessato alle stesse cose che vi interessano."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:206
 msgid "References to the names of any other software packages, protocol names, standards, or specifications should use their canonical forms, if one exists. For example, use X Window System, X11, or X; not X Windows, X-Windows, or X Window. Use GTK+, not GTK or gtk. Use GNOME, not Gnome. Use PostScript, not Postscript or postscript."
-msgstr "I riferimenti ai nomi di eventuali altri pacchetti software, nomi di protocollo, standard o specifiche dovrebbero utilizzare le loro forme canoniche, se ne esiste una. Ad esempio, utilizzate X Window System, X11 o X, non X di Windows, X-Windows o X Window. Utilizzare GTK +, non GTK o gtk. Usate GNOME, non Gnome. Utilizzate PostScript, non Postscript o postscript."
+msgstr "I riferimenti ai nomi di eventuali altri pacchetti software, nomi di protocollo, standard o specifiche dovrebbero utilizzare la forma canonica, se ne esiste una. Ad esempio, utilizzate X Window System, X11 o X, non X Windows, X-Windows o X Window. Utilizzare GTK +, non GTK o gtk. Usate GNOME, non Gnome. Utilizzate PostScript, non Postscript o postscript."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:213
@@ -179,12 +179,12 @@ msgstr "La sinossi del pacchetto, o una breve descrizione "
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:221
 msgid "Policy says the synopsis line (the short description) must be concise, not repeating the package name, but also informative."
-msgstr "la Policy dice che la linea di sinossi (la breve descrizione) deve essere concisa, non ripetendo il nome del pacchetto, ma anche informativo."
+msgstr "La policy dice che la linea di sinossi (la breve descrizione) deve essere concisa ma anche informativa, non ripetendo il nome del pacchetto."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:225
 msgid "The synopsis functions as a phrase describing the package, not a complete sentence, so sentential punctuation is inappropriate: it does not need extra capital letters or a final period (full stop). It should also omit any initial indefinite or definite article — \"a\", \"an\", or \"the\". Thus for instance:"
-msgstr "Le sinossi funziona come una frase che descrive il pacchetto, non una frase completa, quindi la punteggiatura è inappropriata: non ha bisogno di lettere maiuscole in più o un punto finale (punto). Dovrebbe anche omettere qualsiasi iniziale articolo indefinito o definito - «a», «un» o «il». Così, per esempio:"
+msgstr "Le sinossi funziona come una frase che descrive il pacchetto, non una frase completa, perciò la punteggiatura è inappropriata: non ha bisogno di lettere maiuscole in più o un punto finale (punto). Dovrebbe anche omettere qualsiasi iniziale articolo indefinito o definito - «a», «un» o «il». Così, per esempio:"
 
 #. type: Content of: <chapter><section><section><screen>
 #: best-pkging-practices.dbk:231
@@ -209,7 +209,7 @@ msgstr "Il pacchetto <replaceable>name</replaceable> fornisce {a, un, il, alcuni
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:244
 msgid "Sets of related packages may use an alternative scheme that divides the synopsis into two parts, the first a description of the whole suite and the second a summary of the package's role within it:"
-msgstr "Insiemi di pacchetti correlati possono utilizzare uno schema alternativo che divide la sinossi in due parti, la prima una descrizione di tutta la suite e la seconda una sintesi del ruolo del pacchetto all'interno dello schema:"
+msgstr "Insiemi di pacchetti correlati possono utilizzare uno schema alternativo che divide la sinossi in due parti, la prima una descrizione di tutta la suite e la seconda una sintesi del ruolo del pacchetto all'interno di essa:"
 
 #. type: Content of: <chapter><section><section><screen>
 #: best-pkging-practices.dbk:249
@@ -230,7 +230,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:256
 msgid "These synopses follow a modified formula. Where a package \"<replaceable>name</replaceable>\" has a synopsis \"<replaceable>suite</replaceable> (<replaceable>role</replaceable>)\" or \"<replaceable>suite</replaceable> - <replaceable>role</replaceable>\", the elements should be phrased so that they fit into the formula:"
-msgstr "Queste sinossi seguono una formula modificata. Quando un pacchetto «<replaceable> name </replaceable>» ha una «<replaceable> suite </replaceable> di sinossi (<replaceable>role</replaceable>) » o «<replaceable>suite</sostituibile > - <replaceable>role</replaceable>», gli elementi devono essere formulati in modo che si inseriscono nella formula:"
+msgstr "Queste sinossi seguono una formula modificata. Quando un pacchetto «<replaceable>name</replaceable>» ha una «<replaceable>suite</replaceable> di sinossi (<replaceable>role</replaceable>) » o «<replaceable>suite</sostituibile > - <replaceable>role</replaceable>», gli elementi devono essere formulati in modo che si inseriscono nella formula:"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:263
@@ -245,7 +245,7 @@ msgstr "La descrizione lunga"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:271
 msgid "The long description is the primary information available to the user about a package before they install it. It should provide all the information needed to let the user decide whether to install the package. Assume that the user has already read the package synopsis."
-msgstr "La descrizione lunga è la prima informazione sul pacchetto disponibile agli utenti prima che lo si installi. Essa dovrebbe fornire tutte le informazioni necessarie per permettere all'utente di decidere se installare il pacchetto. Supponete che l'utente abbia già letto la sinossi del pacchetto."
+msgstr "La descrizione lunga è la principale informazione sul pacchetto disponibile agli utenti prima che lo si installi. Essa dovrebbe fornire tutte le informazioni necessarie per permettere all'utente di decidere se installare il pacchetto. Supponete che l'utente abbia già letto la sinossi del pacchetto."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:277
@@ -271,17 +271,13 @@ msgstr "Fate attenzione ad evitare errori di ortografia e di grammatica. Assicur
 #: best-pkging-practices.dbk:299
 #, no-wrap
 msgid "ispell -d american -g debian/control\n"
-msgstr ""
-"ispell -d american -g debian/control\n"
-" "
+msgstr "ispell -d american -g debian/control\n"
 
 #. type: Content of: <chapter><section><section><screen>
 #: best-pkging-practices.dbk:302
 #, no-wrap
 msgid "aspell -d en -D -c debian/control\n"
-msgstr ""
-"aspell -d en -D -c debian/control\n"
-" "
+msgstr "aspell -d en -D -c debian/control\n"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:305
@@ -291,7 +287,7 @@ msgstr "Gli utenti di solito si aspettano che queste domande ricevano risposta n
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:310
 msgid "What does the package do? If it is an add-on to another package, then the short description of the package we are an add-on to should be put in here."
-msgstr "Che cosa fa il pacchetto? Se si tratta di un add-on per un altro pacchetto, allora nella breve descrizione del pacchetto andrebbe inserito che si tratta di un add-on."
+msgstr "Che cosa fa il pacchetto? Se si tratta di un componente aggiuntivo per un altro pacchetto, allora la breve descrizione del pacchetto per il quale è un componente aggiuntivo dovrebbe essere inserita qui."
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:316
@@ -311,7 +307,7 @@ msgstr "Se il pacchetto è <literal>experimental</literal>, o ci sono altri moti
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:336
 msgid "How is this package different from the competition? Is it a better implementation? more features? different features? Why should I choose this package."
-msgstr "In che modo questo pacchetto si differenzia da altri? E' un' implementazione migliore? più funzioni? caratteristiche diverse? Perché dovrei scegliere questo pacchetto."
+msgstr "In che modo questo pacchetto si differenzia da altri? È un' implementazione migliore? più funzioni? caratteristiche diverse? Perché dovrei scegliere questo pacchetto."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:349
@@ -321,7 +317,7 @@ msgstr "Upstream home page"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:351
 msgid "We recommend that you add the URL for the package's home page in the <literal>Homepage</literal> field of the <literal>Source</literal> section in <filename>debian/control</filename>. Adding this information in the package description itself is considered deprecated."
-msgstr "Si consiglia di aggiungere l'URL per la home page del pacchetto nel campo <literal>Homepage</literal> della sezione <literal>Source</literal> in <filename>debian/control</filename>. L'aggiunta di queste informazioni nella descrizione del stesso pacchetto è considerato obsoleto."
+msgstr "Si consiglia di aggiungere l'URL per la home page del pacchetto nel campo <literal>Homepage</literal> della sezione <literal>Source</literal> in <filename>debian/control</filename>. L'aggiunta di questa informazione nella descrizione del stesso pacchetto è considerata obsoleta."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:359
@@ -341,7 +337,7 @@ msgstr "Vcs-Browser"
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:367
 msgid "Value of this field should be a <literal>http://</literal> URL pointing to a web-browsable copy of the Version Control System repository used to maintain the given package, if available."
-msgstr "Il valore di questo campo dovrebbe essere un <literal>http://</literal> URL che punta a una copia web navigabile della Version Control System utilizzato per mantenere il pacchetto , se disponibile."
+msgstr "Il valore di questo campo dovrebbe essere una URL <literal>http://</literal> che punta a una copia web navigabile del Version Control System utilizzato per mantenere il pacchetto , se disponibile."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:372
@@ -361,12 +357,12 @@ msgstr "Il valore di questo campo deve essere una stringa che identifica in modo
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:392
 msgid "The information is meant to be useful for a user knowledgeable in the given Version Control System and willing to build the current version of a package from the VCS sources. Other uses of this information might include automatic building of the latest VCS version of the given package. To this end the location pointed to by the field should better be version agnostic and point to the main branch (for VCSs supporting such a concept). Also, the location pointed to should be accessible to the final user; fulfilling this requirement might imply pointing to an anonymous access of the repository instead of pointing to an SSH-accessible version of the same."
-msgstr "L'informazione è destinata ad essere utile per un utente esperto nel dato Version Control System e disposto a costruire la versione attuale del pacchetto dai sorgenti VCS. Altri usi di queste informazioni possono includere building automatici della versione più recente versione VCS del dato pacchetto. A tal fine la posizione a cui punta il campo dovrebbe essere la versione migliore rispetto a quella agnostica e puntare al ramo principale (per i VCS che supportano tale concetto). Inoltre, la posizione indicata dovrebbe essere accessibile per l'utente finale; soddisfare questo requisito potrebbe implicare un accesso anonimo al repository invece di puntare a una versione SSH-accessibile dello stesso."
+msgstr "L'informazione è destinata ad essere utile per un utente esperto nel dato Version Control System e disposto a costruire la versione attuale del pacchetto dai sorgenti VCS. Altri usi di queste informazioni possono includere building automatici della versione VCS più recente del dato pacchetto. A tal fine la posizione a cui punta il campo dovrebbe essere la versione migliore rispetto a quella agnostica e puntare al ramo principale (per i VCS che supportano tale concetto). Inoltre, la posizione indicata dovrebbe essere accessibile per l'utente finale; soddisfare questo requisito potrebbe implicare un accesso anonimo al repository invece di puntare a una versione SSH-accessibile dello stesso."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:403
 msgid "In the following example, an instance of the field for a Subversion repository of the <systemitem role=\"package\">vim</systemitem> package is shown. Note how the URL is in the <literal>svn://</literal> scheme (instead of <literal>svn+ssh://</literal>) and how it points to the <filename>trunk/</filename> branch. The use of the <literal>Vcs-Browser</literal> and <literal>Homepage</literal> fields described above is also shown."
-msgstr "Nel seguente esempio è mostrata un'istanza del campo per un repository Subversion del pacchetto <systemitem role=\"package\">vim</systemitem>. Si noti come l'URL è nello schema <literal>svn://</literal> (invece di <literal>svn+ssh://</literal>) e come si punti al branch <filename>trunk/</filename>. E' anche mostrato l'uso dei campi del <literal>Vcs-Browser</literal> e <literal>Homepage</literal> descritti precedentemente."
+msgstr "Nel seguente esempio è mostrata un'istanza del campo per un repository Subversion del pacchetto <systemitem role=\"package\">vim</systemitem>. Si noti come l'URL è nello schema <literal>svn://</literal> (invece di <literal>svn+ssh://</literal>) e come si punti al branch <filename>trunk/</filename>. È anche mostrato l'uso dei campi del <literal>Vcs-Browser</literal> e <literal>Homepage</literal> descritti precedentemente."
 
 #. type: Content of: <chapter><section><section><section><screen>
 #: best-pkging-practices.dbk:412
@@ -391,7 +387,7 @@ msgstr ""
 #. type: Content of: <chapter><section><title>
 #: best-pkging-practices.dbk:427
 msgid "Best practices for <filename>debian/changelog</filename>"
-msgstr "Best practices per <filename>debian/changelog</filename>"
+msgstr "Best practices per il <filename>debian/changelog</filename>"
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:429
@@ -411,27 +407,27 @@ msgstr "La voce del changelog inerente una revisione del pacchetto documenta i c
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:441
 msgid "Focus on <emphasis>what</emphasis> was changed — who, how and when are usually less important. Having said that, remember to politely attribute people who have provided notable help in making the package (e.g., those who have sent in patches)."
-msgstr "Concentratevi su <emphasis>ciò</emphasis> che è stato cambiato - chi, come e quando di solito sono meno importanti. Detto questo, ricordatevi di citare le persone che hanno fornito un notevole aiuto nel costruire il pacchetto (ad esempio, coloro che hanno inviato patch)."
+msgstr "Concentratevi su <emphasis>ciò</emphasis> che è stato cambiato - chi, come e quando di solito sono meno importanti. Detto questo, ricordatevi di citare le persone che hanno fornito un notevole aiuto nel costruire il pacchetto (ad esempio, coloro che hanno inviato delle patch)."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:447
 msgid "There's no need to elaborate the trivial and obvious changes. You can also aggregate several changes in one entry. On the other hand, don't be overly terse if you have undertaken a major change. Be especially clear if there are changes that affect the behaviour of the program. For further explanations, use the <filename>README.Debian</filename> file."
-msgstr "Non c'è bisogno di elaborare le modifiche banali e ovvie. È inoltre possibile aggregare diversi cambiamenti in un'unica voce. D'altra parte, non siate troppo ermetici se avete intrapreso un cambiamento importante. Siate particolarmente chiari se ci sono cambiamenti che influenzano il comportamento del programma. Per ulteriori chiarimenti, utilizzate il <filename>README.Debian</filename>."
+msgstr "Non c'è bisogno di elaborare le modifiche banali e ovvie. È inoltre possibile aggregare diversi cambiamenti in un' unica voce. D'altra parte, non siate troppo ermetici se avete intrapreso un cambiamento importante. Siate particolarmente chiari se ci sono cambiamenti che influenzano il comportamento del programma. Per ulteriori chiarimenti, utilizzate il <filename>README.Debian</filename>."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:454
 msgid "Use common English so that the majority of readers can comprehend it. Avoid abbreviations, tech-speak and jargon when explaining changes that close bugs, especially for bugs filed by users that did not strike you as particularly technically savvy. Be polite, don't swear."
-msgstr "Utilizzate L'Inglese comune in modo che la maggior parte dei lettori può comprenderlo. Evitate abbreviazioni, termini tecnici e gergo quando spiegate i cambiamenti che chiudono i bug, soprattutto per i bug segnalati dagli utenti che non ti sembrano particolarmente smaliziati dal punto di vista tecnico. Siate gentili, non imprecate."
+msgstr "Utilizzate l'Inglese comune in modo che la maggior parte dei lettori possa comprenderlo. Evitate abbreviazioni, termini tecnici e gergo quando spiegate i cambiamenti che chiudono i bug, soprattutto per i bug segnalati dagli utenti che non vi sembrano particolarmente smaliziati dal punto di vista tecnico. Siate gentili, non imprecate."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:460
 msgid "It is sometimes desirable to prefix changelog entries with the names of the files that were changed. However, there's no need to explicitly list each and every last one of the changed files, especially if the change was small or repetitive. You may use wildcards."
-msgstr "A volte è desiderabile far precedere le voci del changelog con i nomi dei file che sono stati modificati. Tuttavia, non c'è bisogno di elencarli esplicitamente tutti e tutti gli ultimi file modificati, soprattutto se il cambiamento è stato piccolo o ripetitivo. È possibile utilizzare i caratteri jolly."
+msgstr "A volte è desiderabile far precedere le voci del changelog con i nomi dei file che sono stati modificati. Tuttavia, non c'è bisogno di elencare esplicitamente uno per uno tutti i file modificati, soprattutto se il cambiamento è stato piccolo o ripetitivo. È possibile utilizzare i metacaratteri."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:466
 msgid "When referring to bugs, don't assume anything. Say what the problem was, how it was fixed, and append the closes: #nnnnn string. See <xref linkend=\"upload-bugfix\"/> for more information."
-msgstr "Quando si parla di bug, non date per scontato nulla. Dite quale era il problema, come è stato risolto, e aggiungete in fondo la stringa: #nnnnn. Per ulteriori informazioni, vedere <xref linkend=\"upload-bugfix\"/>."
+msgstr "Quando si parla di bug, non date per scontato nulla. Dite quale era il problema, come è stato risolto, e aggiungete in fondo la stringa: #nnnnn. Per ulteriori informazioni, si consulti <xref linkend=\"upload-bugfix\"/>."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:473
@@ -441,22 +437,22 @@ msgstr "Comuni incomprensioni sulle voci del changelog"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:475
 msgid "The changelog entries should <emphasis role=\"strong\">not</emphasis> document generic packaging issues (Hey, if you're looking for foo.conf, it's in /etc/blah/.), since administrators and users are supposed to be at least remotely acquainted with how such things are generally arranged on Debian systems. Do, however, mention if you change the location of a configuration file."
-msgstr "Le voci changelog<emphasis role=\"strong\">non</emphasis> dovrebbero documentare generici problemi di packaging (Ehi, se siete alla ricerca di foo.conf, è in /etc/blah/.), dal momento che si suppone che gli amministratori e gli utenti siano a conoscenza di come queste cose sono generalmente gestite sui sistemi Debian. Parlatene, tuttavia, se si modifica la posizione di un file di configurazione."
+msgstr "Le voci del changelog <emphasis role=\"strong\">non</emphasis> dovrebbero documentare generici problemi di packaging (Ehi, se siete alla ricerca di foo.conf, è in /etc/blah/.), dal momento che si suppone che gli amministratori e gli utenti siano a conoscenza di come queste cose sono generalmente gestite sui sistemi Debian. Parlatene, tuttavia, se si modifica la posizione di un file di configurazione."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:483
 msgid "The only bugs closed with a changelog entry should be those that are actually fixed in the same package revision. Closing unrelated bugs in the changelog is bad practice. See <xref linkend=\"upload-bugfix\"/>."
-msgstr "Gli unici bug chiusi con una voce nel changelog dovrebbero essere quelli che sono effettivamente chiusi nella stessa versione del pacchetto. Chiudere bug non correlati nel changelog è cattiva pratica. Vedi <xref linkend=\"upload-bugfix\"/>."
+msgstr "Gli unici bug chiusi con una voce nel changelog dovrebbero essere quelli che sono effettivamente chiusi nella stessa versione del pacchetto. Chiudere bug non correlati nel changelog è cattiva pratica. Si veda <xref linkend=\"upload-bugfix\"/>."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:488
 msgid "The changelog entries should <emphasis role=\"strong\">not</emphasis> be used for random discussion with bug reporters (I don't see segfaults when starting foo with option bar; send in more info), general statements on life, the universe and everything (sorry this upload took me so long, but I caught the flu), or pleas for help (the bug list on this package is huge, please lend me a hand). Such things usually won't be noticed by their target audience, but may annoy people who wish to read information about actual changes in the package. See <xref linkend=\"bug-answering\"/> for more information on how to use the bug tracking system."
-msgstr "Le voci del changelog <emphasis role=\"strong\">non</emphasis> dovrebbero essere utilizzatie per discussioni casuali con i chi ha segnalato il bug (non vedo segmentation fault quando avvio foo con l'opzione bar; invia più informazioni al riguardo), dichiarazioni generali sulla la vita, l'universo e tutto il resto (scusate questo upload mi ha preso così tanto tempo, ma ho preso l'influenza), o richieste di aiuto (la lista di bug su questo pacchetto è enorme, vi prego di dare una mano). Queste cose di solito non vengono notate, ma possono infastidire le persone che desiderano leggere le informazioni sulle modifiche effettive nel pacchetto. Per ulteriori informazioni su come utilizzare il sistema di bug tracking vedere <xref linkend=\"bug-answering\"/>."
+msgstr "Le voci del changelog <emphasis role=\"strong\">non</emphasis> dovrebbero essere utilizzate per discussioni casuali con chi ha segnalato il bug (non vedo segmentation fault quando avvio foo con l'opzione bar; invia più informazioni al riguardo), dichiarazioni generali sulla vita, l'universo e tutto il resto (scusate questo upload mi ha preso così tanto tempo, ma ho preso l'influenza), o richieste di aiuto (la lista di bug su questo pacchetto è enorme, vi prego di dare una mano). Queste cose di solito non vengono notate, ma possono infastidire le persone che desiderano leggere le informazioni sulle modifiche effettive nel pacchetto. Per ulteriori informazioni su come utilizzare il sistema di bug tracking vedere <xref linkend=\"bug-answering\"/>."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:499
 msgid "It is an old tradition to acknowledge bugs fixed in non-maintainer uploads in the first changelog entry of the proper maintainer upload. As we have version tracking now, it is enough to keep the NMUed changelog entries and just mention this fact in your own changelog entry."
-msgstr "Si tratta di una vecchia tradizione di riconoscere bug corretti in upload di non-maintainer nella prima voce del changelog dell'appropriato maintainer. Siccome ora abbiamo version tracking , è sufficiente per mantenere le voci del changelog NMUed ed a citatelo nella vostra voce del changelog."
+msgstr "Si tratta di una vecchia tradizione per riconoscere bug corretti in upload di un non-maintainer nella prima voce del changelog dell'appropriato maintainer. Siccome ora abbiamo il version tracking, è sufficiente mantenere le voci del changelog NMUed e citare questo fatto nella vostra voce del changelog."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:507
@@ -466,13 +462,13 @@ msgstr "Errori comuni nelle voci del changelog"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:509
 msgid "The following examples demonstrate some common errors or examples of bad style in changelog entries."
-msgstr "I seguenti esempi dimostrano alcuni errori comuni o esempi di cattivo stile nelle voci del changelog."
+msgstr "I seguenti esempi dimostrano alcuni errori comuni o di cattivo stile nelle voci del changelog."
 
 #. type: Content of: <chapter><section><section><screen>
 #: best-pkging-practices.dbk:513
 #, no-wrap
 msgid " * Fixed all outstanding bugs.\n"
-msgstr "* Corretti tutti i bug aperti.\n"
+msgstr " * Fixed all outstanding bugs.\n"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:516
@@ -483,31 +479,29 @@ msgstr "Questo non dice ai lettori qualcosa di particolarmente utile, ovviamente
 #: best-pkging-practices.dbk:519
 #, no-wrap
 msgid " * Applied patch from Jane Random.\n"
-msgstr "* Patch applicata da Jane Random.\n"
+msgstr " * Applied patch from Jane Random.\n"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:522
 msgid "What was the patch about?"
-msgstr "Qual'era l'argomento della patch?"
+msgstr "Qual' era l'argomento della patch?"
 
 #. type: Content of: <chapter><section><section><screen>
 #: best-pkging-practices.dbk:525
 #, no-wrap
 msgid " * Late night install target overhaul.\n"
-msgstr "* Installazione notturna della revisione. \n"
+msgstr " * Late night install target overhaul.\n"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:528
 msgid "Overhaul which accomplished what? Is the mention of late night supposed to remind us that we shouldn't trust that code?"
-msgstr "Revisione che ha completato cosa? L'ipotetica citazione notturna è stata a ricordarci che non dovevamo fidarci di quel codice?"
+msgstr "Revisione che ha completato cosa? L'ipotetica citazione notturna è stata a ricordarci che non dovremmo fidarci di quel codice?"
 
 #. type: Content of: <chapter><section><section><screen>
 #: best-pkging-practices.dbk:532
 #, no-wrap
 msgid " * Fix vsync FU w/ ancient CRTs.\n"
-msgstr ""
-" * Fix vsync FU w/ ancient CRTs.\n"
-" "
+msgstr " * Fix vsync FU w/ ancient CRTs.\n"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:535
@@ -518,7 +512,7 @@ msgstr "Troppe sigle, e non è troppo chiaro a quale la, uh, fsckup (ops, una pa
 #: best-pkging-practices.dbk:539
 #, no-wrap
 msgid " * This is not a bug, closes: #nnnnnn.\n"
-msgstr "* Questo non è un bug, chiude:. # nnnnnn \n"
+msgstr " * This is not a bug, closes: #nnnnnn.\n"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:542
@@ -529,20 +523,18 @@ msgstr "Innanzitutto, non c'è assolutamente alcun bisogno di caricare il pacche
 #: best-pkging-practices.dbk:547
 #, no-wrap
 msgid " * Has been fixed for ages, but I forgot to close; closes: #54321.\n"
-msgstr ""
-"* È stato fissato da tempo, ma ho dimenticato di chiudere; chiude: #54321 \n"
-"."
+msgstr "* Has been fixed for ages, but I forgot to close; closes: #54321.\n"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:550
 msgid "If for some reason you didn't mention the bug number in a previous changelog entry, there's no problem, just close the bug normally in the BTS. There's no need to touch the changelog file, presuming the description of the fix is already in (this applies to the fixes by the upstream authors/maintainers as well, you don't have to track bugs that they fixed ages ago in your changelog)."
-msgstr "Se per qualche motivo non avete citato il numero di bug in una voce precedente del changelog, non c'è nessun problema, basta chiudere normalmente il bug nel BTS. Non c'è bisogno di toccare il file changelog, presumendo che la descrizione della correzione sia già indicata (questo vale per le correzioni da parte degli autori / manutentori, non c'è bisogno di tenere traccia dei bug che hanno risolto secoli fa nel tuo changelog)."
+msgstr "Se per qualche motivo non avete citato il numero di bug in una voce precedente del changelog, non è un problema, basta chiudere normalmente il bug nel BTS. Non c'è bisogno di toccare il file changelog, presumendo che la descrizione della correzione sia già indicata (questo vale per le correzioni da parte degli autori / manutentori, non c'è bisogno di tenere traccia dei bug che hanno risolto secoli fa nel tuo changelog)."
 
 #. type: Content of: <chapter><section><section><screen>
 #: best-pkging-practices.dbk:557
 #, no-wrap
 msgid " * Closes: #12345, #12346, #15432\n"
-msgstr "* Closes: # 12345, # 12346, # 15432 \n"
+msgstr "* Closes: #12345, #12346, #15432\n"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:560
@@ -552,17 +544,17 @@ msgstr "Dov'è la descrizione? Se non è possibile pensare ad un messaggio descr
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:566
 msgid "Supplementing changelogs with <filename>NEWS.Debian</filename> files"
-msgstr "Integrare i changelogs con i files <filename>NEWS.Debian</filename>"
+msgstr "Integrare i changelog con i file <filename>NEWS.Debian</filename>"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:568
 msgid "Important news about changes in a package can also be put in <filename>NEWS.Debian</filename> files. The news will be displayed by tools like <systemitem role=\"package\">apt-listchanges</systemitem>, before all the rest of the changelogs. This is the preferred means to let the user know about significant changes in a package. It is better than using <systemitem role=\"package\">debconf</systemitem> notes since it is less annoying and the user can go back and refer to the <filename>NEWS.Debian</filename> file after the install. And it's better than listing major changes in <filename>README.Debian</filename>, since the user can easily miss such notes."
-msgstr "Importanti novità circa i cambiamenti in un pacchetto possono anche essere inserite nei files <filename>NEWS.Debian</filename>. Le notizie saranno visualizzate da strumenti come <systemitem role=\"package\"> apt-listchanges </systemitem>, prima di tutto il resto dei changelog. Questo è il mezzo preferito per permettere all'utente di conoscere i cambiamenti significativi in ​​un pacchetto. E' meglio che usare le note di <systemitem role=\"package\">debconf</systemitem> in quanto è meno fastidioso e l'utente può tornare indietro e vedere il file <filename>NEWS.Debian</filename> dopo l'installazione. Ed è meglio rispetto all'elencare i principali cambiamenti presenti in <filename>README.Debian</filename>, dal momento che l'utente può facilmente perderle."
+msgstr "Importanti novità sui i cambiamenti in un pacchetto possono anche essere inserite nei file <filename>NEWS.Debian</filename>. Le notizie saranno visualizzate da strumenti come <systemitem role=\"package\">apt-listchanges</systemitem>, prima di tutto il resto dei changelog. Questo è il mezzo preferito per permettere all'utente di conoscere i cambiamenti significativi in ​​un pacchetto. È meglio che usare le note di <systemitem role=\"package\">debconf</systemitem> in quanto è meno fastidioso e l'utente può tornare indietro e vedere il file <filename>NEWS.Debian</filename> dopo l'installazione. Ed è meglio rispetto all'elencare i principali cambiamenti presenti in <filename>README.Debian</filename>, dal momento che l'utente può facilmente perderli."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:579
 msgid "The file format is the same as a debian changelog file, but leave off the asterisks and describe each news item with a full paragraph when necessary rather than the more concise summaries that would go in a changelog. It's a good idea to run your file through <literal>dpkg-parsechangelog</literal> to check its formatting as it will not be automatically checked during build as the changelog is. Here is an example of a real <filename>NEWS.Debian</filename> file:"
-msgstr "Il formato del file è lo stesso di un file changelog Debian, ma lasciate fuori gli asterischi e descrivete ogni notizia con un paragrafo completo quando necessario, piuttosto che la più concise sintesi che andrebbero in un changelog. E 'una buona idea eseguire il file attraverso <literal>dpkg-parsechangelog</literal> per controllare la formattazione in quanto durante la fase di build non sarà controllato automaticamente come il changelog è stato fatto. Ecco un esempio di un vero e proprio file <filename>NEWS.Debian</filename>:"
+msgstr "Il formato del file è lo stesso di un file changelog Debian, ma lasciate fuori gli asterischi e descrivete ogni notizia con un paragrafo completo quando necessario, piuttosto che le più concise sintesi che andrebbero in un changelog. È una buona idea eseguire il file attraverso <literal>dpkg-parsechangelog</literal> per controllare la formattazione in quanto durante la fase di build non sarà controllato automaticamente come è stato fatto per il changelog. Ecco un esempio di un vero e proprio file <filename>NEWS.Debian</filename>:"
 
 #. type: Content of: <chapter><section><section><screen>
 #: best-pkging-practices.dbk:588
@@ -589,12 +581,12 @@ msgstr ""
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:598
 msgid "The <filename>NEWS.Debian</filename> file is installed as <filename>/usr/share/doc/<replaceable>package</replaceable>/NEWS.Debian.gz</filename>. It is compressed, and always has that name even in Debian native packages. If you use <literal>debhelper</literal>, <literal>dh_installchangelogs</literal> will install <filename>debian/NEWS</filename> files for you."
-msgstr "Il file <filename>NEWS.Debian</filename> è installato come <filename>/usr/share/doc/<replaceable>package</replaceable>/NEWS.Debian.gz</filename>. È compresso, e ha sempre quel nome, anche in pacchetti nativi Debian. Se si utilizza<literal>debhelper</literal>, <literal>dh_installchangelogs</literal> installerà il file <filename>debian/NEWS</filename> per te."
+msgstr "Il file <filename>NEWS.Debian</filename> è installato come <filename>/usr/share/doc/<replaceable>package</replaceable>/NEWS.Debian.gz</filename>. È compresso, e ha sempre quel nome, anche in pacchetti nativi Debian. Se si utilizza <literal>debhelper</literal>, <literal>dh_installchangelogs</literal> installerà il file <filename>debian/NEWS</filename> per voi."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:605
 msgid "Unlike changelog files, you need not update <filename>NEWS.Debian</filename> files with every release. Only update them if you have something particularly newsworthy that user should know about. If you have no news at all, there's no need to ship a <filename>NEWS.Debian</filename> file in your package. No news is good news!"
-msgstr "A differenza dei file changelog, non è necessario aggiornare il file <filename>NEWS.Debian</filename> ad ogni rilascio. Aggiornate solo loro se avete qualcosa particolarmente degna di nota che l'utente dovrebbe conoscere. Se non avete alcuna notizia, non c'è bisogno di spedire un file <filename>NEWS.Debian</filename>. Nessuna notizia è una buona notizia!"
+msgstr "A differenza dei file changelog, non è necessario aggiornare il file <filename>NEWS.Debian</filename> ad ogni rilascio. Aggiornateli solo se avete qualcosa particolarmente degna di nota che l'utente dovrebbe conoscere. Se non avete alcuna notizia, non c'è bisogno di fornire un file <filename>NEWS.Debian</filename>. Nessuna notizia è una buona notizia!"
 
 #. type: Content of: <chapter><section><title>
 #: best-pkging-practices.dbk:627
@@ -604,32 +596,32 @@ msgstr "Best practices per gli script del maintainer"
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:629
 msgid "Maintainer scripts include the files <filename>debian/postinst</filename>, <filename>debian/preinst</filename>, <filename>debian/prerm</filename> and <filename>debian/postrm</filename>. These scripts take care of any package installation or deinstallation setup which isn't handled merely by the creation or removal of files and directories. The following instructions supplement the <ulink url=\"&url-debian-policy;\">Debian Policy</ulink>."
-msgstr "Gli scripts del Maintainer includono i file <filename>debian/postinst</filename>, <filename>debian/preinst</filename>, <filename>debian/prerm</filename> e <filename>debian/postrm</filename>. Questi scripts si prendono cura di ogni setup di installazione o disinstallazione del pacchetto che non è gestito esclusivamente dalla creazione o dalla rimozione di file e directory. Le seguenti istruzioni completano la <ulink url=\"&url-debian-policy;\">Debian Policy</ulink>."
+msgstr "Gli scripts del maintainer includono i file <filename>debian/postinst</filename>, <filename>debian/preinst</filename>, <filename>debian/prerm</filename> e <filename>debian/postrm</filename>. Questi scripts si prendono cura di ogni setup di installazione o disinstallazione del pacchetto che non è gestito esclusivamente dalla creazione o dalla rimozione di file e directory. Le seguenti istruzioni completano la <ulink url=\"&url-debian-policy;\">Debian Policy</ulink>."
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:637
 msgid "Maintainer scripts must be idempotent. That means that you need to make sure nothing bad will happen if the script is called twice where it would usually be called once."
-msgstr "Gli scripts del Maintainer devono essere idempotenti. Ciò significa che è necessario assicurarsi che nulla di male accadrà se lo script viene invocato due volte dove di solito viene lanciato una volta sola."
+msgstr "Gli scripts del maintainer devono essere idempotenti. Ciò significa che è necessario assicurarsi che nulla di male accadrà se lo script dovesse essere invocato due volte dove di solito viene lanciato una volta sola."
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:642
 msgid "Standard input and output may be redirected (e.g. into pipes) for logging purposes, so don't rely on them being a tty."
-msgstr "Standard input e output possono essere reindirizzati (ad esempio nelle pipes) per finalità di logging, quindi non utilizzateli come una tty."
+msgstr "Gli standard input e output possono essere reindirizzati (ad esempio nelle pipe) per finalità di logging, quindi non utilizzateli come una tty."
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:646
 msgid "All prompting or interactive configuration should be kept to a minimum. When it is necessary, you should use the <systemitem role=\"package\">debconf</systemitem> package for the interface. Remember that prompting in any case can only be in the <literal>configure</literal> stage of the <filename>postinst</filename> script."
-msgstr "Tutte le configurazioni suggerite o interattive deveno essere ridotte al minimo. Quando è necessario,dovreste utilizzare il pacchetto <systemitem role=\"package\">debconf</systemitem> per l'interfaccia. Ricordate che il suggerimento in ogni caso può esserci solo nella fase <literal>configure</literal> dello script <filename>postinst</filename>."
+msgstr "Tutte le configurazioni suggerite o interattive deveno essere ridotte al minimo. Quando è necessario, dovreste utilizzare il pacchetto <systemitem role=\"package\">debconf</systemitem> per l'interfaccia. Ricordate che il suggerimento in ogni caso può esserci solo nella fase <literal>configure</literal> dello script <filename>postinst</filename>."
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:653
 msgid "Keep the maintainer scripts as simple as possible. We suggest you use pure POSIX shell scripts. Remember, if you do need any bash features, the maintainer script must have a bash shebang line. POSIX shell or Bash are preferred to Perl, since they enable <systemitem role=\"package\">debhelper</systemitem> to easily add bits to the scripts."
-msgstr "Mantenete gli scripts del maintainer più semplici possibile. Si consiglia di utilizzare puri script POSIX. Ricordate, se si ha bisogno di tutte le funzioni di bash, lo script del maintainer deve avere una linea shebang bash. La shell POSIX o Bash sono preferite a quella Perl, poiché permettono a <systemitem role=\"package\">debhelper</systemitem> di aggiungere facilmente bits agli scripts."
+msgstr "Mantenete gli script del maintainer più semplici possibile. Si consiglia di utilizzare puri script POSIX. Ricordate, se si ha bisogno di tutte le funzioni di bash, lo script del maintainer deve avere una linea shebang per bash. La shell POSIX o Bash sono preferite a quella Perl, poiché permettono a <systemitem role=\"package\">debhelper</systemitem> di aggiungere facilmente bit agli scripts."
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:660
 msgid "If you change your maintainer scripts, be sure to test package removal, double installation, and purging. Be sure that a purged package is completely gone, that is, it must remove any files created, directly or indirectly, in any maintainer script."
-msgstr "Se si modificano gli script del maintainer, assicuratevi di testare la rimozione del pacchetto, doppia installazione, e l'epurazione. Assicurarsi che un pacchetto epurato sia completamente sparito, ovvero, deve rimuovere tutti i file creati, direttamente o indirettamente, in tutti gli scripts del maintainer."
+msgstr "Se si modificano gli script del maintainer, assicuratevi di testare la rimozione del pacchetto, doppia installazione, e l'epurazione. Assicurarsi che un pacchetto epurato sia completamente sparito, ovvero, deve rimuovere tutti i file creati, direttamente o indirettamente, in tutti gli script del maintainer."
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:666
@@ -645,7 +637,7 @@ msgstr "if [ -x /usr/sbin/install-docs ]; then..."
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:671
 msgid "If you don't wish to hard-code the path of a command in your maintainer script, the following POSIX-compliant shell function may help:"
-msgstr "Se non si desidera codificare il percorso di un comando nello script del maintainer, la seguente funzione shell che soddisfa POSIX può aiutare:"
+msgstr "Se non si desidera codificare il percorso di un comando nello script del maintainer, la seguente funzione shell che soddisfa POSIX potrebbe essere d'aiutol:"
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:676
