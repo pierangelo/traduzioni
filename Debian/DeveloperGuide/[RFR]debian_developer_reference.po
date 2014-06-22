@@ -352,7 +352,7 @@ msgstr "Vcs-*"
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:381
 msgid "Value of this field should be a string identifying unequivocally the location of the Version Control System repository used to maintain the given package, if available. <literal>*</literal> identify the Version Control System; currently the following systems are supported by the package tracking system: <literal>arch</literal>, <literal>bzr</literal> (Bazaar), <literal>cvs</literal>, <literal>darcs</literal>, <literal>git</literal>, <literal>hg</literal> (Mercurial), <literal>mtn</literal> (Monotone), <literal>svn</literal> (Subversion). It is allowed to specify different VCS fields for the same package: they will all be shown in the PTS web interface."
-msgstr "Il valore di questo campo deve essere una stringa che identifica in modo inequivocabile la posizione del repository del Version Control System utilizzato per mantenere il pacchetto, se disponibile. <literal>*</literal> individua il Version Control System; attualmente i seguenti sistemi sono supportati dal package tracking system: <literal>arch</literal>, <literal>bzr</literal> (Bazaar), <literal>cvs</literal>, <literal>darcs</literal>, <literal>git</literal>, <literal>hg</literal> (Mercurial), <literal>mtn</literal> (Monotone), <literal>svn</literal> (Subversion). E 'consentito specificare diversi campi VCS per lo stesso pacchetto: saranno tutti mostrati nell'interfaccia web di PTS."
+msgstr "Il valore di questo campo deve essere una stringa che identifica in modo inequivocabile la posizione del repository del Version Control System utilizzato per mantenere il pacchetto, se disponibile. <literal>*</literal> individua il Version Control System; attualmente i seguenti sistemi sono supportati dal package tracking system: <literal>arch</literal>, <literal>bzr</literal> (Bazaar), <literal>cvs</literal>, <literal>darcs</literal>, <literal>git</literal>, <literal>hg</literal> (Mercurial), <literal>mtn</literal> (Monotone), <literal>svn</literal> (Subversion). È consentito specificare diversi campi VCS per lo stesso pacchetto: saranno tutti mostrati nell'interfaccia web di PTS."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:392
@@ -637,17 +637,17 @@ msgstr "if [ -x /usr/sbin/install-docs ]; then..."
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:671
 msgid "If you don't wish to hard-code the path of a command in your maintainer script, the following POSIX-compliant shell function may help:"
-msgstr "Se non si desidera codificare il percorso di un comando nello script del maintainer, la seguente funzione shell che soddisfa POSIX potrebbe essere d'aiutol:"
+msgstr "Se non si desidera codificare il percorso di un comando nello script del maintainer, la seguente funzione shell che soddisfa POSIX potrebbe essere d'aiuto:"
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:676
 msgid "You can use this function to search <varname>$PATH</varname> for a command name, passed as an argument. It returns true (zero) if the command was found, and false if not. This is really the most portable way, since <literal>command -v</literal>, <command>type</command>, and <command>which</command> are not POSIX."
-msgstr "Potete utilizzare questa funzione per cercare il <varname>$ PATH</varname> di un nome di un comando, passato come argomento. Restituisce true (zero) se il comando è stato trovato, e false in caso contrario. Questo è davvero il modo più portatile, dal momento che <literal>command -v</literal>,<command>type</command>, e <command>which</command> non sono POSIX."
+msgstr "Potete utilizzare questa funzione per cercare il <varname>$PATH</varname> di un nome di un comando, passato come argomento. Restituisce true (zero) se il comando è stato trovato, e false in caso contrario. Questo è davvero il modo più portatile, dal momento che <literal>command -v</literal>, <command>type</command>, e <command>which</command> non sono POSIX."
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:683
 msgid "While <command>which</command> is an acceptable alternative, since it is from the required <systemitem role=\"package\">debianutils</systemitem> package, it's not on the root partition. That is, it's in <filename>/usr/bin</filename> rather than <filename>/bin</filename>, so one can't use it in scripts which are run before the <filename>/usr</filename> partition is mounted. Most scripts won't have this problem, though."
-msgstr "Mentre <command>which</command> è una alternativa accettabile, dal momento che è richiesto dal pacchetto <systemitem role=\"package\">debianutils</systemitem>, non è nella partizione di root. Ovvero, è in <filename>/usr/bin</filename>, piuttosto che <filename>/bin</filename>, quindi non si può usare in scripts che vengono eseguiti prima che la partizione <filename>/usr</filename> sia montata. La maggior parte degli scripts non avranno questo problema, però."
+msgstr "Mentre <command>which</command> è una alternativa accettabile, dal momento che fa parte del richiesto pacchetto <systemitem role=\"package\">debianutils</systemitem>, non è nella partizione di root. Ovvero, è in <filename>/usr/bin</filename>, piuttosto che <filename>/bin</filename>, quindi non può essere utilizzato in script che vengono eseguiti prima che la partizione <filename>/usr</filename> sia montata. La maggior parte degli script non avranno questo problema, però."
 
 #. type: Content of: <chapter><section><title>
 #: best-pkging-practices.dbk:693
@@ -657,12 +657,12 @@ msgstr "Gestione della configurazione con <systemitem role=\"package\">debconf</
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:695
 msgid "<systemitem role=\"package\">Debconf</systemitem> is a configuration management system which can be used by all the various packaging scripts (<filename>postinst</filename> mainly) to request feedback from the user concerning how to configure the package. Direct user interactions must now be avoided in favor of <systemitem role=\"package\">debconf</systemitem> interaction. This will enable non-interactive installations in the future."
-msgstr "<systemitem role=\"package\">Debconf</systemitem> è un sistema di gestione della configurazione che può essere utilizzato da tutti i vari scripts di packaging (principalmente <filename>postinst</filename>) per richiedere indicazioni dall'utente riguardo a come configurare il pacchetto. Interazioni dirette degli utenti devono ora essere evitate a favore della interazione con <systemitem role=\"package\">debconf</systemitem>. Ciò consentirà installazioni non interattive in futuro."
+msgstr "<systemitem role=\"package\">Debconf</systemitem> è un sistema di gestione della configurazione che può essere utilizzato da tutti i vari script di packaging (principalmente <filename>postinst</filename>) per richiedere indicazioni all'utente riguardo a come configurare il pacchetto. Interazioni dirette degli utenti ora devono essere evitate a favore dell' interazione con <systemitem role=\"package\">debconf</systemitem>. Ciò consentirà installazioni non interattive in futuro."
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:703
 msgid "Debconf is a great tool but it is often poorly used. Many common mistakes are listed in the <citerefentry> <refentrytitle>debconf-devel</refentrytitle> <manvolnum>7</manvolnum> </citerefentry> man page. It is something that you must read if you decide to use debconf. Also, we document some best practices here."
-msgstr "Debconf è un grande strumento, ma è spesso mal utilizzato. Molti errori comuni sono elencati nella pagina man di <citerefentry> <refentrytitle>debconf-devel</refentrytitle> <manvolnum> 7 </manvolnum> </citerefentry>. E' qualcosa che si deve leggere se si decide di usare debconf. Inoltre, indichiamo qui alcune best practices."
+msgstr "Debconf è un grande strumento, ma è spesso mal utilizzato. Molti errori comuni sono elencati nella pagina man di <citerefentry> <refentrytitle>debconf-devel</refentrytitle> <manvolnum>7</manvolnum> </citerefentry>. È qualcosa che si deve leggere se si decide di usare debconf. Inoltre, indichiamo qui alcune best practices."
 
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:710
@@ -677,32 +677,32 @@ msgstr "Non abusare di debconf "
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:718
 msgid "Since debconf appeared in Debian, it has been widely abused and several criticisms received by the Debian distribution come from debconf abuse with the need of answering a wide bunch of questions before getting any little thing installed."
-msgstr "Da quando debconf è apparso in Debian, è stato ampiamente abusato e diverse critiche ricevute dalla distribuzione Debian provengono dall' abuso di debconf nella necessità di rispondere ad una vasta serie di domande prima di installare ogni piccola cosa."
+msgstr "Da quando debconf è apparso in Debian, è stato ampiamente abusato e diverse critiche ricevute dalla distribuzione Debian provengono dall' abuso di debconf con la necessità di rispondere ad una vasta serie di domande prima di installare ogni piccola cosa."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:724
 msgid "Keep usage notes to what they belong: the <filename>NEWS.Debian</filename>, or <filename>README.Debian</filename> file. Only use notes for important notes which may directly affect the package usability. Remember that notes will always block the install until confirmed or bother the user by email."
-msgstr "Mantenete le note d'uso a ciò a cui appartengono: al file <filename>NEWS.Debian</filename>, o <filename>README.Debian</filename>. Utilizzatele solamente per le note importanti che possono influenzare direttamente l'usabilità del pacchetto. Ricordate che le note bloccheranno sempre l'installazione fino a quando saranno confermate o abbiano disturbato l'utente tramite e-mail."
+msgstr "Mantenete le note d'uso a ciò cui appartengono: al file <filename>NEWS.Debian</filename>, o <filename>README.Debian</filename>. Utilizzatele solamente per le note importanti che possono influenzare direttamente l'usabilità del pacchetto. Ricordate che le note bloccheranno sempre l'installazione fino a quando saranno confermate o abbiano disturbato l'utente tramite e-mail."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:730
 msgid "Carefully choose the questions priorities in maintainer scripts. See <citerefentry> <refentrytitle>debconf-devel</refentrytitle> <manvolnum>7</manvolnum> </citerefentry> for details about priorities. Most questions should use medium and low priorities."
-msgstr "Scegliere con cura le priorità delle domande negli scripts del maintainer. Vedere <citerefentry> <refentrytitle>debconf-devel</refentrytitle> <manvolnum>7</manvolnum> </citerefentry> per i dettagli sulla priorità. La maggior parte delle domande dovrebbero usare le priorità media e bassa."
+msgstr "Scegliete con cura le priorità delle domande negli script del maintainer. Si consulti <citerefentry> <refentrytitle>debconf-devel</refentrytitle> <manvolnum>7</manvolnum> </citerefentry> per i dettagli sulla priorità. La maggior parte delle domande dovrebbero usare le priorità media e bassa."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:738
 msgid "General recommendations for authors and translators"
-msgstr "Raccomandazioni generali per autori e traduttori "
+msgstr "Raccomandazioni generali per autori e traduttori"
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:740
 msgid "Write correct English"
-msgstr "Scrivi inglese corretto "
+msgstr "Scrivete inglese corretto"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:742
 msgid "Most Debian package maintainers are not native English speakers. So, writing properly phrased templates may not be easy for them."
-msgstr "La maggior parte dei maintainers dei pacchetti Debian non sono di madrelingua inglese. Quindi, la scrittura di modelli correttamente formulati, può non essere facile per loro."
+msgstr "La maggior parte dei maintainer dei pacchetti Debian non sono di madrelingua inglese. Quindi, la scrittura di modelli correttamente formulati, può non essere facile per loro."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:746
@@ -712,12 +712,12 @@ msgstr "Si prega di utilizzare (e di abusare) della mailing list &email-debian-l
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:750
 msgid "Badly written templates give a poor image of your package, of your work... or even of Debian itself."
-msgstr "I Modelli scritti male danno una cattiva immagine del pacchetto, del vostro lavoro... o anche di Debian stesso."
+msgstr "I modelli scritti male danno una cattiva immagine del pacchetto, del vostro lavoro... o anche di Debian stesso."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:754
 msgid "Avoid technical jargon as much as possible. If some terms sound common to you, they may be impossible to understand for others. If you cannot avoid them, try to explain them (use the extended description). When doing so, try to balance between verbosity and simplicity."
-msgstr "Evitate il gergo tecnico il più possibile. Se alcuni termini suonano comuni a voi, possono essere impossibili da comprendere per gli altri. Se non si possono evitare, cercare di spiegarli (utilizzate la descrizione estesa). Nel fare ciò, cercare di bilanciare tra verbosità e semplicità."
+msgstr "Evitate il gergo tecnico il più possibile. Se alcuni termini suonano comuni a voi, possono essere impossibili da comprendere per gli altri. Se non si possono evitare, cercare di spiegarli (utilizzate la descrizione estesa). Nel fare ciò, cercare di bilanciarvi tra verbosità e semplicità."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:762
@@ -727,7 +727,7 @@ msgstr "Siate gentili con i traduttori"
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:764
 msgid "Debconf templates may be translated. Debconf, along with its sister package <command>po-debconf</command> offers a simple framework for getting templates translated by translation teams or even individuals."
-msgstr "I Modelli debconf possono essere tradotti. Debconf, insieme al suo pacchetto fratello <command>po-debconf</command> offre un framework semplice per ottenere i modelli tradotti dai teams di traduzione o anche dai singoli individui."
+msgstr "I modelli debconf possono essere tradotti. Debconf, insieme al suo pacchetto fratello <command>po-debconf</command> offre un framework semplice per ottenere i modelli tradotti dai team di traduzione o anche dai singoli individui."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:769
@@ -737,12 +737,12 @@ msgstr "Si prega di utilizzare i modelli basati su gettext. Installate <systemit
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:774
 msgid "Avoid changing templates too often. Changing templates text induces more work to translators which will get their translation fuzzied. A fuzzy translation is a string for which the original changed since it was translated, therefore requiring some update by a translator to be usable. When changes are small enough, the original translation is kept in PO files but marked as <literal>fuzzy</literal>."
-msgstr "Evitate di modificare i modelli troppo spesso. Cambiare i modelli di testo produce più lavoro per i traduttori che avranno la loro traduzione confusa. Una traduzione confusa è una frase per la quale l'originale sia stata cambiata da quando è stata tradotta, quindi per essere utilizzabile richiede alcuni aggiornamenti da parte di un traduttore. Quando i cambiamenti sono abbastanza piccoli, la traduzione originale è conservata nel file PO, ma contrassegnata come <literal> fuzzy</literal>."
+msgstr "Evitate di modificare i modelli troppo spesso. Cambiare i modelli di testo produce più lavoro per i traduttori che avranno la loro traduzione confusa. Una traduzione confusa è una frase per la quale l'originale sia stata cambiata da quando è stata tradotta, quindi per essere utilizzabile richiede alcuni aggiornamenti da parte di un traduttore. Quando i cambiamenti sono abbastanza piccoli, la traduzione originale è conservata nel file PO, ma contrassegnata come <literal>fuzzy</literal>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:782
 msgid "If you plan to do changes to your original templates, please use the notification system provided with the <systemitem role=\"package\">po-debconf</systemitem> package, namely the <command>podebconf-report-po</command>, to contact translators. Most active translators are very responsive and getting their work included along with your modified templates will save you additional uploads. If you use gettext-based templates, the translator's name and e-mail addresses are mentioned in the PO files headers and will be used by <command>podebconf-report-po</command>."
-msgstr "Se avete intenzione di modificare i modelli originali, si prega di utilizzare il sistema di notifica fornito con il pacchetto <systemitem role=\"package\">po-debconf</systemitem>, vale a dire il <command>podebconf-report-po</comando>, per contattare i traduttori. I Traduttori più attivi sono molto reattivi e ottenere il loro lavoro incluso insieme con i vostri modelli modificati vi risparmierà uploads aggiuntivi. Se si utilizzano modelli basati su gettext, il nome del traduttore e gli indirizzi di posta elettronica sono menzionati negli header dei files PO e saranno utilizzati da <command>podebconf-report-po</command>."
+msgstr "Se avete intenzione di modificare i modelli originali, si prega di utilizzare il sistema di notifica fornito con il pacchetto <systemitem role=\"package\">po-debconf</systemitem>, vale a dire il <command>podebconf-report-po</comando>, per contattare i traduttori. I Traduttori più attivi sono molto reattivi e ottenere il loro lavoro incluso insieme con i vostri modelli modificati vi risparmierà upload aggiuntivi. Se si utilizzano modelli basati su gettext, il nome del traduttore e gli indirizzi di posta elettronica sono menzionati negli header dei file PO e saranno utilizzati da <command>podebconf-report-po</command>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:794
@@ -773,7 +773,7 @@ msgstr "In caso di dubbio, si può anche contattare il team di traduzione per un
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:821
 msgid "Unfuzzy complete translations when correcting typos and spelling"
-msgstr "Ordinate integralmente le traduzioni quando correggete errori di battitura e di ortografia"
+msgstr "Ordinate intere traduzioni quando correggete errori di battitura e di ortografia"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:823
@@ -788,7 +788,7 @@ msgstr "Se non si fa così, l'intero modello non verrà tradotto fino a quando u
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:833
 msgid "To <emphasis>unfuzzy</emphasis> translations, you can use <command>msguntypot</command> (part of the <systemitem role=\"package\">po4a</systemitem> package)."
-msgstr "Per <emphasis>sistemare</emphasis> le traduzioni, è possibile utilizzare <command>msguntypot</command> (parte del pacchetto <systemitem role=\"package\">po4a</systemitem> )."
+msgstr "Per <emphasis>sistemare</emphasis> le traduzioni, è possibile utilizzare <command>msguntypot</command> (parte del pacchetto <systemitem role=\"package\">po4a</systemitem>)."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:840
@@ -800,7 +800,7 @@ msgstr "Rigenerare i file POT e PO. "
 #: best-pkging-practices.dbk:865
 #, no-wrap
 msgid "debconf-updatepo"
-msgstr "debconf-updatepo "
+msgstr "debconf-updatepo"
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:846
@@ -827,22 +827,22 @@ msgstr "mkdir po_fridge; cp *.po po_fridge "
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:858
 msgid "Change the debconf template files to fix the typos."
-msgstr "Modificate i file dei modelli di debconf per correggere errori di battitura. "
+msgstr "Modificate i file dei modelli di debconf per correggere errori di battitura."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:863
 msgid "Regenerate the POT and PO files (again)."
-msgstr "Rigenerare i files POT e PO (di nuovo)."
+msgstr "Rigenerare i file POT e PO (di nuovo)."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:867
 msgid "At this point, the typo fix fuzzied all the translations, and this unfortunate change is the only one between the PO files of your main directory and the one from the fridge. Here is how to solve this."
-msgstr "A questo punto, la correzione dell'errore di battitura ha confuso tutte le traduzioni, e questo spiacevole cambiamento è l'unico tra i files PO della vostra directory principale e quello dal frigo. Ecco come risolvere questa situazione."
+msgstr "A questo punto, la correzione dell'errore di battitura ha confuso tutte le traduzioni, e questo spiacevole cambiamento è l'unico tra i file PO della vostra directory principale e quella in frigo. Ecco come risolvere questa situazione."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:874
 msgid "Discard fuzzy translation, restore the ones from the fridge."
-msgstr "Scartate la traduzioni disordinate, ripristinate quelle provenienti dal frigo."
+msgstr "Scartate la traduzione disordinata, ripristinate quella proveniente dal frigo."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><programlisting>
 #: best-pkging-practices.dbk:876
@@ -853,24 +853,24 @@ msgstr "cp po_fridge/*.po. "
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:880
 msgid "Manually merge the PO files with the new POT file, but taking the useless fuzzy into account."
-msgstr "Unite manualmente i files PO con il nuovo file POT, ma prendendo in considerazione l'inutile disordine."
+msgstr "Unite manualmente i files PO con il nuovo file POT, ma prendendo nell'account l'inutile disordine."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><programlisting>
 #: best-pkging-practices.dbk:882
 #, no-wrap
 msgid "msguntypot -o templates.pot.orig -n templates.pot *.po"
-msgstr "msguntypot -o templates.pot.orig -n templates.pot *.po "
+msgstr "msguntypot -o templates.pot.orig -n templates.pot *.po"
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:886
 msgid "Clean up."
-msgstr "Pulizia. "
+msgstr "Pulizia."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><programlisting>
 #: best-pkging-practices.dbk:888
 #, no-wrap
 msgid "rm -rf templates.pot.orig po_fridge"
-msgstr "rm -rf templates.pot.orig po_fridge "
+msgstr "rm -rf templates.pot.orig po_fridge"
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:894
@@ -880,12 +880,12 @@ msgstr "Non fate ipotesi sulle interfacce"
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:896
 msgid "Templates text should not make reference to widgets belonging to some debconf interfaces. Sentences like <emphasis>If you answer Yes...</emphasis> have no meaning for users of graphical interfaces which use checkboxes for boolean questions."
-msgstr "I modelli di testo non dovrebbero fare riferimento ai widget appartenenti ad alcune interfacce di debconf. Frasi come <emphasis>Se rispondi SI... </emphasis> non hanno alcun significato per gli utenti di interfacce grafiche che utilizzano checkboxes per le domande booleane."
+msgstr "I modelli di testo non dovrebbero fare riferimento ai widget appartenenti ad alcune interfacce di debconf. Frasi come <emphasis>Se rispondi SI...</emphasis> non hanno alcun significato per gli utenti di interfacce grafiche che utilizzano checkbox per le domande booleane."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:901
 msgid "String templates should also avoid mentioning the default values in their description. First, because this is redundant with the values seen by the users. Also, because these default values may be different from the maintainer choices (for instance, when the debconf database was preseeded)."
-msgstr "I modelli di frasi dovrebbero anche evitare di menzionare i valori predefiniti nella loro descrizioni. Primo, perché questo è ridondante con i valori visti dagli utenti. Inoltre, perchè questi valori predefiniti possono essere diversi dalle scelte del maintainer (per esempio, quando il database debconf è stato preconfigurato)."
+msgstr "I modelli di frasi dovrebbero anche evitare di menzionare i valori predefiniti nella loro descrizione. Primo, perché questo è ridondante con i valori visualizzati dagli utenti. Inoltre, perchè questi valori predefiniti possono essere diversi dalle scelte del maintainer (per esempio, quando il database debconf è stato preconfigurato)."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:907
@@ -900,7 +900,7 @@ msgstr "Non utilizzate la prima persona"
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:915
 msgid "You should avoid the use of first person (<emphasis>I will do this...</emphasis> or <emphasis>We recommend...</emphasis>). The computer is not a person and the Debconf templates do not speak for the Debian developers. You should use neutral construction. Those of you who already wrote scientific publications, just write your templates like you would write a scientific paper. However, try using active voice if still possible, like <emphasis>Enable this if...</emphasis> instead of <emphasis>This can be enabled if...</emphasis>."
-msgstr "Si dovrebbe evitare l'uso della prima persona (<emphasis>farò questo...</emphasis> o <emphasis>Consigliamo...</emphasis>). Il computer non è una persona ed i modelli debconf non parlano a nome degli sviluppatori Debian. Si dovrebbe usare la costruzione impersonale. Per coloro di voi che già ha scritto pubblicazioni scientifiche, basta scrivere i vostri modelli come quando si scrive un articolo scientifico. Tuttavia, provate a utilizzare la voce attiva, se ancora possibile, come <emphasis>Abilitate questo se...</emphasis>, invece di <emphasis>Questo può essere attivata se... </emphasis>."
+msgstr "Si dovrebbe evitare l'uso della prima persona (<emphasis>Farò questo...</emphasis> o <emphasis>Consigliamo...</emphasis>). Il computer non è una persona ed i modelli debconf non parlano a nome degli sviluppatori Debian. Si dovrebbe usare la costruzione impersonale. Per coloro di voi che già hanno scritto pubblicazioni scientifiche, basta scrivere i vostri modelli come quando si scrive un articolo scientifico. Tuttavia, provate a utilizzare la voce attiva, se ancora possibile, come <emphasis>Abilitate questo se...</emphasis>, invece di <emphasis>Questo può essere attivata se... </emphasis>."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:925
@@ -920,17 +920,17 @@ msgstr "Definizione dei campi dei modelli"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:937
 msgid "This part gives some information which is mostly taken from the <citerefentry> <refentrytitle>debconf-devel</refentrytitle> <manvolnum>7</manvolnum> </citerefentry> manual page."
-msgstr "Questa parte fornisce alcune informazioni che sono per lo più prese dal manuale <citerefentry> <refentrytitle>debconf-devel</refentrytitle> <manvolnum> 7 </manvolnum> </citerefentry>."
+msgstr "Questa parte fornisce alcune informazioni che sono per lo più prese dal manuale <citerefentry> <refentrytitle>debconf-devel</refentrytitle> <manvolnum>7</manvolnum> </citerefentry>."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:942
 msgid "Type"
-msgstr "Tipo "
+msgstr "Tipo"
 
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:944
 msgid "string"
-msgstr "stringa "
+msgstr "stringa"
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:946
@@ -940,17 +940,17 @@ msgstr "Risultati in un campo di input nel quale l'utente può digitare qualsias
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:951
 msgid "password"
-msgstr "password "
+msgstr "password"
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:953
 msgid "Prompts the user for a password. Use this with caution; be aware that the password the user enters will be written to debconf's database. You should probably clean that value out of the database as soon as is possible."
-msgstr "Richiede all'utente una password. Usatela con cautela; siate consapevoli del fatto che la password che l'utente inserisce sarà scritta al database di debconf. Si dovrebbe cancellare quel valore fuori dal database appena è possibile."
+msgstr "Richiede all'utente una password. Usatela con cautela; siate consapevoli del fatto che la password che l'utente inserisce sarà scritta nel database di debconf. Si dovrebbe cancellare quel valore fuori dal database appena è possibile."
 
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:960
 msgid "boolean"
-msgstr "booleano "
+msgstr "booleano"
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:962
@@ -960,22 +960,22 @@ msgstr "Una scelta vero/falso. Ricordate: vero/falso, <emphasis role=\"strong\">
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:968
 msgid "select"
-msgstr "seleziona "
+msgstr "seleziona"
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:970
 msgid "A choice between one of a number of values. The choices must be specified in a field named 'Choices'. Separate the possible values with commas and spaces, like this: <literal>Choices: yes, no, maybe</literal>."
-msgstr "Una scelta tra una serie di valori. Le scelte devono essere specificate in un campo denominato «scelte». Separate i possibili valori con le virgole e gli spazi, in questo modo: <literal>Scelte: sì, no, forse</literal>."
+msgstr "Una scelta tra una serie di valori. Le scelte devono essere specificate in un campo denominato «Choices». Separate i possibili valori con le virgole e gli spazi, in questo modo: <literal>Scelte: sì, no, forse</literal>."
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:975
 msgid "If choices are translatable strings, the 'Choices' field may be marked as translatable by using <literal>__Choices</literal>. The double underscore will split out each choice in a separate string."
-msgstr "Se le scelte sono stringhe traducibili, il campo «Scelte» può essere contrassegnato come traducibile utilizzando <literal>__Choices</literal>. La doppia sottolineatura suddividerà ogni scelta in una stringa separata."
+msgstr "Se le scelte sono stringhe traducibili, il campo «Choices» può essere contrassegnato come traducibile utilizzando <literal>__Choices</literal>. La doppia sottolineatura suddividerà ogni scelta in una stringa separata."
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:980
 msgid "The <command>po-debconf</command> system also offers interesting possibilities to only mark <emphasis role=\"strong\">some</emphasis> choices as translatable. Example:"
-msgstr "Il sistema <command>po-debconf</command> offre anche interessanti possibilità di segnare solamente <emphasis role=\"strong\">alcune</emphasis> scelte come traducibili. Esempio:"
+msgstr "Il sistema <command>po-debconf</command> offre anche interessanti possibilità di marcare solamente <emphasis role=\"strong\">alcune</emphasis> scelte come traducibili. Esempio:"
 
 #. type: Content of: <chapter><section><section><section><section><programlisting>
 #: best-pkging-practices.dbk:985
@@ -999,7 +999,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:993
 msgid "In that example, only the 'Other' string is translatable while others are acronyms that should not be translated. The above allows only 'Other' to be included in PO and POT files."
-msgstr "In questo esempio, solo la stringa «Other» è traducibile, mentre altri sono acronimi che non devono essere tradotti. Quanto sopra consente solo «Other» da inserire nel files PO e POT."
+msgstr "In questo esempio, solo la stringa «Other» è traducibile, mentre altri sono acronimi che non devono essere tradotti. Quanto sopra esposto consente solo ad «Other» di essere inserito nei file PO e POT."
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:998
@@ -1009,12 +1009,12 @@ msgstr "I modelli debconf con sistema a flag offrono molte di queste possibilit�
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:1006
 msgid "multiselect"
-msgstr "multiselect "
+msgstr "multiselect"
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:1008
 msgid "Like the select data type, except the user can choose any number of items from the choices list (or chose none of them)."
-msgstr "Come la selezione del tipo di dati , eccetto quando l'utente può scegliere un qualsiasi numero di elementi dall'elenco delle scelte (o scegliere nessuno di loro)."
+msgstr "Come per la selezione del tipo di dato , ad eccezione di quando l'utente può scegliere un qualsiasi numero di elementi dall'elenco delle scelte (o scegliere nessuno di loro)."
 
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:1014
@@ -1024,12 +1024,12 @@ msgstr "nota"
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:1016
 msgid "Rather than being a question per se, this datatype indicates a note that can be displayed to the user. It should be used only for important notes that the user really should see, since debconf will go to great pains to make sure the user sees it; halting the install for them to press a key, and even mailing the note to them in some cases."
-msgstr "Piuttosto che essere una questione di per sé, questo tipo di dato indica una nota che può essere visualizzata all'utente. Dovrebbe essere usato solo per le note importanti che l'utente in realtà dovrebbe vedere, dato che debconf andrà incontro a grandi dolori per assicurarsi che l'utente la veda; arrestare l'installazione per consentire loro di premere un tasto, e persino inviargli la nota tramite posta elettronica in alcuni casi."
+msgstr "Piuttosto che essere una questione di per sé, questo tipo di dato indica una nota che può essere visualizzata all'utente. Dovrebbe essere usato solo per le note importanti che l'utente in realtà dovrebbe vedere, dato che debconf andrà incontro a grandi dolori per assicurarsi che l'utente la veda; arrestando l'installazione per consentire loro di premere un tasto, e persino inviandogli la nota tramite posta elettronica in alcuni casi."
 
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:1025
 msgid "text"
-msgstr "testo "
+msgstr "testo"
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:1027
@@ -1039,37 +1039,37 @@ msgstr "Questo tipo è ora considerato obsoleto: non usatelo."
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:1032
 msgid "error"
-msgstr "errore "
+msgstr "errore"
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:1034
 msgid "This type is designed to handle error messages. It is mostly similar to the note type. Frontends may present it differently (for instance, the dialog frontend of cdebconf draws a red screen instead of the usual blue one)."
-msgstr "Questo tipo è progettato per gestire i messaggi di errore. E' molto simile al tipo di nota. Le interfacce possono presentarlo in modo diverso (per esempio, la finestra di cdebconf disegna uno schermo rosso invece del solito blu)."
+msgstr "Questo tipo è progettato per gestire i messaggi di errore. È molto simile al tipo di nota. Le interfacce possono presentarlo in modo diverso (per esempio, la finestra di cdebconf disegna uno schermo rosso invece del solito blu)."
 
 #. type: Content of: <chapter><section><section><section><section><para>
 #: best-pkging-practices.dbk:1039
 msgid "It is recommended to use this type for any message that needs user attention for a correction of any kind."
-msgstr "Si consiglia di utilizzare questo tipo per ogni messaggio che ha bisogno dell' attenzione dell'utente per una correzione di qualsiasi tipo. "
+msgstr "Si consiglia di utilizzare questo tipo per ogni messaggio che necessita dell' attenzione dell'utente per una correzione di qualsiasi tipo."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1047
 msgid "Description: short and extended description"
-msgstr "Descrizione: descrizione breve ed estesa "
+msgstr "Descrizione: descrizione breve ed estesa"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1049
 msgid "Template descriptions have two parts: short and extended. The short description is in the Description: line of the template."
-msgstr "Le descrizioni dei modelli sono dotate di due parti: breve ed estesa. La descrizione breve è nella linea Descrizione: del modello."
+msgstr "Le descrizioni dei modelli constano di due parti: breve ed estesa. La descrizione breve è nella linea «Description:» del modello."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1053
 msgid "The short description should be kept short (50 characters or so) so that it may be accommodated by most debconf interfaces. Keeping it short also helps translators, as usually translations tend to end up being longer than the original."
-msgstr "La descrizione breve dovrebbe essere mantenuta breve (50 caratteri o giù di lì) in modo che possa essere accolta dalla maggior parte delle interfacce di debconf. Mantenerla breve aiuta anche i traduttori, dato che di solito le traduzioni tendono a finire per essere più lunghe rispetto all'originale."
+msgstr "La descrizione breve dovrebbe essere mantenuta breve (50 caratteri o giù di lì) in modo che possa essere accolta dalla maggior parte delle interfacce di debconf. Mantenerla breve aiuta anche i traduttori, considerato che normalmente le traduzioni tendono a finire per essere più lunghe rispetto all'originale."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1059
 msgid "The short description should be able to stand on its own. Some interfaces do not show the long description by default, or only if the user explicitely asks for it or even do not show it at all. Avoid things like What do you want to do?"
-msgstr "La descrizione breve dovrebbe essere in grado di stare in piedi da sola. Alcune interfacce non mostrano la descrizione lunga di default, oppure solo se l'utente esplicitamente la chiede o addirittura non la mostrano affatto. Evitate cose come come «cosa vuoi fare?»"
+msgstr "La descrizione breve dovrebbe essere in grado di stare in piedi da sola. Alcune interfacce non mostrano la descrizione lunga di default, oppure solo se l'utente esplicitamente la chiede o addirittura non la mostrano affatto. Evitate cose come «cosa vuoi fare?»"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1065
@@ -1079,7 +1079,7 @@ msgstr "La descrizione breve non deve necessariamente essere un periodo completo
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1069
 msgid "The extended description should not repeat the short description word for word. If you can't think up a long description, then first, think some more. Post to debian-devel. Ask for help. Take a writing class! That extended description is important. If after all that you still can't come up with anything, leave it blank."
-msgstr "La descrizione estesa non deve ripetere la descrizione breve parola per parola. Se non è possibile pensare ad una descrizione lunga, quindi primo, pensa un po' di più. Condividi in debian-devel. Chiedete aiuto. Iscrivetevi ad un corso di scrittura! La descrizione estesa è importante. Se dopo tutto questo non è ancora possibile trovare qualcosa, lasciatela vuota."
+msgstr "La descrizione estesa non deve ripetere la descrizione breve parola per parola. Se non è possibile pensare ad una descrizione lunga, quindi primo, pensate un po' di più. Condividete in debian-devel. Chiedete aiuto. Iscrivetevi ad un corso di scrittura! La descrizione estesa è importante. Se dopo tutto questo non è ancora possibile trovare qualcosa, lasciatela vuota."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1076
@@ -1089,7 +1089,7 @@ msgstr "La descrizione estesa dovrebbe usare periodi completi. I paragrafi devon
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1081
 msgid "Don't be too verbose. User tend to ignore too long screens. 20 lines are by experience a border you shouldn't cross, because that means that in the classical dialog interface, people will need to scroll, and lot of people just don't do that."
-msgstr "Non siate troppo prolissi. Gli utenti tendono a ignorare schermate troppo lunghe. 20 righe sono per esperienza un limite che non si dovrebbe attraversare, perché ciò significa che nella finestra di interfaccia classica, le persone avranno bisogno di scorrere, e molte persone semplicemente non lo fanno."
+msgstr "Non siate troppo prolissi. Gli utenti tendono a ignorare schermate troppo lunghe. 20 righe sono per esperienza un limite che non si dovrebbe oltrepassare, perché ciò significa che nella finestra di interfaccia classica, le persone avranno bisogno di scorrere, e molte persone semplicemente non lo fanno."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1087
@@ -1104,7 +1104,7 @@ msgstr "Per specifiche regole inerenti il tipo di template (string, boolean, ecc
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1097
 msgid "Choices"
-msgstr "Scelte "
+msgstr "Choises"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1099
@@ -1114,7 +1114,7 @@ msgstr "Questo campo dovrebbe essere utilizzato per la selezione singola e multi
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1106
 msgid "Default"
-msgstr "Predefinito "
+msgstr "Default"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1108
@@ -1124,22 +1124,22 @@ msgstr "Questo campo è facoltativo. Esso contiene la risposta predefinita per i
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1117
 msgid "Templates fields specific style guide"
-msgstr "Guida a specifici stili di modelli di campi "
+msgstr "Guida a specifici stili di modelli di campi"
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1119
 msgid "Type field"
-msgstr "Campo di Tipo"
+msgstr "Type field"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1121
 msgid "No specific indication except: use the appropriate type by referring to the previous section."
-msgstr "Nessuna indicazione specifica eccetto: utilizzare il tipo appropriato, facendo riferimento alla sezione precedente."
+msgstr "Nessuna indicazione specifica eccetto: utilizzate il tipo appropriato, facendo riferimento alla sezione precedente."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1127
 msgid "Description field"
-msgstr "Campo descrittivo"
+msgstr "Il campo Description"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1129
@@ -1154,7 +1154,7 @@ msgstr "Modelli di string/password "
 #. type: Content of: <chapter><section><section><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1137
 msgid "The short description is a prompt and <emphasis role=\"strong\">not</emphasis> a title. Avoid question style prompts (IP Address?) in favour of opened prompts (IP address:). The use of colons is recommended."
-msgstr "La descrizione breve è un suggerimento e <emphasis role=\"strong\">non</emphasis> un titolo. Evitate domande in stile suggerimento (indirizzo IP?) a favore di suggerimenti aperti (indirizzo IP :). Si consiglia l'uso dei due punti."
+msgstr "La descrizione breve è un suggerimento e <emphasis role=\"strong\">non</emphasis> un titolo. Evitate domande in stile suggerimento (indirizzo IP?) a favore di suggerimenti aperti (indirizzo IP:). Si consiglia l'uso dei due punti."
 
 #. type: Content of: <chapter><section><section><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1144
@@ -1184,7 +1184,7 @@ msgstr "Select/Multiselect"
 #. type: Content of: <chapter><section><section><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1178
 msgid "The short description is a prompt and <emphasis role=\"strong\">not</emphasis> a title. Do <emphasis role=\"strong\">not</emphasis> use useless Please choose... constructions. Users are clever enough to figure out they have to choose something...:)"
-msgstr "La descrizione breve è un suggerimento e <emphasis role=\"strong\">non</emphasis> un titolo. <emphasis role=\"strong\">Non</emphasis> utilizzate inutili costrutti del tipo «Gentilmente scegliete...». Gli utenti sono abbastanza intelligenti per capire che devono scegliere qualcosa... :)"
+msgstr "La descrizione breve è un suggerimento e <emphasis role=\"strong\">non</emphasis> un titolo. <emphasis role=\"strong\">Non</emphasis> utilizzate inutili costrutti del tipo «Gentilmente scegliete...». Gli utenti sono abbastanza intelligenti da capire che devono scegliere qualcosa... :)"
 
 #. type: Content of: <chapter><section><section><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1186
@@ -1194,7 +1194,7 @@ msgstr "La descrizione estesa completerà la descrizione breve. Può far riferim
 #. type: Content of: <chapter><section><section><section><section><title>
 #: best-pkging-practices.dbk:1196
 msgid "Notes"
-msgstr "Note "
+msgstr "Notes"
 
 #. type: Content of: <chapter><section><section><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1200
@@ -1209,7 +1209,7 @@ msgstr "La descrizione estesa è ciò che sarà visualizzato come una spiegazion
 #. type: Content of: <chapter><section><section><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1211
 msgid "<emphasis role=\"strong\">Do not abuse debconf.</emphasis> Notes are the most common way to abuse debconf. As written in debconf-devel manual page: it's best to use them only for warning about very serious problems. The <filename>NEWS.Debian</filename> or <filename>README.Debian</filename> files are the appropriate location for a lot of notes. If, by reading this, you consider converting your Note type templates to entries in <filename>NEWS.Debian</filename> or <filename>README.Debian</filename>, plus consider keeping existing translations for the future."
-msgstr "<emphasis role=\"strong\">Non abusate di debconf.</emphasis> Le note sono il modo più comune per abusare di debconf. Come scritto nella pagina di manuale di debconf-devel: è meglio usarle solo come avvertimento di problemi molto seri. I files <filename>NEWS.Debian</filename> o <filename>README.Debian</filename> sono il luogo appropriato per molte note. Se, leggendo questo manule, state valutando di convertire i vostri modelli di tipo Nota in voci di <filename>NEWS.Debian</filename> o <filename>README.Debian</filename>, considerate anche di mantenere le traduzioni esistenti per il futuro."
+msgstr "<emphasis role=\"strong\">Non abusate di debconf.</emphasis> Le note sono il modo più comune per abusare di debconf. Come scritto nella pagina di manuale di debconf-devel: è meglio usarle solo come avvertimento di problemi molto seri. I files <filename>NEWS.Debian</filename> o <filename>README.Debian</filename> sono il luogo appropriato per molte note. Se, leggendo questo manuale, state valutando di convertire i vostri modelli di tipo Nota in voci di <filename>NEWS.Debian</filename> o <filename>README.Debian</filename>, considerate anche di mantenere le traduzioni esistenti per il futuro."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1226
@@ -1219,28 +1219,28 @@ msgstr "Campi di scelta"
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1228
 msgid "If the Choices are likely to change often, please consider using the __Choices trick. This will split each individual choice into a single string, which will considerably help translators for doing their work."
-msgstr "Se le «Scelte» sono suscettibili di cambiare spesso, si prega di considerare l'uso del trucco __ Choices. Questo dividerà ogni singola scelta in una singola stringa, che aiuterà notevolmente i traduttori nel compiere il loro lavoro."
+msgstr "Se le «Choises» sono suscettibili di cambiare spesso, si prega di considerare l'uso del trucco «__ Choices». Questo dividerà ogni singola scelta in una singola stringa, che aiuterà notevolmente i traduttori nel compiere il loro lavoro."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1235
 #: best-pkging-practices.dbk:1273
 msgid "Default field"
-msgstr "Campo predefinito"
+msgstr "Campo Default"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1237
 msgid "If the default value, for a select template, is likely to vary depending on the user language (for instance, if the choice is a language choice), please use the _Default trick."
-msgstr "Se il valore di default, per un modello di selezione, può variare a seconda della lingua dell'utente (per esempio, se la scelta è una scelta della lingua), si prega di utilizzare il trucco _Default."
+msgstr "Se il valore di default, per un modello di selezione, può variare a seconda della lingua dell'utente (per esempio, se la scelta è una scelta della lingua), si prega di utilizzare il trucco «_Default»."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1242
 msgid "This special field allow translators to put the most appropriate choice according to their own language. It will become the default choice when their language is used while your own mentioned Default Choice will be used when using English."
-msgstr "Questo campo speciale permette ai traduttori di mettere la scelta più appropriata in base alla loro propria lingua. Diventerà la scelta di default quando il loro linguaggio è usato mentre la vostra scelta di Default verrà usata quando si utilizza l'inglese."
+msgstr "Questo campo speciale permette ai traduttori di mettere la scelta più appropriata in base alla loro propria lingua. Diventerà la scelta di default quando sarà usato il loro linguaggio mentre la vostra «Scelta di Default» verrà usata quando si utilizza l'inglese."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1248
 msgid "Example, taken from the geneweb package templates:"
-msgstr "Esempio, tratto dai modelli del pacchetto GeneWeb:"
+msgstr "Esempio, tratto dai modelli del pacchetto geneweb:"
 
 #. type: Content of: <chapter><section><section><section><screen>
 #: best-pkging-practices.dbk:1251
@@ -1269,27 +1269,27 @@ msgstr ""
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1262
 msgid "Note the use of brackets which allow internal comments in debconf fields. Also note the use of comments which will show up in files the translators will work with."
-msgstr "Si noti l'uso del «cancelletto» che consentono i commenti interni nei campi di debconf. Da notare anche l'uso di commenti che appariranno nel file sui quali i traduttori lavoreranno."
+msgstr "Si noti l'uso dei «cancelletti» che consenteno i commenti interni nei campi di debconf. Da notare anche l'uso di commenti che appariranno nel file sui quali i traduttori lavoreranno."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1267
 msgid "The comments are needed as the _Default trick is a bit confusing: the translators may put their own choice"
-msgstr "I commenti sono necessari dato che il trucco _Default genera un po' di confusione: i traduttori possono mettere la propria scelta"
+msgstr "I commenti sono necessari dal momento che il trucco _Default genera un po' di confusione: i traduttori potranno mettere la propria scelta"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1275
 msgid "Do NOT use empty default field. If you don't want to use default values, do not use Default at all."
-msgstr "NON usate un campo predefinito vuoto. Se non desiderate utilizzare i valori di default, non usateli."
+msgstr "NON usate un campo predefinito vuoto. Se non desiderate utilizzare i valori di Default, non usateli."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1279
 msgid "If you use po-debconf (and you <emphasis role=\"strong\">should</emphasis>, see <xref linkend=\"s6.5.2.2\"/>), consider making this field translatable, if you think it may be translated."
-msgstr "Se si utilizza po-debconf (e si <emphasis role=\"strong\">dovrebbe</emphasis>, vedere <xref linkend=\"s6.5.2.2\"/>), si consideri di marcare questo campo come traducibile, se si pensa che possa essere tradotto."
+msgstr "Se si utilizza po-debconf (e si <emphasis role=\"strong\">dovrebbe</emphasis>, si consulti <xref linkend=\"s6.5.2.2\"/>), si consideri di marcare questo campo come traducibile, se si pensa che possa essere tradotto."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1284
 msgid "If the default value may vary depending on language/country (for instance the default value for a language choice), consider using the special _Default type documented in <citerefentry> <refentrytitle>po-debconf</refentrytitle> <manvolnum>7</manvolnum> </citerefentry>."
-msgstr "Se il valore predefinito può variare a seconda della lingua / paese (ad esempio, il valore predefinito per una scelta della lingua), è possibile utilizzare il tipo speciale _Default documentato in <citerefentry> <refentrytitle>po-debconf</refentrytitle> <manvolnum>7</manvolnum> </citerefentry>."
+msgstr "Se il valore predefinito può variare a seconda della lingua/paese (ad esempio, il valore predefinito per una scelta della lingua), è possibile utilizzare il tipo speciale _Default documentato in <citerefentry> <refentrytitle>po-debconf</refentrytitle> <manvolnum>7</manvolnum> </citerefentry>."
 
 #. type: Content of: <chapter><section><title>
 #: best-pkging-practices.dbk:1296
@@ -1299,7 +1299,7 @@ msgstr "Internationalizzazione"
 #. type: Content of: <chapter><section><para>
 #: best-pkging-practices.dbk:1298
 msgid "This section contains global information for developers to make translators' life easier. More information for translators and developers interested in internationalization are available in the <ulink url=\"&url-i18n-l10n;\">Internationalisation and localisation in Debian</ulink> documentation."
-msgstr "Questa sezione contiene le informazioni a livello generale per gli sviluppatori per rendere più facile la vita dei traduttori. Maggiori informazioni per i traduttori e gli sviluppatori interessati alla internazionalizzazione sono disponibili nella documentazione <ulink url=\"&url-i18n-l10n;\">Internazionalizzazione e localizzazione in Debian</ulink>."
+msgstr "Questa sezione contiene le informazioni a livello generale per gli sviluppatori al fine di rendere più facile la vita dei traduttori. Maggiori informazioni per i traduttori e gli sviluppatori interessati alla internazionalizzazione sono disponibili nella documentazione <ulink url=\"&url-i18n-l10n;\">Internazionalizzazione e localizzazione in Debian</ulink>."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1305
@@ -1309,17 +1309,17 @@ msgstr "Gestione delle traduzioni debconf"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1307
 msgid "Like porters, translators have a difficult task. They work on many packages and must collaborate with many different maintainers. Moreover, most of the time, they are not native English speakers, so you may need to be particularly patient with them."
-msgstr "Come i porters, i traduttori hanno un compito difficile. Lavorano su molti pacchetti e devono collaborare con molti manutentori diversi. Inoltre, la maggior parte delle volte, non sono di madrelingua inglese, quindi potresti avere bisogno di essere particolarmente paziente con loro."
+msgstr "Come i porter, i traduttori hanno un compito difficile. Lavorano su molti pacchetti e devono collaborare con molti maintainer diversi. Inoltre, la maggior parte delle volte, non sono di madrelingua inglese, quindi potreste avere bisogno di essere particolarmente pazienti con loro."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1313
 msgid "The goal of <systemitem role=\"package\">debconf</systemitem> was to make packages configuration easier for maintainers and for users. Originally, translation of debconf templates was handled with <command>debconf-mergetemplate</command>. However, that technique is now deprecated; the best way to accomplish <systemitem role=\"package\">debconf</systemitem> internationalization is by using the <systemitem role=\"package\">po-debconf</systemitem> package. This method is easier both for maintainer and translators; transition scripts are provided."
-msgstr "L'obbiettivo di <systemitem role=\"package\">debconf</systemitem> era quello di rendere più facile la configurazione di pacchetti per i manutentori e per gli utenti. In origine, la traduzione di modelli debconf è stata gestita con <command>debconf-mergetemplate</command>. Tuttavia, tale tecnica è ormai deprecata, il modo migliore per realizzare una internazionalizzazione <systemitem role=\"package\">debconf</systemitem> è quello di utilizzare il pacchetto <systemitem role=\"package\">po-debconf</systemitem>. Questo metodo è più facile sia per il maintainer e sia per i traduttori; sono forniti script di transizione."
+msgstr "L'obbiettivo di <systemitem role=\"package\">debconf</systemitem> era quello di rendere più facile la configurazione di pacchetti per i mantainer e per gli utenti. In origine, la traduzione di modelli debconf è stata gestita con <command>debconf-mergetemplate</command>. Tuttavia, tale tecnica è ormai deprecata, il modo migliore per realizzare una internazionalizzazione <systemitem role=\"package\">debconf</systemitem> è quello di utilizzare il pacchetto <systemitem role=\"package\">po-debconf</systemitem>. Questo metodo è più facile sia per il maintainer e sia per i traduttori; sono forniti script di transizione."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1323
 msgid "Using <systemitem role=\"package\">po-debconf</systemitem>, the translation is stored in <filename>.po</filename> files (drawing from <command>gettext</command> translation techniques). Special template files contain the original messages and mark which fields are translatable. When you change the value of a translatable field, by calling <command>debconf-updatepo</command>, the translation is marked as needing attention from the translators. Then, at build time, the <command>dh_installdebconf</command> program takes care of all the needed magic to add the template along with the up-to-date translations into the binary packages. Refer to the <citerefentry> <refentrytitle>po-debconf</refentrytitle> <manvolnum>7</manvolnum> </citerefentry> manual page for details."
-msgstr "Utilizzando <systemitem role=\"package\">po-debconf</systemitem>, la traduzione è memorizzata in file <filename>.po</filename> (stabilito dalle tecniche di traduzione <command>gettext</command> ). Speciali file di modello contengono i messaggi originali e marcano quali i campi sono traducibili. Quando si modifica il valore di un campo traducibile, chiamando <command>debconf-updatepo</command>, la traduzione è contrassegnata come bisognosa di attenzione da parte dei traduttori. Poi, in fase di compilazione, il programma <command>dh_installdebconf</command> si prende cura di tutta la magia necessaria per aggiungere il modello con le traduzioni aggiornate nei pacchetti binari. Fate riferimento alla pagina del manuale di <citerefentry> <refentrytitle>po-debconf</refentrytitle> <manvolnum>7</manvolnum> </citerefentry> per i dettagli."
+msgstr "Utilizzando <systemitem role=\"package\">po-debconf</systemitem>, la traduzione è memorizzata in file <filename>.po</filename> (prese dalle tecniche di traduzione <command>gettext</command> ). Speciali file di modello contengono i messaggi originali e marcano quali campi sono traducibili. Quando si modifica il valore di un campo traducibile, chiamando <command>debconf-updatepo</command>, la traduzione è contrassegnata come bisognosa di attenzione da parte dei traduttori. Poi, in fase di compilazione, il programma <command>dh_installdebconf</command> si prende cura di tutta la magia necessaria per aggiungere il modello con le traduzioni aggiornate nei pacchetti binari. Fate riferimento alla pagina del manuale di <citerefentry> <refentrytitle>po-debconf</refentrytitle> <manvolnum>7</manvolnum> </citerefentry> per i dettagli."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1339
@@ -1329,17 +1329,17 @@ msgstr "Documentazione internazionalizzata"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1341
 msgid "Internationalizing documentation is crucial for users, but a lot of labor. There's no way to eliminate all that work, but you can make things easier for translators."
-msgstr "Internazionalizzare la documentazione è fondamentale per gli utenti, ma richiede un sacco di lavoro. Non c'è modo di eliminare tutto quel lavoro, ma si possono rendere le cose più facili per i traduttori."
+msgstr "Internazionalizzare la documentazione è fondamentale per gli utenti, ma richiede molto di lavoro. Non c'è modo di eliminare tutto quel lavoro, ma si possono rendere le cose più facili per i traduttori."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1346
 msgid "If you maintain documentation of any size, it is easier for translators if they have access to a source control system. That lets translators see the differences between two versions of the documentation, so, for instance, they can see what needs to be retranslated. It is recommended that the translated documentation maintain a note about what source control revision the translation is based on. An interesting system is provided by <ulink url=\"&url-i18n-doc-check;\">doc-check</ulink> in the <systemitem role=\"package\">debian-installer</systemitem> package, which shows an overview of the translation status for any given language, using structured comments for the current revision of the file to be translated and, for a translated file, the revision of the original file the translation is based on. You might wish to adapt and provide that in your VCS area."
-msgstr "Se si mantiene una documentazione di qualsiasi dimensione, è più facile per i traduttori se hanno accesso ad un sistema di controllo del codice sorgente. Ciò consente ai traduttori di vedere le differenze tra due versioni della documentazione, così, per esempio, si può vedere ciò che deve essere ritradotto. Si raccomanda che la documentazione tradotta mantenga una nota circa la versione del codice sulla quale è basata. Un sistema interessante è fornito dal <ulink url=\"&url-i18n-doc-check;\">doc-check</ulink> nel pacchetto <systemitem role=\"package\">debian-installer</systemitem> , che mostra una panoramica dello stato di traduzione per ogni lingua, utilizzando i commenti strutturati per la revisione in corso del file da tradurre e, per un file tradotto, la revisione del file originale della traduzione sulla quale si basa. Si potrebbe desiderare di adattarsi e di fornirla nella VCS area."
+msgstr "Se si mantiene una documentazione di qualsiasi dimensione, è più facile per i traduttori se hanno accesso ad un sistema di controllo del codice sorgente. Ciò consente ai traduttori di vedere le differenze tra due versioni della documentazione, così, per esempio, si può vedere ciò che deve essere ritradotto. Si raccomanda che la documentazione tradotta mantenga una nota circa la versione del codice sulla quale è basata. Un sistema interessante è fornito dal <ulink url=\"&url-i18n-doc-check;\">doc-check</ulink> nel pacchetto <systemitem role=\"package\">debian-installer</systemitem> , che mostra una panoramica dello stato di traduzione per ogni lingua, utilizzando i commenti strutturati per la revisione in corso del file da tradurre e, per un file tradotto, la revisione del file originale della traduzione sulla quale si basa. Si potrebbe desiderare di adattarla e di fornirla nel vostro VCS."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1360
 msgid "If you maintain XML or SGML documentation, we suggest that you isolate any language-independent information and define those as entities in a separate file which is included by all the different translations. This makes it much easier, for instance, to keep URLs up to date across multiple files."
-msgstr "Se si mantiene la documentazione XML o SGML, vi consigliamo di isolare qualsiasi informazione indipendente dal linguaggio e definire quelli come entità in un file separato che è incluso da tutte le diverse traduzioni. Ciò rende molto più facile, per esempio, per mantenere gli URL aggiornati in più file."
+msgstr "Se si mantiene la documentazione XML o SGML, vi consigliamo di isolare qualsiasi informazione indipendente dal linguaggio e definirla come entità in un file separato che è incluso da tutte le diverse traduzioni. Ciò rende molto più facile, per esempio, mantenere gli URL aggiornati in più file."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1366
@@ -1349,7 +1349,7 @@ msgstr "Alcuni strumenti (ad es <systemitem role=\"package\">po4a</systemitem>, 
 #. type: Content of: <chapter><section><title>
 #: best-pkging-practices.dbk:1378
 msgid "Common packaging situations"
-msgstr "Situazioni comuni durante la pacchettizzazione "
+msgstr "Situazioni comuni durante la pacchettizzazione"
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1389
@@ -1359,28 +1359,28 @@ msgstr "Pacchettizzazione utilizzando <command>autoconf</command>/<command>autom
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1391
 msgid "Keeping <command>autoconf</command>'s <filename>config.sub</filename> and <filename>config.guess</filename> files up to date is critical for porters, especially on more volatile architectures. Some very good packaging practices for any package using <command>autoconf</command> and/or <command>automake</command> have been synthesized in &file-bpp-autotools; from the <systemitem role=\"package\">autotools-dev</systemitem> package. You're strongly encouraged to read this file and to follow the given recommendations."
-msgstr "Mantenere <command>autoconf</command>'s <filename>config.sub</filename> e i file <filename> config.guess </filename > aggiornati è fondamentale per i porters, soprattutto su architetture più volatili. Alcune molto buone pratiche di packaging per ogni pacchetto che usa <command>autoconf</command> e/o <command>automake</command> sono stati sintetizzati in &file-bpp-autotools; dal pacchetto <systemitem role=\"package\">autotools-dev</systemitem>. Si è vivamente incoraggiati a leggere questo file e di seguire le raccomandazioni fornite."
+msgstr "Mantenere  i file <filename>config.sub</filename> e <filename>config.guess</filename> di <command>autoconf</command> aggiornati è fondamentale per i porter, soprattutto su architetture più volatili. Alcune ottime pratiche di packaging per ogni pacchetto che usa <command>autoconf</command> e/o <command>automake</command> sono state sintetizzate in &file-bpp-autotools; dal pacchetto <systemitem role=\"package\">autotools-dev</systemitem>. Si è vivamente incoraggiati a leggere questo file e di seguire le raccomandazioni in esso fornite."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1403
 msgid "Libraries"
-msgstr "Librerie "
+msgstr "Librerie"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1405
 msgid "Libraries are always difficult to package for various reasons. The policy imposes many constraints to ease their maintenance and to make sure upgrades are as simple as possible when a new upstream version comes out. Breakage in a library can result in dozens of dependent packages breaking."
-msgstr "Le librerie sono sempre difficili da pacchettizzare per vari motivi. La policy impone molti vincoli per facilitare il loro mantenimento e per assicurarsi che gli aggiornamenti siano il più semplice possibile, quando una nuova versione viene pubblicata. Una rottura in una libreria può causare una rottura in decine di pacchetti dipendenti."
+msgstr "Le librerie sono sempre difficili da pacchettizzare per vari motivi. La policy impone molti vincoli per facilitare il loro mantenimento e per assicurarsi che gli aggiornamenti siano i più semplici possibili quando una nuova versione viene pubblicata. Una rottura in una libreria può causare una rottura in decine di pacchetti dipendenti."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1411
 msgid "Good practices for library packaging have been grouped in <ulink url=\"&url-libpkg-guide;\">the library packaging guide</ulink>."
-msgstr "Buone pratiche per la pacchettizzazione delle librerie sono state raggruppate in <ulink url=\"&url-libpkg-guide;\">Giuda alla pacchettizzazione delle librerie</ulink>."
+msgstr "Delle buone pratiche per la pacchettizzazione delle librerie sono state raggruppate in <ulink url=\"&url-libpkg-guide;\">Giuda alla pacchettizzazione delle librerie</ulink>."
 
 #. type: Content of: <chapter><section><title>
 #: best-pkging-practices.dbk:1418
 #: resources.dbk:193
 msgid "Documentation"
-msgstr "Documentazione "
+msgstr "Documentazione"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1420
@@ -1390,22 +1390,22 @@ msgstr "Assicurarsi di seguire la policy <ulink url=\"&url-debian-policy;ch-docs
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1425
 msgid "If your package contains documentation built from XML or SGML, we recommend you not ship the XML or SGML source in the binary package(s). If users want the source of the documentation, they should retrieve the source package."
-msgstr "Se il pacchetto contiene la documentazione costruita a partire da XML o SGML, si consiglia di non spedire il sorgente XML o SGML nel pacchetto binario (s). Se gli utenti vogliono la fonte della documentazione, dovrebbero poter recuperare il pacchetto sorgente."
+msgstr "Se il pacchetto contiene la documentazione costruita a partire da XML o SGML, si consiglia di non includere il sorgente XML o SGML nel pacchetto binario. Se gli utenti vogliono il sorgente della documentazione, dovrebbero poter recuperare il pacchetto sorgente."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1430
 msgid "Policy specifies that documentation should be shipped in HTML format. We also recommend shipping documentation in PDF and plain text format if convenient and if output of reasonable quality is possible. However, it is generally not appropriate to ship plain text versions of documentation whose source format is HTML."
-msgstr "La policy specifica che la documentazione deve essere spedita in formato HTML. Si consiglia anche di inviare la documentazione in formato testo e PDF normale se conveniente e se l'output di discreta qualità è possibile. Tuttavia, non è in genere appropriato inviare la versione in testo semplice della documentazione il cui formato sorgente è HTML."
+msgstr "La policy specifica che la documentazione deve essere fornita in formato HTML. Si consiglia anche di inserire la documentazione in formato PDF e testo normale se conveniente e se è possibile output di discreta qualità. Tuttavia, non è in genere appropriato includere la versione in testo semplice della documentazione il cui formato sorgente è HTML."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1437
 msgid "Major shipped manuals should register themselves with <systemitem role=\"package\">doc-base</systemitem> on installation. See the <systemitem role=\"package\">doc-base</systemitem> package documentation for more information."
-msgstr "La maggior parte dei manuali dovrebbe registrarsi con <systemitem role=\"package\">doc-base</systemitem> durante l'installazione. Vedere la documentazione <systemitem role=\"package\">doc-base</systemitem> del pacchetto per ulteriori informazioni."
+msgstr "La maggior parte dei manuali dovrebbe registrarsi con <systemitem role=\"package\">doc-base</systemitem> durante l'installazione. Si consulti la documentazione <systemitem role=\"package\">doc-base</systemitem> del pacchetto per ulteriori informazioni."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1443
 msgid "Debian policy (section 12.1) directs that manual pages should accompany every program, utility, and function, and suggests them for other objects like configuration files. If the work you are packaging does not have such manual pages, consider writing them for inclusion in your package, and submitting them upstream."
-msgstr "La policy di Debian (sezione 12.1) che dirige le pagine di manuale dovrebbe accompagnare ogni programma, l'utilità e la funzione, e li suggerisce per altri oggetti come file di configurazione. Se il lavoro si è imballaggio non ha tali pagine di manuale, li considerano la scrittura per l'inclusione nel pacchetto, e di sottoporlo a monte."
+msgstr "La policy di Debian (sezione 12.1) indica che le pagine del manuale dovrebbero accompagnare ogni programma, utility e la funzione, e suggerirli per altri oggetti come file di configurazione. Se il lavoro che state pacchettizzando non ha queste pagine di manuale, considerate la loro scrittura per l'inclusione nel pacchetto, e di sottoporla all'upstream."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1450
@@ -1425,12 +1425,12 @@ msgstr "Vari tipi specifici di pacchetti hanno particolari sub-politiche e rispe
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1467
 msgid "Perl related packages have a <ulink url=\"&url-perl-policy;\">Perl policy</ulink>, some examples of packages following that policy are <systemitem role=\"package\">libdbd-pg-perl</systemitem> (binary perl module) or <systemitem role=\"package\">libmldbm-perl</systemitem> (arch independent perl module)."
-msgstr "I relativi pacchetti Perl hanno una <ulink url=\"&url-perl-policy;\">Perl policy</ulink>, alcuni esempi di pacchetti che seguono tale policy sono <systemitem role=\"package\">libdbd-pg-perl</systemitem> (modulo binario perl) o <systemitem role=\"package\">libmldbm-perl</systemitem> (modulo per arch indipendente)."
+msgstr "I relativi pacchetti Perl hanno una <ulink url=\"&url-perl-policy;\">Perl policy</ulink>, alcuni esempi di pacchetti che seguono tale policy sono <systemitem role=\"package\">libdbd-pg-perl</systemitem> (modulo binario perl) o <systemitem role=\"package\">libmldbm-perl</systemitem> (modulo perl indipendente dall'architettura)."
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1476
 msgid "Python related packages have their python policy; see &file-python-policy; in the <systemitem role=\"package\">python</systemitem> package."
-msgstr "I relativi pacchetti Python hanno la loro policy pyton; vedere &file-python-policy; nel pacchetto <systemitem role=\"package\">python</systemitem>."
+msgstr "I relativi pacchetti Python hanno la loro policy python; si consulti &file-python-policy; nel pacchetto <systemitem role=\"package\">python</systemitem>."
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1483
@@ -1445,7 +1445,7 @@ msgstr "I relativi pacchetti Java hanno la loro <ulink url=\"&url-java-policy;\"
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1497
 msgid "Ocaml related packages have their own policy, found in &file-ocaml-policy; from the <systemitem role=\"package\">ocaml</systemitem> package. A good example is the <systemitem role=\"package\">camlzip</systemitem> source package."
-msgstr "I relativi pacchetti Ocaml hanno la loro politica, che si trova in &file-ocaml-policy; dal pacchetto <systemitem role=\"package\">ocaml </systemitem>. Un buon esempio è il pacchetto dei sorgenti di <systemitem role=\"package\">camlzip</systemitem>."
+msgstr "I relativi pacchetti Ocaml hanno la loro politica, che si trova in &file-ocaml-policy; del pacchetto <systemitem role=\"package\">ocaml</systemitem>. Un buon esempio è il pacchetto dei sorgenti di <systemitem role=\"package\">camlzip</systemitem>."
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:1505
@@ -1465,12 +1465,12 @@ msgstr "Dati indipendenti dall'architettura"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1543
 msgid "It is not uncommon to have a large amount of architecture-independent data packaged with a program. For example, audio files, a collection of icons, wallpaper patterns, or other graphic files. If the size of this data is negligible compared to the size of the rest of the package, it's probably best to keep it all in a single package."
-msgstr "Non è raro avere una grande quantità di dati indipendenti dall'architettura pacchettizati con un programma. Ad esempio, i file audio, una collezione di icone,modelli di wallpaper , o altri file grafici. Se la dimensione di questi dati è trascurabile rispetto alle dimensioni del resto del pacchetto, probabilmente è meglio tenere il tutto in un unico pacchetto."
+msgstr "Non è raro avere una grande quantità di dati indipendenti dall'architettura pacchettizati con un programma. Ad esempio, i file audio, una collezione di icone, modelli di wallpaper, o altri file grafici. Se la dimensione di questi dati è trascurabile rispetto alle dimensioni del resto del pacchetto, probabilmente è meglio tenere il tutto in un unico pacchetto."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1550
 msgid "However, if the size of the data is considerable, consider splitting it out into a separate, architecture-independent package (<filename>_all.deb</filename>). By doing this, you avoid needless duplication of the same data into eleven or more.debs, one per each architecture. While this adds some extra overhead into the <filename>Packages</filename> files, it saves a lot of disk space on Debian mirrors. Separating out architecture-independent data also reduces processing time of <command>lintian</command> (see <xref linkend=\"tools-lint\"/>) when run over the entire Debian archive."
-msgstr "Tuttavia, se la dimensione dei dati è notevole, considerate di dividere in un pacchetto separato,indipendente dall'architettura (<filename>_all.deb</filename>). In questo modo, si evitano inutili duplicazioni degli stessi dati in undici o più. debs, uno per ogni architettura. Mentre questo aggiunge un po 'di overhead ai file dei <filename>Pacchetti</filename>, fa risparmiare molto spazio su disco sui mirror Debian. Separare i dati indipendenti dall'architettura riduce anche il tempo di elaborazione di <command>lintian</command> (si consulti <xref linkend=\"tools-lint\"/>) quando lanciato su l'intero archivio Debian."
+msgstr "Tuttavia, se la dimensione dei dati è notevole, considerate di dividere in un pacchetto separato, indipendente dall'architettura (<filename>_all.deb</filename>). In questo modo, si evitano inutili duplicazioni degli stessi dati in undici o più .debs, uno per ogni architettura. Mentre questo aggiunge un po' di overhead ai file dei <filename>Pacchetti</filename>, fa risparmiare molto spazio su disco sui mirror Debian. Separare i dati indipendenti dall'architettura riduce anche il tempo di elaborazione di <command>lintian</command> (si consulti <xref linkend=\"tools-lint\"/>) quando lanciato su l'intero archivio Debian."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1562
@@ -1480,12 +1480,12 @@ msgstr "Aver bisogno di una particolare localizzazione durante il build"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1564
 msgid "If you need a certain locale during build, you can create a temporary file via this trick:"
-msgstr "Se avete bisogno di una certa localizzazione durante il build, poterte creare un file temporaneo con questo trucco:"
+msgstr "Se avete bisogno di una certa localizzazione durante il build, potete creare un file temporaneo con questo trucco:"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1568
 msgid "If you set <varname>LOCPATH</varname> to the equivalent of <filename>/usr/lib/locale</filename>, and <varname>LC_ALL</varname> to the name of the locale you generate, you should get what you want without being root. Something like this:"
-msgstr "Se impostate <varname>LOCPATH</varname> per l'equivalente di <filename>/usr/lib/locale</filename>, e <varname>LC_ALL</varname> per il nome del locale che si genera, dovreste ottenere ciò che si desidera senza essere root. Qualcosa di simile a questo:"
+msgstr "Se impostate <varname>LOCPATH</varname> all'equivalente di <filename>/usr/lib/locale</filename>, e <varname>LC_ALL</varname> al nome del locale che si genera, dovreste ottenere ciò che si desidera senza essere root. Qualcosa di simile a questo:"
 
 #. type: Content of: <chapter><section><section><screen>
 #: best-pkging-practices.dbk:1573
@@ -1519,7 +1519,7 @@ msgstr "Rendere i pacchetti di transizione conformi a deborphan"
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1588
 msgid "Deborphan is a program for helping users to detect which packages can safely be removed from the system, i.e. the ones that have no packages depending on them. The default operation is to search only within the libs and oldlibs sections, to hunt down unused libraries. But when passed the right argument, it tries to catch other useless packages."
-msgstr "Deborphan è un programma per aiutare gli utenti ad individuare quali pacchetti possono essere tranquillamente rimossi dal sistema, vale a dire quelli che non hanno i pacchetti dipendenti da loro. Il funzionamento di default è di cercare solo all'interno delle sezioni libs e oldlibs, per dare la caccia librerie inutilizzate. Ma quando passava l'argomento giusto, cerca di catturare altri pacchetti inutili."
+msgstr "Deborphan è un programma per aiutare gli utenti ad individuare quali pacchetti possono essere tranquillamente rimossi dal sistema, vale a dire quelli che non hanno pacchetti dipendenti da loro. Il funzionamento predefinito è di cercare solo all'interno delle sezioni libs e oldlibs, per dare la caccia a librerie inutilizzate. Ma quando viene passsato l'argomento giusto, cerca di catturare altri pacchetti inutili."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1595
@@ -1529,7 +1529,7 @@ msgstr "Ad esempio, con <literal>--guess-dummy</literal>, <command>deborphan</co
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1602
 msgid "So, when you are creating such a package, please make sure to add this text to your short description. If you are looking for examples, just run: <command>apt-cache search.|grep dummy</command> or <command>apt-cache search.|grep transitional</command>."
-msgstr "Quindi, quando si crea un pacchetto di questo tipo, assicurati di aggiungere il testo alla descrizione breve. Se siete alla ricerca di esempi, basta eseguire:<command>Apt-cache search.| grep dummy</command> o <command>apt-cache search | grep transitional</command>.."
+msgstr "Quindi, quando si crea un pacchetto di questo tipo, assicuratevi di aggiungere il testo alla descrizione breve. Se siete alla ricerca di esempi, basta eseguire:<command>apt-cache search.| grep dummy</command> o <command>apt-cache search | grep transitional</command>."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1608
@@ -1539,7 +1539,7 @@ msgstr "Inoltre, è raccomandato modificare la sua sezione in <literal>oldlibs</
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1617
 msgid "Best practices for <filename>.orig.tar.{gz,bz2,xz}</filename> files"
-msgstr "Le migliori pratiche per i file <filename>.orig.tar.{gz,bz2,xz}</filename> "
+msgstr "Best practices per i file <filename>.orig.tar.{gz,bz2,xz}</filename>"
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1619
@@ -1554,17 +1554,17 @@ msgstr "Sorgente puro"
 #. type: Content of: <chapter><section><section><section><para><footnote><para>
 #: best-pkging-practices.dbk:1627
 msgid "We cannot prevent upstream authors from changing the tarball they distribute without also incrementing the version number, so there can be no guarantee that a pristine tarball is identical to what upstream <emphasis>currently</emphasis> distributing at any point in time. All that can be expected is that it is identical to something that upstream once <emphasis>did</emphasis> distribute. If a difference arises later (say, if upstream notice that they weren't using maximal compression in their original distribution and then re-<command>gzip</command> it), that's just too bad. Since there is no good way to upload a new <filename>.orig.tar.{gz,bz2,xz}</filename> for the same version, there is not even any point in treating this situation as a bug."
-msgstr "Non possiamo impedire agli autori originali di cambiare il tarball che distribuiscono senza anche incrementare il numero di versione, quindi non ci può essere alcuna garanzia che in qualsiasi momento un tarball puro è identico a quello di upstream <emphasis>attualmente</emphasis> in distribuzione. Tutto ciò che ci si può aspettare è che è identico a qualcosa che upstream una volta <emphasis>ha</emphasis> distribuito. Se una differenza dovesse emergere in seguito (ad esempio, se upstream si accorgesse che non stavano usando la massima compressione nella loro distribuzione originale e dunque comprimerlo nuovamente con <command>gzip</command> ), semplicemente non è una buona cosa. Poiché non vi è alcun buon modo per caricare un nuovo <filename>.orig.tar.{gz,bz2,xz}</filename> per la stessa versione, non c'è nemmeno alcuna indicazione se trattare questa situazione come un bug."
+msgstr "Non possiamo impedire agli autori originali di cambiare il tarball che distribuiscono senza anche incrementare il numero di versione, quindi non ci può essere alcuna garanzia che in qualsiasi momento un tarball puro sia identico a quello di upstream <emphasis>attualmente</emphasis> in distribuzione. Tutto ciò che ci si può aspettare è che sia identico a qualcosa che upstream una volta <emphasis>ha</emphasis> distribuito. Se una differenza dovesse emergere in seguito (ad esempio, se l'upstream si accorgesse che non stava usando la massima compressione nella distribuzione originale e dunque di comprimerlo nuovamente con <command>gzip</command>), semplicemente non è una buona cosa. Poiché non vi è alcun buon modo per caricare un nuovo <filename>.orig.tar.{gz,bz2,xz}</filename> per la stessa versione, non c'è nemmeno alcuna indicazione se trattare questa situazione come un bug."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1625
 msgid "The defining characteristic of a pristine source tarball is that the <filename>.orig.tar.{gz,bz2,xz}</filename> file is byte-for-byte identical to a tarball officially distributed by the upstream author.<placeholder type=\"footnote\" id=\"0\"/> This makes it possible to use checksums to easily verify that all changes between Debian's version and upstream's are contained in the Debian diff. Also, if the original source is huge, upstream authors and others who already have the upstream tarball can save download time if they want to inspect your packaging in detail."
-msgstr "La caratteristica distintiva di un tarball sorgente incontaminato è che il <filename>.orig.tar.{gz,bz2,xz}</filename> è byte-per-byte identico a un tarball ufficialmente distribuito dall'autore originale. <placeholder type=\"footnote\" id=\"0\"/> Questo rende possibile l'utilizzo di checksum per verificare facilmente che tutti le modifiche tra la versione di Debian e quella originale siano contenute nel Debian diff. Inoltre, se la fonte originale è enorme, gli autori originali e chi possieda già l'archivio originale possono risparmiare tempo di download, se vogliono ispezionare il pacchetto in dettaglio."
+msgstr "La caratteristica distintiva di un tarball sorgente incontaminato è che il <filename>.orig.tar.{gz,bz2,xz}</filename> è byte-per-byte identico a un tarball ufficialmente distribuito dall'autore originale. <placeholder type=\"footnote\" id=\"0\"/> Questo rende possibile l'utilizzo di checksum per verificare facilmente che tutte le modifiche tra la versione di Debian e quella originale siano contenute nel Debian diff. Inoltre, se il sorgente originale è enorme, gli autori originali e chiunque possieda già l'archivio originale possono risparmiare tempo di download, se vogliono ispezionare il pacchetto in dettaglio."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1645
 msgid "There is no universally accepted guidelines that upstream authors follow regarding to the directory structure inside their tarball, but <command>dpkg-source</command> is nevertheless able to deal with most upstream tarballs as pristine source. Its strategy is equivalent to the following:"
-msgstr "Non ci sono linee guida universalmente accettate che gli autori upstream seguono per quanto riguarda la struttura delle directory all'interno della loro tarball, ma <command>dpkg-source</command> è tuttavia in grado di affrontare la maggior parte delle upstream tarball come sorgente puro. La sua strategia è equivalente alla seguente:"
+msgstr "Non ci sono linee guida universalmente accettate che gli autori upstream seguono per quanto riguarda la struttura delle directory all'interno del loro tarball, ma <command>dpkg-source</command> è tuttavia in grado di affrontare la maggior parte delle tarball originali come sorgente puro. La sua strategia è equivalente alla seguente:"
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1653
@@ -1580,67 +1580,67 @@ msgstr "zcat path/to/<replaceable>packagename</replaceable>_<replaceable>upstrea
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1661
 msgid "If, after this, the temporary directory contains nothing but one directory and no other files, <command>dpkg-source</command> renames that directory to <filename><replaceable>packagename</replaceable>-<replaceable>upstream-version</replaceable>(.orig)</filename>. The name of the top-level directory in the tarball does not matter, and is forgotten."
-msgstr "Se, dopo questo, la directory temporanea non contiene nulla, ma una sola directory e nessun altro file, <comando>dpkg-source</command> rinomina quella directory in <filename><replaceable>packagename</replaceable>-<replaceable>upstream-version</replaceable>(.orig)</filename>. Il nome della più alta directory nella tarball non ha importanza, ed è tralasciata. "
+msgstr "Se, dopo questo, la directory temporanea non contiene nulla, ma una sola directory e nessun altro file, <comando>dpkg-source</command> rinomina quella directory in <filename><replaceable>packagename</replaceable>-<replaceable>upstream-version</replaceable>(.orig)</filename>. Il nome della più alta directory nella tarball non ha importanza, ed è tralasciata."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1670
 msgid "Otherwise, the upstream tarball must have been packaged without a common top-level directory (shame on the upstream author!). In this case, <command>dpkg-source</command> renames the temporary directory <emphasis>itself</emphasis> to <filename><replaceable>packagename</replaceable>-<replaceable>upstream-version</replaceable>(.orig)</filename>."
-msgstr "In caso contrario, l'archivio a monte deve essere stato confezionato senza una directory di livello comune (vergogna su l'autore upstream!). In questo caso, <command>dpkg-source</command> rinomina la directory temporanea <emphasis>stessa</emphasis> in <filename><replaceable>packagename</replaceable>-<replaceable>upstream-version</replaceable>(.orig)</filename>."
+msgstr "In caso contrario, l'archivio upstream deve essere stato confezionato senza una comune directory di livello alto (vergogna sull'autore upstream!). In questo caso, <command>dpkg-source</command> rinomina la directory temporanea <emphasis>stessa</emphasis> in <filename><replaceable>packagename</replaceable>-<replaceable>upstream-version</replaceable>(.orig)</filename>."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: best-pkging-practices.dbk:1681
 msgid "Repackaged upstream source"
-msgstr "Sorgente upstream ri-pacchettizato"
+msgstr "Sorgente upstream ripacchettizato"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1683
 msgid "You <emphasis role=\"strong\">should</emphasis> upload packages with a pristine source tarball if possible, but there are various reasons why it might not be possible. This is the case if upstream does not distribute the source as gzipped tar at all, or if upstream's tarball contains non-DFSG-free material that you must remove before uploading."
-msgstr "<emphasis role=\"strong\">Si dovrebbe</emphasis> caricare i pacchetti con un tarball sorgente puro, se possibile, ma ci sono vari motivi per cui potrebbe non essere possibile. Questo è il caso in cui se upstream non distribuisce il sorgente come non completamente compresso in formato tar, o se il tarball di upstream contiene materiale non DFSG-free che è necessario rimuovere prima di caricare."
+msgstr "<emphasis role=\"strong\">Si dovrebbe</emphasis> caricare i pacchetti con un tarball sorgente puro, se possibile, ma ci sono vari motivi per cui potrebbe non essere possibile. Questo è il caso in cui se l'upstream non distribuisce il sorgente come non completamente compresso in formato tar, o se il tarball di upstream contiene materiale non DFSG-free che è necessario rimuovere prima di caricare."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1690
 msgid "In these cases the developer must construct a suitable <filename>.orig.tar.{gz,bz2,xz}</filename> file themselves. We refer to such a tarball as a repackaged upstream source. Note that a repackaged upstream source is different from a Debian-native package. A repackaged source still comes with Debian-specific changes in a separate <filename>.diff.gz</filename> or <filename>.debian.tar.{gz,bz2,xz}</filename> and still has a version number composed of <replaceable>upstream-version</replaceable> and <replaceable>debian-version</replaceable>."
-msgstr "In questi casi, lo sviluppatore deve costruirsi un <filename>.orig.tar.{gz,bz2,xz}</filename> adatto. Ci riferiamo a un tale tarball come sorgente upstream ri-pacchettizato. Si noti che unsorgente upstream ri-pacchettizato è diverso da un pacchetto Debian nativo. Un sorgente upstream ri-pacchettizato ancora viene con modifiche specifiche di Debian in un separato <filename>.diff.gz</filename> o <filename>.debian.tar.{gz,bz2,xz}</filename> e ha ancora un numero di versione composto di replaceable>upstream-version</replaceable> e <replaceable>debian-version</replaceable>."
+msgstr "In questi casi, lo sviluppatore deve costruirsi un <filename>.orig.tar.{gz,bz2,xz}</filename> adatto. Ci riferiamo a un tale tarball come sorgente upstream ripacchettizato. Si noti che un sorgente upstream ripacchettizato è diverso da un pacchetto Debian nativo. Un sorgente upstream ripacchettizato con modifiche specifiche per Debian ancora viene distribuito in un separato <filename>.diff.gz</filename> o <filename>.debian.tar.{gz,bz2,xz}</filename> e ha ancora un numero di versione composto da <replaceable>upstream-version</replaceable> e <replaceable>debian-version</replaceable>."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1699
 msgid "There may be cases where it is desirable to repackage the source even though upstream distributes a <filename>.tar.{gz,bz2,xz}</filename> that could in principle be used in its pristine form. The most obvious is if <emphasis>significant</emphasis> space savings can be achieved by recompressing the tar archive or by removing genuinely useless cruft from the upstream archive. Use your own discretion here, but be prepared to defend your decision if you repackage source that could have been pristine."
-msgstr "Ci possono essere casi in cui è auspicabile pacchettizare nuovamente il sorgente anche se upstream distribuisce un <filename>.tar.{gz,bz2,xz}</filename> che potrebbe in linea di principio essere utilizzato nella sua forma originaria. La più ovvia è se un <emphasis>significativo</emphasis> risparmio di spazio può essere ottenuto ricomprimendo l'archivio tar o rimuovendo genuinamente inutile fuffa dall'archivio upstream. Usa la tua discrezione qui, ma sii pronto a difendere la tua decisione se pacchettizi nuovamente iolm sorgente che poteva risultare esser puro."
+msgstr "Ci possono essere casi in cui è auspicabile pacchettizare nuovamente il sorgente anche se upstream distribuisce un <filename>.tar.{gz,bz2,xz}</filename> che potrebbe in linea di principio essere utilizzato nella sua forma originaria. Il più ovvio è se un <emphasis>significativo</emphasis> risparmio di spazio può essere ottenuto ricomprimendo l'archivio tar o rimuovendo genuinamente dell'inutile fuffa dall'archivio upstream. Usate la vostra discrezione qui, ma siate pronti a difendere la vostra decisione se pacchettizzate nuovamente il sorgente che poteva esser puro."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1708
 msgid "A repackaged <filename>.orig.tar.{gz,bz2,xz}</filename>"
-msgstr "Un ripacchettizzato <filename>.orig.tar.{gz,bz2,xz}</filename>"
+msgstr "Un <filename>.orig.tar.{gz,bz2,xz}</filename> ripacchettizzato"
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1713
 msgid "<emphasis role=\"strong\">should</emphasis> be documented in the resulting source package. Detailed information on how the repackaged source was obtained, and on how this can be reproduced should be provided in <filename>debian/copyright</filename>. It is also a good idea to provide a <literal>get-orig-source</literal> target in your <filename>debian/rules</filename> file that repeats the process, as described in the Policy Manual, <ulink url=\"&url-debian-policy;ch-source.html#s-debianrules\">Main building script: <filename>debian/rules</filename></ulink>."
-msgstr "<emphasis role=\"strong\">dovrebbe</emphasis> essere documentata nel pacchetto sorgente risultante. Informazioni dettagliate su come è stato ottenuto il sorgente ripacchettizzato, e su come questo può essere riprodotto dovrebbero essere fornite in <filename>debian/copyright</filename>. E 'anche una buona idea fornire un <literal>get-orig-source</literal> target nel vostro <filename>debian/rules</filename>, che ripete il processo, come descritto nel Policy Manual, <ulink url=\"&url-debian-policy;ch-source.html#s-debianrules\">Main building script: <filename>debian/rules</filename></ulink>."
+msgstr "<emphasis role=\"strong\">dovrebbe</emphasis> essere documentata nel pacchetto sorgente risultante. Informazioni dettagliate su come è stato ottenuto il sorgente ripacchettizzato, e su come questo può essere riprodotto dovrebbero essere fornite in <filename>debian/copyright</filename>. È anche una buona idea fornire un <literal>get-orig-source</literal> target nel vostro <filename>debian/rules</filename>, che ripete il processo, come descritto nel Policy Manual, <ulink url=\"&url-debian-policy;ch-source.html#s-debianrules\">Script principale per il build: <filename>debian/rules</filename></ulink>."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para><footnote><para>
 #: best-pkging-practices.dbk:1728
 msgid "As a special exception, if the omission of non-free files would lead to the source failing to build without assistance from the Debian diff, it might be appropriate to instead edit the files, omitting only the non-free parts of them, and/or explain the situation in a <filename>README.source</filename> file in the root of the source tree. But in that case please also urge the upstream author to make the non-free components easier separable from the rest of the source."
-msgstr "Come eccezione, se l'omissione di file non liberi porterebbe il sorgente a fallire il build senza assistenza da parte del Debian diff, potrebbe essere opportuno modificare invece i file, omettendo solo le loro parti non-free , e/o spiegare la situazione in un <filename>README.source</filename> nella radice dell'albero del sorgente. Ma in questo caso si prega anche di sollecitare l'autore upstream per rendere i componenti non liberi facilmente separabili dal resto del sorgente."
+msgstr "Come eccezione, se l'omissione di file non liberi porterebbe il sorgente a fallire il build senza assistenza da parte del Debian diff, potrebbe essere opportuno modificare invece i file, omettendo solo le loro parti non-free , e/o spiegare la situazione in un <filename>README.source</filename> nella radice dell'albero del sorgente. Ma in questo caso si prega anche di sollecitare l'autore originale affinchè renda i componenti non liberi facilmente separabili dal resto del sorgente."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1726
 msgid "<emphasis role=\"strong\">should not</emphasis> contain any file that does not come from the upstream author(s), or whose contents has been changed by you.<placeholder type=\"footnote\" id=\"0\"/>"
-msgstr "<emphasis role=\"strong\">non dovrebbe</emphasis> contenere qualsiasi tipo di file che non proviene dall'autore originale (i), o il cui contenuto è stato modificato. <placeholder type=\"footnote\" id=\"0\"/>"
+msgstr "<emphasis role=\"strong\">non dovrebbe</emphasis> contenere qualsiasi tipo di file che non proviene dall'autore originale(i), o il cui contenuto è stato modificato. <placeholder type=\"footnote\" id=\"0\"/>"
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1739
 msgid "<emphasis role=\"strong\">should</emphasis>, except where impossible for legal reasons, preserve the entire building and portablility infrastructure provided by the upstream author. For example, it is not a sufficient reason for omitting a file that it is used only when building on MS-DOS. Similarly, a <filename>Makefile</filename> provided by upstream should not be omitted even if the first thing your <filename>debian/rules</filename> does is to overwrite it by running a configure script."
-msgstr "<emphasis role=\"strong\">dovrebbe</emphasis>, salvo che per motivi legali, preservare l'intero building e l'infrastruttura di portabilità fornita dall'autore upstream. Ad esempio, non è una ragione sufficiente per omettere un file che viene utilizzato solo quando si costruisce su MS-DOS. Allo stesso modo, un <filename> Makefile </filename> fornito da upstream non dovrebbe essere omesso anche se la prima cosa che il tuo <filename> debian/rules </filename> fa è sovrascriverlo eseguendo uno script di configurazione."
+msgstr "<emphasis role=\"strong\">dovrebbe</emphasis>, salvo che per motivi legali, preservare l'intera infrastruttura per il build e per la portabilità fornita dall'autore upstream. Ad esempio, non è una ragione sufficiente per omettere un file che viene utilizzato solo quando si costruisce su MS-DOS. Allo stesso modo, un <filename>Makefile</filename> fornito dall'autore originale non dovrebbe essere omesso anche se la prima cosa che il vostro <filename>debian/rules</filename> fa è sovrascriverlo eseguendo uno script di configurazione."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1748
 msgid "(<emphasis>Rationale:</emphasis> It is common for Debian users who need to build software for non-Debian platforms to fetch the source from a Debian mirror rather than trying to locate a canonical upstream distribution point)."
-msgstr "(<emphasis>Motivazione:</emphasis> E 'comune per gli utenti Debian che hanno bisogno di costruire software per piattaforme non-Debian prendere il sorgente da uno dei mirror Debian piuttosto che cercare di individuare un punto canonico di distribuzione upstream )."
+msgstr "(<emphasis>Motivazione:</emphasis> È comune per gli utenti Debian che hanno bisogno di costruire software per piattaforme non-Debian prendere il sorgente da uno dei mirror Debian piuttosto che cercare di individuare un punto canonico di distribuzione upstream)."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1755
 msgid "<emphasis role=\"strong\">should</emphasis> use <filename><replaceable>packagename</replaceable>-<replaceable>upstream-version</replaceable>.orig</filename> as the name of the top-level directory in its tarball. This makes it possible to distinguish pristine tarballs from repackaged ones."
-msgstr "<emphasis role=\"strong\">dovrebbe</emphasis> usare <filename><replaceable>packagename</replaceable>-<replaceable>upstream-version</replaceable>.orig</filename> come nome per la più alta directory nel suo tarball. Ciò rende possibile distinguere tarballs pure da quelle ripacchettizate."
+msgstr "<emphasis role=\"strong\">dovrebbe</emphasis> usare <filename><replaceable>packagename</replaceable>-<replaceable>upstream-version</replaceable>.orig</filename> come nome per la più alta directory nel suo tarball. Ciò rende possibile distinguere tarball puri da quelli ripacchettizati."
 
 #. type: Content of: <chapter><section><section><section><orderedlist><listitem><para>
 #: best-pkging-practices.dbk:1763
@@ -1655,7 +1655,7 @@ msgstr "Modifica dei file binari"
 #. type: Content of: <chapter><section><section><section><para>
 #: best-pkging-practices.dbk:1772
 msgid "Sometimes it is necessary to change binary files contained in the original tarball, or to add binary files that are not in it. This is fully supported when using source packages in “3.0 (quilt)” format, see the <citerefentry><refentrytitle>dpkg-source</refentrytitle><manvolnum>1</manvolnum></citerefentry> manual page for details. When using the older format “1.0”, binary files can't be stored in the <filename>.diff.gz</filename> so you must store an <command>uuencode</command>d (or similar) version of the file(s) and decode it at build time in <filename>debian/rules</filename> (and move it in its official location)."
-msgstr "A volte è necessario cambiare file binari contenuti nella tarball originale, o per aggiungere file binari che non sono in esso. Questo è completamente supportato quando si usano pacchetti sorgente in «3.0 (quilt)» di formato, vedere la <citerefentry> <refentrytitle>dpkg-source</refentrytitle> <manvolnum>1</manvolnum> </citerefentry> pagina di manuale per i dettagli. Quando si utilizza il vecchio formato «1.0», file binari non possono essere memorizzati nel <filename>.diff.gz</filename> quindi è necessario memorizzare un <command>uuencode</command> d (o simile) versione del file (s) e decodificarlo in fase di costruzione in <filename>debian/rules</filename> (e spostarla nella sua posizione ufficiale)."
+msgstr "A volte è necessario cambiare file binari contenuti nel tarball originale, o per aggiungere file binari che non vi sono contenuti. Questo è completamente supportato quando si usano pacchetti sorgente in formato «3.0 (quilt)», si consulti la pagina di manuale <citerefentry> <refentrytitle>dpkg-source</refentrytitle> <manvolnum>1</manvolnum> </citerefentry> per i dettagli. Quando si utilizza il vecchio formato «1.0», i file binari non possono essere memorizzati nel <filename>.diff.gz</filename> quindi è necessario memorizzare un <command>uuencode</command>d (o simile) versione del file e decodificarlo in fase di costruzione in <filename>debian/rules</filename> (e spostarlo nella sua posizione ufficiale)."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:1787
@@ -1711,7 +1711,7 @@ msgstr "Una meta-pacchetto è un pacchetto per lo più vuoto che rende facile in
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:1858
 msgid "The long description of the meta-package must clearly document its purpose so that the user knows what they will lose if they remove the package. Being explicit about the consequences is recommended. This is particularly important for meta-packages which are installed during initial installation and that have not been explicitly installed by the user. Those tend to be important to ensure smooth system upgrades and the user should be discouraged from uninstalling them to avoid potential breakages."
-msgstr "La descrizione lunga del meta-pacchetto deve documentare chiaramente il suo scopo in modo che l'utente sappia che cosa si perderà se rimuovono il pacchetto. E' raccomandato essere esplicito circa le conseguenze. Ciò è particolarmente importante per i meta-pacchetti che vengono installati durante l'installazione iniziale e che non sono stati installati esplicitamente dall'utente. Questi tendono ad essere importanti per garantire regolari aggiornamenti del sistema e l'utente dovrebbe essere disincentivato dal disinstallarli in modo da evitare potenziali rotture."
+msgstr "La descrizione lunga del meta-pacchetto deve documentare chiaramente il suo scopo in modo che l'utente sappia che cosa si perderà se rimuovono il pacchetto. È raccomandato essere esplicito circa le conseguenze. Ciò è particolarmente importante per i meta-pacchetti che vengono installati durante l'installazione iniziale e che non sono stati installati esplicitamente dall'utente. Questi tendono ad essere importanti per garantire regolari aggiornamenti del sistema e l'utente dovrebbe essere disincentivato dal disinstallarli in modo da evitare potenziali rotture."
 
 #. type: Content of: <chapter><title>
 #: beyond-pkging.dbk:7
@@ -1751,7 +1751,7 @@ msgstr "Prova a presentare il bug da un account utente normale al preferisci ric
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:36
 msgid "You can use a tool like <citerefentry> <refentrytitle>reportbug</refentrytitle> <manvolnum>1</manvolnum> </citerefentry> to submit bugs. It can automate and generally ease the process."
-msgstr "È possibile utilizzare uno strumento come <citerefentry> <refentrytitle>reportbug</refentrytitle><manvolnum>1</manvolnum></citerefentry> per segnalare bugs. E 'in grado di automatizzare e in generale facilitare il processo."
+msgstr "È possibile utilizzare uno strumento come <citerefentry> <refentrytitle>reportbug</refentrytitle><manvolnum>1</manvolnum></citerefentry> per segnalare bugs. È in grado di automatizzare e in generale facilitare il processo."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:41
@@ -1885,7 +1885,7 @@ msgstr "Le persone che partecipano alla festa hanno regole speciali per NMU, pos
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:182
 msgid "If you don't feel confident about doing an NMU, just send a patch to the BTS. It's far better than a broken NMU."
-msgstr "Se non vi sentite sicuri di fare un NMU, basta inviare una patch al BTS. E' molto meglio di un NMU non funzionante."
+msgstr "Se non vi sentite sicuri di fare un NMU, basta inviare una patch al BTS. È molto meglio di un NMU non funzionante."
 
 #. type: Content of: <chapter><section><title>
 #: beyond-pkging.dbk:190
@@ -1925,7 +1925,7 @@ msgstr "C'è un sistema semplice (il database MIA) in cui vengono registrate inf
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:235
 msgid "The first step is to politely contact the maintainer, and wait a reasonable time for a response. It is quite hard to define reasonable time, but it is important to take into account that real life is sometimes very hectic. One way to handle this would be to send a reminder after two weeks."
-msgstr "Il primo passo è quello di contattare educatamente il maintainer, ed attendere un ragionevole lasso di tempo per la risposta. E' abbastanza difficile definire tempo ragionevole, ma è importante tenere in considerazione che la vita reale a volte è molto frenetica. Un modo per gestire questa situazione sarebbe quello di inviare un sollecito dopo due settimane."
+msgstr "Il primo passo è quello di contattare educatamente il maintainer, ed attendere un ragionevole lasso di tempo per la risposta. È abbastanza difficile definire tempo ragionevole, ma è importante tenere in considerazione che la vita reale a volte è molto frenetica. Un modo per gestire questa situazione sarebbe quello di inviare un sollecito dopo due settimane."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:241
@@ -1955,7 +1955,7 @@ msgstr "Un po' problematici sono i pacchetti che sono stati sponsorizzati - il m
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:283
 msgid "It is also allowed to post a query to &email-debian-devel;, asking if anyone is aware of the whereabouts of the missing maintainer. Please Cc: the person in question."
-msgstr "E' anche consentito inviare una query a &email-debian-devel; chiedendo se qualcuno è a conoscenza del luogo in cui si trova il maintainer mancante. Si metta in Cc: la persona in questione."
+msgstr "È anche consentito inviare una query a &email-debian-devel; chiedendo se qualcuno è a conoscenza del luogo in cui si trova il maintainer mancante. Si metta in Cc: la persona in questione."
 
 #. type: Content of: <chapter><section><para>
 #: beyond-pkging.dbk:288
@@ -2045,7 +2045,7 @@ msgstr "Dovresti anche assicurarti che il potenziale maintainer sarà un buon ma
 #. type: Content of: <chapter><section><section><para>
 #: beyond-pkging.dbk:379
 msgid "It's also a good idea to know where they stand with respect to Debian: do they agree with Debian's philosophy and do they intend to join Debian? Given how easy it is to become a Debian Maintainer, you might want to only sponsor people who plan to join. That way you know from the start that you won't have to act as a sponsor indefinitely."
-msgstr "E 'anche una buona idea conoscere la loro posizione rispetto a Debian: sono d'accordo con la filosofia di Debian e hanno intenzione di aderire a Debian? Considerato quanto sia facile diventare un Maintainer Debian, potresti voler sponsorizzare solo le persone che hanno intenzione di aderire. In questo modo fin dall'inizio si è consapevoli che non si dovrà agire in qualità di sponsor a tempo indeterminato."
+msgstr "È anche una buona idea conoscere la loro posizione rispetto a Debian: sono d'accordo con la filosofia di Debian e hanno intenzione di aderire a Debian? Considerato quanto sia facile diventare un Maintainer Debian, potresti voler sponsorizzare solo le persone che hanno intenzione di aderire. In questo modo fin dall'inizio si è consapevoli che non si dovrà agire in qualità di sponsor a tempo indeterminato."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: beyond-pkging.dbk:386
@@ -2060,7 +2060,7 @@ msgstr "I nuovi maintainer di solito hanno alcune difficoltà nel creare pacchet
 #. type: Content of: <chapter><section><section><section><para>
 #: beyond-pkging.dbk:396
 msgid "Don't ever sponsor a new package without reviewing it. The review of new packages done by ftpmasters mainly ensures that the software is really free. Of course, it happens that they stumble on packaging problems but they really should not. It's your task to ensure that the uploaded package complies with the Debian Free Software Guidelines and is of good quality."
-msgstr "Non bisogna mai sponsorizzare un nuovo pacchetto senza revisionarlo. La revisione dei nuovi pacchetti realizzata da ftpmasters assicura principalmente che il software sia veramente libero. Certo, capita che inciampino sui problemi di packaging, ma in realtà non dovrebbero. E' il tuo compito garantire che il pacchetto caricato sia conforme alle Free Software Guidelines di Debian e sia di buona qualità."
+msgstr "Non bisogna mai sponsorizzare un nuovo pacchetto senza revisionarlo. La revisione dei nuovi pacchetti realizzata da ftpmasters assicura principalmente che il software sia veramente libero. Certo, capita che inciampino sui problemi di packaging, ma in realtà non dovrebbero. È il tuo compito garantire che il pacchetto caricato sia conforme alle Free Software Guidelines di Debian e sia di buona qualità."
 
 #. type: Content of: <chapter><section><section><section><para><footnote><para>
 #: beyond-pkging.dbk:409
@@ -2397,7 +2397,7 @@ msgstr "Andare in vacanza con grazia"
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:211
 msgid "It is common for developers to have periods of absence, whether those are planned vacations or simply being buried in other work. The important thing to notice is that other developers need to know that you're on vacation so that they can do whatever is needed if a problem occurs with your packages or other duties in the project."
-msgstr "E' comune per gli sviluppatori di avere periodi di assenza, se queste sono le vacanze programmate o semplicemente di essere sepolti in altri lavori. La cosa importante da notare è che gli altri sviluppatori hanno bisogno di sapere che sei in vacanza in modo che possano fare tutto ciò che è necessario in caso di problemi con i pacchetti o altri obblighi nel progetto."
+msgstr "È comune per gli sviluppatori di avere periodi di assenza, se queste sono le vacanze programmate o semplicemente di essere sepolti in altri lavori. La cosa importante da notare è che gli altri sviluppatori hanno bisogno di sapere che sei in vacanza in modo che possano fare tutto ciò che è necessario in caso di problemi con i pacchetti o altri obblighi nel progetto."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:218
@@ -2452,7 +2452,7 @@ msgstr "Comunica i manutentori Debian anello chiave che si sta lasciando con l'a
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:275
 msgid "It is important that the above process is followed, because finding inactive developers and orphaning their packages takes significant time and effort."
-msgstr "E 'importante che il processo di cui sopra è seguito, perché trovare sviluppatori inattivi e orphaning loro pacchetti richiede molto tempo e lavoro."
+msgstr "È importante che il processo di cui sopra è seguito, perché trovare sviluppatori inattivi e orphaning loro pacchetti richiede molto tempo e lavoro."
 
 #. type: Content of: <chapter><section><section><title>
 #: developer-duties.dbk:281
@@ -2639,7 +2639,7 @@ msgstr "Come ottenere una data traduzione recensione"
 #. type: Content of: <chapter><section><section><para>
 #: l10n.dbk:127
 msgid "From time to time, individuals translate some texts in your package and will ask you for inclusion of the translation in the package. This can become problematic if you are not fluent in the given language. It is a good idea to send the document to the corresponding l10n mailing list, asking for a review. Once it has been done, you should feel more confident in the quality of the translation, and feel safe to include it in your package."
-msgstr "Di volta in volta, gli individui si traducono alcuni testi nel vostro pacchetto e vi chiederà l'inserimento della traduzione nel pacchetto. Questo può diventare un problema se non si parla correntemente la lingua determinata. E 'una buona idea per inviare il documento alla mailing list l10n corrispondente, chiedendo una revisione. Una volta che è stato fatto, si dovrebbe sentire più sicuri della qualità della traduzione, e sentirsi al sicuro da includere nel vostro pacchetto."
+msgstr "Di volta in volta, gli individui si traducono alcuni testi nel vostro pacchetto e vi chiederà l'inserimento della traduzione nel pacchetto. Questo può diventare un problema se non si parla correntemente la lingua determinata. È una buona idea per inviare il documento alla mailing list l10n corrispondente, chiedendo una revisione. Una volta che è stato fatto, si dovrebbe sentire più sicuri della qualità della traduzione, e sentirsi al sicuro da includere nel vostro pacchetto."
 
 #. type: Content of: <chapter><section><section><title>
 #: l10n.dbk:137
@@ -2955,7 +2955,7 @@ msgstr "Si lascia il resto dei manutentori saperne di più sul pacchetto rispett
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: pkgs.dbk:91
 msgid "It is helpful to the people who live off <literal>unstable</literal> (and form our first line of testers). We should encourage these people."
-msgstr "E' utile per le persone che vivono fuori <literal>unstable</literal> (e formare la nostra prima linea di tester). Dovremmo incoraggiare queste persone."
+msgstr "È utile per le persone che vivono fuori <literal>unstable</literal> (e formare la nostra prima linea di tester). Dovremmo incoraggiare queste persone."
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: pkgs.dbk:97
@@ -2990,7 +2990,7 @@ msgstr "Voci changelog possono essere usati per chiudere automaticamente i bug D
 #. type: Content of: <chapter><section><para>
 #: pkgs.dbk:134
 msgid "It is conventional that the changelog entry of a package that contains a new upstream version of the software looks like this:"
-msgstr "E 'convenzionale che la voce del changelog di un pacchetto che contiene una nuova versione del software è la seguente:"
+msgstr "È convenzionale che la voce del changelog di un pacchetto che contiene una nuova versione del software è la seguente:"
 
 #. type: Content of: <chapter><section><screen>
 #: pkgs.dbk:138
@@ -4180,7 +4180,7 @@ msgstr "Se sei un porter che fa un NMU per <literal>unstable</literal>, le linee
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:1726
 msgid "Secondly, porters doing source NMUs should make sure that the bug they submit to the BTS should be of severity <literal>serious</literal> or greater. This ensures that a single source package can be used to compile every supported Debian architecture by release time. It is very important that we have one version of the binary and source package for all architectures in order to comply with many licenses."
-msgstr "In secondo luogo, i porter facendo NMU di sorgenti dovrebbero assicurarsi che il bug presentato al BTS dovrebbe essere di gravità <literal>grave</literal> o superiore. Questo assicura che un singolo pacchetto sorgente può essere usato per compilare ogni architettura supportata da Debian al momento della release. E 'molto importante avere una versione del pacchetto binario e di quello del sorgente per tutte le architetture al fine di conformarsi con molte licenze."
+msgstr "In secondo luogo, i porter facendo NMU di sorgenti dovrebbero assicurarsi che il bug presentato al BTS dovrebbe essere di gravità <literal>grave</literal> o superiore. Questo assicura che un singolo pacchetto sorgente può essere usato per compilare ogni architettura supportata da Debian al momento della release. È molto importante avere una versione del pacchetto binario e di quello del sorgente per tutte le architetture al fine di conformarsi con molte licenze."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:1734
@@ -4355,12 +4355,12 @@ msgstr "Hai concesso abbastanza tempo per il maintainer? Quando è stato segnala
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:1943
 msgid "How confident are you about your changes? Please remember the Hippocratic Oath: \"Above all, do no harm.\" It is better to leave a package with an open grave bug than applying a non-functional patch, or one that hides the bug instead of resolving it. If you are not 100% sure of what you did, it might be a good idea to seek advice from others. Remember that if you break something in your NMU, many people will be very unhappy about it."
-msgstr "Quanto si è sicuri delle modifiche? Si ricordi il giuramento di Ippocrate: «Prima di tutto, non nuocere.» E' meglio lasciare un pacchetto con un serio bug aperto che applicare una patch non funzionale, o una che nasconde il bug invece di risolverlo. Se non si è sicuri al 100% di quello che si è fatto, potrebbe essere una buona idea chiedere il parere di altri. Si ricordi che se si rompe qualcosa nel proprio NMU, molte persone saranno molto scontente al riguardo."
+msgstr "Quanto si è sicuri delle modifiche? Si ricordi il giuramento di Ippocrate: «Prima di tutto, non nuocere.» È meglio lasciare un pacchetto con un serio bug aperto che applicare una patch non funzionale, o una che nasconde il bug invece di risolverlo. Se non si è sicuri al 100% di quello che si è fatto, potrebbe essere una buona idea chiedere il parere di altri. Si ricordi che se si rompe qualcosa nel proprio NMU, molte persone saranno molto scontente al riguardo."
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:1953
 msgid "Have you clearly expressed your intention to NMU, at least in the BTS? It is also a good idea to try to contact the maintainer by other means (private email, IRC)."
-msgstr "Avete espresso chiaramente l'intenzione di un NMU, almeno nel BTS? E 'anche una buona idea cercare di contattare il maintainer con altri mezzi (posta privata, IRC)."
+msgstr "Avete espresso chiaramente l'intenzione di un NMU, almeno nel BTS? È anche una buona idea cercare di contattare il maintainer con altri mezzi (posta privata, IRC)."
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:1960
@@ -4823,7 +4823,7 @@ msgstr "A volte, un pacchetto viene rimosso per consentire ad un altro pacchetto
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2550
 msgid "Of course, there is another reason to remove a package from <literal>testing</literal>: It's just too buggy (and having a single RC-bug is enough to be in this state)."
-msgstr "Naturalmente, c'è un altro motivo per rimuovere un pacchetto da <literal>testing</literal>: E' troppo bacato (e avere un unico baco è sufficiente per essere in questo stato)."
+msgstr "Naturalmente, c'è un altro motivo per rimuovere un pacchetto da <literal>testing</literal>: È troppo bacato (e avere un unico baco è sufficiente per essere in questo stato)."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2555
@@ -5133,7 +5133,7 @@ msgstr "Mailing list speciali"
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:88
 msgid "&email-debian-private; is a special mailing list for private discussions amongst Debian developers. It is meant to be used for posts which for whatever reason should not be published publicly. As such, it is a low volume list, and users are urged not to use &email-debian-private; unless it is really necessary. Moreover, do <emphasis>not</emphasis> forward email from that list to anyone. Archives of this list are not available on the web for obvious reasons, but you can see them using your shell account on <literal>&master-host;</literal> and looking in the <filename>&file-debian-private-archive;</filename> directory."
-msgstr "&email-debian-private; è una mailing list speciale per discussioni private tra gli sviluppatori Debian. E' pensata per essere utilizzata per i messaggi che per qualsiasi ragione non dovrebbero essere pubblicati pubblicamente. Come tale, è una lista a basso traffico, e gli utenti sono invitati a non usare &email-debian-private, a meno che non sia veramente necessario. Inoltre, <emphasis>non</emphasis> inoltrare email da tale lista a nessuno. Archivi di questa lista non sono disponibili sul web per ovvie ragioni, ma è possibile vederli usando il tuo account di shell sul <literal>&master-host;</literal> e guardando nel <filename>&file-debian-private-archive;</filename>."
+msgstr "&email-debian-private; è una mailing list speciale per discussioni private tra gli sviluppatori Debian. È pensata per essere utilizzata per i messaggi che per qualsiasi ragione non dovrebbero essere pubblicati pubblicamente. Come tale, è una lista a basso traffico, e gli utenti sono invitati a non usare &email-debian-private, a meno che non sia veramente necessario. Inoltre, <emphasis>non</emphasis> inoltrare email da tale lista a nessuno. Archivi di questa lista non sono disponibili sul web per ovvie ragioni, ma è possibile vederli usando il tuo account di shell sul <literal>&master-host;</literal> e guardando nel <filename>&file-debian-private-archive;</filename>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:100
@@ -5173,7 +5173,7 @@ msgstr "Il principale canale di Debian in generale è <literal>#debian</literal>
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:143
 msgid "The main channel for Debian development is <literal>#debian-devel</literal>. It is a very active channel; it will typically have a minimum of 150 people at any time of day. It's a channel for people who work on Debian, it's not a support channel (there's <literal>#debian</literal> for that). It is however open to anyone who wants to lurk (and learn). Its topic is commonly full of interesting information for developers."
-msgstr "Il canale principale per lo sviluppo di Debian è <literal>#debian-devel</literal>. E 'un canale molto attivo; in genere avrà un minimo di 150 persone in ogni momento della giornata. E' un canale per le persone che lavorano su Debian, non è un canale di supporto (c'è <literal>#debian</literal> per quello). E' comunque aperto a chiunque voglia dare un'occhiata (e imparare). Il suo topic è generalmente pieno di informazioni interessanti per gli sviluppatori."
+msgstr "Il canale principale per lo sviluppo di Debian è <literal>#debian-devel</literal>. È un canale molto attivo; in genere avrà un minimo di 150 persone in ogni momento della giornata. È un canale per le persone che lavorano su Debian, non è un canale di supporto (c'è <literal>#debian</literal> per quello). È comunque aperto a chiunque voglia dare un'occhiata (e imparare). Il suo topic è generalmente pieno di informazioni interessanti per gli sviluppatori."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:152
@@ -5283,7 +5283,7 @@ msgstr "Il server <literal>&ftp-master-host;</literal> contiene la copia canonic
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:279
 msgid "It is restricted; a mirror is available on <literal>&ftp-master-mirror;</literal>."
-msgstr "E' limitata; un mirror è disponibile su <literal>&ftp-master-mirror;</literal>."
+msgstr "È limitata; un mirror è disponibile su <literal>&ftp-master-mirror;</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:282
@@ -6202,7 +6202,7 @@ msgstr "L'intefaccia web di PTS"
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1378
 msgid "The PTS has a web interface at <ulink url=\"http://&pts-host;/\"></ulink> that puts together a lot of information about each source package. It features many useful links (BTS, QA stats, contact information, DDTP translation status, buildd logs) and gathers much more information from various places (30 latest changelog entries, testing status, etc.). It's a very useful tool if you want to know what's going on with a specific source package. Furthermore there's a form that allows easy subscription to the PTS via email."
-msgstr "Il PTS ha una interfaccia web all'indirizzo <ulink url=\"http://&pts-host;/\"> </ulink>, che mette insieme molte informazioni su ogni pacchetto sorgente. È dotato di molti link utili (BTS, QA statistiche, informazioni sui contatti, lo stato di traduzione DDTP, logs di buildd) e raccoglie molte informazioni da vari luoghi (le ultime 30 voci del changelog, lo stato di testing, ecc.) E' uno strumento molto utile se si vuole sapere che cosa sta succedendo ad uno specifico pacchetto sorgente. Inoltre c'è un modulo che permette una facile sottoscrizione al PTS via email."
+msgstr "Il PTS ha una interfaccia web all'indirizzo <ulink url=\"http://&pts-host;/\"> </ulink>, che mette insieme molte informazioni su ogni pacchetto sorgente. È dotato di molti link utili (BTS, QA statistiche, informazioni sui contatti, lo stato di traduzione DDTP, logs di buildd) e raccoglie molte informazioni da vari luoghi (le ultime 30 voci del changelog, lo stato di testing, ecc.) È uno strumento molto utile se si vuole sapere che cosa sta succedendo ad uno specifico pacchetto sorgente. Inoltre c'è un modulo che permette una facile sottoscrizione al PTS via email."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1388
@@ -6363,7 +6363,7 @@ msgstr "Un portale web QA (garanzia di qualità) è disponibile all'indirizzo <u
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1534
 msgid "It is a good idea to look up your own data regularly so that you don't forget any open bugs, and so that you don't forget which packages are your responsibility."
-msgstr "E' una buona idea per cercare i propri dati regolarmente in modo da non dimenticare eventuali bug aperti, e in modo da non dimenticare che i pacchetti sono a proprio carico."
+msgstr "È una buona idea per cercare i propri dati regolarmente in modo da non dimenticare eventuali bug aperti, e in modo da non dimenticare che i pacchetti sono a proprio carico."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:1541
@@ -6378,7 +6378,7 @@ msgstr "Alioth è un servizio di Debian basato su una versione leggermente modif
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1550
 msgid "It is intended to provide facilities to free software projects backed or led by Debian, facilitate contributions from external developers to projects started by Debian, and help projects whose goals are the promotion of Debian or its derivatives. It's heavily used by many Debian teams and provides hosting for all sorts of VCS repositories."
-msgstr "Esso è destinato a fornire servizi per progetti di software libero sostenuti o guidati da Debian, facilitare contributi da sviluppatori esterni a progetti avviati da Debian, e contribuire a progetti i cui obiettivi sono la promozione di Debian o suoi derivati​​. E' molto utilizzato da molti team di Debian e fornisce hosting per tutti i tipi di repository VCS."
+msgstr "Esso è destinato a fornire servizi per progetti di software libero sostenuti o guidati da Debian, facilitare contributi da sviluppatori esterni a progetti avviati da Debian, e contribuire a progetti i cui obiettivi sono la promozione di Debian o suoi derivati​​. È molto utilizzato da molti team di Debian e fornisce hosting per tutti i tipi di repository VCS."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1557
@@ -6665,7 +6665,7 @@ msgstr "<systemitem role=\"package\">equivs</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:199
 msgid "<systemitem role=\"package\">equivs</systemitem> is another package for making packages. It is often suggested for local use if you need to make a package simply to fulfill dependencies. It is also sometimes used when making ``meta-packages'', which are packages whose only purpose is to depend on other packages."
-msgstr "<systemitem role=\"package\">equivs</systemitem> è un altro pacchetto per fare i pacchetti. E' spesso suggerito per uso locale, se avete bisogno di fare un pacchetto semplicemente per soddisfare le dipendenze. A volte è anche utilizzato quando si costruisce un «meta-pacchetto» , che sono pacchetti il ​​cui unico scopo è quello di dipendere da altri pacchetti."
+msgstr "<systemitem role=\"package\">equivs</systemitem> è un altro pacchetto per fare i pacchetti. È spesso suggerito per uso locale, se avete bisogno di fare un pacchetto semplicemente per soddisfare le dipendenze. A volte è anche utilizzato quando si costruisce un «meta-pacchetto» , che sono pacchetti il ​​cui unico scopo è quello di dipendere da altri pacchetti."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:210
@@ -6715,7 +6715,7 @@ msgstr "<systemitem role=\"package\">pbuilder</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:251
 msgid "<systemitem role=\"package\">pbuilder</systemitem> constructs a chrooted system, and builds a package inside the chroot. It is very useful to check that a package's build-dependencies are correct, and to be sure that unnecessary and wrong build dependencies will not exist in the resulting package."
-msgstr "<systemitem role=\"package\">pbuilder</systemitem> costruisce un sistema chroot, e costruisce un pacchetto all'interno del chroot. E' molto utile per controllare che dipendenze di compilazione di un pacchetto siano corrette e per essere certi che dipendenze non necessarie o sbagliate non esistano nel pacchetto risultante."
+msgstr "<systemitem role=\"package\">pbuilder</systemitem> costruisce un sistema chroot, e costruisce un pacchetto all'interno del chroot. È molto utile per controllare che dipendenze di compilazione di un pacchetto siano corrette e per essere certi che dipendenze non necessarie o sbagliate non esistano nel pacchetto risultante."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:257
@@ -6730,7 +6730,7 @@ msgstr "<systemitem role=\"package\">sbuild</systemitem>"
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:266
 msgid "<systemitem role=\"package\">sbuild</systemitem> is another automated builder. It can use chrooted environments as well. It can be used stand-alone, or as part of a networked, distributed build environment. As the latter, it is part of the system used by porters to build binary packages for all the available architectures. See <xref linkend=\"wanna-build\"/> for more information, and <ulink url=\"&url-buildd;\"></ulink> to see the system in action."
-msgstr "<systemitem role=\"package\">sbuild</systemitem> è un altro builder automatizzato. E' possibile anche utilizzare ambienti chroot. Può essere utilizzata da solo, o come parte di una rete, distribuita di ambiente di build. Come quest'ultimo, è parte del sistema utilizzato dai porter per costruire pacchetti binari per tutte le architetture disponibili. Si consulti <xref linkend=\"wanna-build\"/> per maggiori informazioni, e <ulink url=\"&url-buildd;\"> </ulink> per vedere il sistema in azione."
+msgstr "<systemitem role=\"package\">sbuild</systemitem> è un altro builder automatizzato. È possibile anche utilizzare ambienti chroot. Può essere utilizzata da solo, o come parte di una rete, distribuita di ambiente di build. Come quest'ultimo, è parte del sistema utilizzato dai porter per costruire pacchetti binari per tutte le architetture disponibili. Si consulti <xref linkend=\"wanna-build\"/> per maggiori informazioni, e <ulink url=\"&url-buildd;\"> </ulink> per vedere il sistema in azione."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:278
