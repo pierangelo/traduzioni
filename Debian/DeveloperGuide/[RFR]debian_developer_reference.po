@@ -5067,14 +5067,14 @@ msgid ""
 "ensure everything keeps running smoothly."
 msgstr ""
 "Un progetto delle dimensioni di Debian si basa su alcune infrastrutture "
-"amministrative per tenere traccia di tutto. Come membro del progetto, hai "
+"amministrative per tenere traccia di tutto. Come membro del progetto, avete "
 "alcuni doveri che assicurano che il tutto continui a funzionare senza "
 "problemi."
 
 #. type: Content of: <chapter><section><section><title>
 #: developer-duties.dbk:126
 msgid "Maintaining your Debian information"
-msgstr "Gestire le tue informazioni Debian"
+msgstr "Gestire le vostre informazioni Debian"
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:128
@@ -5088,10 +5088,10 @@ msgid ""
 msgstr ""
 "C'è un database LDAP contenente le informazioni relative agli sviluppatori "
 "Debian su <ulink url=\"&url-debian-db;\"></ulink>. Dovreste immettere le "
-"informazioni li ed aggiornarle appena cambiano. Più in particolare, fai in "
-"modo che l'indirizzo al quale la tua email debian.org viene inoltrata sia "
-"sempre aggiornato, così come l'indirizzo in cui hai le tue iscrizioni debian "
-"private se si sceglie di sottoscriverle."
+"informazioni li ed aggiornarle appena cambiano. Più in particolare, fate in "
+"modo che l'indirizzo al quale la vostra email debian.org viene inoltrata sia "
+"sempre aggiornato, così come l'indirizzo in cui avete le vostre iscrizioni "
+"debian private se si sceglie di sottoscriverle."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:136
@@ -5105,7 +5105,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><title>
 #: developer-duties.dbk:141
 msgid "Maintaining your public key"
-msgstr "Mantenere la tua chiave pubblica"
+msgstr "Mantenere la vostra chiave pubblica"
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:143
@@ -5116,11 +5116,11 @@ msgid ""
 "documentation that comes with your software; read the <ulink url=\"&url-pgp-"
 "faq;\">PGP FAQ</ulink>."
 msgstr ""
-"State molto attenti con le vostre chiavi private. Non metterle su qualsiasi "
+"State molto attenti con le vostre chiavi private. Non mettetele su qualsiasi "
 "server pubblico o macchine multiutente, come ad esempio il server Debian (si "
-"consulti <xref linkend=\"server-machines\"/>). Esegui copie delle chiavi; "
-"conserva una copia offline. Leggi la documentazione fornita con il software; "
-"leggi la <ulink url=\"&url-pgp-faq;\">PGP FAQ</ulink>."
+"consulti <xref linkend=\"server-machines\"/>). Eseguite copie delle chiavi; "
+"conservate una copia offline. Leggete la documentazione fornita con il "
+"software; leggete la <ulink url=\"&url-pgp-faq;\">PGP FAQ</ulink>."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:150
@@ -5130,10 +5130,10 @@ msgid ""
 "(best also in paper form) of your revocation certificate; this is needed if "
 "your key is lost."
 msgstr ""
-"È necessario garantire non solo che la tua chiave è sicura contro il furto, "
-"ma anche che è protetta in caso di smarrimento. Genera e fai una copia "
-"(meglio anche se in forma cartacea) del certificato di revoca; questo è "
-"necessario se la chiave viene persa."
+"È necessario garantire non solo che la vostra chiave è sicura contro il "
+"furto, ma anche che è protetta in caso di smarrimento. Generate e fate una "
+"copia (meglio anche se in forma cartacea) del certificato di revoca; questo "
+"è necessario se la chiave viene persa."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:156
@@ -5142,9 +5142,10 @@ msgid ""
 "update the Debian key ring by sending your key to the key server at "
 "<literal>&keyserver-host;</literal>."
 msgstr ""
-"Se aggiungi firme alla tua chiave pubblica, o di aggiungi identità di "
-"utenti, è possibile aggiornare il portachiavi Debian inviando la tua chiave "
-"al server delle chiavi al <literal>&keyserver-host;</literal>."
+"Se aggiungete firme alla vostra chiave pubblica, o aggiungete identità di "
+"utenti, è possibile aggiornare il portachiavi Debian inviando la vostra "
+"chiave al server delle chiavi all'indirizzo <literal>&keyserver-host;</"
+"literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:161
@@ -5156,8 +5157,8 @@ msgid ""
 "Details can be found at <ulink url=\"http://&keyserver-host;/replacing_keys."
 "html\"></ulink>."
 msgstr ""
-"Se è necessario aggiungere una nuova chiave o rimuovere una vecchia chiave, "
-"è necessario che la nuova chiave sia firmata da un altro sviluppatore. Se la "
+"Se è necessario aggiungere una nuova chiave o rimuovere una vecchia, è "
+"necessario che la nuova chiave sia firmata da un altro sviluppatore. Se la "
 "vecchia chiave è compromessa o non valida, si deve anche aggiungere il "
 "certificato di revoca. Se non vi è alcun motivo reale per una nuova chiave, "
 "i Keyring Maintainers potrebbero rifiutare la nuova chiave. Dettagli possono "
@@ -5198,7 +5199,7 @@ msgid ""
 msgstr ""
 "Anche se Debian non è davvero una democrazia, usiamo un processo democratico "
 "per eleggere i nostri leader e ad approvare risoluzioni generali. Queste "
-"procedure sono definite dal <ulink url=\"&url-constitution;\">Costituzione "
+"procedure sono definite dalla <ulink url=\"&url-constitution;\">Costituzione "
 "Debian</ulink>."
 
 #. type: Content of: <chapter><section><section><para>
@@ -5209,10 +5210,11 @@ msgid ""
 "&email-debian-vote; mailing list and it requires several endorsements before "
 "the project secretary starts the voting procedure."
 msgstr ""
-"Altro che l'elezione capo annuale, i voti non sono regolarmente tenuti, e "
-"non sono intraprese con leggerezza. Ogni proposta è prima discusso sulla "
-"mailing list &email-debian-vote; e richiede diverse approvazioni prima che "
-"il segretario progetto inizia la procedura di voto."
+"Oltre all'annuale elezione del leader, le votazioni non sono tenute "
+"regolarmente, e non sono intraprese con leggerezza. Ogni proposta è prima "
+"discussa sulla mailing list &email-debian-vote; e richiede diverse "
+"approvazioni prima che il segretario del progetto inizii la procedura di "
+"voto."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:194
@@ -5224,12 +5226,12 @@ msgid ""
 "all developers to vote. Voting is conducted via GPG-signed/encrypted email "
 "messages."
 msgstr ""
-"Non si dispone di monitorare le discussioni pre-voto, come il segretario "
-"rilascerà diverse chiamate di votazione su&email-debian-devel-announce; (e "
+"Non dovete monitorare le discussioni pre-voto, considerato che il segretario "
+"effettuerà diverse chiamate di votazione su &email-debian-devel-announce; (e "
 "tutti gli sviluppatori dovrebbero essere iscritti a questa lista). La "
 "democrazia non funziona bene se le persone non prendono parte al voto, è per "
-"questo che invitiamo tutti gli sviluppatori di votare. Votazioni è condotto "
-"attraverso GPG-signed/encrypted messaggi e-mail."
+"questo che invitiamo tutti gli sviluppatori a votare. Le votazioni sono "
+"condotte attraverso messaggi email GPG-signed/encrypted."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:202
@@ -5238,14 +5240,14 @@ msgid ""
 "\"&url-vote;\">Debian Voting Information</ulink> page, along with "
 "information on how to make, second and vote on proposals."
 msgstr ""
-"L'elenco di tutte le proposte (passata e presente) è disponibile sul <ulink "
+"L'elenco di tutte le proposte (passate e presenti) è disponibile sul <ulink "
 "url=\"&url-vote;\">Debian Voting Information</ulink> pagina, insieme a "
-"informazioni su come fare, secondo e votare proposte."
+"informazioni su come fare, supportare e votare proposte."
 
 #. type: Content of: <chapter><section><section><title>
 #: developer-duties.dbk:209
 msgid "Going on vacation gracefully"
-msgstr "Andare in vacanza con grazia"
+msgstr "Andare in vacanza con garbo"
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:211
@@ -5256,11 +5258,11 @@ msgid ""
 "that they can do whatever is needed if a problem occurs with your packages "
 "or other duties in the project."
 msgstr ""
-"È comune per gli sviluppatori di avere periodi di assenza, se queste sono le "
-"vacanze programmate o semplicemente di essere sepolti in altri lavori. La "
-"cosa importante da notare è che gli altri sviluppatori hanno bisogno di "
-"sapere che sei in vacanza in modo che possano fare tutto ciò che è "
-"necessario in caso di problemi con i pacchetti o altri obblighi nel progetto."
+"È comune per gli sviluppatori avere periodi di assenza, se queste sono le "
+"vacanze programmate o semplicemente se sono sepolti in altri lavori. La cosa "
+"importante da notare è che gli altri sviluppatori hanno bisogno di sapere "
+"che siete in vacanza in modo che possano fare tutto ciò che è necessario in "
+"caso di problemi con vostri pacchetti o altri obblighi nel progetto."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:218
@@ -5271,11 +5273,12 @@ msgid ""
 "nothing as critical as that, but it's still appropriate to let others know "
 "that you're unavailable."
 msgstr ""
-"Di solito questo significa che altri sviluppatori possono NMU (si consulti "
-"<xref linkend=\"nmu\"/>) il vostro pacchetto se un grosso problema (release "
-"bug critico, aggiornamento della sicurezza, ecc), si verifica mentre si è in "
-"vacanza. A volte non è niente di così critica come quella, ma è ancora il "
-"caso di far sapere agli altri che non sei disponibile."
+"Di solito questo significa che altri sviluppatori sono consentiti NMU (si "
+"consulti <xref linkend=\"nmu\"/>) per il vostro pacchetto se un grosso "
+"problema (bug critico per la release, aggiornamento della sicurezza, ecc), "
+"si verifica mentre siete in vacanza. A volte non è niente di così critico "
+"come quelli, ma è ancora il caso di far sapere agli altri che non siete "
+"disponibili."
 
 #. type: Content of: <chapter><section><section><para><footnote><para>
 #: developer-duties.dbk:227
@@ -5283,8 +5286,8 @@ msgid ""
 "This is so that the message can be easily filtered by people who don't want "
 "to read vacation notices."
 msgstr ""
-"Questo è così che il messaggio può essere facilmente filtrato da persone che "
-"non vogliono leggere avvisi di vacanza."
+"Questo è come il messaggio può essere facilmente filtrato da persone che non "
+"vogliono leggere avvisi di vacanza."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:225
@@ -5297,11 +5300,11 @@ msgid ""
 "problem occurs."
 msgstr ""
 "Al fine di informare gli altri sviluppatori, ci sono due cose che si "
-"dovrebbe fare. In primo luogo inviare una mail a <email>@debian-private e "
-"liste-host;</email> con [VAC] anteposto al soggetto del messaggio "
+"dovrebbero fare. In primo luogo inviare una email a <email>@debian-private e "
+"liste-host;</email> con [VAC] anteposto all'argomento del messaggio "
 "<placeholder type=\"footnote\" id=\"0\"/> e indicare il periodo di tempo in "
-"cui si sarà in vacanza. Si può anche dare alcune speciali istruzioni su cosa "
-"fare in caso di problemi."
+"cui si sarà in vacanza. Si possono anche dare alcune speciali istruzioni su "
+"cosa fare in caso di problemi."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:234
@@ -5313,8 +5316,8 @@ msgid ""
 msgstr ""
 "L'altra cosa da fare è quella di segnare se stessi come in vacanza nel <link "
 "linkend=\"devel-db\">Debian developers' LDAP database</link> (questa "
-"informazione è accessibile solo agli sviluppatori Debian). Non dimenticare "
-"di togliere il flag vacanza su quando torni!"
+"informazione è accessibile solo agli sviluppatori Debian). Non dimenticate "
+"di togliere il flag vacanza quando tornate!"
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:240
@@ -5325,17 +5328,17 @@ msgid ""
 "exotic places where we don't have any developers yet but where there are "
 "people who are interested in applying."
 msgstr ""
-"Idealmente, si dovrebbe firmare <ulink url=\"&url-gpg-coord;\">GPG "
+"Idealmente, si dovrebbe firmare la <ulink url=\"&url-gpg-coord;\">GPG "
 "coordination pages</ulink> al momento della prenotazione di una vacanza e "
 "verificare se qualcuno ci sta cercando per la firma. Questo è "
 "particolarmente importante quando la gente va in luoghi esotici dove non "
-"abbiamo ancora gli sviluppatori, ma dove ci sono persone che sono "
+"abbiamo ancora degli sviluppatori, ma dove ci sono persone che sono "
 "interessati a presentare domanda."
 
 #. type: Content of: <chapter><section><section><title>
 #: developer-duties.dbk:249
 msgid "Retiring"
-msgstr "Retiring"
+msgstr "Concedarsi"
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:251
@@ -5351,7 +5354,8 @@ msgstr ""
 msgid ""
 "Orphan all your packages, as described in <xref linkend=\"orphaning\"/>."
 msgstr ""
-"Orfani tutti i pacchetti, come descritto in <xref linkend=\"orphaning\"/>."
+"rendete orfani tutti i pacchetti, come descritto in <xref linkend=\"orphaning"
+"\"/>."
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para>
 #: developer-duties.dbk:262
@@ -5359,7 +5363,7 @@ msgid ""
 "Send an gpg-signed email about why you are leaving the project to "
 "<email>debian-private@&lists-host;</email>."
 msgstr ""
-"Invia una e-mail gpg-firmato sul perché si sta lasciando il progetto di "
+"Inviate una email gpg-firmata sul perché si sta lasciando il progetto a "
 "<email>debian-private@&liste-host;</email>."
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para>
@@ -5369,10 +5373,10 @@ msgid ""
 "ticket in Debian RT by sending a mail to &email-keyring; with the words "
 "'Debian RT' somewhere in the subject line (case doesn't matter)."
 msgstr ""
-"Comunica i manutentori Debian anello chiave che si sta lasciando con "
-"l'apertura di un ticket in Debian RT con l'invio di una mail all'indirizzo e-"
-"mail-portachiavi, con le parole 'Debian RT' da qualche parte nella riga "
-"dell'oggetto (caso non importa)."
+"Comunicate ai keyring maintainer  Debian che si sta lasciando con l'apertura "
+"di un ticket in Debian RT e con l'invio di una email all'indirizzo &email-"
+"keyring;  con le parole «Debian RT» da qualche parte nella riga dell'oggetto "
+"(le maiuscole e minuscole non importano)."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:275
@@ -5380,14 +5384,14 @@ msgid ""
 "It is important that the above process is followed, because finding inactive "
 "developers and orphaning their packages takes significant time and effort."
 msgstr ""
-"È importante che il processo di cui sopra è seguito, perché trovare "
-"sviluppatori inattivi e orphaning loro pacchetti richiede molto tempo e "
-"lavoro."
+"È importante che il processo di cui sopra sia seguito, perché trovare "
+"sviluppatori inattivi e rendere orfani i loro pacchetti richiede molto tempo "
+"e lavoro."
 
 #. type: Content of: <chapter><section><section><title>
 #: developer-duties.dbk:281
 msgid "Returning after retirement"
-msgstr "Tornando dopo il pensionamento"
+msgstr "Ritornare dopo il congedo"
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:283
@@ -5397,7 +5401,7 @@ msgid ""
 "developers with an \"emeritus\" account can get their account re-activated "
 "as follows:"
 msgstr ""
-"l'account di uno sviluppatore ritirato è contrassegnato come «emerito» "
+"l'account di uno sviluppatore congedato è contrassegnato come «emerito» "
 "quando il processo in <xref linkend=\"s3.7\"/> è seguito, e «disabled» in "
 "caso contrario. Gli sviluppatori ritirati con un account «emerito» possono "
 "ottenere il loro account riattivato come segue:"
@@ -5405,7 +5409,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: developer-duties.dbk:292
 msgid "Contact &email-debian-account-manager;."
-msgstr "Contatto &email-debian-account-manager;."
+msgstr "Si contatti &email-debian-account-manager;."
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: developer-duties.dbk:297
@@ -5413,8 +5417,9 @@ msgid ""
 "Go through a shortened NM process (to ensure that the returning developer "
 "still knows important parts of P&amp;P and T&amp;S)."
 msgstr ""
-"Passare attraverso un processo di NM accorciato (per garantire che il "
-"committente tornando sa ancora parti importanti della P&amp;P and T&amp;S)."
+"S passi attraverso un processo di NM accorciato (per garantire che il "
+"committente tornando sappia ancora parti importanti della P&amp;P and T&amp;"
+"S)."
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: developer-duties.dbk:303
@@ -5423,16 +5428,16 @@ msgid ""
 "provide proof of identify on a new GPG key, with at least two signatures "
 "from other developers."
 msgstr ""
-"Dimostra che ancora controllano la chiave GPG associato all'account, o "
-"fornire la prova di identificare su una nuova chiave GPG, con almeno due "
-"firme da altri sviluppatori."
+"Si dimostri che ancora si controlla la chiave GPG associata all'account, o "
+"si fornisca la prova di identificazione su una nuova chiave GPG, con almeno "
+"due firme da altri sviluppatori."
 
 #. type: Content of: <chapter><section><section><para>
 #: developer-duties.dbk:310
 msgid ""
 "Retired developers with a \"disabled\" account need to go through NM again."
 msgstr ""
-"Gli sviluppatori ritirati con un account «disabilitato» necessitano "
+"Gli sviluppatori congedati con un account «disabilitato» necessitano "
 "nuovamente di passare attraverso NM."
 
 #. type: Attribute 'lang' of: <book>
@@ -5562,12 +5567,12 @@ msgid ""
 "in internationalization). Therefore, even if you are ok with English-only "
 "programs, you should read most of this chapter."
 msgstr ""
-"Debian supporta un numero sempre crescente di lingue naturali. Anche se sei "
-"un madrelingua inglese e non si parla un'altra lingua, è parte del vostro "
-"dovere come maintainer di essere a conoscenza delle problematiche di "
+"Debian supporta un numero sempre crescente di lingue naturali. Anche se "
+"siete un madrelingua inglese e non si parla un'altra lingua, è parte del "
+"vostro dovere come maintainer essere a conoscenza delle problematiche di "
 "internazionalizzazione (i18n abbreviato perché ci sono 18 lettere tra la 'i' "
-"e la 'n' in internazionalizzazione). Pertanto, anche se si sono ok con "
-"l'inglese-solo i programmi, vi consigliamo di leggere la maggior parte di "
+"e la 'n' in internazionalizzazione). Pertanto, anche se non avete problemi "
+"con programmi solo inglesi, vi consigliamo di leggere la maggior parte di "
 "questo capitolo."
 
 #. type: Content of: <chapter><para>
@@ -5580,12 +5585,12 @@ msgid ""
 "(localization) means implementation of a specific language for an already "
 "internationalized software."
 msgstr ""
-"Secondo <ulink url=\"&url-i18n-intro;\"> Introduzione a i18n </ulink> da "
-"Tomohiro KUBOTA, i18n (internazionalizzazione) si intende la modifica di un "
-"software o di tecnologie correlate in modo che un software è potenzialmente "
-"in grado di gestire più lingue, costumi, e così via in tutto il mondo, "
-"mentre L10N (localizzazione) si intende l'attuazione di una determinata "
-"lingua per un software già internazionalizzato."
+"Secondo l'<ulink url=\"&url-i18n-intro;\">Introduzione a i18n</ulink> di "
+"Tomohiro KUBOTA, per i18n (internazionalizzazione) si intende la modifica di "
+"un software o di tecnologie correlate in modo che sia potenzialmente in "
+"grado di gestire più lingue, costumi, e così via in tutto il mondo, mentre "
+"L10N (localizzazione) si intende l'attuazione di una determinata lingua per "
+"un software già internazionalizzato."
 
 #. type: Content of: <chapter><para>
 #: l10n.dbk:26
@@ -5598,11 +5603,11 @@ msgid ""
 "use several character encodings is a really hard problem."
 msgstr ""
 "l10n e i18n sono interconnessi, ma le difficoltà relative a ciascuno di essi "
-"sono molto diversi. Non è davvero difficile da consentire un programma per "
+"sono molto diverse. Non è davvero difficile consentire ad un programma di "
 "cambiare la lingua in cui vengono visualizzati i testi sulla base di "
-"impostazioni utente, ma è molto tempo per tradurre in realtà questi "
-"messaggi. D'altro canto, impostando la codifica dei caratteri è banale, ma "
-"adattando il codice per utilizzare diverse codifiche di carattere è un "
+"impostazioni utente, ma in realtà è molto dispendioso tradurre questi "
+"messaggi. D'altro canto, impostare la codifica dei caratteri è banale, ma "
+"adattare il codice per utilizzare diverse codifiche di carattere è un "
 "problema veramente difficile."
 
 #. type: Content of: <chapter><para>
@@ -5613,15 +5618,15 @@ msgid ""
 "could be compared to the buildd mechanism for porting. So most of the work "
 "has to be done manually."
 msgstr ""
-"Lasciando da parte i problemi i18n, dove può essere data alcuna linea guida "
-"generale, non vi è in realtà alcuna infrastruttura centrale per l10n in "
-"Debian che potrebbe essere confrontato con il meccanismo buildd per il "
+"Lasciando da parte i problemi i18n, dove non è possibile dare alcuna linea "
+"guida generale, non vi è in realtà alcuna infrastruttura centrale per l10n "
+"in Debian che potrebbe essere confrontata con il meccanismo buildd per il "
 "porting. Così la maggior parte del lavoro deve essere fatto manualmente."
 
 #. type: Content of: <chapter><section><title>
 #: l10n.dbk:40
 msgid "How translations are handled within Debian"
-msgstr "Come traduzioni sono effettuate in Debian"
+msgstr "Come le traduzioni sono effettuate in Debian"
 
 #. type: Content of: <chapter><section><para>
 #: l10n.dbk:42
@@ -5629,7 +5634,7 @@ msgid ""
 "Handling translation of the texts contained in a package is still a manual "
 "task, and the process depends on the kind of text you want to see translated."
 msgstr ""
-"Manipolazione traduzione dei testi contenuti in un pacchetto è ancora un "
+"La gestione della traduzione dei testi contenuti in un pacchetto è ancora un "
 "compito manuale, e il processo dipende dal tipo di testo che si desidera "
 "vedere tradotto."
 
@@ -5646,10 +5651,10 @@ msgid ""
 "files found in the actual packages, but no real infrastructure to ease the "
 "translation process."
 msgstr ""
-"Per messaggi di programma, l'infrastruttura gettext viene usato il più delle "
+"Per messaggi di programma, l'infrastruttura gettext viene usata il più delle "
 "volte. La maggior parte del tempo, la traduzione viene gestita "
 "originariamente all'interno di progetti come il <ulink url=\"&url-l10n-tp;"
-"\">Free Translation Project</ulink>, lo <ulink url=\"&url-l10n-gnome;"
+"\">Free Translation Project</ulink>, il <ulink url=\"&url-l10n-gnome;"
 "\">Gnome translation Project</ulink> o <ulink url=\"&url-l10n-kde;\">quello "
 "KDE</ulink>. L'unica risorsa centralizzata di Debian è il <ulink url=\"&url-"
 "l10n;\">Central Debian translation statistics</ulink>, dove si possono "
@@ -5667,12 +5672,12 @@ msgid ""
 "should use the <ulink url=\"&url-ddtp;\">Debian Description Translation "
 "Project (DDTP)</ulink>."
 msgstr ""
-"Uno sforzo di tradurre le descrizioni dei pacchetti iniziato molto tempo fa, "
-"anche se molto poco sostegno è offerto dagli strumenti di loro di utilizzare "
-"effettivamente (cioè, solo APT loro possono usare, se configurato "
-"correttamente). Manutentori non hanno bisogno di fare nulla di speciale per "
-"sostenere le descrizioni dei pacchetti tradotti; traduttori devono usare la "
-"<ulink url=\"&url-ddtp;\">Debian Description Translation Project (DDTP)</"
+"Uno sforzo per tradurre le descrizioni dei pacchetti è iniziato molto tempo "
+"fa, anche se molto poco sostegno è offerto dagli strumenti che "
+"effettivamente li utilizzano (cioè, solo APT possono usare, se configurato "
+"correttamente). I maintainer non hanno bisogno di fare nulla di speciale per "
+"supportare le descrizioni dei pacchetti tradotti; i traduttori devono usare "
+"il <ulink url=\"&url-ddtp;\">Debian Description Translation Project (DDTP)</"
 "ulink>."
 
 #. type: Content of: <chapter><section><para>
@@ -5688,11 +5693,11 @@ msgid ""
 "packages)."
 msgstr ""
 "Per i modelli <systemitem role=\"package\">debconf</systemitem>, i "
-"maintainers dovrebbero utilizzare il pacchetto <systemitem role=\"package"
+"maintainer dovrebbero utilizzare il pacchetto <systemitem role=\"package"
 "\">po-debconf</systemitem> per facilitare il lavoro dei traduttori, che "
-"potrebbero usare il DDTP per fare il loro lavoro (ma i teams francesi e "
+"potrebbero usare il DDTP per fare il loro lavoro (ma i team francesi e "
 "brasiliani non lo usano). Alcune statistiche possono essere trovate sia sul "
-"sito <ulink url=\"&url-ddtp;\">DDTP site</ulink> (su ciò che è "
+"<ulink url=\"&url-ddtp;\">DDTP site</ulink> (su ciò che è stato "
 "effettivamente tradotto), e sul sito <ulink url=\"&url-l10n;\">Central "
 "Debian translation statistics</ulink>(su ciò che è integrato nei pacchetti)."
 
@@ -5703,8 +5708,7 @@ msgid ""
 "statistics are available from the Central Debian translation statistics site."
 msgstr ""
 "Per le pagine web, ogni squadra l10n ha accesso alle VCS rilevanti, e sono "
-"disponibili presso il sito centrale di statistica traduzione Debian le "
-"statistiche."
+"disponibili presso il sito Central Debian translation statistics."
 
 #. type: Content of: <chapter><section><para>
 #: l10n.dbk:79
@@ -5724,7 +5728,7 @@ msgid ""
 "formats), almost everything remains to be done."
 msgstr ""
 "Per la documentazione di un pacchetto specifico (pagine man, documenti info, "
-"altri formati), quasi tutto ciò che resta da fare."
+"altri formati), quasi tutto resta da fare."
 
 #. type: Content of: <chapter><section><para>
 #: l10n.dbk:88
@@ -5732,7 +5736,7 @@ msgid ""
 "Most notably, the KDE project handles translation of its documentation in "
 "the same way as its program messages."
 msgstr ""
-"Più in particolare, il progetto KDE gestisce traduzione della sua "
+"Più in particolare, il progetto KDE gestisce la traduzione della sua "
 "documentazione nello stesso modo dei suoi messaggi del programma."
 
 #. type: Content of: <chapter><section><para>
@@ -5741,14 +5745,14 @@ msgid ""
 "There is an effort to handle Debian-specific man pages within a <ulink url="
 "\"&url-cvsweb;manpages/?cvsroot=debian-doc\">specific VCS repository</ulink>."
 msgstr ""
-"C'è uno sforzo per gestire le pagine di manuale di Debian-specifici "
-"all'interno di un <ulink url=\"&url-cvsweb;manpages/?cvsroot=debian-doc"
+"C'è uno sforzo per gestire le pagine di manuale specifici di Debian "
+"all'interno di uno <ulink url=\"&url-cvsweb;manpages/?cvsroot=debian-doc"
 "\">specifico repository VCS</ulink>."
 
 #. type: Content of: <chapter><section><title>
 #: l10n.dbk:99
 msgid "I18N &amp; L10N FAQ for maintainers"
-msgstr "I18N e L10N FAQ per i manutentori"
+msgstr "I18N e L10N FAQ per i maintainer"
 
 #. type: Content of: <chapter><section><para>
 #: l10n.dbk:101
@@ -5759,13 +5763,13 @@ msgid ""
 "better idea for a given problem, or if you disagree on some points, feel "
 "free to provide your feedback, so that this document can be enhanced."
 msgstr ""
-"Questa è una lista di problemi che i manutentori potrebbero dover far fronte "
-"in materia di i18n e l10n. Durante la lettura di questo, tenere presente che "
-"non esiste un vero consenso su questi punti all'interno di Debian, e che "
-"questo è solo un consiglio. Se hai un'idea migliore per un dato problema, o "
-"se siete in disaccordo su alcuni punti, non esitate a fornire il vostro "
-"feedback, in modo che questo documento può essere migliorata. & L10N FAQ per "
-"i manutentori"
+"Questa è un elenco di problemi che i maintainer potrebbero dover affrontare "
+"in materia di i18n e l10n. Durante la lettura di questo documento, tenere "
+"presente che non esiste un vero consenso su questi punti all'interno di "
+"Debian, e che questo è solo un consiglio. Se avete un'idea migliore per un "
+"dato problema, o se siete in disaccordo su alcuni punti, non esitate a "
+"fornire il vostro feedback, in modo che questo documento possa essere "
+"migliorato."
 
 #. type: Content of: <chapter><section><section><title>
 #: l10n.dbk:108
@@ -5780,8 +5784,8 @@ msgid ""
 "dispatch the material to translate to volunteers with no need for "
 "interaction from your part."
 msgstr ""
-"Per tradurre le descrizioni dei pacchetti o <systemitem role=\"package"
-"\">debconf</systemitem> Modelli, non hai niente da fare, le infrastrutture "
+"Per tradurre le descrizioni dei pacchetti o di modelli <systemitem role="
+"\"package\">debconf</systemitem>, non dovete fare niente , l'infrastruttura "
 "DDTP invierà il materiale da tradurre ai volontari senza necessità di "
 "interazione da parte vostra."
 
@@ -5797,7 +5801,7 @@ msgid ""
 msgstr ""
 "Per tutti gli altri materiali (file gettext, pagine man, o altra "
 "documentazione), la soluzione migliore è quella di mettere il testo da "
-"qualche parte su Internet, e chiedere il debian-i18n per una traduzione in "
+"qualche parte su Internet, e chiedere su debian-i18n una traduzione in "
 "diverse lingue. Alcuni membri del team di traduzione sono iscritti a questa "
 "lista, e si prenderanno cura della traduzione e del processo di revisione. "
 "Una volta finito, avrete il vostro documento tradotto da loro nella vostra "
@@ -5806,7 +5810,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><title>
 #: l10n.dbk:125
 msgid "How to get a given translation reviewed"
-msgstr "Come ottenere una data traduzione recensione"
+msgstr "Come ottenere una revisione di una data traduzione"
 
 #. type: Content of: <chapter><section><section><para>
 #: l10n.dbk:127
@@ -5818,13 +5822,13 @@ msgid ""
 "review. Once it has been done, you should feel more confident in the quality "
 "of the translation, and feel safe to include it in your package."
 msgstr ""
-"Di volta in volta, gli individui si traducono alcuni testi nel vostro "
-"pacchetto e vi chiederà l'inserimento della traduzione nel pacchetto. Questo "
-"può diventare un problema se non si parla correntemente la lingua "
-"determinata. È una buona idea per inviare il documento alla mailing list "
-"l10n corrispondente, chiedendo una revisione. Una volta che è stato fatto, "
-"si dovrebbe sentire più sicuri della qualità della traduzione, e sentirsi al "
-"sicuro da includere nel vostro pacchetto."
+"Di volta in volta, gli individui traducono alcuni testi nel vostro pacchetto "
+"e vi chiederanno l'inserimento della traduzione nel pacchetto. Questo può "
+"diventare un problema se non si parla correntemente la lingua data. È una "
+"buona idea inviare il documento alla mailing list l10n corrispondente, "
+"chiedendo una revisione. Una volta che è stata fatta, ci si dovrebbe sentire "
+"più sicuri della qualità della traduzione, e sentirsi sicuri da includerla "
+"nel vostro pacchetto."
 
 #. type: Content of: <chapter><section><section><title>
 #: l10n.dbk:137
@@ -5839,11 +5843,11 @@ msgid ""
 "translation with your new changes. Keep in mind that this task takes time; "
 "at least one week to get the update reviewed and all."
 msgstr ""
-"Se si dispone di alcune traduzioni di un testo dato in giro, ogni volta che "
-"si aggiorna l'originale, si dovrebbe chiedere il traduttore precedente per "
+"Se si dispone di alcune traduzioni di un dato testo in giro, ogni volta che "
+"si aggiorna l'originale, si dovrebbe chiedere al traduttore precedente di "
 "aggiornare la traduzione con le nuove modifiche. Tenete a mente che questo "
 "compito richiede tempo, almeno una settimana per ottenere l'aggiornamento "
-"recensione e tutti."
+"revisionato e tutto il resto."
 
 #. type: Content of: <chapter><section><section><para>
 #: l10n.dbk:145
@@ -5855,7 +5859,7 @@ msgid ""
 msgstr ""
 "Se il traduttore non risponde, si può chiedere aiuto sulla mailing list l10n "
 "corrispondente. Se tutto fallisce, non dimenticate di mettere un avviso nel "
-"documento tradotto, affermando che la traduzione è in qualche modo obsoleto, "
+"documento tradotto, affermando che la traduzione è in qualche modo obsoleta, "
 "e che il lettore dovrebbe fare riferimento al documento originale, se "
 "possibile."
 
@@ -5866,14 +5870,14 @@ msgid ""
 "documentation is often better than no documentation at all for non-English "
 "speakers."
 msgstr ""
-"Evitare di rimuovere una traduzione del tutto, perché è obsoleto. Vecchio "
-"documentazione è spesso migliore di alcuna documentazione a tutti per chi "
-"non parla inglese."
+"Evitate di rimuovere una traduzione del tutto perché è obsoleta. La vecchio "
+"documentazione è spesso migliore di nessuna documentazione per chi non parla "
+"inglese."
 
 #. type: Content of: <chapter><section><section><title>
 #: l10n.dbk:158
 msgid "How to handle a bug report concerning a translation"
-msgstr "Come gestire un bug report riguardante una traduzione"
+msgstr "Come gestire una segnalazione di bug riguardante una traduzione"
 
 #. TODO: add the i18n tag to the bug?
 #. type: Content of: <chapter><section><section><para>
@@ -5884,13 +5888,14 @@ msgid ""
 "corresponding debian-l10n-XXX mailing list)."
 msgstr ""
 "La soluzione migliore potrebbe essere quella di marcare il bug come "
-"trasmesso al monte, e lo trasmette sia il traduttore precedente e la loro "
-"squadra (utilizzando la mailing list debian-l10n-XXX corrispondente)."
+"trasmesso al maintainer originale, e trasmetterlo sia al traduttore "
+"precedente e alla loro squadra (utilizzando la mailing list debian-l10n-XXX "
+"corrispondente)."
 
 #. type: Content of: <chapter><section><title>
 #: l10n.dbk:170
 msgid "I18N &amp; L10N FAQ for translators"
-msgstr "I18N &amp; L10N FAQ per i traduttori"
+msgstr "FAQ I18N &amp; L10N per i traduttori"
 
 #. type: Content of: <chapter><section><para>
 #: l10n.dbk:172
@@ -5899,9 +5904,10 @@ msgid ""
 "within Debian concerning these points, and that in any case, you should "
 "collaborate with your team and the package maintainer."
 msgstr ""
-"Durante la lettura di questo, si prega di tenere presente che non esiste una "
-"procedura generale all'interno di Debian relative a questi punti, e che in "
-"ogni caso, si dovrebbe collaborare con il team e il maintainer del pacchetto."
+"Durante la lettura di questo documento, si prega di tenere presente che non "
+"esiste una procedura generale all'interno di Debian relativa a questi punti, "
+"e che in ogni caso, si dovrebbe collaborare con il team e il maintainer del "
+"pacchetto."
 
 #. type: Content of: <chapter><section><section><title>
 #: l10n.dbk:177
@@ -5916,10 +5922,11 @@ msgid ""
 "reviewed by other native speakers on your l10n mailing list, and provide it "
 "to the maintainer of the package (see next point)."
 msgstr ""
-"Scegliere ciò che si desidera tradurre, assicurarsi che nessuno sta già "
-"lavorando su di esso (con la tua mailing list debian-l10n-XXX), tradurre, lo "
-"ottengono lo recensione da altri madrelingua sulla vostra mailing list l10n, "
-"e fornirlo al maintainer del pacchetto (si consulti il punto successivo)."
+"Scegliete ciò che si desiderate tradurre, assicuratevi che nessuno stia già "
+"lavorando su di esso (con la tua mailing list debian-l10n-XXX), traducetelo, "
+"chiedete la sua revisione da altri madrelingua sulla vostra mailing list "
+"l10n, e fornitelo al maintainer del pacchetto (si consulti il punto "
+"successivo)."
 
 #. type: Content of: <chapter><section><section><title>
 #: l10n.dbk:187
@@ -5934,10 +5941,10 @@ msgid ""
 "everyone, and avoid the chaos resulting in having several versions of the "
 "same document in bug reports."
 msgstr ""
-"Assicurarsi che la traduzione sia corretta (che chiede per la revisione "
-"sulla vostra mailing list l10n) prima di fornire per l'inclusione. Ciò "
-"consentirà di risparmiare tempo per tutti, e di evitare il caos conseguente "
-"avere diverse versioni dello stesso documento a segnalazioni di bug."
+"Assicuratevi che la traduzione sia corretta (chiedete la revisione sulla "
+"vostra mailing list l10n) prima di fornirla per l'inclusione. Ciò consentirà "
+"di risparmiare tempo a tutti, e di evitare il caos conseguente all'avere "
+"diverse versioni dello stesso documento nelle segnalazioni di bug."
 
 #. type: Content of: <chapter><section><section><para>
 #: l10n.dbk:195
@@ -5948,14 +5955,14 @@ msgid ""
 "prevented a program from running."
 msgstr ""
 "La soluzione migliore è quella di aprire un bug normale contenente la "
-"traduzione per il pacchetto. Assicurarsi di utilizzare il tag «PATCH», e non "
-"usare una severità maggiore di «lista dei desideri», dal momento che la "
-"mancanza di traduzione non ha impedito un programma di funzionare."
+"traduzione per il pacchetto. Assicuratevi di utilizzare il tag «PATCH», e "
+"non usate una severità maggiore di «wishlist», dal momento che la mancanza "
+"di traduzione non ha impedito al  programma di funzionare."
 
 #. type: Content of: <chapter><section><title>
 #: l10n.dbk:205
 msgid "Best current practice concerning l10n"
-msgstr "Le attuali migliori pratiche riguardanti l10n"
+msgstr "L'attuale pratica consigliata riguardanti l'l10n"
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: l10n.dbk:209
@@ -5965,11 +5972,11 @@ msgid ""
 "for example breaking the encoding of the file by doing so. Moreover, what "
 "you consider an error can be right (or even needed) in the given language."
 msgstr ""
-"Come un maintainer, mai modificare le traduzioni in qualsiasi modo (anche di "
+"Come maintainer, mai modificare le traduzioni in qualsiasi modo (anche di "
 "riformattare il layout), senza chiedere sulla mailing list l10n "
-"corrispondente. Si rischia, ad esempio rompendo la codifica del file in "
-"questo modo. Inoltre, quello che tu consideri un errore può essere di destra "
-"(o addirittura necessario) nella lingua data."
+"corrispondente. Si rischia ad esempio di rompere la codifica del file in "
+"questo modo. Inoltre, quello che voi considerate un errore può essere "
+"corretto (o addirittura necessario) nella lingua data."
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: l10n.dbk:217
@@ -5980,7 +5987,7 @@ msgid ""
 msgstr ""
 "Come traduttore, se trovate un errore nel testo originale, assicuratevi di "
 "segnalarlo. I traduttori sono spesso i lettori più attenti di un dato testo, "
-"e se non segnalare gli errori che trovano, nessuno."
+"e se non segnalano gli errori che trovano, nessuno lo sarà."
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: l10n.dbk:224
@@ -5992,11 +5999,11 @@ msgid ""
 "on debian-i18n, or even on debian-devel (but beware, l10n discussions very "
 "often become flamewars on that list :)"
 msgstr ""
-"In ogni caso, ricordate che il problema principale con l10n è che richiede "
-"più persone a collaborare, e che è molto facile per iniziare un flamewar su "
+"In ogni caso, ricordate che il problema principale con l10n è che richiede a "
+"più persone di collaborare, e che è molto facile iniziare discussioni su "
 "piccoli problemi a causa di incomprensioni. Quindi, se avete problemi con il "
-"vostro interlocutore, chiedere aiuto sulla mailing list l10n corrispondente, "
-"il debian-i18n, o anche su debian-devel (ma attenzione, discussioni l10n "
+"vostro interlocutore, chiedete aiuto sulla mailing list l10n corrispondente, "
+"su debian-i18n, o anche su debian-devel (ma attenzione, discussioni l10n "
 "molto spesso diventano flame su quella lista :)"
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
@@ -6005,18 +6012,18 @@ msgid ""
 "In any case, cooperation can only be achieved with <emphasis role=\"strong"
 "\">mutual respect</emphasis>."
 msgstr ""
-"In ogni caso, la cooperazione può essere raggiunto solo con <emphasis role="
-"\"strong\">rispetto reciproco</emphasis>."
+"In ogni caso, la cooperazione può essere raggiunta solo con il <emphasis "
+"role=\"strong\">rispetto reciproco</emphasis>."
 
 #. type: Content of: <chapter><title>
 #: new-maintainer.dbk:7
 msgid "Applying to Become a Maintainer"
-msgstr "Applicazione per diventare un Maintainer"
+msgstr "Domanda per diventare un maintainer"
 
 #. type: Content of: <chapter><section><title>
 #: new-maintainer.dbk:9
 msgid "Getting started"
-msgstr "Getting started"
+msgstr "Iniziare"
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:11
@@ -6028,13 +6035,13 @@ msgid ""
 "software. How do you actually become a Debian developer so that your work "
 "can be incorporated into the Project?"
 msgstr ""
-"Quindi, si è letta tutta la documentazione, si è passati attraverso la "
+"Quindi, avete letta tutta la documentazione, siete passati attraverso la "
 "<ulink url=\"&url-newmaint-guide;\">Guida per il nuovo Maintainer</ulink>, "
-"compreso a cosa serve tutto ciò che presente nell'esempio <systemitem role="
-"\"package\">hello</systemitem>, e si sta per Debianizare il proprio pezzetto "
-"preferito di software. Come si fa effettivamente a diventare uno "
-"sviluppatore Debian in modo che il proprio lavoro possa essere incorporato "
-"nel progetto?"
+"avete compreso a cosa serve tutto ciò che è presente nel pacchetto d'esempio "
+"<systemitem role=\"package\">hello</systemitem>, e sate per Debianizare il "
+"proprio pezzetto preferito di software. Come si fa effettivamente a "
+"diventare uno sviluppatore Debian in modo che il proprio lavoro possa essere "
+"incorporato nel progetto?"
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:19
@@ -6047,14 +6054,14 @@ msgid ""
 "announce; is another list which is mandatory for anyone who wishes to follow "
 "Debian's development."
 msgstr ""
-"In primo luogo, iscriviti alla e-mail-debian-devel, se non l'hai già. Invia "
-"la parola <literal>subscribe</literal> nell'<literal>Oggetto</literal> di "
-"una email a &email-debian-devel-req;. In caso di problemi, contattare "
-"l'amministratore della lista di posta elettronica e-listmaster;. Maggiori "
-"informazioni sulla mailing list disponibili può essere trovata in <xref "
-"linkend=\"mailing-lists\"/>. &email-debian-devel-announce;, è un'altra "
-"lista, che è obbligatoria per chiunque desideri seguire lo sviluppo di "
-"Debian."
+"In primo luogo, iscrivitevi alla &email-debian-devel; se non l'avete già "
+"fatto. Inviate la parola <literal>subscribe</literal> nell'<literal>Oggetto</"
+"literal> di una email a &email-debian-devel-req;. In caso di problemi, "
+"contattare l'amministratore della lista di posta elettronica &email-"
+"listmaster;. Maggiori informazioni sulle mailing list disponibili possono "
+"essere trovate in <xref linkend=\"mailing-lists\"/>. &email-debian-devel-"
+"announce;, è un'altra lista, che è obbligatoria per chiunque desideri "
+"seguire lo sviluppo di Debian."
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:29
@@ -6063,9 +6070,9 @@ msgid ""
 "before doing any coding, and you should post about your intentions to work "
 "on something to avoid duplicated effort."
 msgstr ""
-"È possibile iscriversi e si nascondono (cioè leggere senza invio) per un po "
-"'prima di fare qualsiasi codifica, e si dovrebbe pubblicare le tue "
-"intenzioni di lavorare su qualcosa per evitare la duplicazione degli sforzi."
+"È possibile iscriversi ed osservare (cioè leggere senza inviare) per un po' "
+"prima di fare qualsiasi codifica, e dovreste pubblicare le vostre intenzioni "
+"di lavorare su qualcosa per evitare la duplicazione degli sforzi."
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:34
@@ -6074,8 +6081,8 @@ msgid ""
 "linkend=\"mentors\"/> for details. The IRC channel <literal>#debian</"
 "literal> can also be helpful; see <xref linkend=\"irc-channels\"/>."
 msgstr ""
-"Un'altra buona lista di sottoscrivere è e-mail-debian-mentors;. Vedi <xref "
-"linkend=\"mentors\"/> per i dettagli. Il canale IRC <literal>#debian</"
+"Un'altra buona lista da sottoscrivere è &email-debian-mentors;. Si consulti "
+"<xref linkend=\"mentors\"/> per i dettagli. Il canale IRC <literal>#debian</"
 "literal> può anche essere utile, si consulti <xref linkend=\"irc-channels\"/"
 ">."
 
@@ -6099,21 +6106,21 @@ msgid ""
 "patches and improvements."
 msgstr ""
 "Quando si sa come si vuole contribuire a &debian-formal;, si dovrebbe "
-"entrare in contatto con i maintainers Debian esistenti che lavorano su "
+"entrare in contatto con i maintainer Debian esistenti che lavorano su "
 "compiti simili. In questo modo, si può imparare da sviluppatori esperti. Per "
 "esempio, se si è interessati nella pacchettizzazione del software esistente "
 "per Debian, si dovrebbe cercare di ottenere uno sponsor. Uno sponsor "
 "lavorerà insieme a voi sul vostro pacchetto e caricherà nell'archivio Debian "
-"una volta che saranno contenti del lavoro di pacchettizzazione che avete "
-"fatto. È possibile trovare uno sponsor inviando una mail alla mailing list "
-"&email-debian-mentors;, descrivendo il pacchetto e te stesso e chiedendo uno "
+"una volta che sarà contento del lavoro di pacchettizzazione che avete fatto. "
+"È possibile trovare uno sponsor inviando una mail alla mailing list &email-"
+"debian-mentors;, descrivendo il pacchetto e voi staessi e chiedendo uno "
 "sponsor (si veda <xref linkend=\"sponsoring\"/> e <ulink url=\"&url-mentors;"
 "\"></ulink> per ulteriori informazioni sulla sponsorizzazione). D'altra "
-"parte, se si è interessati al porting di Debian per architetture alternative "
-"o kernel è possibile iscriversi a mailing list specifiche e chiedere lì come "
-"iniziare. Infine, se siete interessati alla documentazione o alla Quality "
-"Assurance (QA) ci si può unire ai maintainers che già lavorano su questi "
-"compiti e inviare patch e miglioramenti."
+"parte, se si è interessati al porting di Debian per architetture o kernel "
+"alternativi è possibile iscriversi a mailing list specifiche e chiedere lì "
+"come iniziare. Infine, se siete interessati alla documentazione o alla "
+"Quality Assurance (QA) ci si può unire ai maintainer che già lavorano su "
+"questi compiti e inviare patch e miglioramenti."
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:57
@@ -6122,15 +6129,15 @@ msgid ""
 "mail, admin, root, master should be avoided, please see <ulink url=\"&url-"
 "debian-lists;\"></ulink> for details."
 msgstr ""
-"Un trabocchetto potrebbe essere una parte locale troppo generico nella tua "
-"mailadress: Termini come posta, admin, root, maestro deve essere evitato, si "
-"prega di consultare <ulink url=\"&url-debian-lists;\"></ulink> per i "
-"dettagli."
+"Un trabocchetto potrebbe essere una parte locale troppo generica nella "
+"vostra mailadress: Termini come posta, admin, root, master dovrebbero essere "
+"evitati, si prega di consultare <ulink url=\"&url-debian-lists;\"></ulink> "
+"per i dettagli."
 
 #. type: Content of: <chapter><section><title>
 #: new-maintainer.dbk:64
 msgid "Debian mentors and sponsors"
-msgstr "Debian mentors and sponsors"
+msgstr "Mentor and sponsor Debian"
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:66
@@ -6140,10 +6147,11 @@ msgid ""
 "issues. Every new developer is invited to subscribe to that list (see <xref "
 "linkend=\"mailing-lists\"/> for details)."
 msgstr ""
-"La mailing list &email-debian-mentors; è stata istituita per i manutentori "
-"prime armi che cercano aiuto con imballo iniziale e altri problemi di "
-"sviluppo legati. Ogni nuovo sviluppatore è invitato a iscriversi a questa "
-"lista (si consulti <xref linkend=\"mailing-lists\"/> per i dettagli)."
+"La mailing list &email-debian-mentors; è stata istituita per i miantainer "
+"alle prime armi che cercano aiuto con l'iniziale pacchettizzazione e altri "
+"problemi legati allo sviluppo. Ogni nuovo sviluppatore è invitato a "
+"iscriversi a questa lista (si consulti <xref linkend=\"mailing-lists\"/> per "
+"i dettagli)."
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:72
@@ -6151,9 +6159,9 @@ msgid ""
 "Those who prefer one-on-one help (e.g., via private email) should also post "
 "to that list and an experienced developer will volunteer to help."
 msgstr ""
-"Coloro che preferiscono uno-contro-uno di aiuto (ad esempio, via e-mail "
-"privata) dovrebbe anche pubblicare a quella lista e uno sviluppatore esperto "
-"sarà volontario per aiutare."
+"Coloro che preferiscono un aiuto direttamente da un altra persona (ad "
+"esempio, attraverso email privata) dovrebbero anche pubblicare in quella "
+"lista e uno sviluppatore esperto volontariamente aiuterà."
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:76
@@ -6166,12 +6174,12 @@ msgid ""
 "\"&url-mentors;\"></ulink> first."
 msgstr ""
 "Inoltre, se si dispone di alcuni pacchetti pronti per l'inclusione in "
-"Debian, ma è in attesa per la vostra nuova applicazione maintainer di "
-"passare attraverso, si potrebbe essere in grado di trovare uno sponsor per "
-"caricare il tuo pacchetto per voi. Gli sponsor sono persone che sono gli "
-"sviluppatori ufficiali di Debian, e che sono disposti a criticare e caricare "
-"i pacchetti per voi. Si prega di leggere le debian-mentors FAQ a <ulink url="
-"\"&url-mentors;\"></ulink> prima."
+"Debian, ma che sono in attesa che voi affrontiate il processo per diventare "
+"un nuovo maintainer, si potrebbe trovare uno sponsor per caricare il vostro "
+"pacchetto per voi. Gli sponsor sono persone che sono gli sviluppatori "
+"ufficiali di Debian, e che sono disposti a criticare e caricare i pacchetti "
+"per voi. Si prega di leggere prima le debian-mentors FAQ su <ulink url="
+"\"&url-mentors;\"></ulink>."
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:84
@@ -6179,7 +6187,7 @@ msgid ""
 "If you wish to be a mentor and/or sponsor, more information is available in "
 "<xref linkend=\"newmaint\"/>."
 msgstr ""
-"Se vuoi essere un mentore e/o sponsor, maggiori informazioni sono "
+"Se volete essere un mentore e/o sponsor, maggiori informazioni sono "
 "disponibili in <xref linkend=\"newmaint\"/>."
 
 #. type: Content of: <chapter><section><title>
@@ -6201,17 +6209,17 @@ msgid ""
 "behind &debian-formal;. Reading the <ulink url=\"&url-gnu-manifesto;\">GNU "
 "Manifesto</ulink> would also be a good idea."
 msgstr ""
-"Prima di decidere di iscriversi e debian-formale, è necessario leggere tutte "
-"le informazioni disponibili nell' <ulink url=\"&url-newmaint;\">angolo del "
+"Prima di decidere di regisatrarsi con &debian-formal;, dovete leggere tutte "
+"le informazioni disponibili nell' <ulink url=\"&url-newmaint;\">Angolo del "
 "nuovo maintainer</ulink>. Esso descrive nel dettaglio i preparativi che "
-"dovete fare prima di poter registrare per diventare uno sviluppatore Debian. "
-"Ad esempio, prima di applicare, si deve leggere la <ulink url=\"&url-social-"
-"contract;\"> Debian Social Contract</ulink>. Registrazione come sviluppatore "
-"significa che siete d'accordo con e si impegnano a sostenere il Contratto "
-"Sociale Debian, ma è molto importante che i manutentori sono in accordo con "
-"le idee essenziali che stanno dietro e debian-formale. Leggendo il <ulink "
-"url=\"&url-gnu-manifesto;\"> Manifesto GNU </ulink> sarebbe anche una buona "
-"idea."
+"dovete fare prima di potervi registrare per diventare uno sviluppatore "
+"Debian. Ad esempio, prima di presentare la domanda, si deve leggere il "
+"<ulink url=\"&url-social-contract;\">Debian Social Contract</ulink>. "
+"Registrarsi come sviluppatore significa che siete d'accordo e vi impegnate a "
+"sostenere il Contratto Sociale Debian, ma è molto importante che i "
+"miantinaer siano in accordo con le idee essenziali che stanno dietro &debian-"
+"formal;. Leggere il <ulink url=\"&url-gnu-manifesto;\">Manifesto GNU</ulink> "
+"sarebbe anche una buona idea."
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:106
@@ -6225,13 +6233,13 @@ msgid ""
 "upload packages."
 msgstr ""
 "Il processo di registrazione come sviluppatore è un processo di verifica "
-"della vostra identità e le intenzioni, e controllando le vostre capacità "
-"tecniche. Poiché il numero di persone che lavorano su &debian-formal;, è "
-"cresciuto fino a oltre &number-of-maintainers; ed i nostri sistemi sono "
-"utilizzati in diversi punti molto importanti, dobbiamo stare attenti a "
-"compromissione. Pertanto, abbiamo bisogno di verificare i nuovi maintainer "
-"prima che noi possiamo dare loro account sui nostri server e farli caricare "
-"i pacchetti."
+"della vostra identità e delle vostre intenzioni, e per controllare le vostre "
+"capacità tecniche. Poiché il numero di persone che lavorano su &debian-"
+"formal;, è cresciuto fino a oltre &number-of-maintainers; ed i nostri "
+"sistemi sono utilizzati in diversi punti molto importanti, dobbiamo stare "
+"attenti sull'essere compromessi. Pertanto, abbiamo bisogno di verificare i "
+"nuovi maintainer prima che di dar loro l'account sui nostri server e fargli "
+"caricare i pacchetti."
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:115
@@ -6244,13 +6252,13 @@ msgid ""
 "packages. If you can help other maintainers by providing further information "
 "on a bug or even a patch, then do so!"
 msgstr ""
-"Prima che realmente registrare dovreste aver dimostrato che si può fare un "
-"lavoro competente e sarà un buon contributo. Si mostrano questo mandando "
-"patch attraverso il Bug Tracking System e avere un pacchetto sponsorizzato "
-"da uno sviluppatore Debian esistente per un po '. Inoltre, ci aspettiamo che "
-"i collaboratori sono interessati a tutto il progetto e non solo a mantenere "
-"i propri pacchetti. Se si può aiutare gli altri manutentori, fornendo "
-"ulteriori informazioni su un bug o anche una patch, quindi farlo!"
+"Prima che realmente vi registriate dovreste aver dimostrato che potete fare "
+"un lavoro competente e che sarete un buon collaboratore. Mostrerete questo "
+"mandando patch attraverso il Bug Tracking System e avendo per un po' un "
+"pacchetto sponsorizzato da uno sviluppatore Debian esistente. Inoltre, ci "
+"aspettiamo che i collaboratori siano interessati a tutto il progetto e non "
+"solo a mantenere i propri pacchetti. Se si può aiutare gli altri maintainer, "
+"fornendo ulteriori informazioni su un bug o anche una patch, quindi fatelo!"
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:124
@@ -6273,10 +6281,10 @@ msgstr ""
 "sviluppatore Debian di persona per farsi firmare la chiave. C'è una <ulink "
 "url=\"&url-gpg-coord;\">pagina GnuPG Key Signing Coordination</ulink>, che "
 "dovrebbe aiutare a trovare uno sviluppatore Debian vicino a voi. (Se non c'è "
-"sviluppatore Debian vicino a voi, modi alternativi per passare il controllo "
-"ID può essere autorizzata come un'eccezione assoluta, basata caso per caso. "
-"Si veda la <ulink url=\"&url-newmaint-id;\">pagina di identificazione</"
-"ulink> per ulteriori informazioni.)"
+"uno sviluppatore Debian vicino a voi, modi alternativi per passare il "
+"controllo ID possono essere autorizzati come un'eccezione assoluta, valutata "
+"caso per caso. Si veda la <ulink url=\"&url-newmaint-id;\">pagina di "
+"identificazione</ulink> per ulteriori informazioni.)"
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:137
@@ -6289,14 +6297,14 @@ msgid ""
 "techniques. See <xref linkend=\"key-maint\"/> for more information on "
 "maintaining your public key."
 msgstr ""
-"Se non si dispone ancora di una chiave OpenPGP, generare uno. Ogni "
-"sviluppatore ha bisogno di una chiave OpenPGP per firmare e verificare i "
-"pacchetti arrivi. Si consiglia di leggere il manuale del software in uso, "
-"dal momento che dispone di informazioni molto importante che è fondamentale "
-"per la sua sicurezza. Molti di più fallimenti sono dovuti ad errori umani "
-"che per guasto del software o tecniche di spionaggio ad alta potenza. Per "
-"maggiori informazioni sulla manutenzione della chiave pubblica Vedere <xref "
-"linkend=\"key-maint\"/>."
+"Se non si dispone ancora di una chiave OpenPGP, generatene una. Ogni "
+"sviluppatore ha bisogno di una chiave OpenPGP per firmare e verificare gli "
+"upload dei pacchetti. Si consiglia di leggere il manuale del software in "
+"uso, dal momento che dispone di informazioni molto importanti che sono "
+"fondamentali per la sua sicurezza. Molti fallimenti sono dovuti ad errori "
+"umani che a malfunzionamenti del software o tecniche avanzate di spionaggio. "
+"Per maggiori informazioni sulla manutenzione della chiave pubblica si "
+"consulti <xref linkend=\"key-maint\"/>."
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:145
@@ -6309,9 +6317,9 @@ msgid ""
 msgstr ""
 "Debian usa il <literal>GNU Privacy Guard</literal> (pacchetto <systemitem "
 "role=\"package\">GnuPG</systemitem> versione 1 o superiore) come standard di "
-"riferimento. È possibile utilizzare qualche altra implementazione di OpenPGP "
-"pure. Si noti che OpenPGP è uno standard aperto basato su <ulink url=\"&url-"
-"rfc2440;\">RFC 2440</ulink>."
+"riferimento. È possibile anche utilizzare qualche altra implementazione di "
+"OpenPGP. Si noti che OpenPGP è uno standard aperto basato su <ulink url="
+"\"&url-rfc2440;\">RFC 2440</ulink>."
 
 #. type: Content of: <chapter><section><para><footnote><para>
 #: new-maintainer.dbk:155
