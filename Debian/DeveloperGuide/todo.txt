@@ -1,0 +1,14 @@
+controllare il file per cercare i seguenti termini:
+
+upload
+directory
+mail
+fix
+repository
+tuo
+comand
+può
+build
+release
+
+
