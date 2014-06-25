@@ -962,8 +962,9 @@ msgid ""
 "\"upload-bugfix\"/> for more information."
 msgstr ""
 "Quando si parla di bug, non date per scontato nulla. Dite quale era il "
-"problema, come è stato risolto, e aggiungete in fondo la stringa: #nnnnn. "
-"Per ulteriori informazioni, si consulti <xref linkend=\"upload-bugfix\"/>."
+"problema, come è stato risolto, e aggiungete in fondo la stringa closes: "
+"#nnnnn. Per ulteriori informazioni, si consulti <xref linkend=\"upload-bugfix"
+"\"/>."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:473
@@ -11541,11 +11542,10 @@ msgid ""
 "regularly give on &email-debian-devel-announce;."
 msgstr ""
 "Si tenga a mente che i pacchetti che sono inviati lì non vengono elaborati "
-"automaticamente, essi devono passare attraverso le mani del manager del "
-"rilascio. Quindi è meglio avere un buon motivo per caricarli lì. Per sapere "
-"qual'è un buon motivo agli occhi del manager del rilascio, si consiglia di "
-"leggere le indicazioni che danno regolarmente su &email-debian-devel-"
-"announce;."
+"automaticamente, devono passare attraverso le mani del manager del rilascio. "
+"Quindi è meglio avere un buon motivo per caricarli lì. Per sapere qual'è un "
+"buon motivo agli occhi del manager del rilascio, si consiglia di leggere le "
+"indicazioni che sono fornite regolarmente su &email-debian-devel-announce;."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2683
@@ -11559,15 +11559,15 @@ msgid ""
 "possible, if the upload via <literal>unstable</literal> does not pull in any "
 "new dependencies."
 msgstr ""
-"Si consiglia di non caricare <literal>testing-proposed-updates</literal> "
-"quando è possibile aggiornare i pacchetti attraverso <literal>unstable</"
-"literal>. Se non è possibile (ad esempio perché si dispone di una versione "
-"di sviluppo più recente in <literal>unstable</literal>), è possibile "
-"utilizzare questo strumento, ma si consiglia di chiedere prima "
-"l'autorizzazione al manager della release. Anche se un pacchetto è "
-"congelato, sono possibili aggiornamenti tramite <literal>unstable</literal>, "
-"se l'upload tramite <literal>unstable</literal> non aggiunge nuove "
-"dipendenze."
+"Si consiglia di non fare il caricamento su<literal>testing-proposed-updates</"
+"literal> quando è possibile aggiornare i pacchetti attraverso "
+"<literal>unstable</literal>. Se non è possibile (ad esempio perché si "
+"dispone di una versione di sviluppo più recente in <literal>unstable</"
+"literal>), è possibile utilizzare questo strumento, ma si consiglia di "
+"chiedere prima l'autorizzazione al manager del rilascio. Anche se un "
+"pacchetto è congelato, sono possibili aggiornamenti tramite "
+"<literal>unstable</literal>, se il caricamento tramite <literal>unstable</"
+"literal> non aggiunge nuove dipendenze."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:2692
@@ -11579,7 +11579,7 @@ msgid ""
 msgstr ""
 "I numeri di versione sono in genere scelti aggiungendo il nome in codice "
 "della distribuzione <literal>testing</literal> e di un numero progressivo, "
-"come <literal>1.2squeeze1</literal> per il primo upload attraverso "
+"come <literal>1.2squeeze1</literal> per il primo caricamento attraverso "
 "<literal>testing-proposed-updates</literal> del pacchetto con versione "
 "<literal>1.2</literal>."
 
@@ -11587,7 +11587,8 @@ msgstr ""
 #: pkgs.dbk:2699
 msgid "Please make sure you didn't miss any of these items in your upload:"
 msgstr ""
-"Assicurarsi di non perdere nessuno di questi elementi nel proprio upload:"
+"Assicurarsi di non perdere nessuno di questi elementi nel proprio "
+"caricamento:"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: pkgs.dbk:2704
@@ -11645,9 +11646,9 @@ msgid ""
 "After uploading and successful build on all platforms, contact the release "
 "team at &email-debian-release; and ask them to approve your upload."
 msgstr ""
-"Dopo aver effettuato l'upload ed i build riusciti su tutte le piattaforme, "
-"si contatti il team di rilascio su &email-debian-release; chiedendogli di "
-"approvare l'upload."
+"Dopo aver effettuato l'upload ed le costruzioni riuscite su tutte le "
+"piattaforme, si contatti il team di rilascio su &email-debian-release; "
+"chiedendogli di approvare il caricamento."
 
 #. type: Content of: <chapter><section><section><title>
 #: pkgs.dbk:2748
@@ -11666,7 +11667,7 @@ msgid ""
 "critical; currently, these are <literal>critical</literal>, <literal>grave</"
 "literal> and <literal>serious</literal> bugs."
 msgstr ""
-"Tutti i bug di alcuni livelli di gravità più elevati sono di default "
+"Tutti i bug di alcuni livelli più elevati di gravità sono di base "
 "considerati release-critical; attualmente, questi sono i bug "
 "<literal>critical</literal>, <literal>grave</literal> e <literal>serious</"
 "literal>."
@@ -11681,9 +11682,9 @@ msgid ""
 "<literal>stable</literal>."
 msgstr ""
 "Tali bug sono ritenuti avere un impatto sulle possibilità che il pacchetto "
-"venga rilasciato con la release <literal>stable</literal> di Debian: in "
-"generale, se un pacchetto ha un bug critico per il rilascio aperto, non sarà "
-"integrato in <literal>testing</literal>, e di conseguenza non sarà "
+"venga rilasciato con la distribuzione <literal>stable</literal> di Debian: "
+"in generale, se un pacchetto ha un bug critico per il rilascio aperto, non "
+"sarà integrato in <literal>testing</literal>, e di conseguenza non sarà "
 "rilasciato in <literal>stable</literal>."
 
 #. type: Content of: <chapter><section><section><section><para>
@@ -11696,10 +11697,10 @@ msgid ""
 "count is defined analogously."
 msgstr ""
 "Il conteggio dei bug in <literal>unstable</literal> sono tutti i bug critici "
-"per il rilascio che sono contrassegnati tali a combinazioni "
-"<replaceable>package</replaceable>/<replaceable>version</replaceable> che "
-"sono disponibili in unstable per un'architettura di rilascio. Il conteggio "
-"dei bug in <literal>testing</literal> è definito in modo analogo."
+"per il rilascio che contrassegnano le combinazioni <replaceable>package</"
+"replaceable>/<replaceable>version</replaceable> disponibili in unstable per "
+"un'architettura di rilascio. Il conteggio dei bug in <literal>testing</"
+"literal> è definito in modo analogo."
 
 #. type: Content of: <chapter><section><section><section><title>
 #: pkgs.dbk:2772
@@ -11753,7 +11754,8 @@ msgstr ""
 "Evidentemente, questo riguarda principalmente i pacchetti che forniscono "
 "insiemi di pacchetti binari in versioni differenti (principalmente le "
 "librerie). Tuttavia, ne saranno affetti anche i pacchetti su cui dipendenze "
-"versionate sono state dichiarate con variante di ==, &lt;=, or &lt;&lt;"
+"versionate sono state dichiarate con una delle varianti ==, &lt;=, or &lt;"
+"&lt;"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2795
@@ -11770,13 +11772,13 @@ msgid ""
 msgstr ""
 "Quando il set di pacchetti binari forniti da un pacchetto sorgente è "
 "modificato in questo modo, tutti i pacchetti che dipendevano dai precedenti "
-"binari dovranno essere aggiornati in modo da dipendere dai nuovi binari. "
-"Poiché l'installazione di un pacchetto sorgente in <literal>testing</"
-"literal> rompe tutti i pacchetti che ne dipendono in <literal>testing</"
-"literal>, una certa attenzione deve essere mantenuta ora: tutti i pacchetti "
-"dipendenti devono essere aggiornati e pronti per essere installati in modo "
-"da non risultare rotti, e, una volta che tutto è pronto, è normalmente "
-"richiesto un intervento manuale del manager della release o di un assistente."
+"binari dovranno essere aggiornati in modo da dipendere dai nuovi. Poiché "
+"l'installazione di un pacchetto sorgente in <literal>testing</literal> rompe "
+"tutti i pacchetti che ne dipendono in <literal>testing</literal>, una certa "
+"attenzione deve essere mantenuta ora: tutti i pacchetti dipendenti devono "
+"essere aggiornati e pronti per essere installati in modo da non risultare "
+"rotti, e, una volta che tutto è pronto, è normalmente richiesto un "
+"intervento manuale del manager del rilascio o di un assistente."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: pkgs.dbk:2806
@@ -11785,7 +11787,7 @@ msgid ""
 "contact &email-debian-devel; or &email-debian-release; for help."
 msgstr ""
 "Se si hanno problemi con gruppi complessi di pacchetti come questo, si "
-"contatti &email-debian-devel; or &email-debian-release; per aiuto."
+"contatti &email-debian-devel; or &email-debian-release; per un aiuto."
 
 #. type: Content of: <chapter><title>
 #: resources.dbk:7
@@ -11800,10 +11802,10 @@ msgid ""
 "all the other resources that are available to help you in your maintainer "
 "work."
 msgstr ""
-"In questo capitolo troverete una breve road map delle mailing list Debian, "
-"le macchine Debian che possono essere disponibili per voi come sviluppatore, "
-"e tutte le altre risorse che sono a disposizione per aiutarvi nel vostro "
-"lavoro maintainer."
+"In questo capitolo troverete una brevecartina stradale relativa alle mailing "
+"list Debian, le macchine Debian che possono essere disponibili per voi come "
+"sviluppatore, e tutte le altre risorse che sono a disposizione per aiutarvi "
+"nel vostro lavoro di maintainer."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:14
@@ -11823,11 +11825,11 @@ msgid ""
 "aspects of mailing lists that are of particular interest to developers."
 msgstr ""
 "Gran parte delle conversazioni tra gli sviluppatori Debian (e gli utenti) "
-"sono gestite attraverso una vasta gamma di mailing lists che ospitiamo a "
+"sono gestite attraverso una vasta gamma di mailing list che ospitiamo su "
 "<literal><ulink url=\"http://&lists-host;/\">&lists-host;</ulink></literal>. "
 "Per saperne di più su come iscriversi o cancellarsi, come inviare e come non "
 "inviare, dove trovare vecchi post e come cercarli, come contattare la lista "
-"dei maintainers e visionare varie altre informazioni sulle mailing list, si "
+"dei maintainer e visionare varie altre informazioni sulle mailing list, si "
 "prega di leggere <ulink url=\"&url-debian-lists;\"></ulink>. Questa sezione "
 "tratterà solo gli aspetti delle mailing list che sono di particolare "
 "interesse per gli sviluppatori."
@@ -11846,9 +11848,9 @@ msgid ""
 "see the responses."
 msgstr ""
 "Quando si risponde ai messaggi della mailing list, si prega di non inviare "
-"una copia per conoscenza (<literal>CC</literal>) al poster originale a meno "
-"che non lo richiedano esplicitamente. Chiunque invii messaggi a una mailing "
-"list dovrebbe leggerla per vedere le risposte."
+"una copia per conoscenza (<literal>CC</literal>) al mittente originale a "
+"meno che non lo richiedano esplicitamente. Chiunque invii messaggi ad una "
+"mailing list dovrebbe leggerla per vedere le risposte."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:35
@@ -11857,10 +11859,10 @@ msgid ""
 "As ever on the net, please trim down the quoting of articles you're replying "
 "to. In general, please adhere to the usual conventions for posting messages."
 msgstr ""
-"Il cross-posting (invio dello stesso messaggio a più liste) è sconsigliato. "
-"Come sempre in rete, si prega di rivitalizzare la citazione di articoli a "
-"cui stai rispondendo. In generale, si prega di rispettare le consuete "
-"convenzioni per inviare messaggi."
+"I'invio incrociato (invio dello stesso messaggio a più liste) è "
+"sconsigliato. Come sempre in rete, si prega di rivitalizzare la citazione di "
+"articoli a cui stai rispondendo. In generale, si prega di rispettare le "
+"consuete convenzioni per inviare messaggi."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:40
@@ -11869,14 +11871,15 @@ msgid ""
 "conduct</ulink> for more information. The <ulink url=\"&url-dcg;\">Debian "
 "Community Guidelines</ulink> are also worth reading."
 msgstr ""
-"Si prega di leggere il <ulink url=\"&url-debian-lists;#codeofconduct\">code "
-"of conduct</ulink> per ulteriori informazioni. Le <ulink Url=\"&url-dcg;"
-"\">Debian Community Guidelines</ulink> sono anche una lettura consigliata."
+"Si prega di leggere il <ulink url=\"&url-debian-lists;#codeofconduct"
+"\">codice di condotta</ulink> per ulteriori informazioni. Le <ulink Url="
+"\"&url-dcg;\">Debian Community Guidelines</ulink> sono anche una lettura "
+"consigliata."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:48
 msgid "Core development mailing lists"
-msgstr "Mailing list del core development"
+msgstr "Mailing list dello sviluppo centrale"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:50
@@ -11954,8 +11957,9 @@ msgstr ""
 "usare &email-debian-private, a meno che non sia veramente necessario. "
 "Inoltre, <emphasis>non</emphasis> inoltrare email da tale lista a nessuno. "
 "Archivi di questa lista non sono disponibili sul web per ovvie ragioni, ma è "
-"possibile vederli usando il tuo account di shell sul <literal>&master-host;</"
-"literal> e guardando nel <filename>&file-debian-private-archive;</filename>."
+"possibile vederli usando il proprio account di shell su <literal>&master-"
+"host;</literal> e guardando nel <filename>&file-debian-private-archive;</"
+"filename>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:100
@@ -11965,9 +11969,9 @@ msgid ""
 "bugs, etc. or discussing the project with others where it might be useful to "
 "have the discussion archived somewhere."
 msgstr ""
-"&email-debian-mail, è una mailing list speciale usata come grab-bag per la "
-"corrispondenza relativa a Debian così come per contattare gli autori "
-"upstream su licenze, bug, etc o discutere il progetto con altri, in cui "
+"&email-debian-mail, è una mailing list speciale usata come raccogli tutto "
+"per la corrispondenza relativa a Debian così come per contattare gli autori "
+"originali su licenze, bug, etc o discutere il progetto con altri, in cui "
 "potrebbe essere utile avere la discussione archiviata da qualche parte."
 
 #. type: Content of: <chapter><section><section><title>
@@ -11987,7 +11991,7 @@ msgid ""
 msgstr ""
 "Prima di richiedere una mailing list che si riferisce allo sviluppo di un "
 "pacchetto (o di un piccolo gruppo di pacchetti correlati), si prega di "
-"prendere in considerazione se si utilizza un alias (tramite un file.forward-"
+"prendere in considerazione l'utilizzo di un alias (tramite un file a.forward-"
 "aliasname su master.debian.org, che si traduce in un ragionevole simpatico "
 "indirizzo <replaceable>you-aliasname@debian.org</replaceable>) o una mailing "
 "list autogestita su <link linkend=\"alioth\">Alioth</link> è più appropriato."
@@ -12000,8 +12004,8 @@ msgid ""
 "lists-new;\">the HOWTO</ulink>."
 msgstr ""
 "Se si decide che una mailing list regolare su &liste-host; è davvero quello "
-"che vuoi, si compili un modulo di richiesta, in appendice all'<ulink url="
-"\"&url-debian-lists-new;\">HOWTO</ulink >."
+"che si vuole, si compilii un modulo di richiesta, in appendice all'<ulink "
+"url=\"&url-debian-lists-new;\">HOWTO</ulink >."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:127
@@ -12018,7 +12022,7 @@ msgid ""
 msgstr ""
 "Diversi canali IRC sono dedicati allo sviluppo di Debian. Essi sono "
 "principalmente ospitati sulla rete <ulink url=\"&url-oftc;\">Open and free "
-"technology community (OFTC) </ulink>. Il voce DNS <literal> irc.debian.org </"
+"technology community (OFTC) </ulink>. La voce DNS <literal>irc.debian.org</"
 "literal> è un alias per <literal>irc.oftc.net</literal>."
 
 #. type: Content of: <chapter><section><para>
@@ -12033,10 +12037,10 @@ msgid ""
 msgstr ""
 "Il principale canale di Debian in generale è <literal>#debian</literal>. "
 "Questo è un grande, canale generico dove gli utenti possono trovare le "
-"notizie recenti nel topic e forniti dai bot. <literal>#debian</literal> è "
-"per chi parla inglese, ci sono anche <literal>#debian.de</literal>, "
-"<literal>#debian-fr</literal>, <literal>#debian-br</literal> e altri canali "
-"con nomi simili per utenti di altre lingue."
+"notizie recenti nel topic oltre che fornite dai bot. <literal>#debian</"
+"literal> è per chi parla inglese, ci sono anche <literal>#debian.de</"
+"literal>, <literal>#debian-fr</literal>, <literal>#debian-br</literal> e "
+"altri canali con nomi simili per utenti di altre lingue."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:143
@@ -12069,7 +12073,7 @@ msgstr ""
 "parlare di problemi che vengono discussi in &email-debian-private;. C'è un "
 "altro canale per questo scopo, si chiama <literal>#debian-private</literal> "
 "ed è protetto da una chiave. Questa chiave è disponibile presso "
-"<filename>master.debian.org: &file-debian-private-key; </filename>."
+"<filename>master.debian.org: &file-debian-private-key;</filename>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:160
@@ -12131,7 +12135,7 @@ msgid ""
 msgstr ""
 "Per ottenere un copertura su freenode, si invii a Jörg Jasper <joerg@debian."
 "org> una mail firmata dove dite qual'è il vostro nick. Mettere il nome del "
-"canale da qualche parte nel Subject:. Il nick deve essere registrato: <ulink "
+"canale da qualche parte nel'Oggetto:. Il nick deve essere registrato: <ulink "
 "url=\"http://freenode.net/faq.shtml#nicksetup\">Nick Setup Page</ulink>. La "
 "posta deve essere firmata da una chiave nel portachiavi Debian. Si consulti "
 "la <ulink url=\"http://freenode.net/faq.shtml#projectcloak\">Freenode "
@@ -12148,14 +12152,14 @@ msgid ""
 msgstr ""
 "Questo documento contiene molte informazioni utili per gli sviluppatori "
 "Debian, ma non può contenere tutto. La maggior parte degli altri documenti "
-"interessanti sono indicati nell' <ulink url=\"&url-devel-docs;\">Angolo "
-"degli sviluppatori</ulink>. Prendetevi il tempo di sfogliare tutti i link, "
+"interessanti sono indicati nell'<ulink url=\"&url-devel-docs;\">Angolo degli "
+"sviluppatori</ulink>. Prendetevi il tempo di sfogliare tutti i link, "
 "imparerete molte più cose."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:204
 msgid "Debian machines"
-msgstr "Le macchine Debian "
+msgstr "Le macchine Debian"
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:206
@@ -12176,8 +12180,8 @@ msgid ""
 "as the developers follow the rules set forth in the <ulink url=\"&url-dmup;"
 "\">Debian Machine Usage Policies</ulink>."
 msgstr ""
-"Alcune delle macchine sono disponibili per l'uso di singoli sviluppatori, a "
-"patto che gli sviluppatori seguano le regole stabilite nelle <ulink url="
+"Alcune delle macchine sono disponibili per essere utilizzate da singoli "
+"sviluppatori, a patto che gli seguano le regole stabilite nella <ulink url="
 "\"&url-dmup;\">Policy Debian per l'utilizzo delle macchine</ulink>."
 
 #. type: Content of: <chapter><section><para>
@@ -12191,7 +12195,7 @@ msgid ""
 msgstr ""
 "In generale, è possibile utilizzare queste macchine come meglio si crede per "
 "scopi relativi a Debian. Si prega di essere gentili con gli amministratori "
-"di sistema, e non utilizzare tonnellate e tonnellate di spazio su disco, "
+"di sistema, e di non utilizzare tonnellate e tonnellate di spazio su disco, "
 "larghezza di banda, o CPU senza prima ottenere l'approvazione degli "
 "amministratori di sistema. Di solito queste macchine sono gestite da "
 "volontari."
@@ -12243,10 +12247,11 @@ msgstr ""
 "che i gestori del sistema devono essere avvisati di ciò, è possibile "
 "consultare l'elenco dei problemi aperti nella coda DSA del nostro tracker "
 "delle richieste all'indirizzo <ulink url=\"&url-rt;\" /> (si può effettuare "
-"il login con user «debian», la cui password è disponibile <filename>master."
-"debian.org:&file-debian-rt-password;</filename>). Per segnalare un nuovo "
-"problema, è sufficiente inviare una email all'indirizzo &email-rt-dsa; e "
-"fare in modo di mettere la stringa «Debian RT» in qualche parte nel subject."
+"il login con user «debian», la cui password è disponibile su "
+"<filename>master.debian.org:&file-debian-rt-password;</filename>). Per "
+"segnalare un nuovo problema, è sufficiente inviare una email all'indirizzo "
+"&email-rt-dsa; e fare in modo di mettere la stringa «Debian RT» in qualche "
+"parte nell'oggetto."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:247
@@ -12257,7 +12262,7 @@ msgid ""
 "package''. See <xref linkend=\"submit-bug\"/> for information on how to "
 "submit bugs."
 msgstr ""
-"Se hai un problema con un certo servizio, non legato alla gestione del "
+"Se avete un problema con un certo servizio, non legato alla gestione del "
 "sistema (come ad esempio i pacchetti da rimuovere dall'archivio, "
 "suggerimenti per il sito web, ecc), generalmente si segnala un bug su uno "
 "«psudo-pacchetto». Per informazioni su come segnalare bug si consulti <xref "
@@ -12322,8 +12327,8 @@ msgid ""
 "It is restricted; a mirror is available on <literal>&ftp-master-mirror;</"
 "literal>."
 msgstr ""
-"È limitata; un mirror è disponibile su <literal>&ftp-master-mirror;</"
-"literal>."
+"È limitata; un server specchio è disponibile su <literal>&ftp-master-mirror;"
+"</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:282
@@ -12342,7 +12347,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:290
 msgid "The www-master server"
-msgstr "Il server www-master "
+msgstr "Il server www-master"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:292
@@ -12365,7 +12370,7 @@ msgid ""
 msgstr ""
 "Se si trova un problema con il server web di Debian, si dovrebbe "
 "generalmente presentare un bug nei confronti dello pseudo-pacchetto, "
-"<systemitem role=\"package\"> www.debian.org </systemitem>. Ricordati di "
+"<systemitem role=\"package\">www.debian.org</systemitem>. Ricordatevi di "
 "controllare se qualcun altro ha già segnalato il problema al <ulink url="
 "\"http://&bugs-host;/&www-debian-org;\">Bug Tracking System</ulink>."
 
@@ -12381,7 +12386,7 @@ msgid ""
 "web pages about anything related to Debian."
 msgstr ""
 "<literal>people.debian.org</literal> è il server utilizzato per creare "
-"pagine web perosnali degli sviluppatori su qualsiasi cosa relativa a Debian."
+"pagine web personali degli sviluppatori su qualsiasi cosa relativa a Debian."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:311
@@ -12394,9 +12399,9 @@ msgid ""
 msgstr ""
 "Se si dispone di alcune informazioni specifiche di Debian che si vuole "
 "fornire sul web, è possibile farlo mettendo il materiale in "
-"<filename>public_html</filename> sotto la directory home su <literal>people."
-"debian.org</literal>. Questo sarà accessibile all'URL <literal> http://"
-"people.debian.org/~<replaceable>proprio-user-id</replaceable>/</literal>."
+"<filename>public_html</filename> sotto la cartella home su <literal>people."
+"debian.org</literal>. Questo sarà accessibile all'URL <literal>http://people."
+"debian.org/~<replaceable>proprio-user-id</replaceable>/</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:318
@@ -12443,7 +12448,7 @@ msgid ""
 "services provided by Alioth."
 msgstr ""
 "Se è necessario utilizzare un sistema di controllo di versione per qualsiasi "
-"tipo di lavoro di Debian, è possibile utilizzare uno dei repository "
+"tipo di lavoro per Debian, è possibile utilizzare uno dei repository "
 "esistenti ospitati su Alioth oppure si può richiedere un nuovo progetto e "
 "chiedere il repository VCS di vostra scelta. Alioth supporta CVS (cvs.alioth."
 "debian.org / cvs.debian.org), Subversion (svn.debian.org), Arco (tla / baz, "
@@ -12484,7 +12489,7 @@ msgid ""
 "out which chroots are available via <ulink url=\"&url-devel-machines;\"></"
 "ulink>."
 msgstr ""
-"In tutti i chroot, sono disponibili le home directory degli utenti normali. "
+"In tutti i chroot, sono disponibili le cartelle home degli utenti normali. "
 "Si possono scoprire quali chroot sono disponibili tramite <ulink url=\"&url-"
 "devel-machines;\"></ulink>."
 
@@ -12503,7 +12508,7 @@ msgid ""
 "<command>finger yourlogin@db.debian.org</command> to see what it reports."
 msgstr ""
 "Il Database dei Developer, a <ulink url=\"&url-debian-db;\"></ulink>, è una "
-"directory LDAP per la gestione di attributi degli sviluppatori Debian. È "
+"cartella LDAP per la gestione di attributi degli sviluppatori Debian. È "
 "possibile utilizzare questa risorsa per cercare l'elenco degli sviluppatori "
 "Debian. Parte di queste informazioni sono disponibili anche attraverso il "
 "servizio finger sui server Debian, si provi <command>finger yourlogin@db."
@@ -12522,7 +12527,7 @@ msgstr ""
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: resources.dbk:382
 msgid "forwarding address for your debian.org email"
-msgstr "inoltro di indirizzo per la posta elettronica debian.org"
+msgstr "indirizzo a cui inoltrare la posta elettronica debian.org"
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: resources.dbk:387
@@ -12572,9 +12577,9 @@ msgid ""
 "ulink>."
 msgstr ""
 "Gli sviluppatori possono inoltre presentare le loro chiavi SSH per essere "
-"utilizzati per l'autorizzazione sulle macchine ufficiali di Debian, e "
+"utilizzate per l'autorizzazione sulle macchine ufficiali di Debian, e "
 "persino aggiungere nuove voci DNS *.debian.net. Tali caratteristiche sono "
-"documentate a <ulink url=\"&url-debian-db-mail-gw;\"></ulink>."
+"documentate su <ulink url=\"&url-debian-db-mail-gw;\"></ulink>."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:423
@@ -12596,7 +12601,7 @@ msgstr ""
 #: resources.dbk:430
 msgid "Here is an example directory tree of a complete Debian archive:"
 msgstr ""
-"Ecco un esempio di albero di directory di un archivio completo di Debian:"
+"Ecco un esempio di albero di cartelle di un archivio completo di Debian:"
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:434
@@ -12614,15 +12619,15 @@ msgid ""
 "applicable to the <literal>unstable</literal> and <literal>testing</literal> "
 "distributions."
 msgstr ""
-"Come si può vedere, la directory di livello superiore contiene due "
-"directory, <filename>dists/</filename> e <filename>pool/</filename>. "
-"Quest'ultimo è un «insieme», nel quale i pacchetti attualmente si trovano, e "
-"che sono gestiti dal database di manutenzione dell'archivio e dai programmi "
-"di accompagnamento. La prima contiene le distribuzioni, <literal>stable</"
-"literal>, <literal>testing</literal> e <literal>unstable</literal>.I file "
+"Come si può vedere, la cartella di livello superiore contiene due cartelle, "
+"<filename>dists/</filename> e <filename>pool/</filename>. Quest'ultimo è un "
+"«insieme», nel quale i pacchetti attualmente si trovano, e che sono gestiti "
+"dal database di manutenzione dell'archivio e dai programmi di "
+"accompagnamento. La prima contiene le distribuzioni, <literal>stable</"
+"literal>, <literal>testing</literal> e <literal>unstable</literal>. I file "
 "<filename>Packages</filename> e <filename> Sources</filename> delle "
-"sottodirectory di distribuzione possono fare riferimento ai file in "
-"<filename>pool/</filename>. L'albero delle directory sotto ciascuna delle "
+"sottocartelle di distribuzione possono fare riferimento ai file in "
+"<filename>pool/</filename>. L'albero delle cartelle sotto ciascuna delle "
 "distribuzioni è disposto in modo identico. Ciò che descriviamo qui di "
 "seguito per <literal>stable</literal> è ugualmente applicabile alle "
 "distribuzioni <literal>unstable</literal> e <literal>testing</literal>."
@@ -12634,7 +12639,7 @@ msgid ""
 "<filename>main</filename>, <filename>contrib</filename>, and <filename>non-"
 "free</filename>."
 msgstr ""
-"<filename>dists/stable</filename> contiene tre directory, e cioè "
+"<filename>dists/stable</filename> contiene tre cartelle, e cioè "
 "<filename>main</filename>, <filename>contrib</filename>, e <filename>non-"
 "free</filename>."
 
@@ -12646,9 +12651,9 @@ msgid ""
 "architecture (<filename>binary-i386</filename>, <filename>binary-amd64</"
 "filename>, etc.)."
 msgstr ""
-"In ciascuna delle aree, vi è una directory per i pacchetti sorgente "
-"(<filename>source</filename>) e una directory per ogni architettura "
-"supportata (<filename>binary-i386</filename>, <filename> binary-amd64</"
+"In ciascuna delle aree, vi è una cartella per i pacchetti sorgente "
+"(<filename>source</filename>) e una cartella per ogni architettura "
+"supportata (<filename>binary-i386</filename>, <filename>binary-amd64</"
 "filename>, ecc.)"
 
 #. type: Content of: <chapter><section><para>
@@ -12659,7 +12664,7 @@ msgid ""
 "installing the Debian distribution on a specific architecture "
 "(<filename>disks-i386</filename>, <filename>disks-amd64</filename>, etc.)."
 msgstr ""
-"L'area <filename>main</filename> contiene altre directory che contengono le "
+"L'area <filename>main</filename> contiene altre catelle che contengono le "
 "immagini del disco e alcuni pezzi essenziali della documentazione necessari "
 "per l'installazione della distribuzione Debian su una specifica architettura "
 "(<filename>disk-i386</filename>, <filename>disk-amd64</filename>, ecc.)"
@@ -12667,7 +12672,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:464
 msgid "Sections"
-msgstr "Sezioni "
+msgstr "Sezioni"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:466
@@ -12721,8 +12726,8 @@ msgid ""
 "infrastructure (such as our bug-tracking system and mailing lists) for non-"
 "free software packages."
 msgstr ""
-"Pacchetti che non sono conformi alle DFSG sono collocati nella </literal> "
-"sezione non-free <literal>. Questi pacchetti non sono considerati come parte "
+"Pacchetti che non sono conformi alle DFSG sono collocati nella sezione </"
+"literal>non-free<literal>. Questi pacchetti non sono considerati come parte "
 "della distribuzione Debian, anche se consentiamo il loro uso, e mettiamo a "
 "disposizione le infrastrutture (ad esempio, il nostro sistema di bug-"
 "tracking e mailing list) per i pacchetti software non-free."
@@ -12779,17 +12784,18 @@ msgid ""
 "form of subdirectories within the Debian archive. Nowadays, these exist only "
 "in the Section header fields of packages."
 msgstr ""
-"Si noti che la sezione termini è usata anche per riferirsi a categorie che "
-"semplificano l'organizzazione e la navigazione di pacchetti disponibili, ad "
-"esempio <literal>admin</literal>, <literal>net</literal>, <literal>utils</"
-"literal>, ecc. Tempo fa, queste sezioni (sottosezioni, piuttosto) esistevano "
-"in forma di sottodirectory all'interno dell'archivio Debian. Al giorno "
-"d'oggi, questi esistono solo nei campi Section degli header dei pacchetti."
+"Si noti che la suddivisione in gruppi è usata anche per riferirsi a "
+"categorie che semplificano l'organizzazione e la navigazione di pacchetti "
+"disponibili, ad esempio <literal>admin</literal>, <literal>net</literal>, "
+"<literal>utils</literal>, ecc. Tempo fa, queste sezioni (sottosezioni, "
+"piuttosto) esistevano in forma di sottocartelle all'interno dell'archivio "
+"Debian. Al giorno d'oggi, queste esistono solo nei campi Section delle "
+"intestazioni dei pacchetti."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:523
 msgid "Architectures"
-msgstr "Architetture"
+msgstr "Le architetture"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:525
@@ -12804,8 +12810,8 @@ msgstr ""
 "I primi tempi, il kernel Linux era disponibile solo per le piattaforme Intel "
 "i386 (o superiore), e così è stato Debian. Ma, come Linux è diventato sempre "
 "più popolare, il kernel è stato portato su altre architetture e Debian "
-"iniziò a supportarle. E come se sostenere molto l'hardware non fosse "
-"sufficiente, Debian ha deciso di costruire alcuni port sulla base di altri "
+"iniziò a supportarle. E siccome sostenere molto l'hardware non fosse "
+"abbastanza, Debian ha deciso di costruire alcuni port sulla base di altri "
 "kernel Unix, come <literal>hurd</literal> e <literal>kFreeBSD</literal>."
 
 #. type: Content of: <chapter><section><section><para>
@@ -12847,7 +12853,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:552
 msgid "Packages"
-msgstr "I pacchetti "
+msgstr "I pacchetti"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:554
@@ -12865,7 +12871,7 @@ msgid ""
 "more files in addition to the mandatory <filename>.dsc</filename> file:"
 msgstr ""
 "A seconda del formato del pacchetto sorgente, esso sarà composto da uno o "
-"più file in aggiunta all'obbligatorio <filename>.dsc</filename>.:"
+"più file in aggiunta all'obbligatorio <filename>.dsc</filename>:"
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
 #: resources.dbk:562
@@ -12888,10 +12894,10 @@ msgid ""
 "filename> debian tarball;"
 msgstr ""
 "con il formato «3.0 (quilt)», esso ha una tarball originale <filename>.orig."
-"tar.{gz, bz2, xz}</filename> obbligatoria, diverse opzionali <filename>.orig-"
-"<replaceable>component</replaceable>.tar.{tar gz, bz2, xz}</filename> "
-"aggiuntive tarball originali e un obbligatorio debian tarball <filename> "
-"debian.tar.{gz, bz2, xz} </filename>.;"
+"tar.{gz, bz2, xz}</filename> obbligatoria, diverse opzionali aggiuntive "
+"tarball originali <filename>.orig-<replaceable>component</replaceable>.tar."
+"{tar gz, bz2, xz}</filename> e un obbligatoria tarball debian <filename> "
+"debian.tar.{gz, bz2, xz} </filename>;"
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
 #: resources.dbk:571
@@ -12900,7 +12906,7 @@ msgid ""
 "filename> tarball."
 msgstr ""
 "con il formato «3.0 (native)», si ha solo un'unica tarball <filename>.tar."
-"{gz, bz2, xz} </filename>."
+"{gz, bz2, xz}</filename>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:576
@@ -12916,14 +12922,14 @@ msgid ""
 "{gz,bz2,xz}</filename> contains the changes made by the Debian maintainer."
 msgstr ""
 "Se un pacchetto è stato sviluppato appositamente per Debian e non è "
-"distribuito al di fuori di Debian, c'è solo un <filename>.tar.{gz, bz2, xz} "
-"</filename>, che contiene i sorgenti del programma, è chiamato «nativo». Se "
-"un pacchetto viene distribuito anche altrove, il <filename>.orig.tar. {gz, "
-"bz2, xz} </filename> contiene il cosiddetto <literal>codice sorgente "
-"originale</literal>, che è il codice sorgente che viene distribuito "
-"dall'<literal> upstream maintainer </literal> (spesso l'autore del "
-"software). In questo caso, il <filename>.diff.gz </filename> o il "
-"<filename>debian.tar.{gz, bz2, xz} </filename> contiene le modifiche "
+"distribuito al di fuori di esso, c'è solo un <filename>.tar.{gz, bz2, xz} </"
+"filename>, che contiene i sorgenti del programma, è chiamato pacchetto "
+"«nativo» dei sorgenti. Se un pacchetto viene distribuito anche altrove, il "
+"<filename>.orig.tar. {gz, bz2, xz} </filename> contiene il cosiddetto "
+"<literal>codice sorgente originale</literal>, che è il codice sorgente che "
+"viene distribuito dall'<literal>maintainer originale</literal> (spesso "
+"l'autore del software). In questo caso, il <filename>.diff.gz </filename> o "
+"il <filename>debian.tar.{gz, bz2, xz} </filename> contiene le modifiche "
 "apportate dal maintainer Debian."
 
 #. type: Content of: <chapter><section><section><para>
@@ -12933,9 +12939,9 @@ msgid ""
 "together with checksums (<command>md5sums</command>) and some additional "
 "info about the package (maintainer, version, etc.)."
 msgstr ""
-"Il <filename>.dsc</filename> elenca tutti i file nel pacchetto sorgente con "
-"checksum (<command>md5sum</command>) e alcune ulteriori informazioni sul "
-"pacchetto (maintainer, versione, ecc.)"
+"Il file <filename>.dsc</filename> elenca tutti i file nel pacchetto sorgente "
+"con checksum (<command>md5sum</command>) e alcune ulteriori informazioni sul "
+"pacchetto (maintainer, versione, ecc.)."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:596
@@ -12950,10 +12956,10 @@ msgid ""
 "actually contained in the <filename>pool</filename> directory in the top-"
 "level of the Debian archive itself."
 msgstr ""
-"Il sistema di directory descritto nel capitolo precedente, è a sua volta "
-"contenuto all'interno delle <literal>directory di distribuzione</literal>. "
-"Ogni distribuzione è attualmente contenuta nel <filename>pool</filename> nel "
-"livello più alto dello stesso archivio Debian."
+"Il sistema di cartelle descritto nel capitolo precedente, è a sua volta "
+"contenuto all'interno delle <literal>cartelle di distribuzione</literal>. "
+"Ogni distribuzione è attualmente contenuta nella cartella <filename>pool</"
+"filename> nel livello più alto dello stesso archivio Debian."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:604
@@ -12964,10 +12970,10 @@ msgid ""
 "debian\">/debian</ulink>, which is a common location (another is <filename>/"
 "pub/debian</filename>)."
 msgstr ""
-"Per riassumere, l'archivio Debian ha una directory root all'interno di un "
+"Per riassumere, l'archivio Debian ha una cartella root all'interno di un "
 "server FTP. Ad esempio, presso il sito mirror, <literal>ftp.us.debian.org</"
 "literal>, l'archivio Debian in sé è contenuto in <ulink url=\"ftp://ftp.us."
-"debian.org/debian\">/debian</ulink>, che è un luogo comune (un' altra è "
+"debian.org/debian\">/debian</ulink>, che è un luogo comune (un altro è "
 "<filename>/pub/debian</filename>)."
 
 #. type: Content of: <chapter><section><section><para>
@@ -13001,10 +13007,10 @@ msgid ""
 "(residing in <filename>dists/unstable</filename>). This reflects the "
 "development process of the Debian project."
 msgstr ""
-"Ci sono sempre distribuzioni chiamate <literal>stable</literal> (residenti "
-"in <filename>dists/stable</filename>), <literal>testing</literal> (residenti "
+"Ci sono sempre distribuzioni chiamate <literal>stable</literal> (residente "
+"in <filename>dists/stable</filename>), <literal>testing</literal> (residente "
 "in <filename>dists/testing</filename>) , e <literal>unstable</literal> "
-"(residenti in <filename>dists/unstable</filename>). Ciò riflette il processo "
+"(residente in <filename>dists/unstable</filename>). Ciò riflette il processo "
 "di sviluppo del progetto Debian."
 
 #. type: Content of: <chapter><section><section><section><para>
@@ -13065,7 +13071,7 @@ msgid ""
 "contents are moved to <literal>&archive-host;</literal>."
 msgstr ""
 "Dopo un periodo di sviluppo, una volta che il responsabile del rilascio lo "
-"ritenga opportuno, la distribuzione <literal>testing</literal> è congelata, "
+"ritiene opportuno, la distribuzione <literal>testing</literal> è congelata, "
 "il che significa che le politiche che controllano come i pacchetti passano "
 "da <literal>unstable</literal> per <literal>testing</literal> sono serrate. "
 "Pacchetti che sono troppo bacati vengono rimossi. Non sono consentite "
@@ -13109,12 +13115,12 @@ msgstr ""
 "introdotti nell'archivio singolarmente per ridurre il rischio di introdurre "
 "nuovi bug. Potete trovare integrazioni proposte alle <literal>stable</"
 "literal> nella <filename>proposed-updates</filename>. Questi pacchetti in "
-"<filename>proposed-updates </filename>, che passano sono periodicamente "
+"<filename>proposed-updates</filename>, che passano sono periodicamente "
 "spostati come un lotto nella distribuzione stable e il livello di revisione "
 "della distribuzione stable viene incrementato (ad esempio, «6.0» diventa "
 "«6.0.1», «5.0.7» diventa «5.0.8», e così via). Si prega di fare riferimento "
-"a <link linkend=\"upload-stable\">uploads to the <literal>stable</literal> "
-"distribution</link> per i dettagli."
+"a <link linkend=\"upload-stable\">caricamenti per la distribuzione "
+"<literal>stable</literal></link> per i dettagli."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: resources.dbk:679
@@ -13155,7 +13161,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><section><title>
 #: resources.dbk:698
 msgid "Experimental"
-msgstr "Experimental "
+msgstr "Experimental"
 
 #. type: Content of: <chapter><section><section><section><para>
 #: resources.dbk:700
@@ -13190,7 +13196,7 @@ msgid ""
 "<manvolnum>5</manvolnum> </citerefentry> lines for <literal>experimental</"
 "literal>:"
 msgstr ""
-"Questi sono le linee <citerefentry> <refentrytitle>sources.list</"
+"Queste sono le linee <citerefentry> <refentrytitle>sources.list</"
 "refentrytitle> <manvolnum>5</manvolnum> </citerefentry> per "
 "<literal>experimental</literal>:"
 
@@ -13231,12 +13237,13 @@ msgid ""
 msgstr ""
 "Ogni volta che c'è una nuova versione di un pacchetto che introduce nuove "
 "funzionalità, ma rompe molti di quelli vecchi, non dovrebbe essere caricato, "
-"o essere caricato <literal>experimental</literal>. Una nuova, beta, versione "
-"di alcuni software che utilizzano una configurazione completamente diversa "
-"può andare in <literal>experimental</literal>, a discrezione del maintainer. "
-"Se si sta lavorando su una situazione di aggiornamento incompatibile o "
-"complessa, è possibile utilizzare anche <literal>exerimental</literal> come "
-"area di gestione, in modo che i tester possano iniziarci a lavorare."
+"o essere caricato in <literal>experimental</literal>. Una nuova, beta, "
+"versione di alcuni software che utilizzano una configurazione completamente "
+"diversa può andare in <literal>experimental</literal>, a discrezione del "
+"maintainer. Se si sta lavorando su una situazione di aggiornamento "
+"incompatibile o complessa, è possibile utilizzare anche "
+"<literal>exerimental</literal> come area di gestione, in modo che i tester "
+"possano iniziarci a lavorare."
 
 #. type: Content of: <chapter><section><section><section><para>
 #: resources.dbk:737
@@ -13255,7 +13262,7 @@ msgstr ""
 "perché i pacchetti da <literal>unstable</literal> sono propensi a passare in "
 "<literal>testing</literal> e quindi a <literal>stable</literal>. Non si deve "
 "aver paura di usare <literal>experimental</literal> dal momento che non "
-"causa alcun dolore all' ftpmaster, i pacchetti sperimentali vengono "
+"causa alcun dolore agli ftpmaster, i pacchetti sperimentali vengono "
 "periodicamente rimossi una volta caricato il pacchetto in <literal>unstable</"
 "literal> con un numero di versione superiore."
 
@@ -13280,7 +13287,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:759
 msgid "Release code names"
-msgstr "Nomi in codice delle Release"
+msgstr "Nomi in codice dei rilasci"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:761
@@ -13303,7 +13310,7 @@ msgid ""
 "the mainstream distribution at some future date."
 msgstr ""
 "Ogni distribuzione Debian rilasciata ha <literal>un nome in codice</"
-"literal>: Debian 1.1 è chiamata <literal>Buzz</literal>, Debian 1.2, "
+"literal>: Debian 1.1 è chiamata <literal>buzz</literal>, Debian 1.2, "
 "<literal>rex</literal>, Debian 1.3, <literal>bo</literal>, Debian 2.0, "
 "<literal>hamm</literal>, Debian 2.1, <literal>slink</literal>, Debian 2.2, "
 "<literal>potato</literal>, Debian 3.0, <literal>woody</literal> , Debian "
@@ -13336,7 +13343,7 @@ msgstr ""
 "possono partecipare e seguire lo sviluppo) anche la distribuzioni "
 "<literal>unstable</literal> e <literal>testing</literal> sono distribuite su "
 "Internet attraverso la rete Debian dei server FTP e HTTP. Così, se avessimo "
-"chiamato la directory che contiene la versione candidata al rilascio in "
+"chiamato la cartella che contiene la versione candidata al rilascio in "
 "<literal>testing</literal>, allora dovremmo rinominarla <literal>stable</"
 "literal>, quando la versione viene rilasciata, che obbligherebbe tutti i "
 "mirror FTP a ri-recuperare l'intera distribuzione (che è abbastanza grande)."
@@ -13351,12 +13358,12 @@ msgid ""
 "That's the reason why the first official Debian release was 1.1, and not "
 "1.0.)"
 msgstr ""
-"D'altra parte, se abbiamo chiamato le directory di distribuzione "
-"<literal>Debian-x.y</literal> dal principio, la gente potrebbe pensare che "
-"la versione Debian <literal>x.y</literal> è disponibile. (Questo è successo "
-"in passato, dove i distributori di CD-ROM Debian 1.0 costruirono un CD-ROM "
-"basato su una versione pre-1.0 di sviluppo. Questa è la ragione per cui il "
-"primo rilascio ufficiale di Debian è 1.1, e non 1.0.)"
+"D'altra parte, se avessimo chiamato dal principio le cartelle di "
+"distribuzione <literal>Debian-x.y</literal>, la gente avrebbe potuto pensare "
+"che la versione Debian <literal>x.y</literal> fosse disponibile. (Questo è "
+"successo in passato, dove i distributori di CD-ROM Debian 1.0 costruirono un "
+"CD-ROM basato su una versione pre-1.0 di sviluppo. Questa è la ragione per "
+"cui il primo rilascio ufficiale di Debian è 1.1, e non 1.0.)"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:798
@@ -13370,15 +13377,15 @@ msgid ""
 "<literal>stable</literal>, <literal>testing</literal>, and "
 "<literal>unstable</literal> point to the appropriate release directories."
 msgstr ""
-"Così, i nomi delle directory della distribuzione presenti in archivio sono "
+"Così, i nomi delle cartelle della distribuzione presenti in archivio sono "
 "determinati dai loro nomi in codice e non dal loro stato di rilascio (per "
 "esempio, «squeeze»). Questi nomi rimangono invariati durante il periodo di "
 "sviluppo e dopo il rilascio; i link simbolici, che possono essere modificati "
 "facilmente, indicano la distribuzione stabile attualmente rilasciata. Ecco "
-"perché le directory di distribuzione reali utilizzano i <literal>code names</"
-"literal>, mentre i collegamenti simbolici per <literal>stable</literal>, "
-"<literal>testing</literal>, e <literal>unstable</literal> puntano alle "
-"appropriate directory di rilascio."
+"perché le cartelle di distribuzione reali utilizzano i <literal>nomi in "
+"codice</literal>, mentre i collegamenti simbolici per <literal>stable</"
+"literal>, <literal>testing</literal>, e <literal>unstable</literal> puntano "
+"alle appropriate cartelle di rilascio."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:812
@@ -13405,9 +13412,9 @@ msgstr ""
 "mirror e si abituano al loro utilizzo, che consente a Debian di gestire "
 "meglio i suoi requisiti di larghezza di banda su più server e reti, e "
 "praticamente evita agli utenti di martellare una sola location primaria. Si "
-"noti che la prima fila di mirror è up-to-date come può essere visto che si "
-"aggiornano quando innescati dai siti interni (chiamiamo questo push "
-"mirroring)."
+"noti che il primo strato di mirror è tanto aggiornato quanto può esserlo dal "
+"momento che si aggiorna quando innescato dai siti interni (chiamiamo questo "
+"push mirroring)."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:825
@@ -13419,7 +13426,7 @@ msgid ""
 "internal or public access."
 msgstr ""
 "Tutte le informazioni sui mirror Debian, tra cui un elenco di server "
-"pubblici FTP / HTTP disponibili, può essere trovato nella <ulink url=\"&url-"
+"pubblici FTP/HTTP disponibili, può essere trovato nella <ulink url=\"&url-"
 "debian-mirrors;\"></ulink>. Questa pagina contiene anche utili informazioni "
 "e strumenti che possono essere utili se siete interessati a realizzare il "
 "proprio mirror, sia per l'accesso interno che pubblico."
@@ -13432,7 +13439,7 @@ msgid ""
 "machines."
 msgstr ""
 "Si noti che i mirror sono generalmente gestiti da terzi che sono interessati "
-"ad aiutare Debian. Come tale, gli sviluppatori in genere non hanno account "
+"ad aiutare Debian. Come tali, gli sviluppatori in genere non hanno account "
 "su queste macchine."
 
 #. type: Content of: <chapter><section><title>
@@ -13448,8 +13455,8 @@ msgid ""
 "and scripts that are installed on <literal>&ftp-master-host;</literal>."
 msgstr ""
 "Il sistema Incoming è responsabile della raccolta dei pacchetti aggiornati e "
-"li installa nell'archivio Debian. Si compone di un insieme di directory e "
-"script che vengono installati sul <literal>&ftp-master-host;</literal>."
+"li installa nell'archivio Debian. Si compone di un insieme di cartelle e "
+"script che vengono installati sull' <literal>&ftp-master-host;</literal>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:846
@@ -13473,24 +13480,24 @@ msgid ""
 "detected, the package is refused and is moved to the <filename>reject</"
 "filename> directory."
 msgstr ""
-"I pacchetti sono caricati da tutti i maintainer in una directory denominata "
-"<filename>UploadQueue</filename>. Questa directory viene analizzata ogni "
-"pochi minuti da un demone chiamato <command>queued</command>, <filename> *."
-"command</filename>-files vengono eseguiti, ed i restanti e correttamente "
+"I pacchetti sono caricati da tutti i maintainer in una cartella denominata "
+"<filename>UploadQueue</filename>. Questa cartella viene analizzata ogni "
+"pochi minuti da un demone chiamato <command>queued</command>, vengono "
+"eseguiti file<filename> *.command</filename>, ed i restanti e correttamente "
 "firmati file <filename> *.changes </filename> vengono spostati insieme ai "
-"loro file corrispondenti <filename>unchecked</filename>. Questa directory "
-"non è visibile alla maggior parte degli sviluppatori, dato che ftp-master è "
+"loro file corrispondenti <filename>unchecked</filename>. Questa cartella non "
+"è visibile alla maggior parte degli sviluppatori, dato che ftp-master è "
 "ristretto; ma viene sottoposta a scansione ogni 15 minuti dallo script "
 "<command>dak process-upload</command>, che verifica l'integrità dei "
 "pacchetti caricati e le loro firme crittografiche. Se il pacchetto è "
-"considerato pronto per essere installato, viene spostato nella "
-"<filename>done</filename>. Se questo è il primo upload del pacchetto (o ha "
-"nuovi pacchetti binari), viene spostato nella directory <filename>new</"
-"filename>, dove si attende l'approvazione da parte dell'ftpmasters. Se il "
-"pacchetto contiene i file da installare a mano viene spostato al "
+"considerato pronto per essere installato, viene spostato nella cartella "
+"<filename>done</filename>. Se questo è il primo caricamento del pacchetto (o "
+"ha nuovi pacchetti binari), viene spostato nella cartella <filename>new</"
+"filename>, dove si attende l'approvazione da parte dell'ftpmaster. Se il "
+"pacchetto contiene i file da installare a mano viene spostato nella cartella "
 "<filename>byhand</filename>, dove si attende l'installazione manuale dall' "
 "ftpmasters. Altrimenti, se è stato rilevato qualche errore, il pacchetto "
-"viene rifiutato e viene spostato nella directory <filename>reject</filename>."
+"viene rifiutato e viene spostato nella cartella <filename>reject</filename>."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:865
@@ -13508,17 +13515,17 @@ msgid ""
 "update themselves."
 msgstr ""
 "Una volta che il pacchetto viene accettato, il sistema invia una email di "
-"conferma al maintainer e chiude tutti i bug marcandoli come corretti dall' "
-"upload, gli auto-builder possono iniziare a ricompilarlo. Il pacchetto è ora "
-"accessibile al pubblico presso <ulink url=\"&url-incoming;\"> </ulink> fino "
-"a quando non sarà realmente installato nell'archivio Debian. Questo accade "
-"quattro volte al giorno (ed è chiamata anche la «dinstall run» per ragioni "
-"storiche), il pacchetto viene quindi rimosso da incoming ed installato in "
-"pool insieme a tutti gli altri pacchetti. Una volta che tutti gli altri "
-"aggiornamenti (che generano i nuovi file di indice di <filename>Packages</"
-"filename> e <filename>Sources</filename> per esempio) sono state apportati, "
-"uno speciale script è chiamato per chiedere a tutti i mirror primari di "
-"aggiornarsi."
+"conferma al maintainer e chiude tutti i bug marcandoli come corretti "
+"dall'upload, e gli auto-builder possono iniziare a ricompilarlo. Il "
+"pacchetto è ora accessibile al pubblico presso <ulink url=\"&url-incoming;"
+"\"></ulink> fino a quando non sarà realmente installato nell'archivio "
+"Debian. Questo accade quattro volte al giorno (ed è chiamata anche la "
+"«dinstall run» per ragioni storiche), il pacchetto viene quindi rimosso da "
+"incoming ed installato in pool insieme a tutti gli altri pacchetti. Una "
+"volta che tutti gli altri aggiornamenti (che generano i nuovi file di indice "
+"di <filename>Packages</filename> e <filename>Sources</filename> per esempio) "
+"sono state apportati, uno speciale script è chiamato per chiedere a tutti i "
+"mirror primari di aggiornarsi."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:877
@@ -13547,8 +13554,8 @@ msgid ""
 "Though ftp-master is restricted, a copy of the installation is available to "
 "all developers on <literal>&ftp-master-mirror;</literal>."
 msgstr ""
-"Anche se ftp-master è limitato, una copia dell'installazione è disponibile "
-"per tutti gli sviluppatori su <literal> &ftp-master-mirror;</literal>."
+"Anche se ftp-master è ristretto, una copia dell'installazione è disponibile "
+"per tutti gli sviluppatori su <literal>&ftp-master-mirror;</literal>."
 
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:950
@@ -13570,10 +13577,10 @@ msgid ""
 "description, the dependencies, and package download links."
 msgstr ""
 "Ogni pacchetto ha diverse pagine web dedicate. <literal>http://&packages-"
-"host;/<replaceable>package-name</replaceable></literal> visualizza ogni "
+"host;/<replaceable>nome-pachetto</replaceable></literal> visualizza ogni "
 "versione del pacchetto disponibile nelle varie distribuzioni. Ogni versione "
 "punta ad una pagina che fornisce informazioni, compresa la descrizione del "
-"pacchetto, le dipendenze, e i link per il download del pacchetto."
+"pacchetto, le dipendenze, e i link per il suo scaricamento."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:961
@@ -13584,8 +13591,8 @@ msgid ""
 msgstr ""
 "Il sistema di tracciamento dei bug mantiene traccia dei bug di ogni "
 "pacchetto. È possibile visualizzare i bug di un determinato pacchetto "
-"all'URL <literal>http://&bugs-host;/<replaceable>package-name</replaceable> "
-"</literal>."
+"all'URL <literal>http://&bugs-host;/<replaceable>nome-pacchetto</"
+"replaceable></literal>."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:968
@@ -13604,10 +13611,10 @@ msgid ""
 msgstr ""
 "<command>dak ls</command> è parte della suite di strumenti di dak, ed elenca "
 "le versioni dei pacchetti disponibili per tutte le distribuzioni e le "
-"architetture conosciute. Il tool <command>dak </command> è disponibile sul "
-"<literal>&ftp-master-host;</literal>, e sul mirror su <literal> &ftp-master-"
-"mirror;</literal>. Esso utilizza un singolo argomento corrispondente a un "
-"nome di un pacchetto. Un esempio servirà a chiarire meglio:"
+"architetture conosciute. Lo strumento <command>dak </command> è disponibile "
+"sul <literal>&ftp-master-host;</literal>, e sul mirror su <literal> &ftp-"
+"master-mirror;</literal>. Esso utilizza un singolo argomento corrispondente "
+"a un nome di un pacchetto. Un esempio servirà a chiarire meglio:"
 
 #. type: Content of: <chapter><section><section><screen>
 #: resources.dbk:978
@@ -13758,11 +13765,11 @@ msgid ""
 "<literal>X-PTS-Approved</literal> header with a non-empty value."
 msgstr ""
 "Qualsiasi email non automatica inviata al PTS da persone che volevano "
-"contattare i subscribers del pacchetto. Questo può essere fatto mediante "
+"contattare gli interessati al pacchetto. Questo può essere fatto mediante "
 "l'invio di email a <literal><replaceable>sourcepackage</replaceable>@&pts-"
 "host;</literal>. Per evitare lo spam, tutti i messaggi inviati a questi "
-"indirizzi devono contenere l'header <literal> X-PTS-Approved</literal> con "
-"un valore non vuoto."
+"indirizzi devono contenere lintestazione <literal> X-PTS-Approved</literal> "
+"con un valore non vuoto."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
 #: resources.dbk:1068
@@ -13793,7 +13800,7 @@ msgstr ""
 "Email periodiche di riepilogo sullo stato del pacchetto, compreso "
 "l'avanzamento in <literal>testing</literal>, <ulink url=\"&url-dehs;\">DEHS</"
 "ulink> notifiche di nuove versioni originali, e una notifica se il pacchetto "
-"viene rimosso o diventato orfano."
+"viene rimosso o diventa orfano."
 
 #. type: Content of: <chapter><section><para>
 #: resources.dbk:1090
@@ -13815,8 +13822,8 @@ msgid ""
 msgstr ""
 "L'email di notifica da <command>katie</command>, quando un pacchetto binario "
 "caricato è accettato. In altre parole, ogni volta che un demone di build o "
-"di un porter carica il tuo pacchetto per un'altra architettura, è possibile "
-"ottenere una email per monitorare come il proprio pacchetto viene "
+"di un porter carica il vostro pacchetto per un'altra architettura, è "
+"possibile ottenere una email per monitorare come il proprio pacchetto viene "
 "ricompilato per tutte le architetture."
 
 #. type: Content of: <chapter><section><variablelist><varlistentry><term>
@@ -13889,8 +13896,8 @@ msgid ""
 "You can control your subscription(s) to the PTS by sending various commands "
 "to <email>pts@qa.debian.org</email>."
 msgstr ""
-"È possibile controllare la(e) propria(e) sottoscrizione(i) al PTS inviando "
-"vari comandi a <email>pts@qa.debian.org</email>."
+"È possibile controllare le proprie sottoscrizioni al PTS inviando vari "
+"comandi a <email>pts@qa.debian.org</email>."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1150
@@ -13972,9 +13979,9 @@ msgid ""
 "keywords, <link linkend=\"pkg-tracking-system\">see above</link>. Here's a "
 "quick summary:"
 msgstr ""
-"Indica le keywords che si stanno accettando. Per una spiegazione delle "
-"keywords, <link linkend=\"pkg-tracking-system\">si veda sopra</link>. Ecco "
-"un breve riassunto:"
+"Indica le parole chiave che si stanno accettando. Per una loro spiegazione, "
+"<link linkend=\"pkg-tracking-system\">si veda sopra</link>. Ecco un breve "
+"riassunto:"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1201
@@ -13997,7 +14004,7 @@ msgid ""
 "<literal>summary</literal>: automatic summary mails about the state of a "
 "package"
 msgstr ""
-"<literal>summary</literal>: email di riepilogo automatici sullo stato di un "
+"<literal>summary</literal>: email di riepilogo automatiche sullo stato di un "
 "pacchetto"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
@@ -14012,7 +14019,7 @@ msgstr ""
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1224
 msgid "<literal>cvs</literal>: notification of VCS commits"
-msgstr "<literal>cvs</literal>: notifica dei commit sul VCS "
+msgstr "<literal>cvs</literal>: notifica dei commit sul VCS"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1229
@@ -14028,7 +14035,7 @@ msgid ""
 "<literal>derivatives</literal>: changes made on the package by derivative "
 "distributions"
 msgstr ""
-"<literal>derivatives​​</literal>: le modifiche apportate al pacchetto da "
+"<literal>derivatives</literal>: le modifiche apportate al pacchetto da "
 "distribuzioni derivate"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
@@ -14037,7 +14044,7 @@ msgid ""
 "<literal>derivatives-bugs</literal>: bugs reports and comments from "
 "derivative distributions"
 msgstr ""
-"<literal>derivatives​​-bugs</literal>: segnalazioni di bug e commenti da "
+"<literal>derivatives-bugs</literal>: segnalazioni di bug e commenti da "
 "distribuzioni derivate"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
@@ -14046,8 +14053,8 @@ msgid ""
 "<literal>upload-source</literal>: announce of a new source upload that has "
 "been accepted"
 msgstr ""
-"<literal>upload-source</literal>: annuncia un nuovo upload di source che è "
-"stato accettato"
+"<literal>upload-source</literal>: annuncia un nuovo caricamento di sorgenti "
+"che è stato accettato"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1252
@@ -14055,8 +14062,8 @@ msgid ""
 "<literal>upload-binary</literal>: announce of a new binary-only upload "
 "(porting)"
 msgstr ""
-"<literal>upload-binary</literal>: annuncia un nuovo upload di soli file "
-"binari(porting)"
+"<literal>upload-binary</literal>: annuncia un nuovo caricamento di soli file "
+"binari (porting)"
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><listitem><itemizedlist><listitem><para>
 #: resources.dbk:1258
@@ -14095,8 +14102,8 @@ msgid ""
 "select a different set of keywords for each source package."
 msgstr ""
 "Corrisponde alla voce precedente ma per il dato pacchetto sorgente, dal "
-"momento che è possibile selezionare un diverso insieme di keyword per ogni "
-"pacchetto sorgente."
+"momento che è possibile selezionare un diverso insieme di parole chiave per "
+"ogni pacchetto sorgente."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1285
@@ -14113,8 +14120,8 @@ msgid ""
 "accepted by a user."
 msgstr ""
 "Accetta (+) o rifiuta (-) email classificate sotto le parole chiave. "
-"Definisci la lista (=) delle keyword accettate. Ciò cambia l'insieme "
-"predefinito di keyword accettate da un utente."
+"Definisci l'elenco (=) delle parole chiave accettate. Ciò cambia l'insieme "
+"predefinito di parole chiave accettate da un utente."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1295
@@ -14132,9 +14139,10 @@ msgid ""
 "the list (=) of accepted keywords. This changes the set of accepted keywords "
 "of all the currently active subscriptions of a user."
 msgstr ""
-"Accetta (+) o rifiutata (-) email classificate sotto la data keyword. "
-"Definisci la lista (=) delle keyword accettate. Ciò cambia l'insieme di "
-"keyword accettate di tutti le sottoscrizioni attualmente attive di un utente."
+"Accetta (+) o rifiutata (-) email classificate sotto la data parola chiave. "
+"Definisci l'elenco (=) delle parole chiave accettate. Ciò cambia l'insieme "
+"di parole chiave accettate di tutti le sottoscrizioni attualmente attive di "
+"un utente."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1305
@@ -14151,8 +14159,8 @@ msgid ""
 "Same as previous item but overrides the keywords list for the indicated "
 "source package."
 msgstr ""
-"Stessa voce precedente, ma prevale l'elenco di keyword per il pacchetto "
-"sorgente indicato."
+"Stessa voce precedente, ma prevale l'elenco di parole chiave per il "
+"pacchetto sorgente indicato."
 
 #. type: Content of: <chapter><section><section><variablelist><varlistentry><term>
 #: resources.dbk:1314
@@ -14177,12 +14185,12 @@ msgstr ""
 "L'utility da riga di comando <command>pts-subscribe</comando> (dal pacchetto "
 "<systemitem role=\"package\">devscripts</systemitem>) può essere utile per "
 "iscriversi temporaneamente ad alcuni pacchetti, per esempio dopo aver fatto "
-"un upload non-maintainer."
+"un caricamento da non-maintainer."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:1331
 msgid "Filtering PTS mails"
-msgstr "Filtrare le email PTS "
+msgstr "Filtrare le email PTS"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1333
@@ -14195,12 +14203,12 @@ msgid ""
 "PTS-Keyword</literal> and <literal>X-Unsubscribe</literal>."
 msgstr ""
 "Una volta che si è iscritti a un pacchetto, si riceveranno le email inviate "
-"a <literal> <replaceable>sourcepackage</replaceable> @&pts-host;</literal>. "
-"Quei messaggi hanno intestazioni speciali allegate per farvele filtrare in "
-"una mailbox speciale (ad esempio con <command>procmail</command>). Gli "
-"header aggiunti sono <literal>X-Loop</literal>, <literal>X-PTS-Package</"
-"literal>, <literal>X-PTS-Keyword</literal> e <literal>X-Unsubscribe</literal "
-">."
+"a <literal> <replaceable>sourcepackage</replaceable>@&pts-host;</literal>. "
+"Questi messaggi hanno intestazioni speciali allegate per farvele filtrare in "
+"una mailbox speciale (ad esempio con <command>procmail</command>). Le "
+"intestazioni aggiunte sono <literal>X-Loop</literal>, <literal>X-PTS-"
+"Package</literal>, <literal>X-PTS-Keyword</literal> e <literal>X-"
+"Unsubscribe</literal >."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1341
@@ -14208,8 +14216,9 @@ msgid ""
 "Here is an example of added headers for a source upload notification on the "
 "<systemitem role=\"package\">dpkg</systemitem> package:"
 msgstr ""
-"Ecco un esempio di header aggiuntivi per una notifica di un upload dei "
-"sorgenti sul pacchetto <systemitem role=\"package\">dpkg</systemitem>:"
+"Ecco un esempio di intestazioni aggiuntive per una notifica di un "
+"caricamento dei sorgenti sul pacchetto <systemitem role=\"package\">dpkg</"
+"systemitem>:"
 
 #. type: Content of: <chapter><section><section><screen>
 #: resources.dbk:1345
@@ -14255,12 +14264,12 @@ msgid ""
 "<literal>X-PTS-Approved: 1</literal> header."
 msgstr ""
 "Dopo aver configurato il repository VCS per generare notifiche di commit, "
-"basta assicurarsi che invii una copia delle email di <literal> "
-"<replaceable>sourcepackage</replaceable>_cvs@&pts-host;</literal>. Solo le "
-"persone che accettano la keyword <literal>cvs</literal> riceveranno queste "
-"notifiche. Si noti che la posta deve essere inviata da una macchina "
-"<literal>debian.org</literal>, altrimenti si dovrà aggiungere l'header "
-"<literal>X-PTS-Approved: 1 </literal>."
+"basta assicurarsi che invii una copia di queste email a "
+"<literal><replaceable>sourcepackage</replaceable>_cvs@&pts-host;</literal>. "
+"Solo le persone che accettano la parola chiave <literal>cvs</literal> "
+"riceveranno queste notifiche. Si noti che la posta deve essere inviata da "
+"una macchina <literal>debian.org</literal>, altrimenti si dovrà aggiungere "
+"l'intestazione <literal>X-PTS-Approved: 1</literal>."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1370
@@ -14289,7 +14298,7 @@ msgid ""
 "via email."
 msgstr ""
 "Il PTS ha una interfaccia web all'indirizzo <ulink url=\"http://&pts-host;/"
-"\"> </ulink>, che mette insieme molte informazioni su ogni pacchetto "
+"\"></ulink>, che mette insieme molte informazioni su ogni pacchetto "
 "sorgente. È dotato di molti link utili (BTS, QA statistiche, informazioni "
 "sui contatti, lo stato di traduzione DDTP, logs di buildd) e raccoglie molte "
 "informazioni da vari luoghi (le ultime 30 voci del changelog, lo stato di "
@@ -14304,7 +14313,7 @@ msgid ""
 "with a URL like <literal>http://&pts-host;/<replaceable>sourcepackage</"
 "replaceable></literal>."
 msgstr ""
-"È possibile passare direttamente alla pagina web relativa ad uno specifico "
+"È possibile accedere direttamente alla pagina web relativa ad uno specifico "
 "pacchetto sorgente con un URL del tipo <literal>http://&pts-host;/"
 "<replaceable>sourcepackage</replaceable></literal>."
 
@@ -14344,7 +14353,7 @@ msgstr "un collegamento al sito web originale"
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1415
 msgid "a link to the upstream bug tracker"
-msgstr "un link all'upstream bug tracker "
+msgstr "un link all'upstream bug tracker"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1420
@@ -14378,7 +14387,7 @@ msgstr "pacchetti finali sono attesi per la prossima settimana"
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1446
 msgid "the packaging is about to be redone from scratch"
-msgstr "il packaging è quasi da rifare da zero"
+msgstr "la pacchettizzazione è quasi da rifare da zero"
 
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1451
@@ -14400,7 +14409,7 @@ msgstr "un NMU è in lavorazione"
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: resources.dbk:1466
 msgid "something important will affect the package"
-msgstr "qualcosa di importante influenzerà il pacchetto"
+msgstr "qualcosa di importante caratterizzerà il pacchetto"
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1471
@@ -14416,14 +14425,14 @@ msgid ""
 "news item."
 msgstr ""
 "Entrambi i tipi di notizie vengono generati in modo simile: basta inviare "
-"una email sia a <email>pts-static-news@qa.debian.org</email> oppure a "
+"una email o a <email>pts-static-news@qa.debian.org</email> oppure a "
 "<email>pts-news@qa.debian.org</email>. L'email dovrebbe indicare a quale "
-"pacchetto si è interessati indicando il nome del pacchetto sorgente in un "
-"header <literal>X-PTS-Package</literal> o in uno pseudo-header "
+"pacchetto si è interessati indicando il nome del pacchetto sorgente in una "
+"intestazione <literal>X-PTS-Package</literal> o nella pseudo-intestazione "
 "<literal>Package</literal> (come i report BTS). Se un URL è disponibile "
-"nell'header <literal>X-PTS-URL</literal> o nella pseudo-header <literal>Url</"
-"literal>, allora il risultato è un link a tale URL al posto di una notizia "
-"completa."
+"nell'intestazione <literal>X-PTS-URL</literal> o nella pseudo-intestazione "
+"<literal>Url</literal>, allora il risultato è un link a tale URL al posto di "
+"una notizia completa."
 
 #. type: Content of: <chapter><section><section><para>
 #: resources.dbk:1482
@@ -14461,7 +14470,7 @@ msgid ""
 "to the PTS so that it is published on the PTS web page of the package. Note "
 "the use of the BCC field to avoid answers sent to the PTS by mistake."
 msgstr ""
-"Il secondo è un annuncio inviato ad una mailing list, che viene trasmesso "
+"Il secondo è un annuncio inviato ad una mailing list, che viene trasmessa "
 "anche al PTS in modo che sia pubblicato sulla pagina web PTS del pacchetto. "
 "Si noti l'uso del campo BCC per evitare risposte inviate al PTS per errore."
 
@@ -14501,7 +14510,7 @@ msgid ""
 "that you can do is send a second news item that will deprecate the "
 "information contained in the previous one."
 msgstr ""
-"Pensaci due volte prima di aggiungere una news al PTS, perché non si potrà "
+"Pensateci due volte prima di aggiungere una news al PTS, perché non si potrà "
 "rimuoverla in un secondo momento e non sarà possibile modificarla. L'unica "
 "cosa che si può fare è inviare una seconda notizia che depreca le "
 "informazioni contenute in quella precedente."
@@ -14537,7 +14546,7 @@ msgid ""
 "responsibility."
 msgstr ""
 "È una buona idea per cercare i propri dati regolarmente in modo da non "
-"dimenticare eventuali bug aperti, e in modo da non dimenticare che i "
+"dimenticare eventuali bug aperti, e in modo da non dimenticare quali "
 "pacchetti sono a proprio carico."
 
 #. type: Content of: <chapter><section><title>
@@ -14556,9 +14565,9 @@ msgid ""
 msgstr ""
 "Alioth è un servizio di Debian basato su una versione leggermente modificata "
 "del software FusionForge (che si è evoluta da SourceForge e GForge). Questo "
-"software offre agli sviluppatori l'accesso a strumenti easy-to-use come i "
-"bug tracker, manager di patch, manager di progetti/attività, servizi di file "
-"hosting, mailing list, repository VCS ecc Tutti questi strumenti sono "
+"software offre agli sviluppatori l'accesso a strumenti facili da usare come "
+"i bug tracker, manager di patch, manager di progetti/attività, servizi di "
+"file hosting, mailing list, repository VCS ecc. Tutti questi strumenti sono "
 "gestiti tramite un'interfaccia web."
 
 #. type: Content of: <chapter><section><para>
@@ -14573,7 +14582,7 @@ msgstr ""
 "Esso è destinato a fornire servizi per progetti di software libero sostenuti "
 "o guidati da Debian, facilitare contributi da sviluppatori esterni a "
 "progetti avviati da Debian, e contribuire a progetti i cui obiettivi sono la "
-"promozione di Debian o suoi derivati​​. È molto utilizzato da molti team di "
+"promozione di Debian o suoi derivati. È molto utilizzato da molti team di "
 "Debian e fornisce hosting per tutti i tipi di repository VCS."
 
 #. type: Content of: <chapter><section><para>
@@ -14615,7 +14624,7 @@ msgstr "<ulink url=\"&url-alioth;\" />"
 #. type: Content of: <chapter><section><title>
 #: resources.dbk:1573
 msgid "Goodies for Developers"
-msgstr "Chicche per gli sviluppatori"
+msgstr "Benefici per gli sviluppatori"
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:1575
@@ -14633,7 +14642,7 @@ msgstr ""
 "Dal mese di ottobre del 2002, HP ha promosso una sottoscrizione a LWN per "
 "tutti gli sviluppatori Debian interessati. I dettagli su come ottenere "
 "l'accesso a questo beneficio sono contenuti in <ulink url=\"http://&lists-"
-"host;/debian-devel-announce/2002/10/msg00018.html\"> </ulink>."
+"host;/debian-devel-announce/2002/10/msg00018.html\"></ulink>."
 
 #. type: Content of: <chapter><section><section><title>
 #: resources.dbk:1584
@@ -14684,7 +14693,7 @@ msgstr ""
 "come spostare, rimuovere o rendere orfani i pacchetti (<xref linkend="
 "\"archive-manip\"/>); come fare il porting dei pacchetti (<xref linkend="
 "\"porting\"/>); e come e quando fare versioni provvisorie dei pacchetti di "
-"altri Maintainer (<xref linkend=\"nmu\"/>)."
+"altri maintainer (<xref linkend=\"nmu\"/>)."
 
 #. type: Content of: <chapter><para>
 #: scope.dbk:23
@@ -14700,7 +14709,7 @@ msgstr ""
 "Le risorse discusse in questa reference includono le mailing list (<xref "
 "linkend=\"mailing-lists\"/>) e server (<xref linkend=\"server-machines\"/>); "
 "una discussione sulla struttura dell'archivio Debian (<xref linkend=\"archive"
-"\"/>); spiegazione dei diversi server che accettano upload di pacchetti "
+"\"/>); spiegazione dei diversi server che accettano caricamenti di pacchetti "
 "(<xref linkend=\"upload-ftp-master\"/>); e una discussione delle risorse che "
 "possono aiutare i maintainer con la qualità dei propri pacchetti (<xref "
 "linkend=\"tools\"/>)."
@@ -14736,7 +14745,7 @@ msgstr ""
 #. type: Content of: <appendix><title>
 #: tools.dbk:7
 msgid "Overview of Debian Maintainer Tools"
-msgstr "Panoramica dei tool del Debian Maintainer"
+msgstr "Panoramica degli strumenti del Debian Maintainer"
 
 #. type: Content of: <appendix><para>
 #: tools.dbk:9
@@ -14772,10 +14781,10 @@ msgstr ""
 "Alcune persone preferiscono utilizzare ad alto livello gli strumenti di "
 "manutenzione dei pacchetti e altri no. Debian è ufficialmente agnostico su "
 "questo problema, qualsiasi strumento che ottiene il lavoro fatto va bene. "
-"Pertanto, questa sezione non intende indicare a nessuno quali strumenti "
-"devono adottare o di come dovrebbero essere condotte le loro funzioni di "
+"Pertanto, questa sezione non intende indicare a nessuno quali strumenti deve "
+"adottare o di come dovrebbero essere condotte le loro funzioni di "
 "mantenimento del pacchetto. Né è destinata a promuovere qualsiasi "
-"particolare strumento per l'esclusione di uno strumento in competizione."
+"particolare strumento al fine di escludere uno strumento in competizione."
 
 #. type: Content of: <appendix><para>
 #: tools.dbk:26
@@ -14794,13 +14803,13 @@ msgstr ""
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:32
 msgid "Core tools"
-msgstr "Core tool"
+msgstr "Strumeti di base"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:34
 msgid "The following tools are pretty much required for any maintainer."
 msgstr ""
-"Iseguenti strumenti sono praticamente obbligatori per qualsiasi maintainer."
+"I seguenti strumenti sono praticamente obbligatori per qualsiasi maintainer."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:37
@@ -14883,7 +14892,7 @@ msgid ""
 msgstr ""
 "<systemitem role=\"package\">fakeroot</systemitem> simula i privilegi di "
 "root. Questo permette di costruire pacchetti senza essere root (i pacchetti "
-"di solito vogliono installare i file con la i diritti del root). Se si ha "
+"di solito vogliono installare i file con i diritti di root). Se si ha "
 "<systemitem role=\"package\">fakeroot</systemitem> installato, è possibile "
 "costruire pacchetti come utente normale: <literal>dpkg-buildpackage-"
 "rfakeroot</literal>."
@@ -14891,7 +14900,7 @@ msgstr ""
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:81
 msgid "Package lint tools"
-msgstr "Tool del pacchetto lint"
+msgstr "Strumenti del pacchetto lint"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:83
@@ -14905,8 +14914,8 @@ msgstr ""
 "Secondo il Dizionario On-line di Informatica (FOLDOC), «lint» è un "
 "processore di linguaggio Unix C che effettua verifiche più approfondite sul "
 "codice rispetto ai normali compilatori C. Gli strumenti del pacchetto lint "
-"aiutano i miantainer dei pacchetti, trovando automaticamente i problemi più "
-"comuni e le violazioni delle policy nei loro pacchetti."
+"aiutano i miantainer dei pacchetti, trovando nei loro pacchetti "
+"automaticamente i problemi più comuni e le violazioni delle policy."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:89
@@ -14922,7 +14931,7 @@ msgid ""
 "for common errors."
 msgstr ""
 "<systemitem role=\"package\">lintian</systemitem> studia approfonditamente i "
-"pacchetti Debian ed fornisce informazioni su bug e violazioni delle policy. "
+"pacchetti Debian e fornisce informazioni su bug e violazioni delle policy. "
 "Contiene controlli automatici per molti aspetti della policy Debian così "
 "come alcuni controlli per gli errori comuni."
 
@@ -14980,12 +14989,12 @@ msgid ""
 "file. Of course, some of the changes it reports will be all right, but it "
 "can help you prevent various accidents."
 msgstr ""
-"<command> debdiff </command> (dal pacchetto <systemitem role=\"package"
+"<command>debdiff</command> (dal pacchetto <systemitem role=\"package"
 "\">devscripts</systemitem>, <xref linkend=\"devscripts\"/>) confronta "
 "elenchi di file e file di controllo di due pacchetti. Si tratta di un test "
 "di regressione semplice, in quanto vi aiuterà a notare se il numero di "
 "pacchetti binari è cambiato dall'ultima operazione di caricamento, o se "
-"qualcosa è cambiato nel file di controllo. Naturalmente, alcuni delle "
+"qualcosa è cambiato nel file di controllo. Naturalmente, alcune delle "
 "modifiche che segnalerà saranno a posto, ma può aiutare a prevenire vari "
 "incidenti."
 
@@ -15024,7 +15033,7 @@ msgstr ""
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:148
 msgid "Helpers for <filename>debian/rules</filename>"
-msgstr "Helpers per <filename>debian/rules</filename>"
+msgstr "Assistenti per <filename>debian/rules</filename>"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:150
@@ -15055,10 +15064,11 @@ msgid ""
 msgstr ""
 "<systemitem role=\"package\">debhelper</systemitem> è una raccolta di "
 "programmi che possono essere utilizzati in <filename>debian/rules</filename> "
-"per automatizzare i compiti per creare pacchetti Debian binari. <systemitem "
-"role=\"package\">debhelper</systemitem> include programmi per installare "
-"vari file all'interno del pacchetto, comprimere i file, correggere i "
-"permessi dei file, e di integrare il pacchetto nel sistema dei menù Debian."
+"per automatizzare i compiti per la creazione di pacchetti Debian binari. "
+"<systemitem role=\"package\">debhelper</systemitem> include programmi per "
+"installare vari file all'interno del pacchetto, comprimere i file, "
+"correggere i permessi dei file, e di integrare il pacchetto nel sistema dei "
+"menù Debian."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:166
@@ -15071,7 +15081,7 @@ msgstr ""
 "A differenza di altri approcci, <systemitem role=\"package\">debhelper</"
 "systemitem> è suddiviso in diversi piccoli, semplici comandi che agiscono in "
 "modo coerente. Come tale, esso permette un controllo più capillare di alcuni "
-"degli altri tool debian/rules."
+"degli altri strumenti di debian/rules."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:172
@@ -15082,7 +15092,7 @@ msgid ""
 msgstr ""
 "Ci sono una serie di piccoli pacchetti aggiuntivi <systemitem role=\"package"
 "\">debhelper</systemitem>, troppo effimeri da documentare. È possibile "
-"vedere l'elenco della maggior parte di loro facendo <literal>apt-cache "
+"vedere l'elenco della maggior parte di loro invocando <literal>apt-cache "
 "search ^dh-</literal>."
 
 #. type: Content of: <appendix><section><section><title>
@@ -15141,7 +15151,7 @@ msgstr ""
 "fare i pacchetti. È spesso suggerito per uso locale, se avete bisogno di "
 "fare un pacchetto semplicemente per soddisfare le dipendenze. A volte è "
 "anche utilizzato quando si costruisce un «meta-pacchetto» , che sono "
-"pacchetti il ​​cui unico scopo è quello di dipendere da altri pacchetti."
+"pacchetti il cui unico scopo è quello di dipendere da altri pacchetti."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:210
@@ -15155,7 +15165,7 @@ msgid ""
 "driving <command>dpkg-buildpackage</command> as well as handling supporting "
 "tasks."
 msgstr ""
-"I seguenti pacchetti di aiuto con il processo di costruzione del pacchetto, "
+"I seguenti pacchetti aiutano con il processo di costruzione del pacchetto, "
 "una guida generale <command>dpkg-buildpackage</command> cosi come la "
 "gestione di compiti di supporto."
 
@@ -15174,7 +15184,7 @@ msgid ""
 msgstr ""
 "<systemitem role=\"package\">cvs-buildpackage</systemitem> fornisce la "
 "capacità di iniettare o importare pacchetti sorgenti Debian in un repository "
-"CVS, di costruire un pacchetto Debian dal repository CVS, e aiuta a "
+"CVS, di costruire un pacchetto Debian dal repository CVS, ed aiuta a "
 "integrare i cambiamenti nel codice originale nel repository."
 
 #. type: Content of: <appendix><section><section><para>
@@ -15187,10 +15197,10 @@ msgid ""
 "benefits of a version control system."
 msgstr ""
 "Queste utilità forniscono un'infrastruttura per facilitare l'uso del CVS da "
-"maintainer Debian. Questo permette di mantenere in CVS rami separati di un "
-"pacchetto per le distribuzioni <literal>stable</literal>, <literal>unstable</"
-"literal> e possibilmente <literal>experimental</literal>, con gli altri "
-"benefici di un controllo di versione sistema."
+"parte del maintainer Debian. Questo permette di mantenere in CVS rami "
+"separati di un pacchetto per le distribuzioni <literal>stable</literal>, "
+"<literal>unstable</literal> e possibilmente <literal>experimental</literal>, "
+"con gli altri benefici di un controllo di versione sistema."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:233
@@ -15273,7 +15283,7 @@ msgid ""
 msgstr ""
 "<systemitem role=\"package\">sbuild</systemitem> è un altro builder "
 "automatizzato. È possibile anche utilizzare ambienti chroot. Può essere "
-"utilizzata da solo, o come parte di una rete, distribuita di ambiente di "
+"utilizzato da solo, o come parte di una rete, distribuita di ambiente di "
 "build. Come quest'ultimo, è parte del sistema utilizzato dai porter per "
 "costruire pacchetti binari per tutte le architetture disponibili. Si "
 "consulti <xref linkend=\"wanna-build\"/> per maggiori informazioni, e <ulink "
@@ -15282,7 +15292,7 @@ msgstr ""
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:278
 msgid "Package uploaders"
-msgstr "Uploader del pacchetto"
+msgstr "Caricatori di pacchetti"
 
 #. type: Content of: <appendix><section><para>
 #: tools.dbk:280
@@ -15291,7 +15301,7 @@ msgid ""
 "packages into the official archive."
 msgstr ""
 "I seguenti pacchetti consentono di automatizzare e semplificare il processo "
-"di upload dei pacchetti nell'archivio ufficiale."
+"di caricamento dei pacchetti nell'archivio ufficiale."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:284
@@ -15308,8 +15318,9 @@ msgid ""
 msgstr ""
 "<systemitem role=\"package\">dupload</systemitem> è un pacchetto e uno "
 "script per caricare automaticamente i pacchetti Debian nell'archivio Debian, "
-"per registrare l'upload, e di inviare email sull'upload di un pacchetto. È "
-"possibile configurarlo per nuovi repository o metodi per l'upload."
+"per registrare il caricamento, e di inviare email sul caricamento di un "
+"pacchetto. È possibile configurarlo per nuovi repository o metodi per il "
+"caricamento."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:294
@@ -15327,11 +15338,12 @@ msgid ""
 "<command>dinstall</command> in dry-run mode after the upload."
 msgstr ""
 "Il pacchetto <systemitem role=\"package\">dput</systemitem> e lo script "
-"fanno la stessa cosa come <systemitem role=\"package\">dupload</systemitem>, "
+"fanno la stessa cosa di <systemitem role=\"package\">dupload</systemitem>, "
 "ma in un modo diverso. Ha alcune caratteristiche oltre <systemitem role="
 "\"package\">dupload</systemitem>, come ad esempio la possibilità di "
-"verificare la firma GnuPG e checksum prima di caricare, e la possibilità di "
-"lanciare <command>dinstall</command> in modalità secca dopo l'upload."
+"verificare la firma GnuPG e il checksum prima di caricare, e la possibilità "
+"di lanciare <command>dinstall</command> in modalità secca dopo il "
+"caricamento."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:306
@@ -15347,7 +15359,7 @@ msgid ""
 msgstr ""
 "Lo script <command>dcut</command> (parte del pacchetto <systemitem role="
 "\"package\">dput</systemitem>, <xref linkend=\"dput\"/>) aiuta a rimuovere i "
-"file dalla directory ftp di upload."
+"file dalla cartella ftp di caricamento."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:316
@@ -15406,7 +15418,7 @@ msgid ""
 "<manvolnum>1</manvolnum> </citerefentry> manual page for a complete list of "
 "available scripts."
 msgstr ""
-"Si consulti pagina di manuale <citerefentry> <refentrytitle>devscripts</"
+"Si consulti la pagina di manuale <citerefentry> <refentrytitle>devscripts</"
 "refentrytitle> <manvolnum>1</manvolnum> </citerefentry> per un elenco "
 "completo degli script disponibili."
 
@@ -15424,8 +15436,8 @@ msgid ""
 "<filename>config.sub</filename> and <filename>config.guess</filename> files "
 "which are known to work on all Debian ports."
 msgstr ""
-"<systemitem role=\"package\">autotools-dev</systemitem> contiene le best "
-"pratices per le persone che mantengono i pacchetti e che usano "
+"<systemitem role=\"package\">autotools-dev</systemitem> contiene le buone "
+"pratiche per le persone che mantengono i pacchetti e che usano "
 "<command>autoconf</command> e/o <command>automake</command>. Contiene anche "
 "il file canonico <filename>config.sub</filename> e <filename>config.guess</"
 "filename> che sono conosciuti per funzionare su tutte i port di Debian."
@@ -15507,10 +15519,10 @@ msgid ""
 "are handy functions for listing a package's current bugs, and for finalizing "
 "the latest entry in a <filename>debian/changelog</filename> file."
 msgstr ""
-"<systemitem role=\"package\">dpkg-dev-el</systemitem> è un pacchetto lisp "
-"Emacs che fornisce assistenza durante la modifica di alcuni file nella "
-"directory <filename>debian</filename> del vostro pacchetto. Per esempio, ci "
-"sono funzioni a portata di mano per l'elencazione dei bug attuali di un "
+"<systemitem role=\"package\">dpkg-dev-el</systemitem> è un pacchetto Emacs "
+"che fornisce assistenza durante la modifica di alcuni file nella cartella "
+"<filename>debian</filename> del vostro pacchetto. Per esempio, ci sono "
+"funzioni a portata di mano per l'elencazione dei bug attuali di un "
 "pacchetto, e per finalizzare l'ultima voce in un file </filename>debian/"
 "changelog<filename>."
 
@@ -15527,7 +15539,7 @@ msgid ""
 "command under <command>strace</command> to determine all the packages that "
 "were used by the said command."
 msgstr ""
-"<comando>dpkg-depcheck</command> (dal pacchetto <systemitem role=\"package"
+"<command>dpkg-depcheck</command> (dal pacchetto <systemitem role=\"package"
 "\">devscripts</systemitem>, <xref linkend=\"devscripts\"/>) esegue un "
 "comando sotto <comando>strace</command> per determinare tutti i pacchetti "
 "che sono stati da lui utilizzati."
@@ -15540,7 +15552,7 @@ msgid ""
 "build process through <command>dpkg-depcheck</command> will provide you with "
 "a good first approximation of the build-dependencies. For example:"
 msgstr ""
-"Per i pacchetti Debian, questo è utile quando si deve creare una linea "
+"Per i pacchetti Debian, questo è utile quando si deve creare una voce "
 "<literal>Build-Depends</literal> per il proprio nuovo pacchetto: "
 "l'esecuzione del processo di generazione attraverso <command>dpkg-depcheck</"
 "command> vi fornirà una buona prima approssimazione delle dipendenze per la "
@@ -15560,7 +15572,7 @@ msgid ""
 "<refentrytitle>exec</refentrytitle> <manvolnum>2</manvolnum> </citerefentry> "
 "to run other programs."
 msgstr ""
-"<comando>dpkg-depcheck</command> può essere utilizzato anche per controllare "
+"<command>dpkg-depcheck</command> può essere utilizzato anche per controllare "
 "le dipendenze in fase di esecuzione, soprattutto se il pacchetto usa "
 "<citerefentry> <refentrytitle>exec</refentrytitle> <manvolnum>2</manvolnum> "
 "</citerefentry> per eseguire altri programmi."
@@ -15620,10 +15632,10 @@ msgid ""
 "shlibdeps</command> is enhanced to support cross-compiling."
 msgstr ""
 "<systemitem role=\"package\">dpkg-cross</systemitem> è uno strumento per "
-"installare librerie e header per cross-compilare in modo simile a "
-"<systemitem role=\"package\">dpkg</systemitem>. Inoltre, la funzionalità di "
-"<command>dpkg-buildpackage</command> e <command>dpkg-shlibdeps</command> è "
-"stata migliorata per supportare la cross-compilazione."
+"installare librerie e intestazioni per cross-compilare in modo simile a "
+"<systemitem role=\"package\">dpkg</systemitem>. Inoltre, le funzionalità di "
+"<command>dpkg-buildpackage</command> e <command>dpkg-shlibdeps</command>sono "
+"state migliorate per supportare la cross-compilazione."
 
 #. type: Content of: <appendix><section><title>
 #: tools.dbk:460
@@ -15652,7 +15664,7 @@ msgid ""
 "debiandoc SGML DTD). This manual, for instance, is written in DocBook XML."
 msgstr ""
 "<systemitem role=\"package\">docbook-xml</systemitem> fornisce i DocBook XML "
-"DTDs,che sono comunemente usati per la documentazione Debian (come il "
+"DTDs, che sono comunemente usati per la documentazione Debian (come il "
 "vecchio debiandoc SGML DTD). Questo manuale, per esempio, è stato scritto in "
 "DocBook XML."
 
@@ -15667,10 +15679,10 @@ msgid ""
 "xsl-doc-*</systemitem> packages."
 msgstr ""
 "Il pacchetto <systemitem role=\"package\">docbook-xsl</systemitem> fornisce "
-"i file XSL per la costruzione e lo styling il source in vari formati di "
+"i file XSL per la costruzione e lo styling del sorgente in vari formati di "
 "output. Avrete bisogno di un processore XSLT, come <systemitem role=\"package"
-"\">xsltproc</systemitem>, di utilizzare i fogli di stile XSL. La "
-"documentazione per i fogli di stile si possono trovare nei vari pacchetti "
+"\">xsltproc</systemitem>, per utilizzare i fogli di stile XSL. La "
+"documentazione per i fogli di stile si può trovare nei vari pacchetti "
 "<systemitem role=\"package\">docbook-xsl-doc-*</systemitem>."
 
 #. type: Content of: <appendix><section><section><para>
@@ -15681,8 +15693,8 @@ msgid ""
 "systemitem>. Another tool to generate PDF from DocBook XML is <systemitem "
 "role=\"package\">dblatex</systemitem>."
 msgstr ""
-"Per produrre PDF da FO, è necessario un processore FO, come <systemitem role="
-"\"package\">xmlroff</systemitem> o <systemitem role=\"package\">fop</"
+"Per produrre un PDF da FO, è necessario un processore FO, come <systemitem "
+"role=\"package\">xmlroff</systemitem> o <systemitem role=\"package\">fop</"
 "systemitem>. Un altro strumento per generare PDF da DocBook XML è "
 "<systemitem role=\"package\">dblatex</systemitem>."
 
@@ -15704,7 +15716,7 @@ msgstr ""
 "DebianDoc SGML DTD, che è comunemente usato per la documentazione di Debian, "
 "ma ora è deprecato (al suo posto dovrebbe essere usato <systemitem role="
 "\"package\">docbook-xml</systemitem> ). Fornisce anche gli script per la "
-"creazione e lo styling dei source in vari formati di output."
+"creazione e lo styling dei sorgenti in vari formati di output."
 
 #. type: Content of: <appendix><section><section><para>
 #: tools.dbk:502
@@ -15742,7 +15754,7 @@ msgid ""
 "wiki-dm;\"></ulink> for more information."
 msgstr ""
 "Contiene le chiavi pubbliche GPG dei Debian Maintainer. Si consulti <ulink "
-"url=\"&url-wiki-dm;\"> </ulink> per ulteriori informazioni."
+"url=\"&url-wiki-dm;\"></ulink> per ulteriori informazioni."
 
 #. type: Content of: <appendix><section><section><title>
 #: tools.dbk:524

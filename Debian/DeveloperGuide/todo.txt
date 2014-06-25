@@ -10,5 +10,6 @@ comand
 può
 build
 release
+tool
 
 
