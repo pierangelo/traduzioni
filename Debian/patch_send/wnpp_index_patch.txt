@@ -1,0 +1,23 @@
+Index: devel/wnpp/index.wml
+===================================================================
+RCS file: /cvs/webwml/webwml/italian/devel/wnpp/index.wml,v
+retrieving revision 1.24
+diff -u -r1.24 index.wml
+--- devel/wnpp/index.wml	30 Apr 2014 06:40:55 -0000	1.24
++++ devel/wnpp/index.wml	26 Jun 2014 08:03:54 -0000
+@@ -24,7 +24,7 @@
+ </li>
+ 
+ <li>
+-<a href="rfa_bymaint"><orphaned_number> pacchetti orfani</a>,
++<a href="orphaned"><orphaned_number> pacchetti orfani</a>,
+ ordinati <a href="orphaned_byage">per età</a>
+ </li>
+ 
+@@ -378,5 +378,5 @@
+ lo fosse, si chiederà agli amministratori dell'archivio FTP di rimuoverlo da
+ unstable.</p>
+ 
+-<p>Se per qualche ragione devi contattara i manutentori di WNPP, scrivi
++<p>Se per qualche ragione devi contattare i manutentori di WNPP, scrivi
+ a <email wnpp@debian.org />.</p>
