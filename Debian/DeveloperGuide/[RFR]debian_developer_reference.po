@@ -9291,10 +9291,10 @@ msgid ""
 "linkend=\"mia-qa\"/>."
 msgstr ""
 "Non è appropriato rilevare semplicemente un pacchetto che si immagina sia "
-"trascurato - ciò sarebbe un furto di un pacchetto. È possibile, ovviamente, "
+"trascurato: ciò sarebbe un furto di un pacchetto. È possibile, ovviamente, "
 "contattare il maintainer attuale e chiedere se si può prendere in consegna "
-"il pacchetto. Se si ha motivo di credere che un maintainer sia andato AWOL "
-"(assente senza lasciare), si consulti <xref linkend=\"mia-qa\"/>."
+"il pacchetto. Se si ha motivo di credere che un maintainer abbia abbandonato "
+"il lavoro senza avvisare (AWOL), si consulti <xref linkend=\"mia-qa\"/>."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:1468
@@ -9329,19 +9329,19 @@ msgid ""
 "fact that they will continue to receive the bugs during that time."
 msgstr ""
 "Se si rileva un vecchio pacchetto, probabilmente si vuole essere elencati "
-"come maintainer ufficiale del pacchetto nel bug system. Questo avverrà "
-"automaticamente una volta che si carica una nuova versione con un campo "
+"come maintainer ufficiale del pacchetto nel sistema di tracciamento dei bug. "
+"Questo avverrà automaticamente una volta che si carica una nuova versione con un campo "
 "<literal>Maintainer</literal> aggiornato, anche se può richiedere alcune ore "
 "dopo che il caricamento sia stato fatto. Se non si prevede di caricare una nuova "
 "versione per un po', è possibile utilizzare <xref linkend=\"pkg-tracking-"
-"system\"/> per creare le segnalazioni di bug. Tuttavia, ci si assicuri che "
+"system\"/> per ottenere le segnalazioni di bug. Tuttavia, ci si assicuri che "
 "il vecchio maintainer non abbia alcun problema con il fatto che in quel "
 "periodo continuerà a ricevere le segnalazioni dei bug."
 
 #. type: Content of: <chapter><section><title>
 #: pkgs.dbk:1492
 msgid "Porting and being ported"
-msgstr "Il porting ed l'esser stato portato"
+msgstr "Fare port e port del proprio lavoro"
 
 #. type: Content of: <chapter><section><para>
 #: pkgs.dbk:1494
@@ -9352,7 +9352,7 @@ msgid ""
 "if you are not a porter, you should read most of this chapter."
 msgstr ""
 "Debian supporta un numero sempre crescente di architetture. Anche se non si "
-"è un porter, e non si utilizza alcuna architettura eccetto una, è parte del "
+"è un autore di port, e si utilizza una sola architettura, è parte del "
 "dovere di un maintainer essere a conoscenza dei problemi di portabilità. "
 "Pertanto, anche se non si è un porter, si consiglia di leggere la maggior "
 "parte di questo capitolo."
@@ -9368,18 +9368,18 @@ msgid ""
 "literal> architecture, it will be built for each of the other architectures, "
 "amounting to &number-of-arches; more builds."
 msgstr ""
-"Il Porting è l'atto della creazione di pacchetti Debian per architetture "
+"Fare un port significa creare pacchetti Debian per architetture "
 "diverse dall'architettura originale del pacchetto binario del maintainer. È "
-"un'attività unica ed essenziale. In realtà, i porter effettuano la maggior "
+"un'attività unica ed essenziale. In realtà, gli autori di port effettuano la maggior "
 "parte della compilazione dei pacchetti Debian. Per esempio, quando un "
-"maintainer carica dei pacchetti di sorgenti (portabili) con i binari per "
-"l'architettura <literal>i386</literal>, sarà costruito per ciascuna delle "
-"altre architetture, pari a &number-of-arches; di altri build."
+"maintainer carica un pacchetto di sorgenti (portabili) con i binari per "
+"l'architettura <literal>i386</literal>, sarà compilato per ciascuna delle "
+"altre architetture, pari ad altre &number-of-arches; compilazioni."
 
 #. type: Content of: <chapter><section><section><title>
 #: pkgs.dbk:1509
 msgid "Being kind to porters"
-msgstr "Siate gentili con i porter"
+msgstr "Siate gentili con gli autori di port"
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:1511
@@ -9391,12 +9391,12 @@ msgid ""
 "maintainers — common problems which often stymie porters, and make their "
 "jobs unnecessarily difficult."
 msgstr ""
-"I porter hanno un compito difficile e unico, poiché sono necessari per "
+"Gli autori di port hanno un compito difficile e unico, poiché sono necessari per "
 "affrontare una grande mole di pacchetti. Idealmente, ogni pacchetto sorgente "
-"dovrebbe potersi costruire fuori dal proprio contesto. Purtroppo, spesso "
-"questo non è il caso. Questa sezione contiene un elenco di «scorciatoie» "
-"spesso committitate dai maintainer Debian - problemi comuni che spesso "
-"ostacolano i porter, e rendono il loro lavoro inutilmente difficile."
+"dovrebbe potersi compilare così come è. Purtroppo, spesso "
+"questo non è vero. Questa sezione contiene un elenco di «cose da tenere d'occhio» "
+"spesso committitate dai maintainer Debian: problemi comuni che spesso "
+"ostacolano gli autori di port, e rendono il loro lavoro inutilmente difficile."
 
 #. type: Content of: <chapter><section><section><para>
 #: pkgs.dbk:1519
