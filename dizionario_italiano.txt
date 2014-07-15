@@ -4461,7 +4461,7 @@ affinamenti
 affinamento
 affinazione
 affinazioni
-affinche
+affinché
 affine
 affini
 affinita
@@ -26406,7 +26406,7 @@ cinturone
 cinturoni
 cintz
 cinzia
-cio
+ciò
 ciocca
 ciocche
 ciocchi
@@ -29360,6 +29360,7 @@ comunistiche
 comunistici
 comunistico
 comunita
+comunità
 comunitari
 comunitaria
 comunitarie
@@ -42776,7 +42777,7 @@ diversificazione
 diversificazioni
 diversione
 diversioni
-diversita
+diversità
 diversiva
 diversive
 diversivi
@@ -61007,6 +61008,7 @@ ghise
 ghostwriter
 gi
 gia
+già
 giacca
 giacche
 giacchetta
@@ -128847,6 +128849,7 @@ permaloso
 permane
 permanendo
 permanente
+permanentemente
 permanenti
 permanenza
 permanenze
@@ -132327,7 +132330,7 @@ pituitaria
 pituitarie
 pituitario
 pituite
-piu
+più
 piuccheperfetto
 piucchepperfetti
 piucchepperfetto
@@ -135650,7 +135653,7 @@ possibilistica
 possibilistiche
 possibilistici
 possibilistico
-possibilita
+possibilità
 possibilmente
 possidente
 possidenti
@@ -144207,7 +144210,7 @@ punzoniera
 punzoniere
 punzonista
 punzonisti
-puo
+può
 puoi
 puote
 pupa
@@ -144881,7 +144884,7 @@ qualifichero
 qualifichi
 qualifichiamo
 qualifico
-qualita
+qualità
 qualitativa
 qualitativamente
 qualitative
@@ -173570,7 +173573,7 @@ salmodianti
 salmodiare
 salmodiato
 salmodiavano
-salmodica
+salmosaràdica
 salmodiche
 salmodici
 salmodico
@@ -174828,6 +174831,7 @@ saputona
 saputone
 saputoni
 sara
+sarà
 sarabanda
 sarabande
 saracca
@@ -244264,6 +244268,7 @@ wiesel
 wigner
 wigwam
 wigwams
+wiki
 wilde
 wilder
 wilkins
