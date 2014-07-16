@@ -11,5 +11,3 @@ può
 build
 release
 tool
-
-
