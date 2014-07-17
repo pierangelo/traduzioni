@@ -21,7 +21,7 @@
 > in 7 giorni, si dovrebbe caricare il pacchetto in <literal>DELAYED/
 > 7</literal> e dire al maintainer che ha  7 giorni di tempo per reagire.
 > Durante questo tempo, il maintainer può chiedere di ritardare l'upload di
-> un pò, o annullare l'upload."
+> un pò, o annullare l'upload."  
 
 s/al NMUer/all'autore dell'NMU
 s/tornare alla issue/ritornare sul problema
