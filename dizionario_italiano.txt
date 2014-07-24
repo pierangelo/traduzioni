@@ -14476,7 +14476,7 @@ avocazioni
 avolo
 avori
 avorio
-avra
+avraà
 avrai
 avran
 avranno
@@ -29009,7 +29009,7 @@ completava
 completavi
 completavo
 complete
-completera
+completerà
 completero
 completezza
 completezze
@@ -33546,7 +33546,7 @@ costruibile
 costruibili
 costruii
 costruimmo
-costruira
+costruirà
 costruirai
 costruirci
 costruire
@@ -39355,6 +39355,7 @@ differentemente
 differenti
 differenza
 differenze
+differenzia
 differenziabile
 differenziabili
 differenziale
@@ -42737,7 +42738,7 @@ diventato
 diventava
 diventavi
 diventavo
-diventera
+diventerà
 diventerai
 diventerebbe
 diventerei
@@ -42821,6 +42822,7 @@ divezzo
 divi
 divide
 dividemmo
+dividerà
 dividendi
 dividendo
 dividendole
@@ -51341,7 +51343,7 @@ famigliola
 famigliole
 familiare
 familiari
-familiarita
+familiarità
 familiarizza
 familiarizzai
 familiarizzammo
@@ -53785,7 +53787,7 @@ finalista
 finaliste
 finalisti
 finalistico
-finalita
+finalità
 finalizzati
 finalizzato
 finalizzazione
@@ -55790,6 +55792,7 @@ formulare
 formulari
 formulario
 formulate
+formulati
 formulazione
 formulazioni
 formule
@@ -72675,6 +72678,7 @@ inapprezzati
 inapprezzato
 inapprodabile
 inapprodabili
+inappropriata
 inappuntabile
 inappuntabili
 inappurabile
@@ -89728,6 +89732,7 @@ italese
 italesi
 itali
 italia
+italian
 italiana
 italiane
 italianeggia
@@ -94683,6 +94688,7 @@ linguistici
 linguistico
 lingula
 lingule
+linkend
 lini
 liniera
 liniere
@@ -110108,6 +110114,8 @@ mozzini
 mozzino
 mozzo
 mozzorecchi
+msgid
+msgstr
 mu
 mucca
 mucche
@@ -114956,7 +114964,7 @@ novissima
 novissime
 novissimi
 novissimo
-novita
+novità
 novizi
 novizia
 noviziati
@@ -128043,7 +128051,7 @@ percezionalismo
 percezione
 percezioni
 percezionismo
-perche
+perché
 percio
 perciocche
 percipienda
@@ -137012,6 +137020,7 @@ prede
 predecessora
 predecessore
 predecessori
+predefinito
 predella
 predelle
 predellini
@@ -139608,7 +139617,7 @@ priorati
 priorato
 priore
 priori
-priorita
+priorità
 prioritari
 prioritaria
 prioritarie
@@ -157136,6 +157145,7 @@ richieda
 richiedano
 richiede
 richiedemmo
+richiedendo
 richiedendola
 richiedendolo
 richiedendosi
@@ -157543,6 +157553,7 @@ ricompilate
 ricompilati
 ricompilato
 ricompilazione
+ricompilazioni
 ricompileranno
 ricompileremo
 ricompilero
@@ -169488,7 +169499,7 @@ riutilizzato
 riutilizzava
 riutilizzavano
 riutilizzavo
-riutilizzera
+riutilizzerà
 riutilizzeranno
 riutilizzero
 riutilizzi
@@ -218445,7 +218456,9 @@ supporro
 supporsi
 supporta
 supportando
+supportano
 supportare
+supportati
 supportato
 supporter
 supporters
@@ -237964,6 +237977,7 @@ urinarie
 urinario
 urine
 urinoso
+url
 urla
 urlai
 urlammo
@@ -238390,7 +238404,7 @@ utilizzavi
 utilizzavo
 utilizzazione
 utilizzazioni
-utilizzera
+utilizzerà
 utilizzi
 utilizzino
 utilizzo
@@ -245240,3 +245254,7 @@ zzz
 specificatori
 esprimendolo
 enum
+</systemitem>
+</ulink>
+changelog
+debconf
