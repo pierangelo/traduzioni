@@ -308,7 +308,7 @@ msgstr "Se il pacchetto è <literal>experimental</literal>, o ci sono altri moti
 #. type: Content of: <chapter><section><section><itemizedlist><listitem><para>
 #: best-pkging-practices.dbk:336
 msgid "How is this package different from the competition? Is it a better implementation? more features? different features? Why should I choose this package."
-msgstr "In che modo questo pacchetto si differenzia da altri? È un' implementazione migliore? più funzioni? caratteristiche diverse? Perché dovrei scegliere questo pacchetto."
+msgstr "In che modo questo pacchetto si differenzia da altri? È un'implementazione migliore? più funzioni? caratteristiche diverse? Perché dovrei scegliere questo pacchetto."
 
 #. type: Content of: <chapter><section><section><title>
 #: best-pkging-practices.dbk:349
@@ -413,7 +413,7 @@ msgstr "Concentratevi su <emphasis>ciò</emphasis> che è stato cambiato - chi, 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:447
 msgid "There's no need to elaborate the trivial and obvious changes. You can also aggregate several changes in one entry. On the other hand, don't be overly terse if you have undertaken a major change. Be especially clear if there are changes that affect the behaviour of the program. For further explanations, use the <filename>README.Debian</filename> file."
-msgstr "Non c'è bisogno di elaborare le modifiche banali e ovvie. È inoltre possibile aggregare diversi cambiamenti in un' unica voce. D'altra parte, non siate troppo ermetici se avete intrapreso un cambiamento importante. Siate particolarmente chiari se ci sono cambiamenti che influenzano il comportamento del programma. Per ulteriori chiarimenti, utilizzate il <filename>README.Debian</filename>."
+msgstr "Non c'è bisogno di elaborare le modifiche banali e ovvie. È inoltre possibile aggregare diversi cambiamenti in un'unica voce. D'altra parte, non siate troppo ermetici se avete intrapreso un cambiamento importante. Siate particolarmente chiari se ci sono cambiamenti che influenzano il comportamento del programma. Per ulteriori chiarimenti, utilizzate il <filename>README.Debian</filename>."
 
 #. type: Content of: <chapter><section><section><para>
 #: best-pkging-practices.dbk:454
@@ -2785,7 +2785,7 @@ msgstr "La mailing list &email-debian-mentors; è stata istituita per i maintain
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:72
 msgid "Those who prefer one-on-one help (e.g., via private email) should also post to that list and an experienced developer will volunteer to help."
-msgstr "Coloro che preferiscono un aiuto direttamente da un' altra persona (ad esempio, attraverso email privata) dovrebbero anche pubblicare in quella lista e uno sviluppatore esperto volontariamente aiuterà."
+msgstr "Coloro che preferiscono un aiuto direttamente da un'altra persona (ad esempio, attraverso email privata) dovrebbero anche pubblicare in quella lista e uno sviluppatore esperto volontariamente aiuterà."
 
 #. type: Content of: <chapter><section><para>
 #: new-maintainer.dbk:76
